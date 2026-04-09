@@ -1,0 +1,22 @@
+{
+  "id": "covellite_-33-62-73",
+  "name": "covellite",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--5639620-waypoint-icon.png",
+  "x": -33,
+  "y": 62,
+  "z": -73,
+  "r": 169,
+  "g": 242,
+  "b": 60,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

@@ -1,0 +1,1038 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "progression_lines"
+	group: "72EA3D2F4E57BF85"
+	icon: "thermal:signalum_gear"
+	id: "14E30ABB87BA4575"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"This is the &lAutomation&r tab. Here you can view how you can string industrial processes together to get finished products. Very useful before &bAE2&r, or if you want to passively automate things."
+				"{@pagebreak}"
+				"&lPentagon&r shaped quests: Tier materials"
+				"&lHexagon&r shaped quests: Circuits"
+			]
+			icon: "thermal:signalum_gear"
+			id: "57996C8D751C9598"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "How does this work?"
+			tasks: [{
+				id: "6FA41E6BA9E7FE87"
+				title: "Cool"
+				type: "checkmark"
+			}]
+			title: "Info"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["57996C8D751C9598"]
+			description: ["With &lCreate&r you can make farms that get you wood and crops automatically."]
+			id: "3EA65E7C5E39C10B"
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Using Create for automation"
+			tasks: [{
+				count: 2L
+				id: "20BA09B325483949"
+				item: { Count: 2, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			title: "Rotary Farms"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["57996C8D751C9598"]
+			description: [
+				"While you can make rubber the GregTech way, you will probably want to automate it the Thermal way. You can do this by obtaining the &lArboreal Extractor&r which is unlocked in the Steam Age. For it to work you need to place it next to a tree so that its back is facing the trunk, and then it starts working! The only problem is that it's pretty slow."
+				"Also, if lots of extractors are taking from the same tree, they will lose efficiency, so for maximum efficiency put each extractor on a separate tree."
+				""
+				"&9Note:&r Different trees output different fluids! Check EMI for the list! "
+			]
+			icon: "thermal:device_tree_extractor"
+			id: "25B2134258088C7F"
+			rewards: [{
+				id: "439172B05F25049E"
+				item: {
+					Count: 1
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "Taking out fluids from Trees"
+			tasks: [
+				{
+					id: "3080DFAB73C7D9C6"
+					item: "thermal:device_tree_extractor"
+					type: "item"
+				}
+				{
+					id: "17366CB4086C429F"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Arboreal Extraction"
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["25B2134258088C7F"]
+			description: [
+				"Latex is made from hooking up an arboreal extractor to a jungle or rubberwood (NOT just rubber!) tree."
+				""
+				"If you want to make a Thermal rubberwood sapling, put a GregTech rubber sapling in a crafting table."
+			]
+			icon: "thermal:latex_bucket"
+			id: "6E64858032F8BA0C"
+			subtitle: "The precursor to Rubber"
+			tasks: [
+				{
+					id: "74B0041F4E61CDBF"
+					item: "thermal:latex_bucket"
+					type: "item"
+				}
+				{
+					id: "0969D0DDA6C33C05"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Latex"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["25B2134258088C7F"]
+			description: [
+				"Why would you want to automate this? It doesn't serve for anything..."
+				""
+				"Anyways you get this from extracting Birch and Dark Oak trees."
+				"Its only use is that you can centrifuge it to get syrup which is a food source."
+			]
+			icon: "thermal:sap_bucket"
+			id: "511ABF0F9BF71C87"
+			subtitle: "The precursor to... Nothing important"
+			tasks: [
+				{
+					id: "61E14A316ACBE0F9"
+					item: "thermal:sap_bucket"
+					type: "item"
+				}
+				{
+					id: "1BC2603BE7BE94B6"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Sap"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["25B2134258088C7F"]
+			description: ["If you hook up an arboreal extractor to Spruce, Acacia, Oak or Cherry trees you will get Resin. You can solidify it to get Sticky Resin for resistors."]
+			icon: "thermal:resin_bucket"
+			id: "26194780B3862641"
+			subtitle: "The precursor to Sticky Resin"
+			tasks: [
+				{
+					id: "373E7E4C2A8DCA2C"
+					item: "thermal:resin_bucket"
+					type: "item"
+				}
+				{
+					id: "46A280BE8FEBB4AB"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Resin"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["25B2134258088C7F"]
+			description: ["To make this put resin in a fluid solidifier with the appropriate mold."]
+			icon: "gtceu:sticky_resin"
+			id: "1E5731D709F4DBB2"
+			subtitle: "Wet'n'Sticky"
+			tasks: [
+				{
+					id: "58D234CCBB9C5E76"
+					item: "gtceu:sticky_resin"
+					type: "item"
+				}
+				{
+					id: "0821F82DA006D3CC"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6E64858032F8BA0C"]
+			description: [
+				"&lRubber&r is used as an insulator for wires. You need it a lot. It can be made by combining rubber pulp and sulfur, or by compressing cured rubber."
+				""
+				"Later on you will use other, better rubbers."
+			]
+			icon: "thermal:rubber"
+			id: "3159B5BA3A69800E"
+			subtitle: "Your First Insulator"
+			tasks: [
+				{
+					id: "020505B1EB297EE8"
+					item: "thermal:rubber"
+					type: "item"
+				}
+				{
+					id: "1430E560100E909C"
+					item: "thermal:cured_rubber"
+					type: "item"
+				}
+				{
+					id: "68E31CA5CED2DA0D"
+					item: "gtceu:rubber_plate"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3EA65E7C5E39C10B"]
+			description: ["Using create you can automate trees at steam age. Very convenient, but not particularly reliable, since you are relying on the random growth of tree saplings."]
+			id: "55EBA5A4F4C1D3AD"
+			tasks: [
+				{
+					id: "03E69671538BB531"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:logs"
+						}
+					}
+					title: "Any #minecraft:logs"
+					type: "item"
+				}
+				{
+					id: "0AA461FE9FD7692C"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Logs"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["57996C8D751C9598"]
+			description: ["With excavators you can automate a lot of ores. Just give them some coal or steam or something and off they go."]
+			id: "34C5CB07B1B36565"
+			subtitle: "Early game bedrock miners"
+			tasks: [{
+				id: "5E841F4FBC9A92AA"
+				item: "gtceu:primitive_excavator"
+				type: "item"
+			}]
+			title: "Excavation"
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["34C5CB07B1B36565"]
+			icon: "gtceu:raw_hematite"
+			id: "48A706365C73C3C8"
+			tasks: [
+				{
+					id: "26223255ED2FD4A5"
+					item: "gtceu:raw_hematite"
+					type: "item"
+				}
+				{
+					id: "2B3389BE6C98C4AE"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["34C5CB07B1B36565"]
+			icon: "gtceu:raw_goethite"
+			id: "71BD234F987E9431"
+			tasks: [
+				{
+					id: "7A4B74243BB3CDEE"
+					item: "gtceu:raw_goethite"
+					type: "item"
+				}
+				{
+					id: "7D8EE744BE145C15"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["34C5CB07B1B36565"]
+			icon: "gtceu:raw_yellow_limonite"
+			id: "7701DBA07F39A7C5"
+			tasks: [
+				{
+					id: "1DEE0EFB22FAD916"
+					item: "gtceu:raw_yellow_limonite"
+					type: "item"
+				}
+				{
+					id: "1206AEF22269ABB0"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["34C5CB07B1B36565"]
+			icon: "gtceu:raw_tin"
+			id: "15973EE3E1B400B1"
+			subtitle: "Why would you automate this? Just automate cassiterite!"
+			tasks: [
+				{
+					id: "6DD7EC8FD43E48B3"
+					item: "gtceu:raw_tin"
+					type: "item"
+				}
+				{
+					id: "226F62B91AEBB63D"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["34C5CB07B1B36565"]
+			icon: "gtceu:raw_cassiterite"
+			id: "379619887FA604D1"
+			tasks: [
+				{
+					id: "4E79C64D9DFB64B6"
+					item: "gtceu:raw_cassiterite"
+					type: "item"
+				}
+				{
+					id: "11C396C80AB4E2FA"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["34C5CB07B1B36565"]
+			icon: "gtceu:raw_cassiterite_sand"
+			id: "48B6D57BE23A0A7A"
+			tasks: [
+				{
+					id: "395479E333E00373"
+					item: "gtceu:raw_cassiterite_sand"
+					type: "item"
+				}
+				{
+					id: "66CF85054A5852C8"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["34C5CB07B1B36565"]
+			icon: "gtceu:raw_malachite"
+			id: "2B5776CD75249477"
+			tasks: [
+				{
+					id: "63993302AF0613AC"
+					item: "gtceu:raw_malachite"
+					type: "item"
+				}
+				{
+					id: "6BDDA2043059A7B5"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"71BD234F987E9431"
+				"48A706365C73C3C8"
+				"7701DBA07F39A7C5"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			icon: "minecraft:iron_ingot"
+			id: "6C7A13F0E5C05212"
+			subtitle: "This is very very useful!!!"
+			tasks: [
+				{
+					id: "079A2330333E7545"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "775DE6DE9CFB4F64"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Automatic Iron"
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2B5776CD75249477"]
+			hide_dependency_lines: true
+			icon: "minecraft:copper_ingot"
+			id: "790ACA61B5CBEB03"
+			subtitle: "This is also very very useful!!!"
+			tasks: [
+				{
+					id: "3A0FD7C2D9EC448B"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "0D62D79AC486D868"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Automated Copper"
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"15973EE3E1B400B1"
+				"379619887FA604D1"
+				"48B6D57BE23A0A7A"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			icon: "gtceu:tin_ingot"
+			id: "5B1F01BDA9DC42F1"
+			subtitle: "This is also very very useful!!!"
+			tasks: [
+				{
+					id: "27112C824FA7F411"
+					item: "gtceu:tin_ingot"
+					type: "item"
+				}
+				{
+					id: "0ABECA4E22A554FC"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Automated Tin"
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["34C5CB07B1B36565"]
+			icon: "gtceu:raw_coal"
+			id: "0D88614445688633"
+			tasks: [
+				{
+					id: "0A8120BF94593DF8"
+					item: "gtceu:raw_coal"
+					type: "item"
+				}
+				{
+					id: "41ED3D1658F25D8F"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0D88614445688633"]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			icon: "minecraft:coal"
+			id: "534E89CCD4526E10"
+			subtitle: "Good for \"renewable\" fuel"
+			tasks: [
+				{
+					id: "407FBFC55F73EE7E"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					id: "4FA19BA9CC2DEABE"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Automated Coal"
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"4EF43043B888E9A9"
+				"57996C8D751C9598"
+			]
+			description: ["Steam excavators are different to primitive excavators because they use steam instead of coal. This makes them easier to automate. Also they are faster, and can mine new stuff."]
+			hide_dependency_lines: true
+			id: "515F579B1DD549DE"
+			subtitle: "Slightly later game bedrock miners"
+			tasks: [{
+				id: "0A137A9EFB7900CA"
+				item: "gtceu:steam_excavator"
+				type: "item"
+			}]
+			title: "Steam Excavation"
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["515F579B1DD549DE"]
+			hide_dependency_lines: true
+			icon: "gtceu:raw_redstone"
+			id: "4B2ABCB6801A1683"
+			tasks: [
+				{
+					id: "7A6197541F42675C"
+					item: "gtceu:raw_redstone"
+					type: "item"
+				}
+				{
+					id: "3FADB2D1B344B75E"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4B2ABCB6801A1683"]
+			description: ["Don't let susy devs see this material! It's not realistic!"]
+			hide_dependency_lines: true
+			id: "0E03FE68603907C1"
+			subtitle: "Useful for red alloy and other stuff"
+			tasks: [{
+				id: "6CEAC47501C68EC0"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			title: "Automated Redstone"
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["57996C8D751C9598"]
+			icon: "gtceu:lp_steam_rock_crusher"
+			id: "32FE91BD0B3CEA65"
+			subtitle: "You can get cobblestone with a rock crusher or an igneous extruder"
+			tasks: [
+				{
+					id: "673998FCC3F9D992"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:lp_steam_rock_crusher"
+								}
+								{
+									Count: 1b
+									id: "thermal:device_rock_gen"
+								}
+							]
+						}
+					}
+					title: "Low-Pressure Steam Rock Crusher OR Igneous Extruder"
+					type: "item"
+				}
+				{
+					id: "1C0243C8B4B68989"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+				{
+					id: "3BEF1BF618CB70BA"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Rock Crushing"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["32FE91BD0B3CEA65"]
+			description: ["By forge hammering cobblestone you get gravel and sand. These are used to make new stuff."]
+			id: "0C3E0C796DDB5908"
+			subtitle: "Forge Hammer Time"
+			tasks: [
+				{
+					id: "6B4B726CC44C7094"
+					item: "minecraft:gravel"
+					type: "item"
+				}
+				{
+					id: "2471AAC328D9F8DB"
+					item: "minecraft:sand"
+					type: "item"
+				}
+				{
+					id: "7DD092C8E99BBF70"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Crushing Cobblestone"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0C3E0C796DDB5908"]
+			description: ["I suggest that you automate glass only in &7LV&r because the recipe to make glass in the arc furnace is a million times easier."]
+			icon: "minecraft:glass"
+			id: "0851D7CAB0F40005"
+			subtitle: "Incredible Glassy"
+			tasks: [
+				{
+					id: "788F14B336FFBB74"
+					item: "minecraft:glass"
+					type: "item"
+				}
+				{
+					id: "6118712FBA5FC9D9"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C7A13F0E5C05212"]
+			description: ["You can't automate PBF's so you should use an &aEBF&r. With an &aEBF&r, you can make steel with just iron and oxygen, no coal required."]
+			icon: "gtceu:steel_ingot"
+			id: "2C8755D0EDD1D6AE"
+			shape: "pentagon"
+			subtitle: "You'll need a lot of this for LV"
+			tasks: [
+				{
+					id: "068AF61AE3BDAD70"
+					item: "gtceu:steel_ingot"
+					type: "item"
+				}
+				{
+					id: "74525323F55DF5C6"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Steel"
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"790ACA61B5CBEB03"
+				"5B1F01BDA9DC42F1"
+			]
+			icon: "gtceu:bronze_ingot"
+			id: "0A8DB3FE07E28F27"
+			subtitle: "Useful for steam stuffs"
+			tasks: [
+				{
+					id: "1A359CB335720105"
+					item: "gtceu:bronze_ingot"
+					type: "item"
+				}
+				{
+					id: "15AF8ED78EE6D4A3"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Bronze"
+			x: -6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"790ACA61B5CBEB03"
+				"0E03FE68603907C1"
+			]
+			id: "1B877C946D6319BD"
+			subtitle: "Useful for circuitry"
+			tasks: [{
+				id: "4EA6F1178547F8ED"
+				item: "gtceu:red_alloy_ingot"
+				type: "item"
+			}]
+			title: "Red Alloy"
+			x: -6.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"0851D7CAB0F40005"
+				"2C8755D0EDD1D6AE"
+				"1B877C946D6319BD"
+				"790ACA61B5CBEB03"
+			]
+			description: [
+				"With a bit of processing glass, copper, red alloy and steel, voilà, you can make vacuum tubes!"
+				""
+				"Make sure that you use the more efficient recipes in the Assembler the moment you unlock them!"
+			]
+			hide_dependency_lines: true
+			icon: "gtceu:vacuum_tube"
+			id: "6F2AEFD8AA110591"
+			tasks: [
+				{
+					id: "60FB5B182A24C3FA"
+					item: "gtceu:vacuum_tube"
+					type: "item"
+				}
+				{
+					id: "331FDCFB157FFA91"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1E5731D709F4DBB2"]
+			description: ["Glue is very useful to make various objects in the assembler. You make it by centrifuging sticky resin in the centrifuge. It might be smart to use the steam separator for this as it is quite a bit faster."]
+			icon: "gtceu:glue_bucket"
+			id: "46DA394E2DAF28F4"
+			subtitle: "Wetter'n'Stickier"
+			tasks: [
+				{
+					id: "51A72B6C43FEAB51"
+					item: "gtceu:glue_bucket"
+					type: "item"
+				}
+				{
+					id: "56528C4E4A8CC902"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Glue"
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"790ACA61B5CBEB03"
+				"46DA394E2DAF28F4"
+				"534E89CCD4526E10"
+			]
+			hide_dependency_lines: true
+			icon: "gtceu:resistor"
+			id: "766C5046010A4970"
+			tasks: [
+				{
+					count: 2L
+					id: "5B3F2EFD1723C294"
+					item: { Count: 2, id: "gtceu:resistor" }
+					type: "item"
+				}
+				{
+					id: "1D62A631F0471F37"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"55EBA5A4F4C1D3AD"
+				"46DA394E2DAF28F4"
+				"790ACA61B5CBEB03"
+			]
+			hide_dependency_lines: true
+			icon: "gtceu:resin_printed_circuit_board"
+			id: "24D2D68858CB0D30"
+			tasks: [
+				{
+					id: "42490125FC5AFE63"
+					item: "gtceu:resin_printed_circuit_board"
+					type: "item"
+				}
+				{
+					id: "297B7D659BCE7DF3"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"6F2AEFD8AA110591"
+				"766C5046010A4970"
+				"24D2D68858CB0D30"
+				"1B877C946D6319BD"
+				"5B1F01BDA9DC42F1"
+			]
+			description: ["Congrats! You have automated LV circuits! It is your choice if you use the regular crafting recipe or the circuit assembler recipe. It depends on which age you decide to do this in."]
+			icon: "gtceu:basic_electronic_circuit"
+			id: "53425EB7FB40C1E2"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "45F29C93D953A520"
+					item: "gtceu:basic_electronic_circuit"
+					type: "item"
+				}
+				{
+					id: "2A89DE56843E6507"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Automated Basic Electronic Circuits"
+			x: -11.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["515F579B1DD549DE"]
+			icon: "gtceu:raw_silver"
+			id: "046283E4B59183DE"
+			tasks: [
+				{
+					id: "29FD7EA690B56E24"
+					item: "gtceu:raw_silver"
+					type: "item"
+				}
+				{
+					id: "3D910A3D156E6355"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["515F579B1DD549DE"]
+			icon: "gtceu:raw_nickel"
+			id: "3CEA5E75576207DD"
+			tasks: [
+				{
+					id: "2CBAFA675198C56A"
+					item: "gtceu:raw_nickel"
+					type: "item"
+				}
+				{
+					id: "1257D2A52A24A6C4"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["046283E4B59183DE"]
+			hide_dependency_lines: true
+			icon: "gtceu:silver_ingot"
+			id: "00122336D05DF1E1"
+			subtitle: "Required for MV"
+			tasks: [
+				{
+					id: "109B66AAE10AAB17"
+					item: "gtceu:silver_ingot"
+					type: "item"
+				}
+				{
+					id: "6886AAA34E199950"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Automated Silver"
+			x: -5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"3CEA5E75576207DD"
+				"1789F74A4A23AD08"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			icon: "gtceu:nickel_ingot"
+			id: "55E71BE06E39941F"
+			tasks: [
+				{
+					id: "432BAC4E5DD0A651"
+					item: "gtceu:nickel_ingot"
+					type: "item"
+				}
+				{
+					id: "2A539FE8520F5B30"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Automated Nickel"
+			x: -5.0d
+			y: 9.0d
+		}
+		{
+			id: "1789F74A4A23AD08"
+			tasks: [{
+				id: "7F19470CDE79C1DA"
+				item: "gtceu:raw_pentlandite"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["32FE91BD0B3CEA65"]
+			description: ["More advanced rock crushers can make different rocks. This is good for automation, as you can get a lot of goodies from crushing these rocks and spinning em for byproducts."]
+			id: "1674861FAFE4E9A4"
+			subtitle: "A Better Generator"
+			tasks: [{
+				id: "246208928BF73F14"
+				item: "gtceu:mv_rock_crusher"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1674861FAFE4E9A4"]
+			description: ["Using the &bMV&r Rock Crusher, you can make diorite automatically. Go ahead and macerate that too."]
+			icon: "minecraft:diorite"
+			id: "118472ABC3839DFD"
+			subtitle: "It was me, Dio!"
+			tasks: [
+				{
+					id: "5CD5415FE1F4B827"
+					item: "minecraft:diorite"
+					type: "item"
+				}
+				{
+					id: "44F533EC711FDE48"
+					item: "gtceu:diorite_dust"
+					type: "item"
+				}
+				{
+					id: "50BC3030C687F42D"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["118472ABC3839DFD"]
+			icon: "gtceu:clay_dust"
+			id: "703B1173B2C52D45"
+			subtitle: "Woah it's Dream!"
+			tasks: [
+				{
+					id: "0147C3558B8F5BA7"
+					item: "gtceu:clay_dust"
+					type: "item"
+				}
+				{
+					id: "1FB1C5F494962752"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["118472ABC3839DFD"]
+			id: "59A1EF4C6857DB91"
+			subtitle: "Sodium, Sulfur, Water, Oxygen"
+			tasks: [
+				{
+					id: "376E89A9AD4D2BA9"
+					item: "gtceu:mirabilite_dust"
+					type: "item"
+				}
+				{
+					id: "5DC8A4CA24C36657"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["703B1173B2C52D45"]
+			description: ["By splitting clay dust you can make &bAluminium&r dust along with some other stuff! If you make a dedicated EBF to smelt this and have the power to do so, then you have an infinite supply of aluminium ingots!"]
+			icon: "gtceu:aluminium_ingot"
+			id: "2E8A77CAE1D6CCA0"
+			shape: "pentagon"
+			subtitle: "WOOO!!!"
+			tasks: [
+				{
+					id: "232C075EF92A835A"
+					item: "gtceu:aluminium_dust"
+					type: "item"
+				}
+				{
+					id: "3522B8511A21CD87"
+					item: "gtceu:aluminium_ingot"
+					type: "item"
+				}
+			]
+			title: "Aluminium"
+			x: -6.5d
+			y: -2.0d
+		}
+	]
+	subtitle: ["Processing step by step to get finished products"]
+	title: "Automation"
+}

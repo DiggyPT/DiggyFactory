@@ -1,0 +1,377 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage"
+	group: "72EA3D2F4E57BF85"
+	icon: {
+		Count: 1
+		id: "ae2:item_storage_cell_256k"
+		tag: { }
+	}
+	id: "577E55DF293028F8"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0628DB72B5C212F3"]
+			description: ["Storage that is unlocked before the &6Steam Age&r"]
+			icon: "minecraft:cobblestone"
+			id: "7DA1D2F806D3497C"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Flintstones"
+			tasks: [{
+				id: "498ED063BE49E251"
+				title: "Cool"
+				type: "checkmark"
+			}]
+			title: "Primitive Storage"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7DA1D2F806D3497C"]
+			id: "1A69BF806546CFD4"
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "The Basic"
+			tasks: [{
+				id: "31E335C15B2FF75C"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1A69BF806546CFD4"]
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:chest"
+				tag: {
+					woodType: "oak"
+				}
+			}
+			id: "06F4D4B48D9DC40A"
+			subtitle: "Used to make higher tier chests or barrels"
+			tasks: [{
+				id: "48715F8804C718E8"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "sophisticatedstorage:base_tier_wooden_storage"
+					}
+				}
+				title: "Any Base tier chest or barrel from Sophisticated Storage"
+				type: "item"
+			}]
+			title: "Basic tier chests / barrels"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"7DA1D2F806D3497C"
+				"028EFD89858B1C21"
+			]
+			icon: "gtceu:bronze_ingot"
+			id: "47408C41EA6E8AEB"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Steamy"
+			tasks: [{
+				id: "7CCCF6D7A35E8455"
+				title: "Cool"
+				type: "checkmark"
+			}]
+			title: "Steam Age Storage"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7DA1D2F806D3497C"]
+			id: "5DD9E59ED0951AFB"
+			tasks: [{
+				id: "3CB538AD8EEC10A0"
+				item: "gtceu:bronze_crate"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["47408C41EA6E8AEB"]
+			id: "40C9588C78AB8B01"
+			tasks: [{
+				id: "6610C2573F490E8F"
+				item: "gtceu:steel_crate"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1A69BF806546CFD4"]
+			description: ["If you have stacks and stacks of particular items, like Cobblestone, you can make drawers to store them in bulk."]
+			icon: "functionalstorage:oak_2"
+			id: "6518295857340AFA"
+			subtitle: "Useful for bulk storage"
+			tasks: [{
+				id: "39C6828EB551F3E9"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "functionalstorage:drawer"
+					}
+				}
+				title: "Any drawer"
+				type: "item"
+			}]
+			title: "Drawers"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"47408C41EA6E8AEB"
+				"1790658601A1E187"
+			]
+			icon: "gtceu:lv_electric_motor"
+			id: "14A03D5EC0B4F850"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Electric"
+			tasks: [{
+				id: "4FA2427F3DF48B9D"
+				title: "Cool"
+				type: "checkmark"
+			}]
+			title: "LV Storage"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["14A03D5EC0B4F850"]
+			id: "236633D2E005814B"
+			tasks: [{
+				id: "03C540C86002DA17"
+				item: "gtceu:aluminium_crate"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"24C3CEB85F968221"
+				"14A03D5EC0B4F850"
+			]
+			icon: "gtceu:mv_electric_motor"
+			id: "388A39417A037439"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Hardware Store(age)"
+			tasks: [{
+				id: "2E352AFD157E1EF3"
+				title: "Cool"
+				type: "checkmark"
+			}]
+			title: "MV Storage"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"14A03D5EC0B4F850"
+				"40C9588C78AB8B01"
+			]
+			id: "3F34B8492E9AD327"
+			subtitle: "Useful for VERY bulk storage"
+			tasks: [{
+				id: "52F2D9D8253E5028"
+				item: "gtceu:lv_super_chest"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["388A39417A037439"]
+			id: "06A0D0368BE47189"
+			tasks: [{
+				id: "3CE8E24CA45F3D05"
+				item: "gtceu:stainless_steel_crate"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"388A39417A037439"
+				"236633D2E005814B"
+			]
+			id: "5031ADB3392D483B"
+			tasks: [{
+				id: "7EE9D39EE126B5C6"
+				item: "gtceu:mv_super_chest"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"388A39417A037439"
+				"79879FE8E7691E85"
+			]
+			description: [
+				"These processors are the foundation of &bApplied Energistics 2&r. They are made in the circuit assembler."
+				""
+				"To make the presses, you need to use a forming press. You can't find them in meteors."
+			]
+			id: "1DDC1FF11FB8392A"
+			subtitle: "Wannabe circuits"
+			tasks: [
+				{
+					id: "705C07572374D121"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+				{
+					id: "24A0416CA3FACCE1"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+				{
+					id: "2985779C830C1E18"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+			]
+			title: "AE2 Processors"
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1DDC1FF11FB8392A"]
+			description: ["These are the basics of the ME system. These blocks, along with item storage cells, serve as good storage, but they won't craft for you."]
+			icon: "ae2:drive"
+			id: "15B933C8B099670A"
+			subtitle: "of the ME system"
+			tasks: [
+				{
+					id: "3DB43CD1F3126EC8"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ae2:terminal"
+								}
+								{
+									Count: 1b
+									id: "ae2:crafting_terminal"
+								}
+							]
+						}
+					}
+					title: "ME Terminal or Crafting Terminal"
+					type: "item"
+				}
+				{
+					id: "06E3B3A37F760F9A"
+					item: "ae2:drive"
+					type: "item"
+				}
+				{
+					id: "26E66727D725D337"
+					item: "ae2:energy_acceptor"
+					type: "item"
+				}
+			]
+			title: "The Basics"
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["15B933C8B099670A"]
+			description: [
+				"With these blocks you can hook up your machines to your &bME&r system and with some pattern encoding shenanigans you can let your ME system craft things on demand."
+				""
+				"I hardly know how this works so just use the inbuilt guide or a &cYouTube&r tutorial or something. Sorry!"
+			]
+			id: "13D96D2164164473"
+			subtitle: "It exists!"
+			tasks: [
+				{
+					id: "7120F7851C826A8C"
+					item: "ae2:crafting_accelerator"
+					type: "item"
+				}
+				{
+					id: "5FE7DAD99213891D"
+					item: "ae2:crafting_monitor"
+					type: "item"
+				}
+				{
+					id: "23CED6639C67861B"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ae2:1k_crafting_storage"
+								}
+								{
+									Count: 1b
+									id: "ae2:4k_crafting_storage"
+								}
+								{
+									Count: 1b
+									id: "ae2:16k_crafting_storage"
+								}
+								{
+									Count: 1b
+									id: "ae2:64k_crafting_storage"
+								}
+								{
+									Count: 1b
+									id: "ae2:256k_crafting_storage"
+								}
+							]
+						}
+					}
+					title: "Any Crafting Storage"
+					type: "item"
+				}
+				{
+					id: "6AABD8266AAF9814"
+					item: "ae2:blank_pattern"
+					type: "item"
+				}
+				{
+					id: "000253693A7DCBDB"
+					item: "ae2:pattern_provider"
+					type: "item"
+				}
+				{
+					id: "04A812B50D050D99"
+					item: "ae2:pattern_encoding_terminal"
+					type: "item"
+				}
+			]
+			title: "Automatic Processing with AE2?"
+			x: 9.0d
+			y: 5.0d
+		}
+	]
+	subtitle: ["Vintage Storage"]
+	title: "Storage"
+}

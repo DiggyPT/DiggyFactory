@@ -1,0 +1,10 @@
+{
+	chapter_groups: [
+		{ id: "45DE873674286673", title: "Progression" }
+		{ id: "21AF79B1B3F0A933", title: "Other Tech" }
+		{ id: "72EA3D2F4E57BF85", title: "Miscellaneous" }
+		{ id: "693226878D58638A", title: "Climbing the Ranks" }
+		{ id: "288DA1F92F7C0A7A", title: "Guides + More" }
+		{ id: "1C1C4FB2AFCF489D", title: "Milestones" }
+	]
+}

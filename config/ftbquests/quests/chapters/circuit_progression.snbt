@@ -1,0 +1,648 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "circuit_progression"
+	group: "72EA3D2F4E57BF85"
+	icon: "kubejs:moleculartronic_processor_mainframe"
+	id: "673269EDEB8F995E"
+	images: [
+		{
+			height: 1.0d
+			hover: ["Ultra Low Voltage"]
+			image: "diggyfactory:textures/quests/ulv.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			hover: ["Low Voltage"]
+			image: "diggyfactory:textures/quests/lv.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			hover: ["Low-Medium Voltage"]
+			image: "diggyfactory:textures/quests/lmv.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			hover: ["Medium Voltage"]
+			image: "diggyfactory:textures/quests/mv.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			hover: ["Medium-High Voltage"]
+			image: "diggyfactory:textures/quests/mhv.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			hover: ["High Voltage"]
+			image: "diggyfactory:textures/quests/hv.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			hover: ["Extreme Voltage"]
+			image: "diggyfactory:textures/quests/ev.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			hover: ["Insane Voltage"]
+			image: "diggyfactory:textures/quests/iv.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			hover: ["Ludricous Voltage"]
+			image: "diggyfactory:textures/quests/luv.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			hover: ["Zero-Point Module"]
+			image: "diggyfactory:textures/quests/zpm.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			hover: ["Ultimate Voltage"]
+			image: "diggyfactory:textures/quests/uv.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			hover: ["Ultimate High Voltage"]
+			image: "diggyfactory:textures/quests/uhv.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			hover: ["Ultimate Extreme Voltage"]
+			image: "diggyfactory:textures/quests/uev.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			height: 4.0d
+			image: "diggyfactory:textures/quests/obidenbama.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			hover: ["Sputnik Aerospace"]
+			image: "diggyfactory:textures/quests/sas.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 9.0d
+			y: 15.0d
+		}
+		{
+			height: 1.0d
+			hover: ["von Braun Aerospace"]
+			image: "diggyfactory:textures/quests/vbas.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 11.0d
+			y: 15.0d
+		}
+		{
+			height: 1.0d
+			hover: ["Argo Aerospace"]
+			image: "diggyfactory:textures/quests/aras.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 13.0d
+			y: 15.0d
+		}
+		{
+			height: 1.0d
+			hover: ["Alcubierre Aerospace"]
+			image: "diggyfactory:textures/quests/alas.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 15.0d
+			y: 15.0d
+		}
+	]
+	order_index: 0
+	quest_links: [
+		{
+			id: "2D3F002A0AF4FD68"
+			linked_quest: "691E9885449AB55F"
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			id: "368918CAE238EDA5"
+			linked_quest: "10A99CBED28EC735"
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			id: "4AD86F04D18FFEFE"
+			linked_quest: "6BFB4F16303CA1EE"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			id: "348C8CE24C40D627"
+			linked_quest: "27CF48A8255DE7DE"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			id: "1C50CEEE0B7CC72F"
+			linked_quest: "292855401877F96E"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			id: "33D99940A4CFC751"
+			linked_quest: "17E60B78049026C7"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			id: "5A6AE0EC9D85D4C9"
+			linked_quest: "3CD6711097E21E07"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			id: "0369FF9C3718BB32"
+			linked_quest: "623FFB6D921A7155"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			id: "4200F16508AAC55C"
+			linked_quest: "1352586DD41A850C"
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			id: "2D59792991CF4915"
+			linked_quest: "6FF3164616B02B77"
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			id: "72C25995F31B6981"
+			linked_quest: "458499E306C79E7F"
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			id: "1273D3272F3F5AFF"
+			linked_quest: "7A4FDEC96C93EBF3"
+			x: 9.0d
+			y: 4.5d
+		}
+	]
+	quests: [
+		{
+			description: ["Each column is a different voltage. Starting with LMV, every other voltage is a \"ghost voltage\" that only exists for circuits. Only ULV, LV, MV, HV, EV, IV, LuV, ZPM, UV, UHV, UEV, UXV and OpV have machines."]
+			id: "15FD42051B946989"
+			shape: "gear"
+			tasks: [{
+				id: "4981ABAD4E29CC47"
+				optional_task: true
+				title: "Info"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "4C99607F5376ED9C"
+			tasks: [{
+				id: "3571F8073D88B602"
+				item: "gtceu:nand_chip"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["79879FE8E7691E85"]
+			id: "70D452B662CD9102"
+			tasks: [{
+				id: "42316F77F6F3BADC"
+				item: "gtceu:basic_integrated_circuit"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"79879FE8E7691E85"
+				"14320ECBF665846E"
+			]
+			id: "3B5F09D996CB7D2F"
+			tasks: [{
+				id: "792423CDFD346FDD"
+				item: "gtceu:good_integrated_circuit"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			id: "5FEE4D88A95F0A5F"
+			tasks: [{
+				id: "7B768A633C60A3AC"
+				item: "gtceu:microchip_processor"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			id: "70397FD6727D907B"
+			tasks: [{
+				id: "3612F5F96998AD03"
+				item: "gtceu:micro_processor"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			id: "1444B1B723EABBE5"
+			tasks: [{
+				id: "5F57ABB6C582E9FC"
+				item: "gtceu:nano_processor"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 7.5d
+		}
+		{
+			id: "535CED8C04442033"
+			tasks: [{
+				id: "418EDC8DE8F0865E"
+				item: "gtceu:micro_processor_assembly"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			id: "37898F95F1569770"
+			tasks: [{
+				id: "40B78FF6FD317ADE"
+				item: "gtceu:micro_processor_computer"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			id: "35DBAED54B20C5CC"
+			tasks: [{
+				id: "4A6B4FC812549BDB"
+				item: "gtceu:micro_processor_mainframe"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			id: "09740EBD5B7BA0D9"
+			tasks: [{
+				id: "7D15E02FFDC0D71A"
+				item: "gtceu:nano_processor_assembly"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 7.5d
+		}
+		{
+			id: "0F07E7D34FEAB95F"
+			tasks: [{
+				id: "62CF6D3E03F16C65"
+				item: "gtceu:nano_processor_computer"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 7.5d
+		}
+		{
+			id: "4547AE2C418CB75A"
+			tasks: [{
+				id: "56B63DC637DBA1CE"
+				item: "gtceu:nano_processor_mainframe"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 7.5d
+		}
+		{
+			id: "58EBB5DB3F7D272E"
+			tasks: [{
+				id: "5D524B98C277998D"
+				item: "gtceu:quantum_processor"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 9.0d
+		}
+		{
+			id: "407306FFA9C2FAE3"
+			tasks: [{
+				id: "0880A2329F860FDC"
+				item: "gtceu:quantum_processor_assembly"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 9.0d
+		}
+		{
+			id: "5E0E3798C681EAAA"
+			tasks: [{
+				id: "1E3BBD03F4B7109D"
+				item: "gtceu:quantum_processor_computer"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 9.0d
+		}
+		{
+			id: "7A2BEED8EF56FF55"
+			tasks: [{
+				id: "60606C51C0544469"
+				item: "gtceu:quantum_processor_mainframe"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 9.0d
+		}
+		{
+			id: "09E039AEF2A010E8"
+			tasks: [{
+				id: "34E1A45D309A7AE8"
+				item: "gtceu:crystal_processor"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 10.5d
+		}
+		{
+			id: "5177EDB97D79EEDC"
+			tasks: [{
+				id: "61479AC37D710662"
+				item: "gtceu:crystal_processor_assembly"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 10.5d
+		}
+		{
+			id: "231FED1065FBEBD2"
+			tasks: [{
+				id: "3338D625F202BC96"
+				item: "gtceu:crystal_processor_computer"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 10.5d
+		}
+		{
+			id: "1D8ACBBEFBD70BCE"
+			tasks: [{
+				id: "056DEBF4F85A4F36"
+				item: "gtceu:crystal_processor_mainframe"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 10.5d
+		}
+		{
+			id: "2E0DD2E791AEBDD7"
+			tasks: [{
+				id: "7D83D6FA8B4404DD"
+				item: "gtceu:wetware_processor"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 12.0d
+		}
+		{
+			id: "108BB62C018DBCB4"
+			tasks: [{
+				id: "7C3D3F11E2092136"
+				item: "gtceu:wetware_processor_assembly"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 12.0d
+		}
+		{
+			id: "6C294CACEA04A6B2"
+			tasks: [{
+				id: "727516446C9CF3DE"
+				item: "gtceu:wetware_processor_computer"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 12.0d
+		}
+		{
+			id: "54DF2CE972D561EE"
+			tasks: [{
+				id: "5BB5D45CE4D209B1"
+				item: "gtceu:wetware_processor_mainframe"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 12.0d
+		}
+		{
+			id: "034BF4381B778290"
+			tasks: [{
+				id: "0007EA5138CAA26B"
+				item: "kubejs:moleculartronic_processor"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 13.5d
+		}
+		{
+			id: "2E1989886DD26120"
+			tasks: [{
+				id: "55F3B5111295E1AC"
+				item: "kubejs:moleculartronic_processor_zeptochip"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 13.5d
+		}
+		{
+			id: "2FA717871A3070F9"
+			tasks: [{
+				id: "01E5853F145A3742"
+				item: "kubejs:moleculartronic_processor_assembly"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 13.5d
+		}
+		{
+			id: "205DD0A3666CD309"
+			tasks: [{
+				id: "3D9947F60DEE4A6B"
+				item: "kubejs:moleculartronic_processor_computer"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 13.5d
+		}
+		{
+			id: "308464E4EA19C058"
+			tasks: [{
+				id: "5B7B54BBEC34A1D3"
+				item: "kubejs:moleculartronic_processor_mainframe"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"79879FE8E7691E85"
+				"70D452B662CD9102"
+			]
+			id: "14320ECBF665846E"
+			tasks: [{
+				id: "2E134555F16AA915"
+				item: "kubejs:decent_integrated_circuit"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			id: "02EB0CC6A7920DF8"
+			tasks: [{
+				id: "5AD95E259714D425"
+				item: "gtceu:mega_blast_furnace"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -2.5d
+		}
+		{
+			description: ["You don't really need this for anything, yet it is here for completions sake."]
+			id: "13AED2146E4A028D"
+			subtitle: "Not very useful"
+			tasks: [{
+				id: "2D7F791C04075E04"
+				item: "gtceu:ulv_machine_hull"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"79879FE8E7691E85"
+				"3B5F09D996CB7D2F"
+			]
+			id: "41855411FD50C7BE"
+			tasks: [{
+				id: "4B535839CECE067D"
+				item: "kubejs:improved_integrated_circuit"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			id: "08E681885C0BBC95"
+			tasks: [{
+				id: "42298ABA550FDF8E"
+				item: "kubejs:aerospace_control_processor"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 16.0d
+		}
+		{
+			id: "6AAE667836491CDE"
+			tasks: [{
+				id: "5E4E5E4F5B499108"
+				item: "kubejs:aerospace_control_processor_assembly"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 16.0d
+		}
+		{
+			id: "4754A1D003A4CC10"
+			tasks: [{
+				id: "19EA2B7840B08297"
+				item: "kubejs:aerospace_control_processor_computer"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 16.0d
+		}
+		{
+			id: "587819348603E3E8"
+			tasks: [{
+				id: "0AAD904F7885929C"
+				item: "kubejs:aerospace_control_processor_mainframe"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 16.0d
+		}
+	]
+	subtitle: ["A handy guide to circuits"]
+	title: "Progression"
+}

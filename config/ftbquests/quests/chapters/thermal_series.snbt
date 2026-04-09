@@ -1,0 +1,131 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "thermal_series"
+	group: "21AF79B1B3F0A933"
+	icon: "thermal:machine_frame"
+	id: "59E6BE81DE816274"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"0493F54BBA7B53CA"
+				"21751E823716D187"
+			]
+			description: ["Now that you have an &7Arc Furnace&r and &4CMSA&r, you can make &lMachine Frames&r! These unlock the &oThermal Series&r."]
+			id: "6C835BC3CB832C2B"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Gregging the Ungregged"
+			tasks: [{
+				id: "0B60FB335C71A030"
+				item: "thermal:machine_frame"
+				type: "item"
+			}]
+			title: "Thermal Series Unlocked!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6C835BC3CB832C2B"
+				"17E60B78049026C7"
+			]
+			description: [
+				"The &lFluid Encapsulator&r automatically puts fluids in and out of buckets. You might think that this machine is a bit useless then, right? No!"
+				""
+				"The encapsulator can do &amuch more than that&r."
+				"In &7LV&r you will use it to make &9Galvanized Steel&r to make a &dBasic Electric Excavator&r."
+			]
+			id: "062E191E6EF0B7BA"
+			subtitle: "the Spout as a Grey Box"
+			tasks: [{
+				id: "20D8BD20BFEF766B"
+				item: "thermal:machine_bottler"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["062E191E6EF0B7BA"]
+			description: ["Now that you have the &dfluid encapsulator&r, you can, well, encapsulate things in fluids. One of those things is &7Steel&r and one of those fluids is &oliquid zinc&r, and if you combine them, you make &9Galvanized Steel&r! Galvanized steel is used to make the &7Basic Electric Excavator&r."]
+			id: "492B3B0289B4EF5C"
+			subtitle: "Stainless Steel at Home"
+			tasks: [{
+				count: 8L
+				id: "6555C836826A5DC3"
+				item: "gtceu:galvanized_steel_ingot"
+				type: "item"
+			}]
+			title: "Galvanized Steel"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"492B3B0289B4EF5C"
+				"17E60B78049026C7"
+			]
+			description: [
+				"It's time for yet another excavator!"
+				"The &lBasic Electric Excavator&r is an &7LV&r excavator. Not only does it do excavation faster, but it can also excavate new stuff. Fun!"
+			]
+			icon: "gtceu:basic_electric_excavator"
+			id: "51B99BC6E9B675BA"
+			subtitle: "Big Dig"
+			tasks: [
+				{
+					id: "604A7B764BDD1521"
+					item: "gtceu:basic_electric_excavator"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0F4151758284642E"
+					item: { Count: 4, id: "gtceu:solid_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "0A3103B191BCAA61"
+					item: {
+						Count: 12
+						id: "ad_astra:steel_plating"
+					}
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "7C7E39B10602D645"
+					item: { Count: 15, id: "gtceu:galvanized_steel_frame" }
+					type: "item"
+				}
+				{
+					id: "4C7E45F5D033D6E4"
+					item: "gtceu:lv_input_bus"
+					type: "item"
+				}
+				{
+					id: "6635CC1F8DFD124C"
+					item: "gtceu:lv_output_bus"
+					type: "item"
+				}
+				{
+					id: "1492E885B1E5EE67"
+					item: "gtceu:lv_energy_input_hatch"
+					type: "item"
+				}
+				{
+					id: "0CEF6D19354D8207"
+					item: "gtceu:maintenance_hatch"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.0d
+		}
+	]
+	title: "Thermal Series"
+}

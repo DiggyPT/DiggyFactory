@@ -1,0 +1,188 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "credits"
+	group: "72EA3D2F4E57BF85"
+	icon: "gtceu:high_performance_computation_array"
+	id: "21344A6013C94B4D"
+	images: [
+		{
+			click: "https://www.curseforge.com/minecraft/modpacks/phoenix-forge-technologies"
+			height: 1.0d
+			hover: ["Open PFT"]
+			image: "diggyfactory:textures/quests/pft.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			hover: ["Some coil textures I made for GT:FTE"]
+			image: "diggyfactory:textures/quests/bro_cooks.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 4.5d
+			y: -3.5d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0628DB72B5C212F3"]
+			description: ["This pack was made possible by a lot of people!"]
+			icon: "gtceu:high_performance_computation_array"
+			id: "7E14D9E3412D8E72"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Thx Everyone!"
+			tasks: [{
+				id: "0F173F987ED27D6B"
+				title: "Cool"
+				type: "checkmark"
+			}]
+			title: "Credits"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E14D9E3412D8E72"]
+			description: [
+				"Phoenix helped me get started making this pack, teaching me stuff like kubejs and custom multiblocks."
+				"He is also making a pack called Phoenix Forge Technologies so check that out!"
+				"(Also, he suggested the name for Thermal Oil of Thermal Petrochemical Goo, which I shortened to Petrothermal Goo)"
+			]
+			icon: "gtceu:hpca_computation_component"
+			id: "166790969F241A7E"
+			subtitle: "Also play PFT!"
+			tasks: [{
+				id: "56086D7C642936BD"
+				title: "wow cool thanks man"
+				type: "checkmark"
+			}]
+			title: "Phoenixvine"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E14D9E3412D8E72"]
+			description: ["Originally made the texture of the Conic Casing and allowed me to tweak it and use it for my pack :)"]
+			icon: "kubejs:conic_casing"
+			id: "16B3FDA726E430E5"
+			subtitle: "also known as dr conic"
+			tasks: [{
+				id: "7F57E4EBFBD35238"
+				title: "thats real sweet guy"
+				type: "checkmark"
+			}]
+			title: "Nukeboi / Joni"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7E14D9E3412D8E72"]
+			description: ["Allowed me to use their script to remove items from EMI, this is the reason why &cSignalum&r doesn't appear twice!"]
+			icon: "minecraft:pufferfish"
+			id: "5017DF395C7F7D03"
+			subtitle: "Flat Greg Theory"
+			tasks: [{
+				id: "7BFA1F299AD79FCC"
+				title: "absolutely brilliant mate"
+				type: "checkmark"
+			}]
+			title: "Puff"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7E14D9E3412D8E72"]
+			description: ["I &mstole&r &o\"borrowed\"&r their code to see how it works. Thanks!"]
+			icon: "gtceu:molybdenum_disilicide_coil_block"
+			id: "10A0416264DBCF28"
+			subtitle: "Money factory"
+			tasks: [{
+				id: "02A0C8F2B02B963A"
+				title: "It's not stealing, its being inspired"
+				type: "checkmark"
+			}]
+			title: "Monifactory devs"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7E14D9E3412D8E72"]
+			description: ["I also took a peek at their code to see how it worked. Very useful because they are actually in the same version as me!"]
+			icon: "gtceu:nan_certificate"
+			id: "0EE2072348723DD8"
+			subtitle: "Grindin Time"
+			tasks: [{
+				id: "2F25C68E42464957"
+				title: "Thx very cool"
+				type: "checkmark"
+			}]
+			title: "Sky of Grind devs"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7E14D9E3412D8E72"]
+			description: [
+				"Thanks to Argxment for coming up with the name \"Improved Integrated Circuit\" for MHV circuits."
+				""
+				"It ain't much, but it's honest work."
+			]
+			icon: "curvy_pipes:large_item_pipe"
+			id: "4B7BA85B2F63B690"
+			subtitle: "Curvy pipe enjoyer"
+			tasks: [{
+				id: "31F6CAB96AE64E46"
+				title: "so epic"
+				type: "checkmark"
+			}]
+			title: "Argxment"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0628DB72B5C212F3"]
+			description: ["These are some cool stuff in the pack, and some things to help you out :)"]
+			icon: "gtceu:spacefaring_steel_ingot"
+			id: "05BC54FAEA5AC8F6"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Cool Stuff"
+			tasks: [{
+				id: "115DCBDB21741D6A"
+				title: "WOW"
+				type: "checkmark"
+			}]
+			title: "Tips"
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["05BC54FAEA5AC8F6"]
+			description: [
+				"Normal paintings are very boring..."
+				"You just get some nice artwork, but a lot of the time you might want something more personalised."
+				"These immersive paintings allow you to put any image in your world."
+			]
+			id: "5E3377DAC49A48A8"
+			subtitle: "Any image, any time"
+			tasks: [{
+				id: "29F07D9DDC6F3E1B"
+				item: "immersive_paintings:painting"
+				type: "item"
+			}]
+			title: "Immersive Paintings"
+			x: 10.5d
+			y: 0.0d
+		}
+	]
+	subtitle: [
+		"Thx Everyone!"
+		"Also come here for cool stuff"
+	]
+	title: "Credits \\& Tips"
+}

@@ -1,0 +1,910 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mv"
+	group: "45DE873674286673"
+	icon: "gtceu:mv_electric_motor"
+	id: "2112F1627A560926"
+	images: [
+		{
+			height: 1.0d
+			image: "diggyfactory:textures/quests/mv.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "diggyfactory:textures/quests/hv.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "diggyfactory:textures/quests/mhv.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.0d
+			y: -1.0d
+		}
+	]
+	order_index: 3
+	quest_links: [
+		{
+			id: "1A608A3872A58845"
+			linked_quest: "24C3CEB85F968221"
+			shape: "gear"
+			size: 2.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "71F170812CA4EEE9"
+			linked_quest: "1DDC1FF11FB8392A"
+			x: 8.0d
+			y: 1.5d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["24C3CEB85F968221"]
+			description: [
+				"The &lMonocrystalline Silicon Boule&r is a large crystal made of silicon which is cut up to be used as the foundation of &6integrated circuits&r. To make it, put some &8silicon dust&r in your &aEBF&r as well as some gallium arsenide."
+				""
+				"&4&lWARNING&r: This recipe takes &97.5&r MINUTES TO COMPLETE and uses &c&oOVER 1,000,000 EU TO COMPLETE&r! Make sure that you have a power buffer big enough or that your energy production is large enough! Alternitavely, you can make the Gas Collector to get nitrogen that you can pump in to trim the recipe time a bit. "
+				"{ \"text\": \"[Gas Collector Quest]\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5DFB1C69F0B8D4DB\" } }"
+			]
+			id: "5109EA2277F57FF7"
+			subtitle: "The Monolith"
+			tasks: [{
+				id: "1B2993EB5F67A96B"
+				item: "gtceu:silicon_boule"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["32B0D6DC15262F68"]
+			description: [
+				"To make an &bcutting saw&r powerful enough to cut silicon boules into wafers, you will need a special material for the saw. This material is &lvanadium steel&r. Vanadium steel is made in an &bMV&r mixer and smelted in an &aEBF&r. You will also need the &bMV&r electrolyzer to get chromium dust from &cruby dust&r."
+				""
+				"Just like the silicon boule, the recipe time can be cut by using nitrogen. To get nitrogen, you can make the"
+				"{ \"text\": \"Gas Collector\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5DFB1C69F0B8D4DB\" } }"
+				"."
+			]
+			id: "719B985509257E51"
+			subtitle: "Very tedious to make"
+			tasks: [{
+				count: 4L
+				id: "77E636E284FB53F4"
+				item: { Count: 4, id: "gtceu:vanadium_steel_ingot" }
+				type: "item"
+			}]
+			title: "Vanadium Steel Ingot"
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["719B985509257E51"]
+			description: ["The &ladvanced cutter&r will be a very important machine to make because it can cut &8silicon boules&r into &dwafers&r to be engraved."]
+			id: "687CF89B04511124"
+			subtitle: "I like yo cut G"
+			tasks: [{
+				id: "78DF33682385B3F4"
+				item: "gtceu:mv_cutter"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"5109EA2277F57FF7"
+				"687CF89B04511124"
+			]
+			description: ["With the &bMV Mixer&r, you can cut silicon boules into &lsilicon wafers&r, which are needed to make &6integrated circuits&r."]
+			id: "7E3663D31B94E601"
+			subtitle: "Mmm yummy wafers"
+			tasks: [{
+				count: 16L
+				id: "7126BE9D49E7E4BE"
+				item: { Count: 16, id: "gtceu:silicon_wafer" }
+				type: "item"
+			}]
+			title: "Silicon Wafers"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["24C3CEB85F968221"]
+			description: [
+				"To progress further, you will need to upgrade some machines. Not to be faster, but to be more &opowerful&r, to unlock more &orecipes&r."
+				"Right now you will need the &bMV electrolyzer&r, the &bMV mixer&r and the &bMV lathe&r."
+				""
+				"You will also need the &7LV sifter&r to unlock &oanother&r &bMV machine&r."
+			]
+			icon: "gtceu:mv_electrolyzer"
+			id: "32B0D6DC15262F68"
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "The essentials"
+			tasks: [
+				{
+					id: "14208968E11605F2"
+					item: "gtceu:mv_electrolyzer"
+					type: "item"
+				}
+				{
+					id: "735101B56721D905"
+					item: "gtceu:mv_mixer"
+					type: "item"
+				}
+				{
+					id: "596A5BF5729A2861"
+					item: "gtceu:mv_lathe"
+					type: "item"
+				}
+				{
+					id: "1A86F77422D50063"
+					item: "gtceu:lv_sifter"
+					type: "item"
+				}
+				{
+					id: "632FA32FA0EA2307"
+					item: "gtceu:mv_chemical_bath"
+					type: "item"
+				}
+			]
+			title: "Advanced Suite"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["32B0D6DC15262F68"]
+			description: [
+				"This is what you need the &7LV&r sifter for."
+				"You need to mine &aemerald&r ore in the &4Nether&r, crush it, wash it and then sift it to get a chance of obtaining &a&l&oflawless emerald&r to use in the &bMV&r emitter."
+			]
+			id: "72BE9FE0CF888495"
+			subtitle: "Steve&mn&r Universe"
+			tasks: [{
+				id: "60E4C5186A5A9D08"
+				item: "gtceu:mv_emitter"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["72BE9FE0CF888495"]
+			description: ["Now that you have an &bMV emitter&r, you can make a &lLaser Engraver&r! The laser engraver can engrave your wafers to prepare them for circuit mounting and stuff. You will also need lenses, which is what the &bMV lathe&r is for."]
+			icon: "gtceu:mv_laser_engraver"
+			id: "25AD058E02115B8A"
+			subtitle: "Engravestone"
+			tasks: [
+				{
+					id: "05727F20A512B5DE"
+					item: "gtceu:mv_laser_engraver"
+					type: "item"
+				}
+				{
+					id: "48247CAE2CA7CB68"
+					item: "gtceu:ruby_lens"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"7E3663D31B94E601"
+				"25AD058E02115B8A"
+			]
+			description: ["The last two steps of this processing line is &lILC wafers&r and &lLC chips&r. You get ILC wafers by engraving silicon wafers with an &bMV&r laser engraver, and you get LC chips by cutting your ILC wafers in an &bMV&r cutter. Now you can use the chips to make your first &6integrated circuits&r!"]
+			id: "0F78509353D64661"
+			subtitle: "Fish \\& Chips"
+			tasks: [
+				{
+					id: "04860F602721689A"
+					item: "gtceu:ilc_wafer"
+					type: "item"
+				}
+				{
+					id: "77BFC771D6CC3777"
+					item: "gtceu:ilc_chip"
+					type: "item"
+				}
+			]
+			title: "ILC Wafers and LC Chips"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0F78509353D64661"]
+			description: ["With your new wafers you can climb the ladder of &lintegrated circuits&r! Instead of having a 3:1 or 2:1 ratio, they have a 1:1 ratio which is simply &oepic!!!!!&r"]
+			id: "79879FE8E7691E85"
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Thermal Integration"
+			tasks: [
+				{
+					count: 2L
+					id: "6A9BECFC2FF198F3"
+					item: "gtceu:basic_integrated_circuit"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7E850E6EFCF2C730"
+					item: { Count: 2, id: "kubejs:decent_integrated_circuit" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "463EDA568C6F9819"
+					item: { Count: 2, id: "gtceu:good_integrated_circuit" }
+					type: "item"
+				}
+				{
+					id: "5C1904020A959EA5"
+					item: "kubejs:improved_integrated_circuit"
+					type: "item"
+				}
+			]
+			title: "Integrated Circuits"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"79879FE8E7691E85"
+				"6AE7BABF9BF1417D"
+			]
+			description: ["To make your first &6HV&r circuits you will need &7polyethylene&r. This chemical is different from other ones because it's a &opolymer&r, so you will need a special structure to make it: the &lPolymerization chamber&r. It will be used to make basically every polymer."]
+			icon: "gtceu:polymerization_chamber"
+			id: "5C4C2E1BBCB7B87D"
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Polyamory"
+			tasks: [
+				{
+					id: "5563A54D5129A8F5"
+					item: "gtceu:polymerization_chamber"
+					type: "item"
+				}
+				{
+					count: 61L
+					id: "08BEBCA36CACA59C"
+					item: { Count: 61, id: "kubejs:poly_reaction_casing" }
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "2EA4EFF20D3A1EC9"
+					item: { Count: 36, id: "gtceu:invar_frame" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "5BEACD5CDCB2518B"
+					item: { Count: 8, id: "gtceu:tempered_glass" }
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "6DC8F53438DC86E6"
+					item: { Count: 12, id: "gtceu:long_distance_fluid_pipeline" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"24C3CEB85F968221"
+				"6FF3164616B02B77"
+			]
+			description: [
+				"The &lPyrolyse Oven&r is an electric &6Coke Oven&r with a LOT more products. This is one way to work towards &7ethylene&r."
+				""
+				"&cWARNING&r: If you are going to use an &7LV&r energy hatch, then you will need 2 for them to overclock to &bMV&r!"
+			]
+			icon: "gtceu:pyrolyse_oven"
+			id: "458499E306C79E7F"
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Pyrocynical"
+			tasks: [
+				{
+					id: "10A25DAC7B908CB5"
+					item: "gtceu:pyrolyse_oven"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "2DE6C3E834870E08"
+					item: "gtceu:ulv_machine_casing"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "55AB599A379074BB"
+					item: {
+						Count: 16
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:cupronickel_coil_block"
+								}
+								{
+									Count: 1b
+									id: "gtceu:kanthal_coil_block"
+								}
+							]
+						}
+					}
+					title: "16x Cupronickel or Kanthal Coils"
+					type: "item"
+				}
+				{
+					id: "34F9DE71C384103A"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:lv_energy_input_hatch"
+								}
+								{
+									Count: 1b
+									id: "gtceu:mv_energy_input_hatch"
+								}
+							]
+						}
+					}
+					title: "LV or MV Energy Hatch"
+					type: "item"
+				}
+				{
+					id: "198A68635DC64AE4"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:ulv_input_bus"
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_input_bus"
+								}
+							]
+						}
+					}
+					title: "ULV or LV Input Bus"
+					type: "item"
+				}
+				{
+					id: "510538826B964D43"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:ulv_output_bus"
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_output_bus"
+								}
+							]
+						}
+					}
+					title: "ULV or LV Output Bus"
+					type: "item"
+				}
+				{
+					id: "3E99213B19603056"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:ulv_input_hatch"
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_input_hatch"
+								}
+							]
+						}
+					}
+					title: "ULV or LV Input Hatch"
+					type: "item"
+				}
+				{
+					id: "64C7E058512A8828"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:ulv_output_hatch"
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_output_hatch"
+								}
+							]
+						}
+					}
+					title: "ULV or LV Output Hatch"
+					type: "item"
+				}
+				{
+					id: "1B9D8707CB30DBB7"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:lv_muffler_hatch"
+								}
+								{
+									Count: 1b
+									id: "gtceu:mv_muffler_hatch"
+								}
+							]
+						}
+					}
+					title: "LV or MV Muffler Hatch"
+					type: "item"
+				}
+				{
+					id: "37470D294AB3A938"
+					item: "gtceu:maintenance_hatch"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"458499E306C79E7F"
+				"3121B45962AB1250"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"With a &6pyrolyse oven&r, you can make &8coal tar&r from coal. Then you can distill it to get &6hydrogen sulfide&r and electrolyse it to get &esulfur&r and oxygen! If you have infinite coal from excavators, you can use this processing line to get infinite &esulfur&r!"
+				""
+				"With a &7fluid drilling rig&r, you can distill oil into &esulfuric naphtha&r and chemically react it  with &9hydrogen&r to get &6hydrogen sulfide&r, and then electrolyse it like above."
+				"{@pagebreak}"
+				"&9Note:&r You can do any of the dependency quests to unlock this one."
+			]
+			icon: "gtceu:sulfur_dust"
+			id: "501D1D85E81D9148"
+			shape: "pentagon"
+			subtitle: "It's about time!"
+			tasks: [
+				{
+					id: "063564D4477586E0"
+					item: "gtceu:lv_distillery"
+					type: "item"
+				}
+				{
+					id: "45B529CE4DF6C1C3"
+					item: "gtceu:lv_electrolyzer"
+					type: "item"
+				}
+				{
+					id: "3B4219D84275FDA5"
+					item: "gtceu:sulfur_dust"
+					type: "item"
+				}
+				{
+					id: "010CEB76428D87B6"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Infinite Sulfur"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1947B8EAF77F54A6"]
+			description: [
+				"To make polyethylene you will need to make &lethylene&r. To make ethylene, you can go the bio route or the oil route. The bio route uses wood gas from a pyrolyse oven and the oil route uses oil to turn into ethylene. Pick which one you want!"
+				""
+				"&9Note:&r The wood route takes less steps."
+			]
+			id: "30A937BEBB11984E"
+			subtitle: "Chemistry Time"
+			tasks: [
+				{
+					amount: 1000L
+					fluid: "gtceu:wood_gas"
+					id: "11545EF63E4D19D3"
+					type: "fluid"
+				}
+				{
+					amount: 1000L
+					fluid: "gtceu:ethylene"
+					id: "36A754FCFE7C8950"
+					type: "fluid"
+				}
+			]
+			title: "Making Ethylene"
+			x: 12.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"458499E306C79E7F"
+				"3121B45962AB1250"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Eventually you will need to turn in fluids for quests. You can't use buckets or cells or fluid storage, so how do you do it?"
+				""
+				"The answer is &lTask Screens&r. You can make them in various sizes, and when placed down you can right click them and select the task you want to turn in the fluid for. Unfortunately this consumes the fluid. Sorry...."
+				"{@pagebreak}"
+				"&9Note:&r You can unlock this quest by unlocking any one of its dependencies!"
+			]
+			id: "1947B8EAF77F54A6"
+			shape: "pentagon"
+			subtitle: "How would that work?"
+			tasks: [{
+				id: "7F0B0F950B6BBB3C"
+				item: "ftbquests:screen_1"
+				type: "item"
+			}]
+			title: "Turning In Fluids"
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["24C3CEB85F968221"]
+			description: [
+				"With a bunch of &bMV&r stuff and steel, you can make a &lFluid Drilling Rig&r. This machine can drill various fluids from under bedrock, including oil and natural gas."
+				""
+				"Oil marks the beginning of &opetrochemistry&r, and right now you can turn it into various fuels or turn it into ethylene."
+			]
+			icon: "gtceu:mv_fluid_drilling_rig"
+			id: "3121B45962AB1250"
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Ehhh Saddam, your tyranny is done"
+			tasks: [
+				{
+					id: "29FA94EAB4A1954A"
+					item: "gtceu:mv_fluid_drilling_rig"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7D97B400A0704675"
+					item: { Count: 8, id: "gtceu:solid_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "11DB8DFB4698FA57"
+					item: "gtceu:steel_frame"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "290E81FC8380B811"
+					item: { Count: 2, id: "gtceu:lv_energy_input_hatch" }
+					type: "item"
+				}
+				{
+					id: "20B7124DBD830840"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:ulv_output_hatch"
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_output_hatch"
+								}
+								{
+									Count: 1b
+									id: "gtceu:mv_output_hatch"
+								}
+							]
+						}
+					}
+					title: "ULV, LV, or MV Output Hatch"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"30A937BEBB11984E"
+				"5C4C2E1BBCB7B87D"
+			]
+			description: ["By putting ethylene in the &opolymerization chamber&r with a &5Phillips Catalyst&r &o(which you can make pretty easily in an &bMV&r&o mixer)&r you can make &lPolyethylene&r! This unlocks easier recipes for existing things and it also unlocks &6HV&r circuit components."]
+			id: "22B72BC43C96D4FF"
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "First Plastic!"
+			tasks: [{
+				amount: 1000L
+				fluid: "gtceu:polyethylene"
+				id: "35B79A5D13394018"
+				type: "fluid"
+			}]
+			title: "Polyethylene"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["32B0D6DC15262F68"]
+			description: [
+				"&lKanthal&r is an alloy that requires you to overclock your &aEBF&r to &6high voltage&r to smelt. Therefore, you will need 2 &bMV&r energy hatches instead of &7LV&r. You will also need very good power generation or storage, so you will need to build &bMV&r infrastructure."
+				""
+				"When kanthal ingots leave the &aEBF&r, you will notice that they are &every hot&r! To cool them down, you need to run them in some &9cold water&r in an &bMV&r chemical bath."
+			]
+			icon: "gtceu:kanthal_ingot"
+			id: "2779EFE7CB689E5B"
+			subtitle: "Woah she hot"
+			tasks: [
+				{
+					id: "4D16E64A9C9E0007"
+					item: "gtceu:kanthal_dust"
+					type: "item"
+				}
+				{
+					id: "70D3744971B656FF"
+					item: "gtceu:hot_kanthal_ingot"
+					type: "item"
+				}
+				{
+					id: "516247132B51A150"
+					item: "gtceu:kanthal_ingot"
+					type: "item"
+				}
+			]
+			title: "Kanthal"
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2779EFE7CB689E5B"]
+			description: [
+				"What will you use your &7Kanthal&r ingots for? For &lkanthal coils&r to upgrade your &aEBF&r!"
+				"By replacing your dinky &6cupronickel&r coils with &oshiny&r &7kanthal&r coils, you can increase the &ctemperature&r of your &aEBF&r, thus allowing it to perform better recipes."
+				""
+				"Also you might want to make more &aEBF&rs...."
+			]
+			id: "5790E71E76EBDB7A"
+			subtitle: "Getting an Upgrade"
+			tasks: [{
+				count: 16L
+				id: "5FA85E9C4227576B"
+				item: { Count: 16, id: "gtceu:kanthal_coil_block" }
+				type: "item"
+			}]
+			title: "Kanthal Coils"
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5790E71E76EBDB7A"]
+			description: ["Now that you have better coils, you can make &lsilicon ingots&r! Note that you will also need to cool them down just like kanthal ingots. You'll need to do that a lot from now on!"]
+			icon: "gtceu:silicon_ingot"
+			id: "0510BA4E1BED1EC3"
+			subtitle: "Very Silly"
+			tasks: [
+				{
+					id: "245AD1051FE7EC56"
+					item: "gtceu:hot_silicon_ingot"
+					type: "item"
+				}
+				{
+					id: "02B5F11405A64486"
+					item: "gtceu:silicon_ingot"
+					type: "item"
+				}
+			]
+			title: "Silicon Ingot"
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"22B72BC43C96D4FF"
+				"0510BA4E1BED1EC3"
+			]
+			description: [
+				"If you have polyethylene and silicon ingots, you can now mount them together with some fine tin wire to get &ltransistors&r!"
+				""
+				"Transistors are components of &6HV&r circuits."
+			]
+			id: "10016D1E644803C8"
+			subtitle: "Trans sister"
+			tasks: [{
+				id: "411DE80B47E1598E"
+				item: "gtceu:transistor"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"10016D1E644803C8"
+				"41855411FD50C7BE"
+			]
+			id: "7A4FDEC96C93EBF3"
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Your First HV Circuit"
+			tasks: [{
+				id: "70C65B43D9E55376"
+				item: "gtceu:advanced_integrated_circuit"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6AE7BABF9BF1417D"]
+			description: [
+				"Unlike &baluminium&r in &7LV&r, you will not need to set up a lot of infrastructure to create the material of the next voltage: &lStainless Steel&r to make &6HV&r machinery. You just need to make the dust in an &bMV&r mixer and send it off to an &aEBF&r overclocked to &6HV&r &o(so, with 2 &bMV&r&o energy hatches)&r. And that's it!"
+				""
+				"The hard part of making &6HV&r machines is not the material, it is the &dcircuits&r, as you will need at least &c2 multiblocks&r to make them."
+			]
+			hide_dependency_lines: false
+			icon: "gtceu:stainless_steel_ingot"
+			id: "6C11CD7750E4E145"
+			subtitle: "Big Steely 2: Return of the Steely"
+			tasks: [
+				{
+					id: "528F77858077FC35"
+					item: "gtceu:stainless_steel_dust"
+					type: "item"
+				}
+				{
+					id: "3EF61CA5B68E8F7B"
+					item: { Count: 9, id: "gtceu:stainless_steel_ingot" }
+					type: "item"
+				}
+			]
+			title: "Stainless Steel"
+			x: 13.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"6C11CD7750E4E145"
+				"22B72BC43C96D4FF"
+			]
+			description: ["Now that you have stainless steel ingots and &7polyethylene&r, you can make the &6HV&r Machine Hull. This, along with &dAdvanced Integrated Circuits&r, will allow you to make &6HV&r machinery!"]
+			id: "6DEE3CEA0E6AAFB8"
+			size: 1.0d
+			subtitle: "Better than Aluminium"
+			tasks: [{
+				id: "513A671BE88C1AB9"
+				item: "gtceu:hv_machine_hull"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"6DEE3CEA0E6AAFB8"
+				"7A4FDEC96C93EBF3"
+			]
+			description: ["When you get &6HV&r hulls and circuits, you can make &6HV&r machines!"]
+			icon: "gtceu:hv_electric_motor"
+			id: "49A55E2BB4D1745C"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Advancing into Microprocessing"
+			tasks: [{
+				id: "5529BB5F1FEF43C5"
+				title: "WOOOO YEAHHHH"
+				type: "checkmark"
+			}]
+			title: "HV Unlocked!"
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A4FDEC96C93EBF3"]
+			description: ["To make &6microprocessors&r, the next tier of circuits, you will need an &bMV&r circuit assembler."]
+			id: "20688952B5AE2F99"
+			subtitle: "60% Off"
+			tasks: [{
+				id: "4970E8034177F3E2"
+				item: "gtceu:mv_circuit_assembler"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5C4C2E1BBCB7B87D"]
+			description: [
+				"Do you want a swimming suit? Too bad because it's realistic!"
+				""
+				"The polymerization chamber unlocks &lneoprene&r, a rubber that is used to make marine fabric and, by extension, the &adiving suit&r. Neoprene is gotten by polymerising &2chloroprene&r, which is gotten by reacting chlorine and &6butadiene&r which is a weird petrochemical thing."
+				""
+				"It will also need &dpotassium persulfate&r as a catalyst, which also requires its own processing line."
+			]
+			icon: "gtceu:neoprene_ingot"
+			id: "385AABFDF2EA84C6"
+			shape: "pentagon"
+			subtitle: "Time to swim"
+			tasks: [
+				{
+					id: "4F82330BAD94EDB2"
+					item: "gtceu:neoprene_ingot"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3196E931FD1E5C7E"
+					item: "thermal:diving_fabric"
+					type: "item"
+				}
+			]
+			title: "Neoprene"
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0F78509353D64661"]
+			description: [
+				"Eventually (and when I mean eventually, I mean in just a few quests...) you will need to overclock your multiblock machines to &6HV&r. This means that you will need 2 &l&bMV&r&l energy hatches&r."
+				""
+				"How do you make those?"
+				""
+				"Well, it's simple! You just need a &l&cULPIC&r, or an &c&oUltra Low Power Integrated Circuit&r. It's just an IC chip so no need to worry."
+			]
+			id: "6AE7BABF9BF1417D"
+			tasks: [{
+				id: "65FFC23055D37543"
+				item: "gtceu:mv_energy_input_hatch"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+	]
+	subtitle: ["Diving into Chemistry"]
+	title: "&bMV&r - Medium Voltage"
+}

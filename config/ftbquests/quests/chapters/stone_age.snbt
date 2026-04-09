@@ -1,0 +1,592 @@
+{
+	autofocus_id: "0628DB72B5C212F3"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "stone_age"
+	group: "45DE873674286673"
+	icon: "minecraft:grass_block"
+	id: "2D162495F88A53DD"
+	order_index: 0
+	quest_links: [{
+		id: "4A3270AAF553CCB3"
+		linked_quest: "7E14D9E3412D8E72"
+		shape: "gear"
+		size: 2.0d
+		x: -2.5d
+		y: 0.0d
+	}]
+	quests: [
+		{
+			description: [
+				"&lWelcome to DiggyFactory!"
+				"&rThis is a &6GregTech&r based modpack that focuses on very early &cautomation&r of complex processes."
+				"I hope you enjoy! :D"
+				""
+				"&o(still in very early development)"
+			]
+			icon: "gtceu:luv_fusion_reactor"
+			id: "0628DB72B5C212F3"
+			rewards: [
+				{
+					count: 2
+					id: "273A47B2FD61B65A"
+					item: "minecraft:apple"
+					type: "item"
+				}
+				{
+					id: "76C4B4849CDC24D0"
+					item: {
+						Count: 1
+						id: "gtceu:prospector.hv"
+						tag: {
+							Charge: 1600000L
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0331E48F8F12FCEE"
+					item: "minecraft:torch"
+					type: "item"
+				}
+				{
+					id: "1FDDA2CD09131B85"
+					item: {
+						Count: 1
+						id: "gtceu:lv_iron_drill"
+						tag: {
+							Charge: 100000L
+							DisallowContainerItem: 0
+							GT.Behaviours: {
+								AoEColumn: 1
+								AoELayer: 0
+								AoERow: 1
+								MaxAoEColumn: 1
+								MaxAoELayer: 0
+								MaxAoERow: 1
+								TorchPlacing: 1
+							}
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 2
+								MaxDamage: 767
+								ToolSpeed: 6.0f
+							}
+							HideFlags: 2
+							MaxCharge: 100000L
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "We hope you enjoy your stay"
+			tasks: [{
+				id: "325D6CC3D467623D"
+				title: "Hi"
+				type: "checkmark"
+			}]
+			title: "Welcome to DiggyFactory!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0628DB72B5C212F3"]
+			description: [
+				"As always, you'll start your long journey by breaking some wood. Just go get a tree or something. Then you'll need a crafting table at the minimum."
+				""
+				"To complete this quest, obtain 4 logs."
+			]
+			id: "6F18A8035E474CB7"
+			subtitle: "Morning Wood"
+			tasks: [
+				{
+					count: 4L
+					id: "4658ABDFF2836271"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:logs"
+						}
+					}
+					title: "4 Logs"
+					type: "item"
+				}
+				{
+					id: "5414EE801222193C"
+					item: "minecraft:crafting_table"
+					type: "item"
+				}
+			]
+			title: "Tree Puncher"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F18A8035E474CB7"]
+			description: [
+				"Just mine some stone, and a furnace. This is where the progression diverges from how it is in vanilla."
+				""
+				"In the future, you'll want a LOT more furnaces, at least until you get a &6Steam Oven&r."
+				""
+				"{ \"text\": \"link\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6C3F8F8D88938B3C\" } }"
+			]
+			icon: "minecraft:cobblestone"
+			id: "42D066792F50DF80"
+			subtitle: "Wow, title so original..."
+			tasks: [
+				{
+					count: 12L
+					id: "14A416D7F40CA398"
+					item: { Count: 12, id: "minecraft:cobblestone" }
+					type: "item"
+				}
+				{
+					id: "650E829092C68990"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+			]
+			title: "Stone Age"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["42D066792F50DF80"]
+			description: [
+				"After getting a stone pickaxe, the next step is getting iron. But where is it?"
+				""
+				"Iron spawns in &lGregTech Veins&r such as Iron Veins, Magnetite Veins and Mineral Sand veins."
+				"To find these, you'll need to use your prospector and start digging until you reach your geological bounty."
+			]
+			id: "1F872E31D37B2985"
+			subtitle: "But getting it is different..."
+			tasks: [{
+				count: 8L
+				id: "430EB80A38162C56"
+				item: { Count: 8, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			title: "First Metal!"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F872E31D37B2985"]
+			description: [
+				"Time for your first tools. You'll make them out of iron, but if you have the pacience you can also make them out of wrought iron to get a 50% durability boost! Getting tools out of any material in general will complete the quest."
+				""
+				"Wrought iron sounds good, you say? Well, to make wrought iron, you'll need to smelt iron."
+				"..."
+				"&o&4One nugget at a time."
+				"&rYeah."
+			]
+			id: "52617D85959620CD"
+			subtitle: "Hammah time"
+			tasks: [
+				{
+					id: "6C63E7F7A05B5EFC"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "gtceu:tools/crafting_hammers"
+						}
+					}
+					title: "Any Hammer"
+					type: "item"
+				}
+				{
+					id: "58AAF4661554F480"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "gtceu:tools/crafting_files"
+						}
+					}
+					title: "Any File"
+					type: "item"
+				}
+				{
+					id: "6B139F4608DC3424"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "gtceu:tools/crafting_mortars"
+						}
+					}
+					title: "Any Mortar"
+					type: "item"
+				}
+			]
+			title: "First GregTech Tools"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F872E31D37B2985"]
+			description: [
+				"Like getting iron, copper is found in copper veins. Use EMI to check out which ones exist. Unlike in vanilla Minecraft, you'll need a lot of copper to progress through the steam age, because you'll need to make bronze."
+				"{@pagebreak}"
+				"If you don't like the new texture, just go into the modpack folder, go to kubejs -> assets -> minecraft -> textures -> item and remove the copper ingot texture."
+				"{@pagebreak}"
+				"Credit to HBM's Nuclear Tech for the texture!"
+			]
+			id: "72D7B1298C6F67D8"
+			subtitle: "Now with a texture makeover!"
+			tasks: [{
+				count: 8L
+				id: "77D8D47CD3C99928"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			title: "Copper"
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1F872E31D37B2985"]
+			description: [
+				"Get some tin! Like copper and iron, you get this from tin veins, like &7cassiterite&r, &7cassiterite sand&r or &4garnet tin&r."
+				"You'll need this for bronze, but you'll need it less than &6copper&r. However, you'll need it for cables in Low Voltage."
+			]
+			id: "46F3641C04A47159"
+			subtitle: "Baby's First Custom Ingot"
+			tasks: [{
+				count: 8L
+				id: "36536414C26F2377"
+				item: { Count: 8, id: "gtceu:tin_ingot" }
+				type: "item"
+			}]
+			title: "Tin"
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"72D7B1298C6F67D8"
+				"46F3641C04A47159"
+				"52617D85959620CD"
+			]
+			description: [
+				"This is gonna be the main material of the Steam Age!"
+				""
+				"&lBronze&r is an alloy of &6Copper&r and &7Tin&r. To make it, you have to crush copper and tin ingots in a mortar and then mix them together by hand. Then, you have to smelt the resulting blend in a furnace."
+				""
+				"This should be easy if you have played GregTech before &o(which you hopefully should have...)&r or if you at least know how to use JEI / EMI."
+			]
+			id: "4C4719787C1998BB"
+			subtitle: "Brick Bronze"
+			tasks: [{
+				count: 8L
+				id: "7352050D83360FAE"
+				item: { Count: 8, id: "gtceu:bronze_ingot" }
+				type: "item"
+			}]
+			title: "Bronze"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52617D85959620CD"]
+			description: [
+				"Now you can also make a GregTech axe. When you break 1 log of a tree with it, all of the other ones will automatically fall! It's basically veinminer!"
+				""
+				"You can also make a GregTech spade, which acts as a mining hammer but for shovelable blocks. Or you can use your drill."
+			]
+			id: "7BDACAF1B0253436"
+			shape: "circle"
+			subtitle: "Treefelling at home"
+			tasks: [{
+				id: "49D07DD9D203FA1A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:iron_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 2
+										MaxDamage: 255
+										ToolSpeed: 4.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:wrought_iron_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 2
+										MaxDamage: 383
+										ToolSpeed: 4.0f
+									}
+									HideFlags: 2
+								}
+							}
+						]
+					}
+				}
+				title: "Iron or Wrought Iron Axe"
+				type: "item"
+			}]
+			title: "More GregTech Tools"
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["52617D85959620CD"]
+			description: [
+				"It's time for something big.... &oreally big.&r It's time to make a &lcoke oven&r."
+				""
+				"The coke oven will let you make charcoal and coal coke. It'll also give you creosote oil as a byproduct!"
+				""
+				"->Coal coke is better fuel for furnaces and boilers. You'll want a lot of it to make steel."
+				"->Creosote oil isn't useless either - you can burn it in furnaces and liquid boilers too, and it's required to make treated wood, which you'll need to make a primitive water pump to feed your first boilers with water."
+				"{@pagebreak}"
+				"Later, you might also want to replace one of the coke oven bricks with a &cCoke Oven Hatch&r to be able to automatically output the creosote."
+				""
+				"&oMore later&r, you will be able to make a &lPyrolyse Oven&r, which is basically an electric coke oven that can make cool stuff and is faster."
+			]
+			icon: "gtceu:coke_oven"
+			id: "6FF3164616B02B77"
+			subtitle: "Your first mandatory multiblock"
+			tasks: [
+				{
+					id: "59E5A126EEAE2978"
+					item: "gtceu:coke_oven"
+					type: "item"
+				}
+				{
+					count: 25L
+					id: "114546A32672183F"
+					item: { Count: 25, id: "gtceu:coke_oven_bricks" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4C4719787C1998BB"
+				"6FF3164616B02B77"
+			]
+			description: ["You're ready for the Steam Age! Now you will make Piston Mechanisms and Boilers."]
+			id: "028EFD89858B1C21"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Full Steam Ahead"
+			tasks: [{
+				count: 5L
+				id: "0FE85460BF32535E"
+				item: "gtceu:bronze_plate"
+				type: "item"
+			}]
+			title: "Steam Age!"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0628DB72B5C212F3"]
+			description: ["You will probably run out of power with your drill before you get the chance to recharge it. So in this quest you can turn your empty drill into one that is good as new!"]
+			id: "36E04FE5A118C5FE"
+			optional: true
+			rewards: [{
+				id: "10D3D5F06411DD96"
+				item: {
+					Count: 1
+					id: "gtceu:lv_iron_drill"
+					tag: {
+						Charge: 100000L
+						DisallowContainerItem: 0
+						GT.Behaviours: {
+							AoEColumn: 1
+							AoELayer: 0
+							AoERow: 1
+							MaxAoEColumn: 1
+							MaxAoELayer: 0
+							MaxAoERow: 1
+							TorchPlacing: 1
+						}
+						GT.Tool: {
+							Damage: 0
+							HarvestLevel: 2
+							MaxDamage: 767
+							ToolSpeed: 6.0f
+						}
+						HideFlags: 2
+						MaxCharge: 100000L
+					}
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			subtitle: "Drill Baby Drill"
+			tasks: [{
+				consume_items: true
+				id: "366C2CC738557D29"
+				item: {
+					Count: 1
+					id: "gtceu:lv_iron_drill"
+					tag: {
+						Charge: 0L
+						DisallowContainerItem: 0
+						GT.Behaviours: {
+							AoEColumn: 1
+							AoELayer: 0
+							AoERow: 1
+							MaxAoEColumn: 1
+							MaxAoELayer: 0
+							MaxAoERow: 1
+							TorchPlacing: 1
+						}
+						GT.Tool: {
+							Damage: 0
+							HarvestLevel: 2
+							MaxDamage: 767
+							ToolSpeed: 6.0f
+						}
+						HideFlags: 2
+						MaxCharge: 100000L
+					}
+				}
+				optional_task: true
+				type: "item"
+			}]
+			title: "Recharge your Drill!"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0628DB72B5C212F3"]
+			description: ["If you run out of EU on your prospector before reaching &6HV&r, you can turn it in here to recharge it! "]
+			id: "13FB1C08DE48121D"
+			optional: true
+			rewards: [{
+				id: "0D2EE2110CC8CA56"
+				item: {
+					Count: 1
+					id: "gtceu:prospector.hv"
+					tag: {
+						Charge: 1600000L
+					}
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			subtitle: "No end to ore scanning"
+			tasks: [{
+				consume_items: true
+				id: "4EC5E0B312613A27"
+				item: "gtceu:prospector.hv"
+				type: "item"
+			}]
+			title: "Recharge your Prospector!"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["52617D85959620CD"]
+			description: [
+				"Don't like mining? Then this multiblock is for you! The &lPrimitive Excavator&r mines ores automatically with just a bit of &0Coal&r."
+				""
+				"Don't worry about the ULV energy hatch. It's required in the structure, but the machine doesn't require electricity. It's just that if I tried removing it, EMI would remove every GregTech recipe for some reason. Oh well. Good thing I changed the recipe so that you can make the hatch at this point in progression."
+			]
+			icon: "gtceu:primitive_excavator"
+			id: "285271DD50E4E766"
+			subtitle: "Diggy"
+			tasks: [
+				{
+					id: "404DFC0B33D43DC3"
+					item: "gtceu:primitive_excavator"
+					type: "item"
+				}
+				{
+					count: 17L
+					id: "45CB4CF7EF6E2581"
+					item: { Count: 17, id: "kubejs:excavator_bricks" }
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "4193E53C4603206B"
+					item: { Count: 15, id: "gtceu:wood_frame" }
+					type: "item"
+				}
+				{
+					id: "37307EBFA33DA9D3"
+					item: "gtceu:ulv_input_bus"
+					type: "item"
+				}
+				{
+					id: "5D3954A565F4A8CA"
+					item: "gtceu:ulv_output_bus"
+					type: "item"
+				}
+				{
+					id: "6982DAB90E07912E"
+					item: "gtceu:ulv_energy_input_hatch"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["72D7B1298C6F67D8"]
+			description: [
+				"Do you want a &6copper&r vein that isn't an annoying squiggly line? Then you're in luck!"
+				""
+				"The &lCovellite&r vein appears semi-commonly in the &9Over&aworld&r and has covellite ore and enargite ore, which are both good sources of &6copper&r! It also has pyrite which gives you iron and baryte which gives you barium, which you will need in &bMV&r."
+			]
+			icon: "gtceu:raw_covellite"
+			id: "1A1E8C0AF036D85D"
+			subtitle: "Better Copper"
+			tasks: [
+				{
+					id: "492112644D1EC0A2"
+					item: "gtceu:raw_covellite"
+					type: "item"
+				}
+				{
+					id: "3DDAB3AB6FE688DF"
+					item: "gtceu:raw_enargite"
+					type: "item"
+				}
+				{
+					id: "5C8E8649F930BE5A"
+					item: "gtceu:raw_pyrite"
+					type: "item"
+				}
+			]
+			title: "Covellite Veins"
+			x: 10.0d
+			y: -2.0d
+		}
+	]
+	subtitle: ["I call it iron, rhymes with grug"]
+	title: "Stone Age"
+}

@@ -1,0 +1,92 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hv"
+	group: "45DE873674286673"
+	icon: "gtceu:hv_electric_motor"
+	id: "6DB390CF98C45726"
+	images: [{
+		height: 1.0d
+		image: "diggyfactory:textures/quests/hv.png"
+		rotation: 0.0d
+		width: 2.0d
+		x: -1.5d
+		y: 0.0d
+	}]
+	order_index: 4
+	quest_links: [{
+		id: "784E1B833710D9AA"
+		linked_quest: "49A55E2BB4D1745C"
+		shape: "gear"
+		size: 2.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	quests: [
+		{
+			dependencies: ["49A55E2BB4D1745C"]
+			id: "1E2B2078D28E39D5"
+			subtitle: "Getting that chem done"
+			tasks: [{
+				id: "1E9990A60E50A2FD"
+				item: "gtceu:hv_chemical_reactor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["49A55E2BB4D1745C"]
+			description: ["The &lCleanroom&r is a large machine that allows you to run new recipes. If a machine needs the cleanroom to do a recipe, then you need to place it inside of the cleanroom. You can make cleanrooms of variable size."]
+			id: "402865AF7B3EB873"
+			subtitle: "Discord mods, keep out!"
+			tasks: [{
+				id: "537C68E0CCFD9A09"
+				item: "gtceu:cleanroom"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["402865AF7B3EB873"]
+			description: ["The &l&bMV&r&l circuit assembler&r is used to make the new tier of circuits - &6Microprocessors&r! These circuits are cheaper and they go up to IV."]
+			id: "56C1C67586B9EE83"
+			subtitle: "More picking, more placing"
+			tasks: [{
+				id: "022A8847D925C33E"
+				item: "gtceu:mv_circuit_assembler"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["56C1C67586B9EE83"]
+			description: ["Basic stuff. Now, you can upgrade to EV circuits, which are useful."]
+			id: "0DBFA407F32A1BBD"
+			subtitle: "Level up"
+			tasks: [
+				{
+					id: "606FB2A23068D1D4"
+					item: "gtceu:micro_processor"
+					type: "item"
+				}
+				{
+					id: "48FDC72BAAF5DD57"
+					item: "gtceu:micro_processor_assembly"
+					type: "item"
+				}
+				{
+					id: "26861A8BA49EA855"
+					item: "gtceu:micro_processor_computer"
+					type: "item"
+				}
+			]
+			title: "Climbing up the Ranks"
+			x: 6.0d
+			y: -2.0d
+		}
+	]
+	title: "&6HV&r - High Voltage"
+}

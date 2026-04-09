@@ -1,0 +1,1239 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "steam_age"
+	group: "45DE873674286673"
+	icon: "gtceu:bronze_brick_casing"
+	id: "23CE7B38ABD35D7D"
+	order_index: 1
+	quest_links: [{
+		id: "71C35CE90FF9B40D"
+		linked_quest: "028EFD89858B1C21"
+		shape: "gear"
+		size: 2.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	quests: [
+		{
+			dependencies: ["6BFB4F16303CA1EE"]
+			description: ["This is what you will be using to generate steam to power your first machines. Later on you will find new ways to power them but until then this is all you've got."]
+			id: "61FF5795C584957A"
+			subtitle: "Burning Box"
+			tasks: [{
+				id: "5308A319E1EF9D9B"
+				item: "gtceu:lp_steam_solid_boiler"
+				type: "item"
+			}]
+			title: "Steam Boiler"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["61FF5795C584957A"]
+			description: ["You are probably tired of crushing metals and smelting blends by now. Thankfully, you can now use the Alloy Smelter to make all of your alloys! It's pretty slow but at least it can run in the background."]
+			id: "55ACAF8733D01A33"
+			subtitle: "Tinkers Construct at Home"
+			tasks: [{
+				id: "5FADE5BA352E7458"
+				item: "gtceu:lp_steam_alloy_smelter"
+				type: "item"
+			}]
+			title: "Alloy Smelter"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["55ACAF8733D01A33"]
+			description: [
+				"You can now unlock &lCreate&r!"
+				""
+				"What this means is that you can now make cool contraptions, such as tunnel bores, automatic farms, etc..."
+				""
+				"However, all processing machines from Create have been &cdeprecated&r in this pack. Their recipes have been fulfilled by GregTech machines, so you can't craft them."
+				""
+				"{@pagebreak}"
+				""
+				"I highly advise you to make a cactus farm with the reward I gave you so that you can turn it into lime dye and combine it with dough to make slime balls, which can then be turned into super glue."
+			]
+			id: "3776E37FEF41654C"
+			rewards: [{
+				count: 8
+				id: "4C76944CCC8EE56A"
+				item: "minecraft:cactus"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Alliterations Aplenty"
+			tasks: [{
+				count: 8L
+				id: "5AD05F0EAA74CB42"
+				item: { Count: 8, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			title: "Create Unlocked!"
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["61FF5795C584957A"]
+			description: [
+				"I hope you have saved up a good bit of creosote oil!"
+				"If you haven't, then don't worry, you can still just make some... It'll take a while though."
+				""
+				"Anyways, the Primitive Pump is a multiblock machine made almost entirely out of treated wood. Treated wood requires wood and creosote oil to make. When it's assembled, it'll start creating water!"
+				""
+				"Then you'll need to bring the water to your boilers with pipes."
+			]
+			icon: "gtceu:primitive_pump"
+			id: "54597EE0B7ABDBE8"
+			subtitle: "ARE YOU READY TO PUMP?"
+			tasks: [
+				{
+					id: "2FD18C9BBF71C1C5"
+					item: "gtceu:primitive_pump"
+					type: "item"
+				}
+				{
+					id: "2C7324E3359AFFE2"
+					item: "gtceu:pump_hatch"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "17CB4BCA79182D3D"
+					item: "gtceu:pump_deck"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "0AE2E283F5912606"
+					item: { Count: 10, id: "gtceu:treated_wood_frame" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3776E37FEF41654C"]
+			description: [
+				"Now that you have &lCreate&r unlocked, you can make things like &5Tunnel bores!&r Whether it be through rope pulleys, rails, anything!"
+				""
+				"This is good if you're pretty tired of just mining. I know I am. So you can leave this running in the background!"
+				""
+				"If you want to further Create-ify your mineshafts, how about building elevators down to your mines? idk lol"
+			]
+			id: "505DC893459EBF3D"
+			rewards: [{
+				id: "683C51F79C34616B"
+				item: {
+					Count: 1
+					id: "create:super_glue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "GT Miners at Home"
+			tasks: [{
+				id: "625187C5B103D94C"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			title: "Tunnel Bore"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["61FF5795C584957A"]
+			description: ["The extractor will be used to get your first rubber pulp."]
+			id: "3488169BAB64BA83"
+			subtitle: "AND THEY EXTRACT IT!"
+			tasks: [{
+				id: "221B3B4925BC6E97"
+				item: "gtceu:lp_steam_extractor"
+				type: "item"
+			}]
+			title: "Extractor"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["61FF5795C584957A"]
+			description: ["You can make a steam furnace now! It's pretty slow, but it'll be useful in automation. Also, you can turn it into something greater..."]
+			id: "6A8AD35A05917991"
+			subtitle: "Steam is hot? Who knew!"
+			tasks: [{
+				id: "7828B2146DF5ADC7"
+				item: "gtceu:lp_steam_furnace"
+				type: "item"
+			}]
+			title: "Steam Furnace"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6A8AD35A05917991"]
+			description: [
+				"Are you tired of evenly distributing stuff between a million furnaces?"
+				"Do you just want one big boy that smelts &oreally&r fast?"
+				"Well, I hope you have enough bronze, because that's what the Steam Oven needs!"
+				"The steam oven can process 8 recipes at once!"
+			]
+			icon: "gtceu:steam_oven"
+			id: "6C3F8F8D88938B3C"
+			subtitle: "Me Me Big Boy"
+			tasks: [
+				{
+					id: "11A9FE77FE8CA423"
+					item: "gtceu:steam_oven"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4A8F066EEC1B64DA"
+					item: { Count: 8, id: "gtceu:steam_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "706DC197E9516819"
+					item: { Count: 8, id: "gtceu:bronze_firebox_casing" }
+					type: "item"
+				}
+				{
+					id: "4FC0C9A2ACFBF9B6"
+					item: "gtceu:steam_input_hatch"
+					type: "item"
+				}
+				{
+					id: "591BAAD907287886"
+					item: "gtceu:steam_input_bus"
+					type: "item"
+				}
+				{
+					id: "2E2D252FF8F60FA2"
+					item: "gtceu:steam_output_bus"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"3776E37FEF41654C"
+				"78730BBC6D347D48"
+			]
+			description: ["If you have gone to the Nether and found some zinc, you can make &lMechanical Crafters&r! You'll need a few of these if you want to automate stuff at this point."]
+			hide_dependency_lines: true
+			id: "05BBA030EE9EE797"
+			subtitle: "Assembler at Home"
+			tasks: [{
+				count: 3L
+				id: "290F39A96B5D5170"
+				item: { Count: 3, id: "create:mechanical_crafter" }
+				type: "item"
+			}]
+			title: "Mechanical Crafter"
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["028EFD89858B1C21"]
+			description: [
+				"This will be what you will be using to make machines. It might look crappy, but luckily, you will have automated &6Vacuum Tubes&r by the end of this age, so you will never have to worry about crafting these again!"
+				"{@pagebreak}"
+				"&9Lore:&r theres no lore i just added this to the pack lol"
+			]
+			id: "6BFB4F16303CA1EE"
+			subtitle: "New circuit! sigh..."
+			tasks: [{
+				count: 2L
+				id: "0202ED24FF90783B"
+				item: { Count: 2, id: "kubejs:pneumatic_mechanism" }
+				type: "item"
+			}]
+			title: "Piston Mechanism"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["61FF5795C584957A"]
+			description: ["The &lMacerator&r is a machine that will crush stuff. It can double your ores, but it's really slow, so if you want that to be done in your lifetime..."]
+			id: "2DAF9F9E932A797A"
+			subtitle: "Smash."
+			tasks: [{
+				id: "1C7DEF7EFF1E499A"
+				item: "gtceu:lp_steam_macerator"
+				type: "item"
+			}]
+			title: "Macerator"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2DAF9F9E932A797A"]
+			description: [
+				"This needs quite a lot of bronze to make so be warned!"
+				"The &lSteam Grinder&r is a big multiblock machine that smashes stuff pretty fast. You can use it to macerate your ores to double them! Pretty cool!"
+			]
+			icon: "gtceu:steam_grinder"
+			id: "76778ABC0D5D84B1"
+			subtitle: "Me Me Big Boy #2"
+			tasks: [
+				{
+					id: "0872E2DE0DC69B87"
+					item: "gtceu:steam_grinder"
+					type: "item"
+				}
+				{
+					count: 22L
+					id: "1AA8D7A40D4CC04F"
+					item: { Count: 22, id: "gtceu:steam_machine_casing" }
+					type: "item"
+				}
+				{
+					id: "5C9BB2B9A4E94F47"
+					item: "gtceu:steam_input_bus"
+					type: "item"
+				}
+				{
+					id: "4C46578D3FEC3663"
+					item: "gtceu:steam_output_bus"
+					type: "item"
+				}
+				{
+					id: "5F11B1D399B8799F"
+					item: "gtceu:steam_input_hatch"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["61FF5795C584957A"]
+			description: ["The steam compressor will allow you to compress stuff. It's not really useful for quality of life, but you'll need it in your factory."]
+			id: "6B369B12B4D4D1B8"
+			subtitle: "Smash. In a different way."
+			tasks: [{
+				id: "163803BD37185E7C"
+				item: "gtceu:lp_steam_compressor"
+				type: "item"
+			}]
+			title: "Compressor"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["61FF5795C584957A"]
+			description: ["The &lForge Hammer&r is REALLY useful and it should be one of the first machines you make, because it drops the ingots required to make plates from 2 to just 1.5, making all of the other machines cheaper!"]
+			id: "5AB6B5C41D79E196"
+			subtitle: "Auto-Hammah"
+			tasks: [{
+				id: "669A6286436706BE"
+				item: "gtceu:lp_steam_forge_hammer"
+				type: "item"
+			}]
+			title: "Forge Hammer"
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2F3222F2085F1EC1"]
+			description: ["You'll need a ball mold to make Glass Tubes. Make one with wrought iron. Luckily you don't need to automate this..."]
+			icon: "gtceu:ball_casting_mold"
+			id: "55F08BCCD704B015"
+			subtitle: "Moldy like as the Geometry Dash youtuber?"
+			tasks: [
+				{
+					id: "1F83599D581F25E0"
+					item: "gtceu:empty_mold"
+					type: "item"
+				}
+				{
+					id: "660BDD18F39B4395"
+					item: "gtceu:ball_casting_mold"
+					type: "item"
+				}
+			]
+			title: "Molds"
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["55F08BCCD704B015"]
+			description: ["Make some vacuum tubes. They're more complicated to make than piston mechanisms, but they can be automated in an easier way. To automate them, use steam excavators."]
+			id: "27CF48A8255DE7DE"
+			subtitle: "Hoover"
+			tasks: [{
+				id: "69ACFC565BC8AC73"
+				item: "gtceu:vacuum_tube"
+				type: "item"
+			}]
+			title: "Vacuum Tube"
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["691E9885449AB55F"]
+			description: [
+				"You've made &lSteel&r! This can be used for a lot of stuff, and it will be the main material of LV, so better stock up on it."
+				""
+				"&d\"The main material of LV is still steel?\"&r"
+				"Yeah, what did you expect? Some super alloy where half of its name is latin? This isn't &cPhoenix Forge Technologies&r."
+				""
+				"&ofor all interested individuals, click on the image down and to the left of this quest)"
+			]
+			id: "2F3222F2085F1EC1"
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Big Steely"
+			tasks: [{
+				count: 4L
+				id: "307FC30B2C8AB393"
+				item: "gtceu:steel_ingot"
+				type: "item"
+			}]
+			title: "Steel"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F3222F2085F1EC1"]
+			description: ["With your new fancy &lSteel&r, you can make better tools! Say goodbye to those iron/wrought iron ones!"]
+			id: "0B0A21FC1395302E"
+			subtitle: "Gotta go Fast"
+			tasks: [{
+				id: "62BC2F45B3889722"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:steel_hammer"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: { }
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 3
+										MaxDamage: 511
+										ToolSpeed: 9.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:steel_file"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: { }
+									GT.Tool: {
+										Damage: 0
+										MaxDamage: 511
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:steel_wire_cutter"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: { }
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 3
+										MaxDamage: 511
+										ToolSpeed: 9.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:steel_mining_hammer"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										AoEColumn: 1
+										AoELayer: 0
+										AoERow: 1
+										MaxAoEColumn: 1
+										MaxAoELayer: 0
+										MaxAoERow: 1
+										TorchPlacing: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 3
+										MaxDamage: 1535
+										ToolSpeed: 6.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:steel_saw"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										HarvestIce: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										MaxDamage: 511
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:steel_screwdriver"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: { }
+									GT.Tool: {
+										Damage: 0
+										MaxDamage: 511
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:steel_spade"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										AoEColumn: 1
+										AoELayer: 0
+										AoERow: 1
+										MaxAoEColumn: 1
+										MaxAoELayer: 0
+										MaxAoERow: 1
+									}
+									GT.Tool: {
+										AttackDamage: 4.5f
+										AttackSpeed: -3.2f
+										Damage: 0
+										HarvestLevel: 3
+										MaxDamage: 1535
+										ToolSpeed: 6.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:steel_wrench"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										Mode: 2b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 3
+										MaxDamage: 511
+										ToolSpeed: 9.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:steel_knife"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: { }
+									GT.Tool: {
+										AttackDamage: 3.0f
+										AttackSpeed: 3.0f
+										Damage: 0
+										MaxDamage: 511
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:steel_crowbar"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: { }
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 3
+										MaxDamage: 511
+										ToolSpeed: 9.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:steel_butchery_knife"
+								tag: {
+									DisallowContainerItem: 0b
+									Enchantments: [{
+										id: "minecraft:looting"
+										lvl: 3s
+									}]
+									GT.Behaviours: { }
+									GT.Tool: {
+										AttackDamage: 4.5f
+										AttackSpeed: -1.3f
+										Damage: 0
+										MaxDamage: 511
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:steel_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 3
+										MaxDamage: 511
+										ToolSpeed: 7.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:steel_scythe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										AoEColumn: 2
+										AoELayer: 2
+										AoERow: 2
+										MaxAoEColumn: 2
+										MaxAoELayer: 2
+										MaxAoERow: 2
+									}
+									GT.Tool: {
+										AttackDamage: 8.0f
+										AttackSpeed: -3.0f
+										Damage: 0
+										HarvestLevel: 3
+										MaxDamage: 1535
+										ToolSpeed: 9.0f
+									}
+									HideFlags: 2
+								}
+							}
+						]
+					}
+				}
+				title: "Any Steel Tool"
+				type: "item"
+			}]
+			title: "Steel Tools"
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2F3222F2085F1EC1"]
+			description: ["You might have noticed that you have accumulated a &lLOT&r of creosote oil in your coke oven(s)... You might've voided some already, in fact! But now, you can turn it into steam to feed your factory using the &dLiquid Boiler&r!!! It can also take things like lava."]
+			id: "37730A762E7DD7BC"
+			subtitle: "Where dat oil at"
+			tasks: [{
+				id: "3613B62E12C419AA"
+				item: "gtceu:hp_steam_liquid_boiler"
+				type: "item"
+			}]
+			title: "Liquid Boiler"
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2F3222F2085F1EC1"]
+			description: [
+				"With your steel, you can now make... Flint and Steel!"
+				""
+				"Is this stupid gating or a change that makes meaningful sense? Probably a bit of both. BUT YOU'LL NEVER KNOW MUAHAHHAHAHHAHAH!!!"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:flint_and_steel"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "78730BBC6D347D48"
+			subtitle: "\"Flint and Steel!\" -jack crack"
+			tasks: [
+				{
+					id: "6C7298768A083A4A"
+					item: {
+						Count: 1
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					dimension: "minecraft:the_nether"
+					id: "6AD080671D52CF9C"
+					title: "Visit the Nether"
+					type: "dimension"
+				}
+			]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F3222F2085F1EC1"]
+			description: ["Now with your new steel, you can upgrade your machines to be &62x faster!&r They'll consume 2x as much steam though, so you should probably also make the high-pressure versions of your boilers."]
+			icon: "gtceu:hp_steam_alloy_smelter"
+			id: "614C509CE71C519D"
+			subtitle: "Upgrades, people, upgrades"
+			tasks: [{
+				id: "15C80CA101E70CDE"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:hp_steam_alloy_smelter"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hp_steam_compressor"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hp_steam_extractor"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hp_steam_miner"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hp_steam_rock_crusher"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hp_steam_solid_boiler"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hp_steam_liquid_boiler"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hp_steam_solar_boiler"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hp_steam_forge_hammer"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hp_steam_macerator"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hp_steam_furnace"
+							}
+						]
+					}
+				}
+				title: "Any High Pressure Machine"
+				type: "item"
+			}]
+			title: "High-Pressure Machines"
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["78730BBC6D347D48"]
+			description: [
+				"The reason you are going to the nether is because there are valuable Sulfur veins and netherrack there. You can smelt the sulfur ore to get sulfur, which you can then combine with rubber pulp to get rubber ingots, which you can then turn into rubber plates! You'll need a bit of rubber to unlock &7LV&r, and there you'll need a LOT of rubber to progress, so luckily there's a better recipe with some electric machines."
+				""
+				"If you can't easily find a sulfur vein then you can use netherrack for a less efficient recipe."
+			]
+			icon: "gtceu:rubber_plate"
+			id: "5FDD97D2EA0ADA28"
+			subtitle: "Going to hell and back just for this"
+			tasks: [
+				{
+					id: "47DF36AB5852213A"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:netherrack_dust"
+								}
+								{
+									Count: 1b
+									id: "gtceu:sulfur_dust"
+								}
+							]
+						}
+					}
+					title: "Rubber Catalysts"
+					type: "item"
+				}
+				{
+					id: "10B9A200D63CE408"
+					item: "gtceu:rubber_plate"
+					type: "item"
+				}
+			]
+			title: "Rubber"
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5FDD97D2EA0ADA28"]
+			description: ["Time to make an &7LV&r hull. It needs quite a bit of steel, some wrought iron, and some tin cables, which need rubber."]
+			id: "623FFB6D921A7155"
+			subtitle: "You'll need a lot of this #1"
+			tasks: [{
+				id: "435CA3CBB825857B"
+				item: "gtceu:lv_machine_hull"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"5FDD97D2EA0ADA28"
+				"72490A59CC78B9CD"
+				"27CF48A8255DE7DE"
+			]
+			description: ["Now you can make &rBasic Electronic Circuits&r, your &ofirst proper circuits&r! Congrats! These will be used in almost every &7LV&r machine. Most of the times you'll only need 2, but some will need 1 or 4."]
+			id: "292855401877F96E"
+			subtitle: "You'll need a lot of this #2"
+			tasks: [{
+				id: "214D2D5DBA703F96"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"You might be thinking, &d\"UGHHHHH. I HATE MAKING PAPER IN GREGTECH.\"&r Well, now it's easier! You don't need sugarcane anymore, as you can just use wood planks!"
+				"Why am I saying this? Well, it's because you will need paper to make resistors, along with a bunch of other stuff. Happy microcrafting!"
+			]
+			hide_dependency_lines: true
+			id: "72490A59CC78B9CD"
+			subtitle: "Now less tedious!"
+			tasks: [{
+				count: 2L
+				id: "6D686664C3339555"
+				item: { Count: 2, id: "gtceu:resistor" }
+				type: "item"
+			}]
+			title: "Resistor"
+			x: 16.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5FDD97D2EA0ADA28"]
+			description: ["Use some redstone to polarise some rods, and use rubber to make a few more tin cables... Have I mentioned that you'll need a LOT of tin cables? Yeah, you'll need a LOT of tin cables. Anyways, basically every &7LV&r machine will need a few motors to make, so you should bulk craft some."]
+			id: "3C090B643C3020E3"
+			subtitle: "You'll need a lot of this #3"
+			tasks: [{
+				id: "345A610E5C4AEB82"
+				item: "gtceu:lv_electric_motor"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["55ACAF8733D01A33"]
+			description: [
+				"The &lElectron tube&r is like the Vacuum Tube but with less microcrafting. Also, it's used for Create stuff."
+				"To make it, you'll need rose quartz, which you need to make in an alloy smelter with 8 redstone and 1 nether quartz. Then, you'll need some sand paper. Hold the sand paper in your offhand and the rose quartz in your main hand and hold right click to polish the quartz."
+			]
+			id: "7F5FB5E6AC4C514E"
+			subtitle: "Vacuum Tube at Home"
+			tasks: [{
+				id: "0387236CACC963CE"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"292855401877F96E"
+				"623FFB6D921A7155"
+				"3C090B643C3020E3"
+			]
+			description: ["By assembling your &7LV&r Hull, circuits and motor, you can make the &lSteam Turbine&r - a machine that will turn steam into electricity valuable for LV!"]
+			id: "1790658601A1E187"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Onto the Electric Age!"
+			tasks: [{
+				id: "5C8B5F4C2C7B25B5"
+				item: "gtceu:lv_steam_turbine"
+				type: "item"
+			}]
+			title: "LV Unlocked!"
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F3222F2085F1EC1"]
+			description: [
+				"Now that you have steel, you have access to an improved water pump to feed your boilers - the &9Mechanical Pump&r or &9Hose Pulley&r from &6Create&r!"
+				"Just shove it in a pond, hook it up to your boilers and give it some rotation and you've got automatic water!"
+			]
+			id: "4F41728D90EEEB5A"
+			subtitle: "Goodbye primitive water pump!"
+			tasks: [{
+				id: "68065566D1A9A298"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "create:mechanical_pump"
+							}
+							{
+								Count: 1b
+								id: "create:hose_pulley"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Automatic Water"
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["55ACAF8733D01A33"]
+			description: ["Now you can make the &lSteam Animal Trapper&r -- a totally ethical machine that can get you some caged animals! This is the only way to get them."]
+			icon: "gtceu:steam_animal_trapper"
+			id: "2A57686A7FF98892"
+			rewards: [{
+				count: 4
+				id: "6817AA9A72ED178A"
+				item: "minecraft:oak_sapling"
+				type: "item"
+			}]
+			subtitle: "Trapped in the Closet"
+			tasks: [
+				{
+					id: "2F5076AB4E51C3F3"
+					item: "gtceu:steam_animal_trapper"
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "6DF1F84AEE7DE042"
+					item: { Count: 24, id: "gtceu:ceramic_steel_frame" }
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "2C07BE6111FC581E"
+					item: "gtceu:steam_machine_casing"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "4D70BF64A8EBF19C"
+					item: { Count: 9, id: "minecraft:dirt" }
+					type: "item"
+				}
+				{
+					id: "63635EE37236B72A"
+					item: "minecraft:hay_block"
+					type: "item"
+				}
+				{
+					id: "473B946FAD11B06F"
+					item: "gtceu:steam_input_bus"
+					type: "item"
+				}
+				{
+					id: "0C9C2DABE4432EA4"
+					item: "gtceu:steam_output_bus"
+					type: "item"
+				}
+				{
+					id: "0E24CECD564F2BC5"
+					item: "gtceu:steam_input_hatch"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2A57686A7FF98892"]
+			description: ["After getting some caged animals, you can breed them to get MORE caged animals! Yahoo! I recommend making a &2crop farm&r with &6Create&r if you want to automate this. Also this takes a LOOOOOOT of bronze."]
+			icon: "gtceu:steam_ranch"
+			id: "1F3FBA0B2B40D54B"
+			subtitle: "Ram Ranch"
+			tasks: [
+				{
+					id: "638F1EB890661BDA"
+					item: "gtceu:steam_ranch"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "0CA011ED90538838"
+					item: { Count: 12, id: "gtceu:ceramic_steel_frame" }
+					type: "item"
+				}
+				{
+					count: 22L
+					id: "500782EB96A1803D"
+					item: "gtceu:wood_frame"
+					type: "item"
+				}
+				{
+					id: "1B1EE4C85A539ABA"
+					item: "gtceu:steam_input_bus"
+					type: "item"
+				}
+				{
+					id: "27FE4EF4D8056455"
+					item: "gtceu:steam_output_bus"
+					type: "item"
+				}
+				{
+					id: "2112DB62DC283A77"
+					item: "gtceu:steam_input_hatch"
+					type: "item"
+				}
+				{
+					count: 30L
+					id: "2881F169216B3036"
+					item: "gtceu:steam_machine_casing"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6E6C497C6BB536DC"
+					item: { Count: 2, id: "gtceu:bronze_gearbox" }
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "3D8B95590DA0D083"
+					item: "minecraft:oak_slab"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3BCA04825B5E8A99"
+					item: { Count: 2, id: "minecraft:oak_fence_gate" }
+					type: "item"
+				}
+				{
+					count: 52L
+					id: "0BAF5CBB859198AD"
+					item: { Count: 52, id: "minecraft:oak_fence" }
+					type: "item"
+				}
+				{
+					count: 18L
+					id: "33C19D62184977B0"
+					item: { Count: 18, id: "minecraft:dirt" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["292855401877F96E"]
+			description: ["By making your first &9LV Circuits&r, you can make a &6Mechanical Arm&r. This fella can make logistics more simple by being able to retrieve and distribute items from lots of places. Just make sure to make depots!"]
+			id: "6770F98C837DE0D5"
+			subtitle: "Clanker"
+			tasks: [{
+				id: "4AEB4F259501FE2C"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1F3FBA0B2B40D54B"]
+			description: ["What can you do with all of these caged animals? Kill them of course! &cTotally very very &4outrageously &lludicrously &oethical&r! But after killing them, you can get some automatic meat!"]
+			icon: "gtceu:steam_butcher"
+			id: "28503F057E2450BE"
+			subtitle: "PETA is Seething"
+			tasks: [
+				{
+					id: "4F5F5C7E9BD05CA8"
+					item: "gtceu:steam_butcher"
+					type: "item"
+				}
+				{
+					count: 17L
+					id: "7FF475A682CE856E"
+					item: "gtceu:steam_machine_casing"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "55AD9498557B41EA"
+					item: { Count: 12, id: "gtceu:ceramic_steel_frame" }
+					type: "item"
+				}
+				{
+					id: "633E24EC22697CF8"
+					item: "gtceu:steam_input_hatch"
+					type: "item"
+				}
+				{
+					id: "74BD332685C1D55B"
+					item: "gtceu:steam_input_bus"
+					type: "item"
+				}
+				{
+					id: "5F0DD74D4B91E4E1"
+					item: "gtceu:steam_output_bus"
+					type: "item"
+				}
+				{
+					id: "5A871328B1692F2B"
+					item: "minecraft:glass"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["505DC893459EBF3D"]
+			description: [
+				"If you have made a primitive excavator or two, now is your time to &6upgrade it to steam level&r!"
+				""
+				"The &lSteam Excavator&r is a multiblock machine that works like the Primitive Excavator, but it is vastly more fuel efficient as it uses &7steam&r instead of &0coal&r. It is also vastly easier to automate since you can make steam in dozens of ways."
+			]
+			icon: "gtceu:steam_excavator"
+			id: "4EF43043B888E9A9"
+			subtitle: "iExcavator 9 Pro Max"
+			tasks: [
+				{
+					id: "55A424A93AC2B295"
+					item: "gtceu:steam_excavator"
+					type: "item"
+				}
+				{
+					count: 17L
+					id: "3E24FE306E00EBD4"
+					item: { Count: 17, id: "kubejs:bronze_plated_excavator_bricks" }
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "48D5AB5F53750A3D"
+					item: { Count: 15, id: "gtceu:ceramic_steel_frame" }
+					type: "item"
+				}
+				{
+					id: "3B06029C88AEF73C"
+					item: "gtceu:steam_input_bus"
+					type: "item"
+				}
+				{
+					id: "4C4DBDEE5ECC792D"
+					item: "gtceu:steam_output_bus"
+					type: "item"
+				}
+				{
+					id: "0E6DBFA43EE78D36"
+					item: "gtceu:steam_input_hatch"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6B369B12B4D4D1B8"]
+			description: ["The &lPrimitive Blast Furnace&r is a very important multiblock because it is your first way to obtain &7Steel&r. However, it is very slow, so you might want to make more of them."]
+			icon: "gtceu:primitive_blast_furnace"
+			id: "691E9885449AB55F"
+			subtitle: "Sonic Blaster"
+			tasks: [
+				{
+					id: "6654E101508FBB6D"
+					item: "gtceu:primitive_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "6A73717A73239D3A"
+					item: { Count: 32, id: "gtceu:firebricks" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"By the end of this age you will need rubber. You can get it right now by turning sticky resin from rubber trees into rubber pulp and alloying it with sulfur to get rubber bars."
+				""
+				"If you can't find rubber trees, this is what this quest is for! Simply turn in a wrought iron buzzsaw blade and you will recieve rubber wood saplings. No need to thank me!"
+			]
+			id: "376CC82A0709F7F1"
+			rewards: [{
+				count: 8
+				id: "3A49E96631694932"
+				item: "gtceu:rubber_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "139E3745FAFE4F5B"
+				item: "gtceu:wrought_iron_buzz_saw_blade"
+				type: "item"
+			}]
+			title: "A Trade"
+			x: 2.0d
+			y: -2.0d
+		}
+	]
+	subtitle: ["Full Steam Ahead"]
+	title: "Steam Age"
+}

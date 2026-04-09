@@ -1,0 +1,1491 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lv"
+	group: "45DE873674286673"
+	icon: "gtceu:lv_electric_motor"
+	id: "7DD23B7D81883C61"
+	images: [
+		{
+			height: 1.0d
+			image: "diggyfactory:textures/quests/lv.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "diggyfactory:textures/quests/lmv.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "diggyfactory:textures/quests/mv.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 15.0d
+			y: 1.5d
+		}
+	]
+	order_index: 2
+	quest_links: [
+		{
+			id: "49D406C7FC2E1232"
+			linked_quest: "1790658601A1E187"
+			shape: "gear"
+			size: 2.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "3306227EC2F7C54C"
+			linked_quest: "6C835BC3CB832C2B"
+			shape: "gear"
+			size: 2.0d
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			id: "6D13FAF367305B2C"
+			linked_quest: "51B99BC6E9B675BA"
+			x: 9.0d
+			y: 0.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["1790658601A1E187"]
+			description: ["The &lWiremill&r is probably the first machine that you'll make in &7Low Voltage&r. It can turn 1 ingot into 2 wires, so it'll make a LOT of recipes much easier!"]
+			id: "5D74D6F0E45BC71C"
+			subtitle: "Wire you doing this?"
+			tasks: [{
+				id: "2BE6CA9786B5BC36"
+				item: "gtceu:lv_wiremill"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1790658601A1E187"]
+			description: ["Now you can make the &lBending Machine&r! It's basically an improved Forge Hammer when it comes to plates, because now the ingot to plate ratio is 1:1 instead of 3:2!"]
+			id: "69561C5FE389E808"
+			subtitle: "Ben Dover"
+			tasks: [{
+				id: "5FD38E05940DB0B0"
+				item: "gtceu:lv_bender"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1790658601A1E187"]
+			description: ["Make a &lLathe&r to be able to turn an ingot into 2 rods. This is more efficient than doing it by hand with a file, which gave you 1 rod per ingot."]
+			id: "6389E73010F05D4B"
+			subtitle: "Rod Inserter"
+			tasks: [{
+				id: "078B119206EC21C4"
+				item: "gtceu:lv_lathe"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6389E73010F05D4B"
+				"69561C5FE389E808"
+				"5D74D6F0E45BC71C"
+			]
+			description: ["The &lAssembler&r can automate some crafting recipes, if you want a way more expensive version of a mechanical crafter, for some reason. But where it truly shines is with its exclusive recipes, like the recipe to make blast furnace coils. &eIt can also make circuit components much more efficiently!!!"]
+			id: "5E03AFFA39D5E340"
+			subtitle: "ASSembler"
+			tasks: [{
+				id: "52A6DF550C728947"
+				item: "gtceu:lv_assembler"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1790658601A1E187"]
+			description: [
+				"&lConductive Mixed-Salts Alloy&r, or &oCMSA&r, is the first &7LV&r superconductor. This means that wires made of this material will have &ono energy loss at all&r, so feel free to make power lines as long as you want!"
+				""
+				"By the end of LV/LMV, you will have &eManganese phosphide&r wires, which are also &7LV&r superconductors but they have a higher amperage than CMSA wires. This means that they can transmit more energy, so they're an upgrade."
+				"{@pagebreak}"
+				"&d\"GRRRRRR THIS ISNT REALISTIC ITS NOT IN REAL LIFE I HAVE NEVER, EVER ENCOUNTERED THIS AT MY 67 YEARS OF WORKING AT CERN!!!!!! I HATE THIS PACK!!!!!\"&r -The crustiest, greasiest greghead"
+			]
+			icon: "gtceu:conductive_mixed_salts_alloy_ingot"
+			id: "0493F54BBA7B53CA"
+			shape: "pentagon"
+			subtitle: "Your First Superconductor"
+			tasks: [
+				{
+					id: "722122A28140EC1F"
+					item: "gtceu:conductive_mixed_salts_alloy_ingot"
+					type: "item"
+				}
+				{
+					id: "76EF0A541152858C"
+					item: "gtceu:conductive_mixed_salts_alloy_single_wire"
+					type: "item"
+				}
+			]
+			title: "CMSA"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1790658601A1E187"]
+			description: ["You might think, \"Quest book! I already have a steam extractor! Why would I need another one?\" Well, that's because the &lElectric Extractor&r can &9melt stuff&r! The molten stuff can later be solidifed in a Fluid Extractor, or used in an exclusive Assembler recipe, along with other stuff."]
+			id: "6ECAC46D9A42C571"
+			subtitle: "AND THEY EXTRACT IT! #2"
+			tasks: [{
+				id: "04FA62804E274E51"
+				item: "gtceu:lv_extractor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1790658601A1E187"]
+			description: ["The &lArc Furnace&r is a machine that can recycle other machines into most of their constituent metals using oxygen. However, it can also make &aGlass&r super efficiently and make &6Annealed Copper&r, which will be used for a bunch of new recipes. "]
+			id: "21751E823716D187"
+			subtitle: "Recycling Bin"
+			tasks: [{
+				id: "26CB506557C85D3C"
+				item: "gtceu:lv_arc_furnace"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"21751E823716D187"
+				"6ECAC46D9A42C571"
+				"5E03AFFA39D5E340"
+			]
+			description: ["Using your &8Arc Furnace&r for annealed copper foil and your &aExtractor&r for liquid steel, you can combine them in an &cAssembler&r with some tin dust to make &lRectifiers&r! These will be used to make &9Decent Electronic Circuits&r, AKA your &9first LMV circuits&r."]
+			hide_dependency_lines: true
+			id: "6565C03B742C15CE"
+			subtitle: "Rec Room"
+			tasks: [{
+				id: "3A02ED2B1D4D5EE9"
+				item: "kubejs:rectifier"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E03AFFA39D5E340"]
+			description: ["The &lTreated Printed Circuit Board&r is the Circuit Board you'll use to make &aLMV&r circuits. It's made of wood and treated with &6Creosote&r."]
+			id: "5EFB5ADA75DB0D91"
+			subtitle: "TPCB"
+			tasks: [{
+				id: "64729F2798CA4A21"
+				item: "kubejs:treated_printed_circuit_board"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1790658601A1E187"]
+			description: ["The &lElectrolyzer&r is a decently easy to make machine that can &dseparate&r dusts and fluids into their individual components. It will be useful to unlock new resources that were hidden inside ones you may already have."]
+			id: "75E908DD55EE9B55"
+			subtitle: "Electroman Adventures"
+			tasks: [{
+				id: "4C93CC2D14E2D8D5"
+				item: "gtceu:lv_electrolyzer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"5E03AFFA39D5E340"
+				"4A7BA0317649F0FA"
+			]
+			description: [
+				"&oWhat? Were you expecting the Electric Blast Furnace?&r"
+				"&5Not here!&r"
+				"The EBF is gated behing LMV circuits, which require &3germanium&r to make. How do you make germanium?"
+				"With the &lVapor Distiller&r!"
+				"The Vapor Distiller will be your first electric multiblock machine, and it pumps fluids into raw ores to exctract valuable byproducts from them. Here, you'll use it to make germanium."
+				""
+				"{@pagebreak}"
+				"You'll need to &doverclock&r it to &bMV&r to be able to run the recipe, so you'll need 2 &7LV&r energy hatches."
+			]
+			icon: "gtceu:vapor_distiller"
+			id: "4A49F683044241DD"
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Pumping stuff into ores to crack them up"
+			tasks: [
+				{
+					id: "5513E96C563EE667"
+					item: "gtceu:vapor_distiller"
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "1B4F903A58F3B930"
+					item: { Count: 15, id: "gtceu:solid_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "6973C54A7357883A"
+					item: "gtceu:bronze_frame"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "27F669B1E715BD17"
+					item: { Count: 2, id: "gtceu:steel_pipe_casing" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6AC36C7AA62FA0A6"
+					item: { Count: 2, id: "gtceu:lv_energy_input_hatch" }
+					type: "item"
+				}
+				{
+					id: "2593F18E24F4B561"
+					item: "gtceu:lv_input_bus"
+					type: "item"
+				}
+				{
+					id: "594ABB183C580FBE"
+					item: "gtceu:lv_output_bus"
+					type: "item"
+				}
+				{
+					id: "294761C86E4EAB57"
+					item: "gtceu:lv_input_hatch"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4A49F683044241DD"]
+			description: [
+				"Now you have unlocked &3Germanium&r!"
+				"Use it to make your first LMV circuits."
+			]
+			id: "43D9C8F269A7D3BF"
+			subtitle: "Germa985"
+			tasks: [{
+				id: "0B61914BAD3F8DB4"
+				item: "gtceu:ge_element_ingot"
+				type: "item"
+			}]
+			title: "Germanium"
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"6565C03B742C15CE"
+				"5EFB5ADA75DB0D91"
+				"43D9C8F269A7D3BF"
+				"292855401877F96E"
+			]
+			description: [
+				"After some hard work, you have unlocked your first Low-Medium Voltage circuits, Decent Electronic Circuits!"
+				"You will use them to make the &aElectric Blast Furnace&r, and to make &bMedium Voltage&r circuits."
+			]
+			id: "17E60B78049026C7"
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "LMV Unlocked!!!"
+			tasks: [{
+				id: "5B42788D15BCB8FB"
+				item: "kubejs:decent_electronic_circuit"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"691E9885449AB55F"
+				"17E60B78049026C7"
+			]
+			description: [
+				"Who's ready for another big boy? I sure am, so good thing the &aElectric Blast Furnace&r is coming!"
+				""
+				"The &lElectric Blast Furace&r, or &oEBF&r, is a multiblock machine that serves as a big furnace that can smelt stuff at very high temperatures. It's &ostupidly&r useful. Right now, you'll want it so that you can smelt &3aluminium dust&r into ingots, as that is the material used to make &bMV&r machinery."
+				"{@pagebreak}"
+				"The &bEBF&r is VERY energy hungry, so either upgrade your power generation or create a battery buffer."
+				""
+				"Also, it can make steel faster!"
+			]
+			icon: "gtceu:electric_blast_furnace"
+			id: "10A99CBED28EC735"
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Blast Processing"
+			tasks: [
+				{
+					id: "1A872E7BF16DC5A0"
+					item: "gtceu:electric_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "48F94818F53A42F3"
+					item: { Count: 9, id: "gtceu:heatproof_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "47ED2023623B562F"
+					item: "gtceu:cupronickel_coil_block"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "55A9B26B18B858AA"
+					item: { Count: 2, id: "gtceu:lv_energy_input_hatch" }
+					type: "item"
+				}
+				{
+					id: "61CD01873920742A"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:ulv_input_bus"
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_input_bus"
+								}
+							]
+						}
+					}
+					title: "ULV or LV Input Bus"
+					type: "item"
+				}
+				{
+					id: "296CCEF922D1E4F2"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:ulv_output_bus"
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_output_bus"
+								}
+							]
+						}
+					}
+					title: "ULV or LV Output Bus"
+					type: "item"
+				}
+				{
+					id: "173F795C119EA54E"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:ulv_input_hatch"
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_input_hatch"
+								}
+							]
+						}
+					}
+					title: "ULV or LV Input Hatch"
+					type: "item"
+				}
+				{
+					id: "12D2ECE1F54AF867"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:ulv_output_hatch"
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_output_hatch"
+								}
+							]
+						}
+					}
+					title: "ULV or LV Output Hatch"
+					type: "item"
+				}
+				{
+					id: "13D87AF084F05B84"
+					item: "gtceu:maintenance_hatch"
+					type: "item"
+				}
+				{
+					id: "7613B8022CAE49E9"
+					item: "gtceu:lv_muffler_hatch"
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["75E908DD55EE9B55"]
+			description: ["After shoving random stuff in your new &5Electrolyzer&r &o(or just browsing EMI for a bit)&r, you see that you can make &3aluminium dust&r by separating &1sapphire dust&r! It doesn't seem like you can smelt it in a &7furnace&r, though. Maybe you'll need something more &apowerful&r..."]
+			id: "5073AE3BA9095A05"
+			subtitle: "Alu? Might!"
+			tasks: [{
+				id: "258CAD0AFF8A74EE"
+				item: "gtceu:aluminium_dust"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"5073AE3BA9095A05"
+				"10A99CBED28EC735"
+			]
+			description: ["Much like how &8steel&r was the main material of &7LV&r machines, &3aluminium&r will be the material of &bMV&r machines. Because of that, you will need a lot of it, and if you don't want to wait a while, you should probably leave it cooking in your &aEBF&r in the background while you do other stuff."]
+			id: "2FD35380843C5225"
+			subtitle: "Move outta the way, steel"
+			tasks: [{
+				id: "31D04081068821D2"
+				item: "gtceu:aluminium_ingot"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1790658601A1E187"]
+			description: [
+				"The &lCentrifuge&r is a machine similar to the &9Electrolyzer&r because it also separates things, but the centrifuge separates things by spinning, while the electrolyzer uses electricity."
+				""
+				"But just because these two do the same thing, doesn't mean that you don't need one of them! The centrifuge and electrolyzer have different recipes that they can do."
+				""
+				"&9Note&r: Like the Assembler, the Centrifuge requires 4 circuits to make!"
+			]
+			id: "0FD5CCFA88F7C821"
+			subtitle: "You spin me right round"
+			tasks: [{
+				id: "19F909B5FBC09519"
+				item: "gtceu:lv_centrifuge"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["75E908DD55EE9B55"]
+			description: ["The &lChemical Reactor&r can, well, react chemicals together. You will need it to synthesise acids and other kooky stuff. Yay!"]
+			id: "4A7BA0317649F0FA"
+			subtitle: "Chemtrail"
+			tasks: [{
+				id: "7DB81232E347D9C0"
+				item: "gtceu:lv_chemical_reactor"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["75E908DD55EE9B55"]
+			description: [
+				"You may notice that some machines now have &9fluids&r as inputs and outputs. You can't hold them in your hands, so how do you carry them around? The answer is with fluid cells and drums!"
+				""
+				"&7Fluid Cells&r are for amounts of fluids less than a bucket."
+				"&6Drums&r are for amounts of fluids that are more than a bucket. They can be made out of various materials."
+				""
+				"To grab a fluid, click on the fluid slot with an empty fluid cell or drum."
+				"To drop a fluid, click on the empty slot you want the fluid to go with a non empty fluid cell or drum."
+				""
+				"To carry acids use a gold drum!"
+			]
+			id: "0E61079B53310779"
+			shape: "pentagon"
+			subtitle: "Glug glug"
+			tasks: [
+				{
+					id: "173902918CB735A6"
+					item: "gtceu:fluid_cell"
+					type: "item"
+				}
+				{
+					id: "76104AD80020C77B"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:bronze_drum"
+								}
+								{
+									Count: 1b
+									id: "gtceu:gold_drum"
+								}
+								{
+									Count: 1b
+									id: "gtceu:steel_drum"
+								}
+							]
+						}
+					}
+					title: "Any Starter Drum"
+					type: "item"
+				}
+			]
+			title: "Fluids and You"
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0FD5CCFA88F7C821"]
+			description: ["&lArsenic&r is an element that you can get by &dcentrifuging&r &4realgar dust&r that you can get from &7mining&r. It's needed to make &9gallium arsenide&r to make your first &bMV&r circuits."]
+			id: "5F4770BACEEC10BD"
+			subtitle: "Maybe a bit Dangerous"
+			tasks: [{
+				id: "6C00571592B19C37"
+				item: { Count: 2, id: "gtceu:arsenic_dust" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1790658601A1E187"]
+			description: ["The &lChemical Bath&r is an ore processing machine that bathes ores in chemicals to obtain their byproducts. For now you'll be using it to obtain &9gallium&r."]
+			id: "07D50AD17AC85DF3"
+			subtitle: "Bathtub"
+			tasks: [{
+				id: "4FD1951B0DFF26AD"
+				item: "gtceu:lv_chemical_bath"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"07D50AD17AC85DF3"
+				"75E908DD55EE9B55"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&lGallium&r is an element that you'll need to mix with arsenic to make &9gallium arsenide&r, to make &bMV&r circuits."
+				""
+				"You can make it in 2 ways: Make a &achemical bath&r and bathe crushed bauxite or sphalerite to obtain gallium at a 70% chance, or &eelectrolyse&r sphalerite dust to obtain gallium at a 7.5% chance."
+				""
+				"If you  are using the &eelectrolysation&r method, it might be a good idea to make a &achemical bath&r for a higher chance at obtaining gallium. Think of it as a long term investment!"
+				"{@pagebreak}"
+				"&9NOTE:&r You can unlock this quest by doing any of the dependency quests, you don't need all of them!"
+			]
+			hide_dependency_lines: true
+			id: "51CC576BAE42A29E"
+			subtitle: "Hard to get"
+			tasks: [{
+				id: "5A3387472981C0D6"
+				item: "gtceu:gallium_dust"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"51CC576BAE42A29E"
+				"5F4770BACEEC10BD"
+				"34FA2F5DC211EDF5"
+			]
+			description: ["&lGallium Arsenide&r is a &overy important semiconductor&r that you will need for your first &bMV&r circuit components! Get it by making a mixer and mixing gallium and arsenic."]
+			id: "0CDC3425006E627F"
+			subtitle: "Circuit Maker"
+			tasks: [{
+				id: "194822A887EFD17B"
+				item: "gtceu:gallium_arsenide_dust"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1790658601A1E187"]
+			description: [
+				"The &lMixer&r is a machine that mixes stuff together!"
+				""
+				"&9&o\"But quest book... I can already mix stuff with my hands! Why do i need a dedicated machine for it?\"&r"
+				""
+				"Well, your hands aren't good enough for the things we're going to be mixing, like gallium and arsenic."
+			]
+			id: "34FA2F5DC211EDF5"
+			subtitle: "PicMix"
+			tasks: [{
+				id: "758116BD5CA44FA2"
+				item: "gtceu:lv_mixer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"0CDC3425006E627F"
+				"5E03AFFA39D5E340"
+			]
+			description: [
+				"Now that you have &9gallium arsenide&r, you can make new, more complicated circuit components like &lDiodes&r."
+				""
+				"Later on, in &6HV&r, you will unlock better diodes."
+			]
+			id: "1E0F5B181B7522A3"
+			subtitle: "More complicated resistor"
+			tasks: [{
+				id: "0387BE935448F114"
+				item: "gtceu:diode"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1E0F5B181B7522A3"
+				"17E60B78049026C7"
+			]
+			description: ["Now it's time to put everything together! By crafting diodes, decent electronic circuits and some more stuff that you can make by now, you can achieve &bMV&r circuits!"]
+			id: "3CD6711097E21E07"
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "You'll need a lot of this... again"
+			tasks: [{
+				id: "2B52540413619753"
+				item: "gtceu:good_electronic_circuit"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2FD35380843C5225"]
+			description: [
+				"Now that you have &baluminium&r, you can make the &5proper hulls&r for &bMV&r machines!"
+				""
+				"These require &6copper&r cables, which can't be made by hand. They need to be made in an &9assembler&r."
+			]
+			id: "1352586DD41A850C"
+			subtitle: "Better than Steel"
+			tasks: [{
+				id: "316DBB510CC69A73"
+				item: "gtceu:mv_machine_hull"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"1352586DD41A850C"
+				"3CD6711097E21E07"
+			]
+			description: ["Now that you have both &bMV&r &acircuits&r and &ehulls&r, you have unlocked the &bMV&r age! &bMV&r machines are &efaster&r and have &dmore recipes&r!"]
+			icon: "gtceu:mv_electric_motor"
+			id: "24C3CEB85F968221"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Diving into Chemistry"
+			tasks: [{
+				id: "05FD14901E7E6A10"
+				title: "Let's Go!"
+				type: "checkmark"
+			}]
+			title: "MV Unlocked!"
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3CD6711097E21E07"]
+			description: [
+				"Now that you have &bMV&r circuits, you have unlocked an &7LV&r machine so extraordinary that it requires circuits 1 tier above. I'm talking about the &lCircuit Assembler&r."
+				"The Circuit Assembler unlocks new recipes for &7LV&r, LMV and &bMV&r circuits. "
+			]
+			id: "70821C7B6101D013"
+			subtitle: "50% Off"
+			tasks: [{
+				id: "3B380B5280D76E28"
+				item: "gtceu:lv_circuit_assembler"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["10A99CBED28EC735"]
+			description: ["Now that you have the &aEBF&r, you can make &6manganese phosphide&r ingots to turn into &dwires&r. Just like CMSA wires, they have no wire loss, but these have double the amperage."]
+			icon: "gtceu:manganese_phosphide_ingot"
+			id: "13591D345C14DD33"
+			shape: "pentagon"
+			subtitle: "A Better Superconductor"
+			tasks: [
+				{
+					id: "4131765265886D8E"
+					item: "gtceu:manganese_phosphide_ingot"
+					type: "item"
+				}
+				{
+					id: "3577A142C1CD8AE1"
+					item: "gtceu:manganese_phosphide_single_wire"
+					type: "item"
+				}
+			]
+			title: "Manganese Phosphide"
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1790658601A1E187"]
+			description: [
+				"A lot of the gases in the air are useful, such as &anitrogen&r to shorten EBF recipe times and &boxygen&r for arc furnaces and chemical reactions. But how can we obtain the air to extract these gases?"
+				""
+				"The answer is the &lGas Collector&r, a machine that can pump in the air and provide it as a fluid for processing."
+			]
+			id: "5DFB1C69F0B8D4DB"
+			subtitle: "This Questline Needs A Hero!"
+			tasks: [{
+				id: "6A9B3CEF9BE9210B"
+				item: "gtceu:lv_gas_collector"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2FD35380843C5225"]
+			description: ["Now that you have &baluminium&r you can make an &b&lMV Drill&r! MV drills will make 3x3x3 holes, which is 3x the amount you make with your normal iron &7LV&r drill."]
+			icon: {
+				Count: 1
+				id: "gtceu:mv_diamond_drill"
+				tag: {
+					Charge: 2147483647L
+					DisallowContainerItem: 0b
+					GT.Behaviours: {
+						AoEColumn: 1
+						AoELayer: 2
+						AoERow: 1
+						MaxAoEColumn: 1
+						MaxAoELayer: 2
+						MaxAoERow: 1
+						TorchPlacing: 1b
+					}
+					GT.Tool: {
+						Damage: 0
+						HarvestLevel: 3
+						MaxDamage: 3071
+						ToolSpeed: 10.0f
+					}
+					HideFlags: 2
+					MaxCharge: 2147483647L
+				}
+			}
+			id: "50CFF78D77974EEE"
+			shape: "pentagon"
+			subtitle: "Drill Baby Drill... Even More"
+			tasks: [
+				{
+					id: "61F8A0529FF9C8EA"
+					item: "gtceu:mv_power_unit"
+					type: "item"
+				}
+				{
+					id: "14DCB2A94B35461A"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:mv_aluminium_drill"
+									tag: {
+										Charge: 2147483647L
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											AoEColumn: 1
+											AoELayer: 2
+											AoERow: 1
+											MaxAoEColumn: 1
+											MaxAoELayer: 2
+											MaxAoERow: 1
+											TorchPlacing: 1b
+										}
+										GT.Tool: {
+											AttackDamage: 8.5f
+											AttackSpeed: -3.2f
+											Damage: 0
+											HarvestLevel: 2
+											MaxDamage: 3071
+											ToolSpeed: 10.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:mv_iron_drill"
+									tag: {
+										Charge: 2147483647L
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											AoEColumn: 1
+											AoELayer: 2
+											AoERow: 1
+											MaxAoEColumn: 1
+											MaxAoELayer: 2
+											MaxAoERow: 1
+											TorchPlacing: 1b
+										}
+										GT.Tool: {
+											AttackDamage: 3.0f
+											AttackSpeed: -3.2f
+											Damage: 0
+											HarvestLevel: 2
+											MaxDamage: 1023
+											ToolSpeed: 6.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:mv_titanium_drill"
+									tag: {
+										Charge: 2147483647L
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											AoEColumn: 1
+											AoELayer: 2
+											AoERow: 1
+											MaxAoEColumn: 1
+											MaxAoELayer: 2
+											MaxAoERow: 1
+											TorchPlacing: 1b
+										}
+										GT.Tool: {
+											AttackDamage: 7.0f
+											AttackSpeed: -3.2f
+											Damage: 0
+											HarvestLevel: 3
+											MaxDamage: 6143
+											ToolSpeed: 12.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:mv_neutronium_drill"
+									tag: {
+										Charge: 2147483647L
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											AoEColumn: 1
+											AoELayer: 2
+											AoERow: 1
+											MaxAoEColumn: 1
+											MaxAoELayer: 2
+											MaxAoERow: 1
+											RelocateMinedBlocks: 1b
+											RelocateMobDrops: 1b
+											TorchPlacing: 1b
+										}
+										GT.Tool: {
+											AttackDamage: 101.0f
+											AttackSpeed: -2.7f
+											Damage: 0
+											HarvestLevel: 6
+											MaxDamage: 262139
+											ToolSpeed: 184.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+										Unbreakable: 1b
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:mv_duranium_drill"
+									tag: {
+										Charge: 2147483647L
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											AoEColumn: 1
+											AoELayer: 2
+											AoERow: 1
+											MaxAoEColumn: 1
+											MaxAoELayer: 2
+											MaxAoERow: 1
+											RelocateMinedBlocks: 1b
+											RelocateMobDrops: 1b
+											TorchPlacing: 1b
+										}
+										GT.Tool: {
+											AttackDamage: 13.0f
+											AttackSpeed: -2.9f
+											Damage: 0
+											HarvestLevel: 5
+											MaxDamage: 32767
+											ToolSpeed: 18.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:mv_bronze_drill"
+									tag: {
+										Charge: 2147483647L
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											AoEColumn: 1
+											AoELayer: 2
+											AoERow: 1
+											MaxAoEColumn: 1
+											MaxAoELayer: 2
+											MaxAoERow: 1
+											TorchPlacing: 1b
+										}
+										GT.Tool: {
+											Damage: 0
+											HarvestLevel: 2
+											MaxDamage: 767
+											ToolSpeed: 7.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:mv_diamond_drill"
+									tag: {
+										Charge: 2147483647L
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											AoEColumn: 1
+											AoELayer: 2
+											AoERow: 1
+											MaxAoEColumn: 1
+											MaxAoELayer: 2
+											MaxAoERow: 1
+											TorchPlacing: 1b
+										}
+										GT.Tool: {
+											Damage: 0
+											HarvestLevel: 3
+											MaxDamage: 3071
+											ToolSpeed: 10.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:mv_invar_drill"
+									tag: {
+										Charge: 2147483647L
+										DisallowContainerItem: 0b
+										Enchantments: [{
+											id: "minecraft:efficiency"
+											lvl: 1s
+										}]
+										GT.Behaviours: {
+											AoEColumn: 1
+											AoELayer: 2
+											AoERow: 1
+											MaxAoEColumn: 1
+											MaxAoELayer: 2
+											MaxAoERow: 1
+											TorchPlacing: 1b
+										}
+										GT.Tool: {
+											Damage: 0
+											HarvestLevel: 2
+											MaxDamage: 1535
+											ToolSpeed: 8.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:mv_sterling_silver_drill"
+									tag: {
+										Charge: 2147483647L
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											AoEColumn: 1
+											AoELayer: 2
+											AoERow: 1
+											MaxAoEColumn: 1
+											MaxAoELayer: 2
+											MaxAoERow: 1
+											TorchPlacing: 1b
+										}
+										GT.Tool: {
+											Damage: 0
+											HarvestLevel: 2
+											MaxDamage: 3071
+											ToolSpeed: 7.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:mv_rose_gold_drill"
+									tag: {
+										Charge: 2147483647L
+										DisallowContainerItem: 0b
+										Enchantments: [{
+											id: "minecraft:fortune"
+											lvl: 2s
+										}]
+										GT.Behaviours: {
+											AoEColumn: 1
+											AoELayer: 2
+											AoERow: 1
+											MaxAoEColumn: 1
+											MaxAoELayer: 2
+											MaxAoERow: 1
+											TorchPlacing: 1b
+										}
+										GT.Tool: {
+											Damage: 0
+											HarvestLevel: 2
+											MaxDamage: 3071
+											ToolSpeed: 16.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:mv_stainless_steel_drill"
+									tag: {
+										Charge: 2147483647L
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											AoEColumn: 1
+											AoELayer: 2
+											AoERow: 1
+											MaxAoEColumn: 1
+											MaxAoELayer: 2
+											MaxAoERow: 1
+											TorchPlacing: 1b
+										}
+										GT.Tool: {
+											Damage: 0
+											HarvestLevel: 3
+											MaxDamage: 4095
+											ToolSpeed: 11.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:mv_steel_drill"
+									tag: {
+										Charge: 2147483647L
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											AoEColumn: 1
+											AoELayer: 2
+											AoERow: 1
+											MaxAoEColumn: 1
+											MaxAoELayer: 2
+											MaxAoERow: 1
+											TorchPlacing: 1b
+										}
+										GT.Tool: {
+											Damage: 0
+											HarvestLevel: 3
+											MaxDamage: 2047
+											ToolSpeed: 9.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:mv_ultimet_drill"
+									tag: {
+										Charge: 2147483647L
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											AoEColumn: 1
+											AoELayer: 2
+											AoERow: 1
+											MaxAoEColumn: 1
+											MaxAoELayer: 2
+											MaxAoERow: 1
+											TorchPlacing: 1b
+										}
+										GT.Tool: {
+											Damage: 0
+											HarvestLevel: 4
+											MaxDamage: 8191
+											ToolSpeed: 14.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:mv_wrought_iron_drill"
+									tag: {
+										Charge: 2147483647L
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											AoEColumn: 1
+											AoELayer: 2
+											AoERow: 1
+											MaxAoEColumn: 1
+											MaxAoELayer: 2
+											MaxAoERow: 1
+											TorchPlacing: 1b
+										}
+										GT.Tool: {
+											AttackDamage: 3.0f
+											AttackSpeed: -3.4f
+											Damage: 0
+											HarvestLevel: 2
+											MaxDamage: 1535
+											ToolSpeed: 6.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:mv_tungsten_carbide_drill"
+									tag: {
+										Charge: 2147483647L
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											AoEColumn: 1
+											AoELayer: 2
+											AoERow: 1
+											MaxAoEColumn: 1
+											MaxAoELayer: 2
+											MaxAoERow: 1
+											TorchPlacing: 1b
+										}
+										GT.Tool: {
+											Damage: 0
+											HarvestLevel: 4
+											MaxDamage: 4095
+											ToolSpeed: 64.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:mv_hsse_drill"
+									tag: {
+										Charge: 2147483647L
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											AoEColumn: 1
+											AoELayer: 2
+											AoERow: 1
+											MaxAoEColumn: 1
+											MaxAoELayer: 2
+											MaxAoERow: 1
+											TorchPlacing: 1b
+										}
+										GT.Tool: {
+											Damage: 0
+											HarvestLevel: 4
+											MaxDamage: 12287
+											ToolSpeed: 9.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:mv_blue_steel_drill"
+									tag: {
+										Charge: 2147483647L
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											AoEColumn: 1
+											AoELayer: 2
+											AoERow: 1
+											MaxAoEColumn: 1
+											MaxAoELayer: 2
+											MaxAoERow: 1
+											TorchPlacing: 1b
+										}
+										GT.Tool: {
+											AttackDamage: 7.0f
+											AttackSpeed: -3.1000001f
+											Damage: 0
+											HarvestLevel: 3
+											MaxDamage: 4095
+											ToolSpeed: 19.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:mv_naquadah_alloy_drill"
+									tag: {
+										Charge: 2147483647L
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											AoEColumn: 1
+											AoELayer: 2
+											AoERow: 1
+											MaxAoEColumn: 1
+											MaxAoELayer: 2
+											MaxAoERow: 1
+											RelocateMinedBlocks: 1b
+											RelocateMobDrops: 1b
+											TorchPlacing: 1b
+										}
+										GT.Tool: {
+											Damage: 0
+											HarvestLevel: 5
+											MaxDamage: 12287
+											ToolSpeed: 44.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:mv_vanadium_steel_drill"
+									tag: {
+										Charge: 2147483647L
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											AoEColumn: 1
+											AoELayer: 2
+											AoERow: 1
+											MaxAoEColumn: 1
+											MaxAoELayer: 2
+											MaxAoERow: 1
+											TorchPlacing: 1b
+										}
+										GT.Tool: {
+											Damage: 0
+											HarvestLevel: 3
+											MaxDamage: 6143
+											ToolSpeed: 7.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:mv_tungsten_steel_drill"
+									tag: {
+										Charge: 2147483647L
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											AoEColumn: 1
+											AoELayer: 2
+											AoERow: 1
+											MaxAoEColumn: 1
+											MaxAoELayer: 2
+											MaxAoERow: 1
+											TorchPlacing: 1b
+										}
+										GT.Tool: {
+											Damage: 0
+											HarvestLevel: 4
+											MaxDamage: 8191
+											ToolSpeed: 13.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:mv_damascus_steel_drill"
+									tag: {
+										Charge: 2147483647L
+										DisallowContainerItem: 0b
+										Enchantments: [{
+											id: "minecraft:fortune"
+											lvl: 3s
+										}]
+										GT.Behaviours: {
+											AoEColumn: 1
+											AoELayer: 2
+											AoERow: 1
+											MaxAoEColumn: 1
+											MaxAoELayer: 2
+											MaxAoERow: 1
+											TorchPlacing: 1b
+										}
+										GT.Tool: {
+											Damage: 0
+											HarvestLevel: 3
+											MaxDamage: 4095
+											ToolSpeed: 10.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:mv_netherite_drill"
+									tag: {
+										Charge: 2147483647L
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											AoEColumn: 1
+											AoELayer: 2
+											AoERow: 1
+											MaxAoEColumn: 1
+											MaxAoELayer: 2
+											MaxAoERow: 1
+											TorchPlacing: 1b
+										}
+										GT.Tool: {
+											Damage: 0
+											HarvestLevel: 4
+											MaxDamage: 8127
+											ToolSpeed: 14.0f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:mv_cobalt_brass_drill"
+									tag: {
+										Charge: 2147483647L
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											AoEColumn: 1
+											AoELayer: 2
+											AoERow: 1
+											MaxAoEColumn: 1
+											MaxAoELayer: 2
+											MaxAoERow: 1
+											TorchPlacing: 1b
+										}
+										GT.Tool: {
+											Damage: 0
+											HarvestLevel: 2
+											MaxDamage: 4095
+											ToolSpeed: 6.5f
+										}
+										HideFlags: 2
+										MaxCharge: 2147483647L
+									}
+								}
+							]
+						}
+					}
+					title: "Any MV Drill"
+					type: "item"
+				}
+			]
+			title: "MV Drill"
+			x: 12.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5E03AFFA39D5E340"]
+			description: ["You are probably still feeding your boilers with either a primitive water pump or a mechanical pump. But both of these have downsides; The primitive pump is big, and the mechanical pump needs kinetic energy. Luckily, your new advances in technology have unlocked a new machine: The &9Aqueous accumulator&r. This machine, when put next to 2 water sources, will make water automatically! No energy required!"]
+			id: "2B9CA80E0CF8678C"
+			shape: "pentagon"
+			subtitle: "Another Upgrade"
+			tasks: [{
+				id: "301CCD6116838A1C"
+				item: "thermal:device_water_gen"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1790658601A1E187"]
+			description: ["The terminal is a very handy machine that speeds up assembling multiblocks. There are a lot of new multiblocks in this modpack, so it is a good alternative to looking at JEI over and over and over again."]
+			hide_dependency_lines: true
+			id: "2152E4CB5D738363"
+			subtitle: "You won't need this, but you'll want it"
+			tasks: [{
+				id: "418136EB6698281E"
+				item: "gtceu:terminal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+	]
+	subtitle: ["Onto the Electric Age!"]
+	title: "&7LV&r - Low Voltage"
+}

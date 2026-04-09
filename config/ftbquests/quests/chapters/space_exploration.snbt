@@ -1,0 +1,183 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "space_exploration"
+	group: "72EA3D2F4E57BF85"
+	icon: "gtceu:overworld_marker"
+	id: "5042B86F2E989E13"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&lEarth&r is the planet where you start. It's perfectly suited for life, so idk why you'd want to go anywhere else...."]
+			icon: "gtceu:overworld_marker"
+			id: "6087C5E8C2332215"
+			size: 2.0d
+			subtitle: "There isn't a planet B!"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "63ED0B145EC857EE"
+				type: "dimension"
+			}]
+			title: "Earth"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6087C5E8C2332215"
+				"6AD080671D52CF9C"
+			]
+			description: ["&lThe Nether&r is basically hell. It's quite dangerous, but you need it for a few ores, so there's no way getting around it."]
+			icon: "gtceu:the_nether_marker"
+			id: "40C335953901D049"
+			subtitle: "Toasty"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "7D22196CB33BF6AB"
+				title: "The Nether"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6087C5E8C2332215"]
+			icon: "df_planets:moon_marker"
+			id: "7F00DA8D6A2147FB"
+			size: 1.0d
+			subtitle: "Small Step for Man"
+			tasks: [{
+				dimension: "gcyr:luna"
+				id: "749AD3096152A27B"
+				type: "dimension"
+			}]
+			title: "Luna"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			icon: "df_planets:venus_marker"
+			id: "4914A81A549E87B2"
+			size: 2.0d
+			subtitle: "Hidden under the Clouds"
+			tasks: [{
+				dimension: "gcyr:venus"
+				id: "700178BEC3E15203"
+				type: "dimension"
+			}]
+			title: "Venus"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			icon: "df_planets:mercury_marker"
+			id: "46CC264EC8902FA5"
+			size: 2.0d
+			subtitle: "Can we find Vulcan?"
+			tasks: [{
+				dimension: "gcyr:mercury"
+				id: "7FC7464B478608CF"
+				type: "dimension"
+			}]
+			title: "Mercury"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			icon: "df_planets:sun_marker"
+			id: "6B459E46A3B22FF8"
+			size: 5.0d
+			subtitle: "The Heart of the System"
+			tasks: [{
+				id: "2F6B4D87B417C452"
+				title: "sun"
+				type: "checkmark"
+			}]
+			title: "Sol"
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			icon: "df_planets:mars_marker"
+			id: "7106CA22B60F0714"
+			size: 2.0d
+			subtitle: "Red World"
+			tasks: [{
+				dimension: "gcyr:mars"
+				id: "1109D4089FF92050"
+				type: "dimension"
+			}]
+			title: "Mars"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			icon: "df_planets:ceres_marker"
+			id: "3E322F70CF5B69F9"
+			subtitle: "Queen of the Asteroid Belt"
+			tasks: [{
+				dimension: "df_planets:ceres"
+				id: "7391DEB35D9EA05A"
+				title: "Ceres"
+				type: "dimension"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "1950FFA2715E606D"
+			size: 2.0d
+			subtitle: "But I'm the biggest Bird"
+			tasks: [{
+				id: "33F0CE17FE9D9E4B"
+				title: "Cool"
+				type: "checkmark"
+			}]
+			title: "Jupiter"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "58840326C1806051"
+			size: 2.0d
+			subtitle: "Storm Chasing"
+			tasks: [{
+				id: "60BADF050ABB8F5B"
+				title: "Cool"
+				type: "checkmark"
+			}]
+			title: "Neptune"
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			id: "487D48E7EC2D89B0"
+			size: 2.0d
+			subtitle: "Put a Ring on It"
+			tasks: [{
+				id: "1F693463AF6504B4"
+				title: "Cool"
+				type: "checkmark"
+			}]
+			title: "Saturn"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			id: "792D01A3690B8D80"
+			size: 2.0d
+			subtitle: "Incredible Gassy"
+			tasks: [{
+				id: "44D427FFF49F3BE5"
+				title: "Cool"
+				type: "checkmark"
+			}]
+			title: "Uranus"
+			x: 12.0d
+			y: 0.0d
+		}
+	]
+	subtitle: ["Reach for the Stars"]
+	title: "Space Exploration"
+}
