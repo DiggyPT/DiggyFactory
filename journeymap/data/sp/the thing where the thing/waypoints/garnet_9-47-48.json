@@ -1,0 +1,22 @@
+{
+  "id": "garnet_9-47-48",
+  "name": "garnet",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--10877246-waypoint-icon.png",
+  "x": 9,
+  "y": 47,
+  "z": 48,
+  "r": 90,
+  "g": 6,
+  "b": 194,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

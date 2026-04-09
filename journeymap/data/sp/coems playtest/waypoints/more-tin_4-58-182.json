@@ -1,0 +1,22 @@
+{
+  "id": "more-tin_4-58-182",
+  "name": "more tin",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--3678013-waypoint-icon.png",
+  "x": 4,
+  "y": 58,
+  "z": -182,
+  "r": 199,
+  "g": 224,
+  "b": 195,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

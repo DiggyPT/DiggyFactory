@@ -1,0 +1,117 @@
+LV multi: vapor distiller (ore processor, makes germanium)
+MV multi: polymerization chamber (chemical thing, makes polymers)
+
+HV: satellites and probes
+EV: nuclear processing, moon landing
+IV: interplanetary travel
+LuV: AI training
+ - Different types of AI for different fields and tasks
+UV: start projectE and quantum physics
+
+ENDGAME CIRCUITS
+UHV: Wetware
+ - Will use biomancy 2 or some gregged version of it!!!
+UEV: Chemical processors https://en.wikipedia.org/wiki/Chemical_computer
+UIV: Moleculartronic processors https://kardashev.fandom.com/wiki/Moleculartronic_computer
+ - Separate chemical lines for seperate logic stuff
+ - Needs new elements (feynmanium, armstrongium, etc)
+UXV: Extradimensional processors
+OpV: Suprachronal processors
+MAX: Infinite processors
+
+ENDGAME SUPERCONDUCTORS
+UEV: Molecular Tunnel-Array Alloy (MTAA)
+UIV: Metallic Hydrogen
+UXV: Monopole Assembly Metamaterial (MPAMM)
+OpV: Starfluid-Infused Infinity-Mundum (SIMI)
+
+ENDGAME POLYMERS
+Veneran Rubber (getting microbes from the upper atmosphere of Venus and hosting them in bio-chambers to make Veneran Bio-Residue which is processed to make Veneran Rubber, needs AI speciallised in bio stuff)
+
+
+MATERIALS
+Naquium (naquadah isotope)
+
+
+MULTIBLOCKS
+
+LV | Wind Turbine
+MV | Waterwheel
+HV | Decay Generator
+HV | Greenhouse
+HV | Plant Breeder
+HV | Plant Mutator
+EV | Titan Chloroplast Matrix (air + water + light (glowstone?) -> sugar + oxygen)
+EV | Metaboliser (sugar -> pyruvic acid + energy)
+EV | Planetary Wormway Assembler (makes portals to planets) (or maybe keep the rockets?)
+LuV | AI Training Center
+
+MATERIAL NAMES (stupid)
+St Madford matter
+Lancaster matter
+Pieron Mille matter
+Pucatongo
+Cuxigampa
+Centaurium
+Numai Khan
+
+PARTICLES
+all quarks
+Thuon
+Cuandavis (rizz quark)
+Broad-Omega matter
+
+PLANETS (goable)
+All rounded bodies can be gone to! (NAH NAH NAH WRONG I AINT DOING TS)
+V: Made
+P: Priority
+
+>Mercury 
+>Venus (V)
+>Earth (V)
+	>Luna (V)
+>Mars (V)
+>Ceres
+>Jupiter
+	>Io (P)
+	>Callisto
+	>Ganymede
+	>Europa (P)
+>Saturn
+	>Titan (P)
+	>Enceladus (P)
+	>Mimas
+	>Rhea
+	>Tethys
+	>Dione
+>Uranus
+	>Miranda
+	>Ariel
+	>Umbriel
+	>Titania
+	>Oberon
+>Neptune
+	>Triton (P)
+>Pluto (P)
+	>Charon
+>Eris (P)
+	>Dysnomia
+>Haumea (P)
+>Makemake (mk2)
+>Gonggong (xiangliu)
+>Quaoar (weywot)
+>Sedna
+>Orcus
+	>Vanth
+>Salacia
+	>Actaea
+>Máni
+>Ixion
+>Aya
+>Varuna
+>Varda (ilmarë)
+>Achlys
+>Chiminigagua
+>Planet Nine / Persephone
+	>Hera
+	>Trogdore

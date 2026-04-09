@@ -1,0 +1,5 @@
+{
+    "ldlib": {
+        "connection": "kubejs:block/poly_reaction_casing_ctm"
+    }
+}

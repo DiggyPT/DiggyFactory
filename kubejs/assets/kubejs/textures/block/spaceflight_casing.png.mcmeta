@@ -1,0 +1,5 @@
+{
+    "ldlib": {
+        "connection": "kubejs:block/spaceflight_casing_ctm"
+    }
+}

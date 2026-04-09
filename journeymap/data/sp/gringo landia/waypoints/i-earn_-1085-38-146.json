@@ -1,0 +1,22 @@
+{
+  "id": "i-earn_-1085-38-146",
+  "name": "i earn",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--15259456-waypoint-icon.png",
+  "x": -1085,
+  "y": 38,
+  "z": -146,
+  "r": 23,
+  "g": 40,
+  "b": 192,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

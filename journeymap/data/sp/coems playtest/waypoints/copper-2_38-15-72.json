@@ -1,0 +1,22 @@
+{
+  "id": "copper-2_38-15-72",
+  "name": "copper 2",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--288510-waypoint-icon.png",
+  "x": 38,
+  "y": -15,
+  "z": -72,
+  "r": 251,
+  "g": 153,
+  "b": 2,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

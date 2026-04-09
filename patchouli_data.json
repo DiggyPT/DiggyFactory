@@ -1,0 +1,42 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "forestry:foresters_manual": {
+      "viewedEntries": [
+        "forestry:beekeeping/bee_chest",
+        "forestry:beekeeping/alveary/alveary",
+        "forestry:beekeeping/first_mutations"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "thermal:guidebook": {
+      "viewedEntries": [
+        "thermal:technology/tinker_bench",
+        "thermal:technology/65_items",
+        "thermal:technology/slot_seal",
+        "thermal:technology/potion_fluid",
+        "thermal:technology/charge_bench",
+        "thermal:technology/devices/introduction",
+        "thermal:technology/machines/bottler",
+        "thermal:technology/machines/chiller",
+        "thermal:technology/machines/introduction",
+        "thermal:technology/dynamos/introduction",
+        "thermal:world/materials/alloys",
+        "thermal:world/materials/metal_forms",
+        "thermal:world/materials/rockwool",
+        "thermal:world/materials/storage",
+        "thermal:world/materials/ores",
+        "thermal:world/plants/trees",
+        "thermal:world/plants/phytogro",
+        "thermal:world/plants/storage",
+        "thermal:world/mobs/basalz",
+        "thermal:guides/faq",
+        "thermal:storage_and_transport/dynamics"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
+}

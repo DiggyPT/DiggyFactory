@@ -1,0 +1,22 @@
+{
+  "id": "tin_-181-60-11",
+  "name": "tin",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--7988763-waypoint-icon.png",
+  "x": -181,
+  "y": 60,
+  "z": 11,
+  "r": 134,
+  "g": 25,
+  "b": 229,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

@@ -1,0 +1,5 @@
+{
+    "ldlib": {
+        "connection": "kubejs:block/payload_receiver_tube_ctm"
+    }
+}

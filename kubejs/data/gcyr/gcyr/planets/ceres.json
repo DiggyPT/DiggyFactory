@@ -1,0 +1,16 @@
+{
+  "translation": "level.gcyr.ceres",
+  "galaxy": "gcyr:milky_way",
+  "solar_system": "gcyr:solar_system",
+  "world": "df_planets:ceres",
+  "orbit_world": "df_planets:ceres",
+  "rocket_tier": 2,
+  "gravity": 0.284,
+  "has_atmosphere": false,
+  "days_in_year": 1680,
+  "temperature": 173,
+  "solar_power": 20,
+  "orbit_solar_power": 21,
+  "has_oxygen": false,
+  "button_color": 9337699
+}

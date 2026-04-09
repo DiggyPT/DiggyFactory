@@ -1,0 +1,22 @@
+{
+  "id": "lead_-41-7-11",
+  "name": "lead",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--5572847-waypoint-icon.png",
+  "x": -41,
+  "y": 7,
+  "z": 11,
+  "r": 170,
+  "g": 247,
+  "b": 17,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

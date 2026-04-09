@@ -1,0 +1,22 @@
+{
+  "id": "coal_-36-67-75",
+  "name": "coal",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--11855922-waypoint-icon.png",
+  "x": -36,
+  "y": 67,
+  "z": -75,
+  "r": 75,
+  "g": 23,
+  "b": 206,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "diamonds_15-47-74",
+  "name": "diamonds",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--16717571-waypoint-icon.png",
+  "x": 15,
+  "y": -47,
+  "z": -74,
+  "r": 0,
+  "g": 232,
+  "b": 253,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

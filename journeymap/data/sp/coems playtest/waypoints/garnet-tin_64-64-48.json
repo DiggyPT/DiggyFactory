@@ -1,0 +1,22 @@
+{
+  "id": "garnet-tin_64-64-48",
+  "name": "garnet tin",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--5104327-waypoint-icon.png",
+  "x": 64,
+  "y": 64,
+  "z": -48,
+  "r": 178,
+  "g": 29,
+  "b": 57,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

@@ -1,0 +1,5 @@
+{
+    "ldlib": {
+        "connection": "kubejs:block/conic_casing_ctm"
+    }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "lake_132-63-198",
+  "name": "lake",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--14880337-waypoint-icon.png",
+  "x": 132,
+  "y": 63,
+  "z": -198,
+  "r": 28,
+  "g": 241,
+  "b": 175,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

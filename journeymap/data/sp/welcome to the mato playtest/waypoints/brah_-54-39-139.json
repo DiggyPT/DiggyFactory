@@ -1,0 +1,22 @@
+{
+  "id": "brah_-54-39-139",
+  "name": "brah",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--9879524-waypoint-icon.png",
+  "x": -54,
+  "y": 39,
+  "z": -139,
+  "r": 105,
+  "g": 64,
+  "b": 28,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

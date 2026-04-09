@@ -1,0 +1,22 @@
+{
+  "id": "ah_472-120-432",
+  "name": "ah",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--15626478-waypoint-icon.png",
+  "x": 472,
+  "y": 120,
+  "z": 432,
+  "r": 17,
+  "g": 143,
+  "b": 18,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:the_nether"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

@@ -1,0 +1,11 @@
+{
+  "fluid_type.thermal.heavy_oil": "Heavy Petrothermal Goo",
+  "fluid_type.thermal.light_oil": "Light Petrothermal Goo",
+  "fluid_type.thermal.crude_oil": "Crude Petrothermal Goo",
+  "fluid_type.thermal.refined_fuel": "Refined Petrothermal Fuel",
+  
+  "item.thermal.heavy_oil_bucket": "Heavy Petrothermal Goo Bucket",
+  "item.thermal.light_oil_bucket": "Light Petrothermal Goo Bucket",
+  "item.thermal.refined_fuel_bucket": "Refined Petrothermal Fuel Bucket",
+  "item.thermal.crude_oil_bucket": "Crude Petrothermal Goo Bucket"
+}

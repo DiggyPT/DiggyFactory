@@ -1,0 +1,2055 @@
+{
+  "favorites": [
+    {
+      "stack": "item:gtceu:primitive_excavator"
+    },
+    {
+      "stack": "item:sophisticatedbackpacks:inception_upgrade",
+      "recipe": "sophisticatedbackpacks:inception_upgrade"
+    }
+  ],
+  "lookup_history": [
+    "item:ae2:fluix_pearl",
+    "item:ae2:quantum_link",
+    "item:ae2:crafting_accelerator",
+    "item:ae2:energy_acceptor",
+    "item:ae2:drive",
+    "item:ae2:semi_dark_monitor",
+    "#item:ae2:illuminated_panel",
+    "item:ae2:terminal",
+    "item:ae2:crafting_terminal",
+    "item:ae2:logic_processor_press",
+    {
+      "type": "item",
+      "id": "gtceu:fine_gold_wire",
+      "amount": 2
+    },
+    "item:ae2:printed_logic_processor",
+    "item:ae2:logic_processor",
+    "item:ae2:calculation_processor",
+    "item:gtceu:raw_crystal_chip",
+    "item:gtceu:engraved_crystal_chip",
+    "item:gtceu:crystal_cpu",
+    "item:gtceu:crystal_soc",
+    "item:gtceu:crystal_processor",
+    "item:gtceu:max_battery",
+    {
+      "type": "fluid",
+      "id": "gtceu:arsenic",
+      "amount": 32
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:darmstadtium",
+      "amount": 144
+    },
+    "item:gtceu:darmstadtium_ingot",
+    "item:gtceu:primitive_excavator",
+    {
+      "type": "fluid",
+      "id": "gtceu:duranium",
+      "amount": 32
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:tritanium",
+      "amount": 144
+    },
+    "item:gtceu:tritanium_ingot",
+    {
+      "type": "item",
+      "id": "gtceu:tritanium_double_wire",
+      "amount": 8
+    },
+    "item:gtceu:tritanium_coil_block",
+    {
+      "type": "fluid",
+      "id": "gcyr:molten_bisalloy_400",
+      "amount": 144
+    },
+    "item:gcyr:bisalloy_400_ingot",
+    "item:gcyr:bisalloy_400_plate",
+    "item:gcyr:bisalloy_400_file{GT.Behaviours:{},GT.Tool:{AttackDamage:0.0f,AttackSpeed:-2.4f,Damage:0,MaxDamage:1296}}",
+    {
+      "type": "jemi",
+      "uid": "tconstruct:double_jump"
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:liquid_ender_air",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:helium_3",
+      "amount": 2500
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:liquid_nether_air",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:liquid_air",
+      "amount": 4000
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:air",
+      "amount": 0
+    },
+    {
+      "type": "item",
+      "id": "gtceu:gelled_toluene",
+      "amount": 4
+    },
+    "item:minecraft:tnt",
+    {
+      "type": "item",
+      "id": "gtceu:nether_star_dust",
+      "amount": 4
+    },
+    "item:minecraft:nether_star",
+    "item:sophisticatedbackpacks:inception_upgrade",
+    "item:gtceu:duranium_ingot",
+    "item:tconstruct:scorched_fuel_gauge{tank:{Amount:4000,FluidName:\"gtceu:og_element\"}}",
+    {
+      "type": "fluid",
+      "id": "gtceu:og_element",
+      "amount": 0
+    },
+    "item:gtceu:og_element_bucket",
+    "item:gtceu:cf_element_ingot",
+    "item:gtceu:no_element_dust",
+    "item:gtceu:no_element_ingot",
+    {
+      "type": "item",
+      "id": "gtceu:small_lanthanum_dust",
+      "amount": 4
+    },
+    "item:gtceu:lanthanum_dust",
+    {
+      "type": "item",
+      "id": "gtceu:tiny_lanthanum_dust",
+      "amount": 9
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:lanthanum",
+      "amount": 16
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:lutetium",
+      "amount": 16
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:americium",
+      "amount": 144
+    },
+    "item:gtceu:americium_ingot",
+    "item:gtceu:uv_fusion_reactor",
+    "item:gtceu:fusion_coil",
+    "item:gtceu:fusion_casing_mk2",
+    "item:gtceu:fusion_casing_mk3",
+    "item:gtceu:fusion_casing",
+    "item:gtceu:paper_dust",
+    "item:minecraft:paper",
+    "item:gtceu:resistor",
+    "item:thermal:signalum_ingot",
+    "item:gtceu:ra_element_ingot",
+    "item:projecte:klein_star_omega",
+    "item:projecte:klein_star_sphere",
+    "item:projecte:klein_star_vier",
+    "item:projecte:klein_star_drei",
+    "item:projecte:klein_star_zwei",
+    "item:projecte:klein_star_ein",
+    "item:kubejs:yellow_alch_matter",
+    "item:projecte:alchemical_coal",
+    "item:projecte:mobius_fuel",
+    "item:projecte:aeternalis_fuel",
+    "item:minecraft:diamond_block",
+    "item:projecte:dark_matter",
+    "item:projecte:red_matter",
+    "item:kubejs:pink_alch_matter",
+    "item:kubejs:magenta_alch_matter",
+    "item:kubejs:purple_alch_matter",
+    "item:kubejs:violet_alch_matter",
+    "item:kubejs:blue_alch_matter",
+    "item:kubejs:cyan_alch_matter",
+    "item:kubejs:green_alch_matter",
+    "item:kubejs:lime_alch_matter",
+    "item:kubejs:orange_alch_matter",
+    "item:kubejs:white_alch_matter",
+    "item:kubejs:clay_alch_matter",
+    "item:kubejs:fading_alch_matter",
+    {
+      "type": "item",
+      "id": "minecraft:diamond",
+      "amount": 9
+    },
+    "#item:gtceu:circuits/hv",
+    "item:gtceu:steam_large_turbine",
+    "item:gtceu:ulv_input_bus",
+    "item:gtceu:ulv_output_bus",
+    "item:gtceu:basic_electric_excavator",
+    {
+      "type": "item",
+      "id": "gtceu:raw_diamond",
+      "amount": 15
+    },
+    {
+      "type": "item",
+      "id": "gtceu:raw_opal",
+      "amount": 13
+    },
+    "item:gtceu:raw_goethite",
+    "item:gtceu:tiny_goethite_dust",
+    "item:gtceu:bv_element_ingot",
+    {
+      "type": "item",
+      "id": "gtceu:raw_enargite",
+      "amount": 19
+    },
+    "item:kubejs:compressed_excavator_clay",
+    "item:kubejs:excavator_brick",
+    "item:kubejs:excavator_bricks",
+    "item:gtceu:ge_element_dust",
+    "item:gtceu:silicon_germanium_dust",
+    "item:kubejs:conic_casing",
+    "item:gtceu:steel_machine_casing",
+    "item:gtceu:nonconducting_casing",
+    "item:gtceu:solid_machine_casing",
+    "item:gtceu:assembly_line_unit",
+    "item:gtceu:steel_firebox_casing",
+    "item:gtceu:stress_proof_casing",
+    "item:gtceu:decay_generator",
+    "item:kubejs:radiation_collector",
+    "item:gtceu:basic_integrated_circuit",
+    "item:gtceu:hot_iridium_ingot",
+    {
+      "type": "item",
+      "id": "gtceu:iridium_ingot",
+      "amount": 2
+    },
+    "item:gtceu:double_iridium_plate",
+    "item:create:mechanical_press",
+    "item:create:cinder_flour",
+    "item:thermal:hazmat_fabric",
+    "item:thermal:hazmat_chestplate{Damage:0}",
+    "item:gtceu:ceramic_steel_ingot",
+    "item:gtceu:ceramic_steel_plate",
+    "item:kubejs:electromagnet_casing",
+    "#item:forge:tools/wrenches",
+    "item:gtceu:lv_aluminium_wrench{Charge:2147483647L,DisallowContainerItem:0b,GT.Behaviours:{Mode:2b},GT.Tool:{Damage:0,HarvestLevel:2,MaxDamage:767,ToolSpeed:16.0f},HideFlags:2,MaxCharge:2147483647L}",
+    {
+      "type": "item",
+      "id": "gtceu:monitor",
+      "amount": 2
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:glowstone",
+      "amount": 144
+    },
+    "item:minecraft:glowstone_dust",
+    {
+      "type": "fluid",
+      "id": "thermal:glowstone",
+      "amount": 1000
+    },
+    "item:thermal:machine_chiller",
+    "item:thermal:chiller_ball_cast",
+    "item:gtceu:bronze_plate",
+    "item:gtceu:steel_rod",
+    "item:gtceu:steel_bolt",
+    "item:gtceu:steel_screw",
+    "#item:forge:ingots/steel",
+    "item:gtceu:steel_plate",
+    "item:gtceu:steam_machine_casing",
+    "item:kubejs:poly_reaction_casing",
+    {
+      "type": "item",
+      "id": "gtceu:silicon_dust",
+      "amount": 48
+    },
+    "item:kubejs:niobium_doped_boule",
+    {
+      "type": "item",
+      "id": "gtceu:niobium_dust",
+      "amount": 4
+    },
+    "item:gtceu:polymerization_chamber",
+    "item:kubejs:improved_integrated_circuit",
+    "item:gtceu:zinc_foil",
+    "item:gtceu:cupronickel_plate",
+    "item:gtceu:double_cupronickel_plate",
+    "item:gtceu:gallium_arsenide_dust",
+    "item:gtceu:small_gallium_arsenide_dust",
+    "item:gtceu:aluminium_plate",
+    "item:gtceu:aluminium_small_fluid_pipe",
+    "#item:forge:ingots/nickel",
+    "item:gtceu:invar_ingot",
+    "#item:forge:ingots/invar",
+    "item:gtceu:invar_rod",
+    "item:gtceu:invar_frame",
+    "item:gtceu:phillips_catalyst_dust",
+    {
+      "type": "fluid",
+      "id": "gtceu:chloroprene",
+      "amount": 144
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:neoprene",
+      "amount": 0
+    },
+    "#item:forge:dusts/potassium_chloride",
+    "item:gtceu:potassium_chloride_dust",
+    {
+      "type": "item",
+      "id": "gtceu:potassium_bisulfate_dust",
+      "amount": 2
+    },
+    {
+      "type": "item",
+      "id": "gtceu:potassium_persulfate_dust",
+      "chance": 0.0
+    },
+    "item:gtceu:neoprene_ingot",
+    "item:thermal:diving_fabric",
+    "item:thermal:diving_chestplate{Damage:0}",
+    "item:thermal:lumium_plate",
+    "item:thermal:lumium_ingot",
+    "item:gtceu:small_gear_extruder_mold",
+    "item:gtceu:cylinder_casting_mold",
+    "item:gtceu:vapor_distiller",
+    "item:gtceu:small_ge_element_dust",
+    "item:gtceu:tiny_ge_element_dust",
+    "item:gtceu:conductive_mixed_salts_compound_dust",
+    "item:gtceu:conductive_mixed_salts_alloy_ingot",
+    "item:gtceu:conductive_mixed_salts_alloy_single_wire",
+    "item:gtceu:conductive_mixed_salts_alloy_quadruple_wire",
+    "item:minecraft:iron_ingot",
+    "item:minecraft:gold_ingot",
+    "fluid:systeams:steam",
+    {
+      "type": "tag",
+      "registry": "minecraft:fluid",
+      "id": "forge:steam",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "systeams:steamier",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "systeams:steamiest",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "systeams:steamiester",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "systeams:steamiestest",
+      "amount": 1000
+    },
+    "item:systeams:steamiestest_ball",
+    [
+      "item:minecraft:copper_ingot",
+      "#item:forge:dusts/copper"
+    ],
+    "item:thermal:signalum_plate",
+    "item:thermal:signalum_gear",
+    "item:systeams:stirling_boiler",
+    "item:systeams:boiler_pipe",
+    "item:systeams:compression_boiler",
+    "item:systeams:steam_dynamo",
+    "#item:forge:ingots/tin",
+    "item:thermal:item_buffer",
+    "item:projecte:high_covalence_dust",
+    "item:projecte:alchemical_chest",
+    "item:projecte:pink_alchemical_bag",
+    "item:projecte:collector_mk3",
+    "item:projecte:rm_morning_star{}",
+    "item:projecte:rm_sword",
+    "item:projecte:rm_pick",
+    {
+      "type": "fluid",
+      "id": "gtceu:potion",
+      "nbt": "{Potion:\"biomancy:long_primordial_infestation\"}",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:concrete",
+      "amount": 144
+    },
+    "item:gtceu:light_concrete",
+    {
+      "type": "item",
+      "id": "gtceu:glass_plate",
+      "amount": 6
+    },
+    "item:gtceu:purple_borderless_lamp{bloom:1b,inverted:1b,lit:1b}",
+    "item:gtceu:orange_lamp{bloom:0b,inverted:1b,lit:0b}",
+    "item:gtceu:antimatter_hazard_sign_block",
+    "item:gtceu:uranium_235_rod",
+    "item:gtceu:ceramic_steel_rod",
+    "item:gtceu:ceramic_steel_frame",
+    "item:ftbquests:screen_1",
+    "item:kubejs:decent_electronic_circuit",
+    "item:gtceu:vacuum_tube",
+    "item:kubejs:pneumatic_mechanism",
+    "item:gtceu:wetware_processor_mainframe",
+    "item:gtceu:wetware_processor_computer",
+    {
+      "type": "item",
+      "id": "gtceu:wetware_processor_assembly",
+      "amount": 2
+    },
+    {
+      "type": "item",
+      "id": "gtceu:wetware_processor",
+      "amount": 4
+    },
+    "item:gtceu:neuro_processing_unit",
+    {
+      "type": "item",
+      "id": "gtceu:stem_cells",
+      "amount": 32
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:bacteria",
+      "amount": 500
+    },
+    "item:gtceu:waterwheel",
+    "item:gtceu:wind_generator",
+    "item:projecte:nova_catalyst",
+    "item:gtceu:steam_excavator",
+    {
+      "type": "item",
+      "id": "kubejs:bronze_plated_excavator_bricks",
+      "amount": 2
+    },
+    {
+      "type": "item",
+      "id": "gtceu:brick_wooden_form",
+      "remainder": "item:gtceu:brick_wooden_form"
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:uu_matter",
+      "amount": 0
+    },
+    "item:gtceu:iron_rod",
+    "item:gtceu:steam_animal_trapper",
+    "item:minecraft:birch_pressure_plate",
+    "item:gtceu:launch_pad",
+    "item:gtceu:zpm_machine_hull",
+    "item:minecraft:white_wool",
+    "item:gtceu:uranium_235_dust",
+    {
+      "type": "fluid",
+      "id": "gtceu:enriched_uranium_hexafluoride",
+      "amount": 100
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:uranium_hexafluoride",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:depleted_uranium_hexafluoride",
+      "amount": 1000
+    },
+    "item:gtceu:uranium_dust",
+    "item:gtceu:uranium_ingot",
+    {
+      "type": "fluid",
+      "id": "gtceu:uranium",
+      "amount": 144
+    },
+    "item:gtceu:uranium_block",
+    {
+      "type": "fluid",
+      "id": "gtceu:uranium_235",
+      "amount": 1296
+    },
+    "item:gtceu:uranium_235_block",
+    {
+      "type": "fluid",
+      "id": "gtceu:butyraldehyde",
+      "amount": 250
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:polyvinyl_butyral",
+      "amount": 144
+    },
+    "item:gtceu:polyvinyl_butyral_plate",
+    "item:gtceu:laminated_glass",
+    "item:gtceu:tempered_glass",
+    "item:gtceu:steel_gearbox",
+    "item:create:andesite_alloy",
+    "item:create:shaft",
+    "item:gtceu:max_machine_hull",
+    "item:gtceu:max_output_hatch",
+    "item:gtceu:petrothermal_goo_drilling_rig",
+    "item:projecte:philosophers_stone{}",
+    {
+      "type": "item",
+      "id": "kubejs:caged_pig",
+      "amount": 4
+    },
+    "item:kubejs:animal_cage",
+    "item:kubejs:caged_chicken",
+    {
+      "type": "item",
+      "id": "kubejs:caged_cow",
+      "amount": 2,
+      "chance": 0.0
+    },
+    "item:gtceu:steam_ranch",
+    "item:kubejs:decent_integrated_circuit",
+    "item:thermal:machine_frame",
+    {
+      "type": "item",
+      "id": "gtceu:raw_hematite",
+      "chance": 0.0
+    },
+    "item:gcyr:launch_pad",
+    "item:gcyr:rocket_scanner",
+    "item:gcyr:id_chip{\"gcyr:current_planet\":\"df_planets:ceres\"}",
+    "item:gtceu:galvanized_steel_ingot",
+    {
+      "type": "item",
+      "id": "gtceu:galvanized_steel_rod",
+      "amount": 4
+    },
+    {
+      "type": "item",
+      "id": "gtceu:galvanized_steel_frame",
+      "amount": 23
+    },
+    {
+      "type": "fluid",
+      "id": "thermal:crude_oil",
+      "amount": 100
+    },
+    {
+      "type": "fluid",
+      "id": "thermal:light_oil",
+      "amount": 120
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:thermal_mixture",
+      "amount": 120
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:therm",
+      "amount": 144
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:polytherm",
+      "amount": 144
+    },
+    "item:gtceu:polytherm_ingot",
+    "item:gcyr:para_aramid_ingot",
+    "item:create:brass_ingot",
+    "item:thermal:bronze_ingot",
+    "item:kubejs:rectifier",
+    "item:kubejs:basic_rocket_thruster",
+    "item:kubejs:ketchup_bucket",
+    "item:kubejs:earth_observation_satellite",
+    "item:gtceu:data_receiver",
+    "item:kubejs:earth_data_card",
+    "item:gtceu:double_spacefaring_steel_plate",
+    "item:kubejs:satellite_carrier_rocket",
+    {
+      "type": "fluid",
+      "id": "kubejs:ketchup",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "thermal:resin",
+      "amount": 75
+    },
+    "item:gtceu:sticky_resin",
+    "item:gtceu:ulv_energy_input_hatch",
+    "item:gtceu:phosphorus_boule",
+    "item:gtceu:silicon_boule",
+    "item:gtceu:naquadah_boule",
+    "item:gtceu:neutronium_boule",
+    "item:gtceu:hot_niobium_ingot",
+    "item:gtceu:niobium_ingot",
+    "item:kubejs:aerospace_control_processor",
+    "item:gtceu:micro_processor_computer",
+    "item:ae2:engineering_processor",
+    {
+      "type": "item",
+      "id": "gtceu:plascrete",
+      "amount": 75
+    },
+    "item:gtceu:cleanroom",
+    {
+      "type": "item",
+      "id": "minecraft:iron_door",
+      "amount": 2
+    },
+    "item:gtceu:micro_processor",
+    "item:gtceu:terminal",
+    "item:createdeco:brass_door",
+    "item:kubejs:satellite_position_card",
+    "item:gtceu:dy_element_ingot",
+    "item:gtceu:raw_tantalite",
+    [
+      "item:gtceu:raw_tantalite",
+      "#item:forge:ores/tantalite"
+    ],
+    {
+      "type": "fluid",
+      "id": "gtceu:silicone_rubber",
+      "amount": 144
+    },
+    "item:gtceu:silicone_rubber_plate",
+    "item:gtceu:lv_conveyor_module",
+    "item:gtceu:styrene_butadiene_rubber_plate",
+    "item:thermal:redstone_servo",
+    "item:gtceu:lv_electric_motor",
+    "item:gtceu:tin_single_cable",
+    "item:gtceu:rubber_plate",
+    "item:gtceu:rubber_ingot",
+    "item:gtceu:raw_rubber_dust",
+    "item:gtceu:tiny_raw_rubber_dust",
+    {
+      "type": "item",
+      "id": "gtceu:raw_rubber_nugget",
+      "amount": 9
+    },
+    "item:gtceu:raw_rubber_ingot",
+    "item:gtceu:granite_red_dust",
+    "item:gtceu:red_granite",
+    "item:minecraft:obsidian",
+    {
+      "type": "item",
+      "id": "gtceu:mirabilite_dust",
+      "amount": 2
+    },
+    "item:gtceu:diorite_dust",
+    "item:thermal:device_rock_gen",
+    "item:minecraft:diorite",
+    "item:gtceu:clay_dust",
+    "item:minecraft:clay_ball",
+    "item:minecraft:dirt",
+    "item:minecraft:mud",
+    "item:minecraft:clay",
+    "item:gtceu:bronze_crate",
+    "item:thermal:machine_refinery",
+    {
+      "type": "fluid",
+      "id": "thermal:syrup",
+      "amount": 250
+    },
+    {
+      "type": "fluid",
+      "id": "thermal:sap",
+      "amount": 1000
+    },
+    "item:thermal:sap_bucket",
+    "item:gtceu:hv_sensor",
+    "item:gtceu:clean_machine_casing",
+    "item:gtceu:petri_dish",
+    "item:gtceu:maintenance_detector_cover",
+    "item:kubejs:spaceflight_casing",
+    "item:thermal:chiller_ingot_cast",
+    "item:thermal:chiller_rod_cast",
+    "item:gtceu:overworld_marker",
+    {
+      "type": "fluid",
+      "id": "gtceu:natural_gas",
+      "amount": 16000
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:refinery_gas",
+      "amount": 0
+    },
+    "item:create:asurine",
+    "item:createdeco:blue_bricks",
+    "item:gtceu:mc_element_ingot",
+    "item:gcyr:kapton_k_plate",
+    "item:gcyr:kapton_k_ingot",
+    "item:gcyr:fiberglass_ingot",
+    "item:gtceu:spacefaring_steel_dust",
+    "item:gtceu:spacefaring_steel_ingot",
+    "item:thermal:light_oil_bucket",
+    "item:gtceu:copper_dust",
+    "item:thermal:electrum_ingot",
+    "item:thermal:invar_ingot",
+    "item:gtceu:uxv_thermal_centrifuge",
+    "item:biomancy:exotic_dust",
+    "item:thermal:signalum_dust",
+    "item:minecraft:spruce_button",
+    "item:minecraft:spruce_wood",
+    "item:gtceu:small_lumium_gear",
+    "fluid:gtceu:electrum",
+    {
+      "type": "fluid",
+      "id": "gtceu:polyvinyl_chloride",
+      "amount": 0
+    },
+    "fluid:gtceu:salt_water",
+    "fluid:gtceu:chlorine",
+    "fluid:gtceu:hypochlorous_acid",
+    "fluid:gtceu:coal_gas",
+    "fluid:gtceu:ammonia",
+    "fluid:gtceu:methanol",
+    {
+      "type": "fluid",
+      "id": "gtceu:dimethylhydrazine",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:rocket_fuel",
+      "amount": 1000
+    },
+    "item:gtceu:rocket_fuel_bucket",
+    {
+      "type": "item",
+      "id": "gtceu:solar_panel",
+      "amount": 2
+    },
+    "item:gtceu:cerium_dust",
+    {
+      "type": "item",
+      "id": "gtceu:bastnasite_dust",
+      "amount": 2
+    },
+    "item:gtceu:raw_bastnasite",
+    "item:gcyr:mars_marker",
+    "item:gcyr:mercury_marker",
+    "item:gcyr:venus_marker",
+    "item:gcyr:luna_marker",
+    "item:gcyr:empty_satellite",
+    "item:gcyr:ore_finder_satellite",
+    "#item:gcyr:satellites",
+    "item:gcyr:laser_satellite",
+    "item:gtceu:spacefaring_steel_plate",
+    "item:gtceu:salt_water_bucket",
+    "item:thermal:rubberwood_planks",
+    "item:thermal:rubberwood_door",
+    "item:gcyr:airlock_door",
+    "item:gcyr:dyson_system_controller",
+    "item:gcyr:beam_receiver",
+    "item:gcyr:dyson_construction_drone",
+    "item:gcyr:dyson_sphere_maintenance_port",
+    {
+      "type": "item",
+      "id": "gtceu:hastelloy_c_276_frame",
+      "amount": 28
+    },
+    "item:gcyr:seat",
+    {
+      "type": "fluid",
+      "id": "gcyr:fiberglass",
+      "amount": 144
+    },
+    "item:gcyr:fluorite_gem",
+    {
+      "type": "item",
+      "id": "gcyr:raw_fluorite",
+      "amount": 9
+    },
+    "item:gcyr:raw_fluorite_block",
+    [
+      "item:gcyr:raw_fluorite",
+      "#item:forge:ores/fluorite"
+    ],
+    "item:gtceu:mars_salt_ore",
+    "item:gcyr:space_station_packager",
+    "item:gcyr:space_elevator",
+    "item:gcyr:drone_hangar",
+    "item:gcyr:space_fabric",
+    "item:gcyr:space_helmet{Damage:0}",
+    {
+      "type": "fluid",
+      "id": "gcyr:kapton_k",
+      "amount": 144
+    },
+    "item:gcyr:elite_fuel_tank",
+    "item:gcyr:advanced_fuel_tank",
+    "item:gcyr:basic_fuel_tank",
+    "item:gcyr:elite_rocket_motor",
+    "item:gcyr:advanced_rocket_motor",
+    "item:gcyr:basic_rocket_motor",
+    {
+      "type": "fluid",
+      "id": "gcyr:para_aramid",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "gcyr:para_phenylenediamine",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "gcyr:nitroaniline",
+      "amount": 1000
+    },
+    "item:gcyr:para_aramid_huge_fluid_pipe",
+    "item:gtceu:electrum_bucket",
+    "#item:forge:dusts/gold",
+    "#item:forge:dusts/silver",
+    "item:gtceu:electrum_dust",
+    "#item:forge:dusts/electrum",
+    "#item:forge:dusts/copper",
+    "item:gtceu:black_bronze_dust",
+    "#item:forge:dusts/steel",
+    "#item:forge:dusts/nickel",
+    "item:gtceu:black_steel_dust",
+    "item:gtceu:rose_gold_dust",
+    "item:gtceu:brass_dust",
+    "#item:forge:dusts/rose_gold",
+    {
+      "type": "item",
+      "id": "gtceu:red_steel_dust",
+      "amount": 8
+    },
+    "item:gtceu:hot_red_steel_ingot",
+    "item:gtceu:red_steel_ingot",
+    "item:gtceu:red_steel_plate",
+    "item:gtceu:double_red_steel_plate",
+    "item:gtceu:hsla_steel_dust",
+    "item:gtceu:hsla_steel_ingot",
+    {
+      "type": "item",
+      "id": "gtceu:hsla_steel_plate",
+      "amount": 2
+    },
+    {
+      "type": "item",
+      "id": "gtceu:high_temperature_smelting_casing",
+      "amount": 34
+    },
+    "item:gtceu:alloy_blast_smelter",
+    {
+      "type": "fluid",
+      "id": "gtceu:molten_hastelloy_c_276",
+      "amount": 144
+    },
+    "item:gtceu:hastelloy_c_276_ingot",
+    "item:gtceu:hastelloy_c_276_dust",
+    "item:gtceu:hot_hastelloy_c_276_ingot",
+    {
+      "type": "item",
+      "id": "gtceu:hastelloy_c_276_plate",
+      "amount": 6
+    },
+    "item:gtceu:shock_proof_cutting_casing",
+    "item:gtceu:raw_beryllium",
+    [
+      "item:gtceu:raw_beryllium",
+      "#item:forge:ores/beryllium"
+    ],
+    "item:gtceu:beryllium_ingot",
+    "item:gtceu:ev_sensor",
+    "item:gtceu:uev_machine_hull",
+    "item:kubejs:moleculartronic_processor_mainframe",
+    "item:kubejs:moleculartronic_processor_computer",
+    "#item:gtceu:circuits/uhv",
+    "item:gtceu:uv_emitter",
+    "item:gtceu:gravi_star",
+    "item:gtceu:uv_sensor",
+    "item:gtceu:zpm_sensor",
+    "item:gtceu:luv_sensor",
+    "item:gtceu:iv_sensor",
+    "item:minecraft:ender_eye",
+    {
+      "type": "fluid",
+      "id": "gtceu:molten_maraging_steel_300",
+      "amount": 144
+    },
+    "item:gtceu:maraging_steel_300_ingot",
+    "item:minecraft:lightning_rod",
+    "item:gtceu:advanced_power_thruster",
+    "item:gtceu:power_thruster",
+    {
+      "type": "item",
+      "id": "gtceu:rarest_metal_mixture_dust",
+      "amount": 7
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:acidic_osmium_solution",
+      "amount": 2000
+    },
+    "item:gtceu:osmium_tetroxide_dust",
+    "item:gtceu:hot_osmiridium_ingot",
+    "item:gtceu:osmiridium_dust",
+    {
+      "type": "fluid",
+      "id": "gtceu:molten_naquadah_alloy",
+      "amount": 144
+    },
+    "item:gtceu:naquadah_alloy_ingot",
+    "item:gtceu:naquadah_alloy_plate",
+    {
+      "type": "fluid",
+      "id": "gtceu:naquadah_alloy",
+      "amount": 144
+    },
+    {
+      "type": "item",
+      "id": "gtceu:naquadah_alloy_rod",
+      "amount": 4
+    },
+    "item:gtceu:naquadah_alloy_frame",
+    "item:gtceu:chromium_ingot",
+    {
+      "type": "fluid",
+      "id": "gtceu:chromium",
+      "amount": 144
+    },
+    "item:gtceu:chromium_rotor",
+    "item:gtceu:stainless_steel_ring",
+    "item:gtceu:stainless_steel_rod",
+    "item:gtceu:hv_electric_motor",
+    {
+      "type": "item",
+      "id": "gtceu:programmed_circuit",
+      "nbt": "{Configuration:2}",
+      "chance": 0.0
+    },
+    "item:gtceu:hot_mercury_barium_calcium_cuprate_ingot",
+    "item:gtceu:mercury_barium_calcium_cuprate_ingot",
+    {
+      "type": "fluid",
+      "id": "gtceu:molten_mercury_barium_calcium_cuprate",
+      "amount": 144
+    },
+    "item:gtceu:mercury_barium_calcium_cuprate_quadruple_wire",
+    "item:gtceu:hv_field_generator",
+    "item:gtceu:advanced_electric_jetpack{}",
+    "item:gtceu:gravitation_engine_unit",
+    {
+      "type": "fluid",
+      "id": "gtceu:white_dye",
+      "amount": 72
+    },
+    "item:gtceu:chemical_white_dye",
+    "item:minecraft:white_dye",
+    "#item:c:dyes/white",
+    "item:gtceu:carbon_fiber_mesh",
+    "item:gtceu:carbon_fiber_plate",
+    "item:gtceu:phosphorus_wafer",
+    "item:gtceu:ulv_solar_panel",
+    "item:gtceu:lv_solar_panel",
+    "item:minecraft:glass_pane",
+    "item:minecraft:barrier{display:{Name:\u0027{\"text\":\"Empty Tag: ad_astra:venus_sandstone\"}\u0027}}",
+    "item:projecte:interdiction_torch",
+    "item:create:bar_of_chocolate",
+    "item:gtceu:distillation_tower",
+    {
+      "type": "fluid",
+      "id": "gtceu:helium",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:liquid_helium",
+      "amount": 500
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:oxygen_plasma",
+      "amount": 1000
+    },
+    "item:gtceu:oxygen_plasma_bucket",
+    {
+      "type": "fluid",
+      "id": "thermal:refined_fuel",
+      "amount": 1000
+    },
+    "item:thermal:refined_fuel_bucket",
+    {
+      "type": "item",
+      "id": "gtceu:potassium_dust",
+      "amount": 2
+    },
+    "item:thermal:rich_slag",
+    "item:thermal:slag",
+    "item:gtceu:bauxite_slag_dust",
+    "item:thermal:cinnabar",
+    {
+      "type": "item",
+      "id": "gtceu:lumium_rod",
+      "amount": 2
+    },
+    "item:thermal:blitz_powder",
+    "item:thermal:lightning_charge",
+    "item:thermal:xp_crystal{}",
+    "item:thermal:steel_ingot",
+    "item:thermal:coal_coke",
+    "item:thermal:ender_pearl_dust",
+    {
+      "type": "item",
+      "id": "gtceu:assembly_line_casing",
+      "amount": 2
+    },
+    "#item:gtceu:circuits/ev",
+    "item:gtceu:energy_crystal",
+    {
+      "type": "item",
+      "id": "gtceu:carbon_fibers",
+      "amount": 2
+    },
+    {
+      "type": "fluid",
+      "id": "thermal:heavy_oil",
+      "amount": 0
+    },
+    "item:gtceu:mv_fluid_drilling_rig",
+    "item:gtceu:ev_large_miner",
+    {
+      "type": "fluid",
+      "id": "gtceu:drilling_fluid",
+      "amount": 1000
+    },
+    "item:gtceu:drilling_fluid_bucket",
+    "item:minecraft:charcoal",
+    "fluid:gtceu:wood_tar",
+    "fluid:gtceu:phenol",
+    "fluid:gtceu:wood_vinegar",
+    "fluid:gtceu:acetone",
+    "fluid:gtceu:hydrogen",
+    "fluid:gtceu:hydrochloric_acid",
+    "fluid:gtceu:bisphenol_a",
+    "item:gtceu:tiny_sodium_hydroxide_dust",
+    "fluid:gtceu:seed_oil",
+    "fluid:gtceu:biomass",
+    "fluid:gtceu:ethanol",
+    "fluid:gtceu:glycerol",
+    "fluid:gtceu:epichlorohydrin",
+    "item:gtceu:sodium_hydroxide_dust",
+    {
+      "type": "fluid",
+      "id": "gtceu:epoxy",
+      "amount": 144
+    },
+    "item:gtceu:epoxy_plate",
+    "item:gtceu:epoxy_circuit_board",
+    "item:gtceu:epoxy_printed_circuit_board",
+    {
+      "type": "item",
+      "id": "gtceu:nano_processor",
+      "amount": 2
+    },
+    "item:gtceu:nano_cpu_wafer",
+    "item:gtceu:nano_cpu_chip",
+    {
+      "type": "item",
+      "id": "gtceu:nano_processor_assembly",
+      "amount": 2
+    },
+    {
+      "type": "item",
+      "id": "gtceu:nano_processor_computer",
+      "amount": 2
+    },
+    "item:gtceu:nano_processor_mainframe",
+    "item:gtceu:quantum_processor_mainframe",
+    "item:gtceu:graphite_dust",
+    "item:gtceu:uhv_chemical_reactor",
+    "item:gtceu:uxv_chemical_reactor",
+    "item:gtceu:uiv_chemical_reactor",
+    "item:gtceu:uev_chemical_reactor",
+    "item:gtceu:uv_chemical_reactor",
+    "item:gtceu:zpm_chemical_reactor",
+    "item:gtceu:luv_chemical_reactor",
+    "item:gtceu:iv_chemical_reactor",
+    "item:gtceu:ev_chemical_reactor",
+    "item:gtceu:hv_chemical_reactor",
+    "item:gtceu:uhv_machine_casing",
+    "item:gtceu:uhv_machine_hull",
+    "item:gtceu:lv_chemical_reactor",
+    "item:gtceu:small_enderium_gear",
+    "item:thermal:enderium_plate",
+    "#item:forge:ingots/lumium",
+    "item:gtceu:bronze_bolt",
+    "item:gtceu:bronze_screw",
+    "#item:forge:plates/bronze",
+    "#item:forge:ingots/bronze",
+    "item:gtceu:bronze_rod",
+    "item:gtceu:industrial_steam_casing",
+    "item:gtceu:samarium_ingot",
+    "item:gtceu:pyrolyse_oven",
+    [
+      "item:gtceu:raw_magnesite",
+      "#item:forge:ores/magnesite"
+    ],
+    "item:gtceu:magnesite_dust",
+    "item:gtceu:small_magnesite_dust",
+    "item:gtceu:impure_bornite_dust",
+    "item:gtceu:bornite_dust",
+    "item:gtceu:small_bornite_dust",
+    "item:gtceu:coal_indicator",
+    "item:gtceu:chalcopyrite_indicator",
+    "item:gtceu:green_sapphire_indicator",
+    "item:gtceu:calcite_indicator",
+    "item:gtceu:cassiterite_sand_indicator",
+    "item:gtceu:sulfur_indicator",
+    "item:gtceu:lepidolite_indicator",
+    "item:gtceu:pentlandite_indicator",
+    "item:gtceu:bastnasite_indicator",
+    "item:gtceu:kyanite_indicator",
+    "item:gtceu:soapstone_indicator",
+    "item:gtceu:tetrahedrite_indicator",
+    "item:gtceu:salt_indicator",
+    "item:gtceu:blue_steel_plate",
+    "item:gtceu:blue_steel_ingot",
+    "item:gtceu:hot_blue_steel_ingot",
+    {
+      "type": "item",
+      "id": "gtceu:blue_steel_dust",
+      "amount": 8
+    },
+    "item:gtceu:sterling_silver_dust",
+    "item:gtceu:sterling_silver_ingot",
+    "item:thermal:rf_coil",
+    "item:thermal:machine_crafter",
+    "item:gtceu:hv_circuit_assembler",
+    "item:gtceu:micro_processor_mainframe",
+    "item:gtceu:bauxite_dust",
+    "item:gtceu:rutile_dust",
+    "fluid:gtceu:titanium_tetrachloride",
+    "item:gtceu:magnesium_dust",
+    "item:gtceu:hot_titanium_ingot",
+    "item:gtceu:titanium_ingot",
+    "item:gtceu:titanium_tetrachloride_bucket",
+    "item:gtceu:titanium_dust",
+    "item:gtceu:filter_casing",
+    "item:gtceu:steel_frame",
+    "item:gtceu:polyethylene_plate",
+    {
+      "type": "item",
+      "id": "gtceu:small_titanium_dust",
+      "amount": 4
+    },
+    "item:gtceu:tiny_titanium_dust",
+    "item:gtceu:titanium_carbide_dust",
+    "item:gtceu:soldering_alloy_dust",
+    "item:gtceu:soldering_alloy_ingot",
+    {
+      "type": "fluid",
+      "id": "gtceu:soldering_alloy",
+      "amount": 288
+    },
+    {
+      "type": "item",
+      "id": "gtceu:electrotine_dust",
+      "amount": 4
+    },
+    "item:gtceu:blue_alloy_ingot",
+    {
+      "type": "item",
+      "id": "gtceu:blue_alloy_bolt",
+      "amount": 16
+    },
+    "item:gtceu:micro_processor_assembly",
+    "item:gtceu:microchip_processor",
+    "item:minecraft:prismarine_shard",
+    "item:thermal:prismarine_rail",
+    "item:biomancy:acolyte_armor_leggings{\"biomancy:nutrients\":250}",
+    "item:biomancy:ornate_flesh",
+    "item:biomancy:baby_permeable_membrane",
+    "item:biomancy:biometric_membrane",
+    "item:biomancy:tongue",
+    "item:biomancy:elastic_fibers",
+    "item:biomancy:mob_marrow",
+    "item:biomancy:fleshkin_chest{BlockEntityTag:{OwnerUUID:[I;0,0,0,0],id:\"biomancy:fleshkin_chest\"},display:{Name:\u0027{\"extra\":[{\"translate\":\"block.biomancy.fleshkin_chest\"}],\"text\":\"[TEST/other_owner] \"}\u0027}}",
+    "item:biomancy:bio_lab",
+    "item:biomancy:mineral_fragment",
+    "item:biomancy:decomposer",
+    "item:biomancy:organic_matter",
+    {
+      "type": "fluid",
+      "id": "gtceu:potion",
+      "nbt": "{Potion:\"minecraft:harming\"}",
+      "amount": 750
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:potion",
+      "nbt": "{Potion:\"minecraft:poison\"}",
+      "amount": 750
+    },
+    "item:biomancy:toxin_extract",
+    "item:biomancy:primordial_cradle",
+    "item:biomancy:primordial_core",
+    "item:projecte:body_stone",
+    "item:projecte:life_stone{}",
+    "item:gtceu:large_sifting_funnel",
+    {
+      "type": "item",
+      "id": "gtceu:assembly_line_grating",
+      "amount": 18
+    },
+    "item:thermal:fluid_duct_windowed",
+    "item:thermal:energy_duct",
+    "item:patchouli:guide_book{\"patchouli:book\":\"thermal:guidebook\"}",
+    "item:thermal:slot_seal",
+    "item:gtceu:hw_element_gear",
+    "item:gtceu:hw_element_rod",
+    "item:gtceu:hw_element_ingot",
+    "item:gtceu:double_hw_element_plate",
+    "item:gtceu:bv_element_dust",
+    {
+      "type": "fluid",
+      "id": "gtceu:bv_element",
+      "amount": 0
+    },
+    {
+      "type": "item",
+      "id": "thermal:lumium_dust",
+      "amount": 6
+    },
+    "item:gtceu:hot_naquadah_ingot",
+    {
+      "type": "fluid",
+      "id": "gtceu:impure_naquadria_solution",
+      "amount": 2000
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:naquadria_solution",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:acidic_naquadria_solution",
+      "amount": 3000
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:naquadria_waste",
+      "amount": 2000
+    },
+    {
+      "type": "item",
+      "id": "gtceu:naquadria_sulfate_dust",
+      "amount": 6
+    },
+    "item:gtceu:hot_naquadria_ingot",
+    "item:gtceu:naquadria_ingot",
+    "item:gtceu:naquadria_dust",
+    "item:thermal:constantan_ingot",
+    {
+      "type": "item",
+      "id": "thermal:enderium_ingot",
+      "amount": 4
+    },
+    "item:thermal:enderium_gear",
+    "item:thermal:lumium_block",
+    "item:gtceu:enderium_ingot",
+    "item:minecraft:mossy_stone_brick_wall",
+    "item:thermal:obsidian_glass",
+    "#item:thermal:glass/hardened",
+    "item:thermal:enderium_glass",
+    "item:thermal:lumium_glass",
+    [
+      "item:minecraft:ender_pearl",
+      "#item:forge:dusts/ender_pearl"
+    ],
+    "item:thermal:enderium_dust",
+    "item:biomancy:malignant_flesh",
+    "item:biomancy:flesh_bits",
+    "item:biomancy:primal_flesh",
+    "item:biomancy:flesh",
+    "item:icarus:flandres_wings",
+    "item:icarus:discords_wings",
+    "item:icarus:yellow_mechanical_feathered_wings",
+    "item:icarus:zanzas_wings",
+    "item:icarus:yellow_light_wings",
+    "#item:icarus:light_wings",
+    "item:icarus:lime_light_wings",
+    "item:icarus:light_blue_light_wings",
+    "item:icarus:magenta_light_wings",
+    "item:icarus:light_gray_light_wings",
+    "item:icarus:orange_light_wings",
+    "item:icarus:black_light_wings",
+    "item:icarus:white_light_wings",
+    "item:icarus:white_mechanical_feathered_wings",
+    "item:icarus:black_dragon_wings",
+    "#item:icarus:dragon_wings",
+    "item:icarus:white_dragon_wings",
+    "item:icarus:light_gray_dragon_wings",
+    "item:icarus:green_dragon_wings",
+    "item:minecraft:honeycomb",
+    "item:icarus:white_feathered_wings",
+    "#item:icarus:feathered_wings",
+    "item:icarus:brown_feathered_wings",
+    "item:sophisticatedbackpacks:alchemy_upgrade",
+    "item:sophisticatedbackpacks:advanced_alchemy_upgrade",
+    "item:thermal:potion_duration_augment",
+    {
+      "type": "fluid",
+      "id": "cofh_core:potion",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:potion",
+      "nbt": "{Potion:\"minecraft:mundane\"}",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:potion",
+      "nbt": "{Potion:\"minecraft:thick\"}",
+      "amount": 0
+    },
+    {
+      "type": "tag",
+      "registry": "minecraft:fluid",
+      "id": "forge:potion",
+      "amount": 750
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:potion",
+      "nbt": "{Potion:\"minecraft:long_water_breathing\"}",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:potion",
+      "nbt": "{Potion:\"minecraft:fire_resistance\"}",
+      "amount": 0
+    },
+    "item:minecraft:lingering_potion{Potion:\"minecraft:strength\"}",
+    "item:minecraft:lingering_potion{Potion:\"minecraft:strong_strength\"}",
+    "item:minecraft:suspicious_stew{Effects:[{EffectDuration:160,EffectId:9,\"forge:effect_id\":\"minecraft:nausea\"}]}",
+    "item:gtceu:raw_silver",
+    "#item:forge:raw_materials/silver",
+    "item:gtceu:silver_ingot",
+    "item:gtceu:silver_dust",
+    "item:gtceu:raw_redstone",
+    "item:minecraft:redstone",
+    "item:itemfilters:or{items:[{Count:1b,id:\"mae2:4x_crafting_accelerator\"},{Count:1b,id:\"mae2:16x_crafting_accelerator\"},{Count:1b,id:\"mae2:64x_crafting_accelerator\"},{Count:1b,id:\"mae2:256x_crafting_accelerator\"}]}",
+    {
+      "type": "item",
+      "id": "gtceu:good_integrated_circuit",
+      "amount": 2
+    },
+    "item:gtceu:chocolate_dust",
+    {
+      "type": "fluid",
+      "id": "create:chocolate",
+      "amount": 0
+    },
+    "item:thermal:device_tree_extractor",
+    "item:gtceu:netherrack_dust",
+    {
+      "type": "item",
+      "id": "thermal:cured_rubber",
+      "amount": 3
+    },
+    "item:gtceu:steam_grinder",
+    "item:thermal:device_water_gen",
+    "item:gtceu:ball_casting_mold",
+    {
+      "type": "item",
+      "id": "minecraft:bone_block",
+      "amount": 6
+    },
+    "item:minecraft:acacia_log",
+    "item:gtceu:lv_iron_drill{Charge:0L,DisallowContainerItem:0,GT.Behaviours:{AoEColumn:1,AoELayer:0,AoERow:1,MaxAoEColumn:1,MaxAoELayer:0,MaxAoERow:1,TorchPlacing:1},GT.Tool:{Damage:0,HarvestLevel:2,MaxDamage:767,ToolSpeed:6.0f},HideFlags:2,MaxCharge:100000L}",
+    "item:gtceu:potin_dust",
+    "item:gtceu:potin_ingot",
+    "item:gtceu:potin_plate",
+    "item:gtceu:ceramic_steel_gear",
+    {
+      "type": "fluid",
+      "id": "gtceu:light_fuel",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:lightly_steam_cracked_light_fuel",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:naphtha",
+      "amount": 0
+    },
+    "item:minecraft:piston",
+    "item:gtceu:lp_steam_extractor",
+    "item:gtceu:bronze_machine_casing",
+    "item:gtceu:bronze_block",
+    "#item:gtceu:circuits/ulv",
+    "item:create:fluid_pipe",
+    "item:create:mechanical_pump",
+    "item:gtceu:wrought_iron_buzz_saw_blade",
+    "item:gtceu:rubber_gear",
+    "item:gtceu:rubber_rod",
+    "item:gtceu:raw_molybdenite",
+    [
+      "item:gtceu:raw_molybdenite",
+      "#item:forge:ores/molybdenite"
+    ],
+    "item:gtceu:molybdenum_ingot",
+    {
+      "type": "item",
+      "id": "gtceu:molybdenite_dust",
+      "amount": 3
+    },
+    "item:gtceu:molybdenum_dust",
+    "item:gtceu:wulfenite_dust",
+    "item:gtceu:raw_wulfenite",
+    "item:gtceu:netherrack_powellite_ore",
+    "item:gtceu:netherrack_spessartine_ore",
+    "item:gtceu:netherrack_cooperite_ore",
+    "item:gtceu:netherrack_asbestos_ore",
+    "item:gtceu:netherrack_almandine_ore",
+    "item:gtceu:netherrack_cobaltite_ore",
+    "item:gtceu:netherrack_hematite_ore",
+    "item:chipped:loded_netherrack",
+    "item:chipped:weathered_netherrack",
+    "item:gtceu:rubber_dust",
+    "item:gtceu:sugar_gem",
+    "item:gtceu:raw_salt",
+    [
+      "item:gtceu:raw_salt",
+      "#item:forge:ores/salt"
+    ],
+    {
+      "type": "item",
+      "id": "gtceu:salt_gem",
+      "amount": 2
+    },
+    "item:gtceu:salt_dust",
+    "item:thermal:sulfur",
+    "item:gtceu:sulfur_dust",
+    {
+      "type": "item",
+      "id": "minecraft:netherrack",
+      "amount": 15
+    },
+    "item:gtceu:raw_sulfur",
+    {
+      "type": "fluid",
+      "id": "gtceu:fn_element",
+      "amount": 0
+    },
+    "item:gtceu:small_ao_element_spring",
+    "item:gtceu:small_yttrium_barium_cuprate_spring",
+    "item:gtceu:small_platinum_spring",
+    "item:gtceu:small_lead_spring",
+    "item:gtceu:small_iron_spring",
+    "item:gtceu:small_gold_spring",
+    "item:gtceu:small_europium_spring",
+    "item:gtceu:small_aluminium_spring",
+    "item:gtceu:small_copper_spring",
+    "item:gtceu:small_steel_gear",
+    "item:minecraft:flint_and_steel{Damage:0}",
+    "item:gtceu:small_steel_spring",
+    "item:thermal:ice_charge",
+    "item:minecraft:lava_bucket",
+    {
+      "type": "item",
+      "id": "gtceu:steel_ingot",
+      "amount": 20
+    },
+    "item:create:sail_frame",
+    "item:gtceu:pr_element_ingot",
+    "item:gtceu:damascus_steel_dust",
+    "item:gtceu:damascus_steel_ingot",
+    {
+      "type": "fluid",
+      "id": "gtceu:molten_blue_steel",
+      "amount": 144
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:molten_hastelloy_x",
+      "amount": 0
+    },
+    "item:gtceu:mega_vacuum_freezer",
+    {
+      "type": "item",
+      "id": "gtceu:iridium_dust",
+      "amount": 2
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:molten_hsss",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:molten_hsse",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:molten_hssg",
+      "amount": 0
+    },
+    "item:thermal:latex_bucket",
+    {
+      "type": "fluid",
+      "id": "thermal:latex",
+      "amount": 30
+    },
+    "item:thermal:rubberwood_leaves",
+    "item:thermal:crude_oil_bucket",
+    "item:thermal:upgrade_augment_2",
+    "item:thermal:upgrade_augment_1",
+    "#item:forge:ingots/electrum",
+    "item:thermal:energy_limiter_attachment",
+    "item:thermal:filter_attachment",
+    "item:thermal:deep_aquachow",
+    "item:minecraft:echo_shard",
+    "item:gtceu:flawless_echo_shard_gem",
+    "item:gtceu:echo_shard_block",
+    "item:gtceu:echo_shard_plate",
+    "item:create:builders_tea",
+    {
+      "type": "fluid",
+      "id": "create:tea",
+      "amount": 500
+    },
+    {
+      "type": "fluid",
+      "id": "minecraft:milk",
+      "amount": 250
+    },
+    "item:gtceu:cinder_flour_dust",
+    "item:gtceu:tiny_cinder_flour_dust",
+    "item:create:pulp",
+    "item:create:cardboard",
+    "item:create:cardboard_block",
+    "item:create:experience_block",
+    "item:create:experience_nugget",
+    "item:gtceu:chocolate_block",
+    {
+      "type": "item",
+      "id": "gtceu:chocolate_nugget",
+      "amount": 9
+    },
+    {
+      "type": "fluid",
+      "id": "create:chocolate",
+      "amount": 500
+    },
+    "item:farmersdelight:chocolate_pie",
+    "item:create:spout",
+    "item:gtceu:rhodium_plated_palladium_ingot",
+    "item:create:chocolate_bucket",
+    "item:gtceu:chocolate_ingot",
+    "item:gtceu:small_cinder_flour_dust",
+    "item:create:minecart_coupling",
+    "item:create:mechanical_roller",
+    "item:create:brass_table_cloth",
+    "item:create:copper_table_cloth",
+    "item:create:flywheel",
+    "item:create:crushed_raw_copper",
+    "item:minecraft:copper_ingot",
+    "item:create:mechanical_arm",
+    "item:create:cardboard_package_12x10{}",
+    "item:create:crafter_slot_cover",
+    "item:gtceu:dense_obsidian_plate",
+    "item:gtceu:obsidian_plate",
+    "item:gtceu:obsidian_dust",
+    "#item:forge:dusts/obsidian",
+    "item:create:sturdy_sheet",
+    {
+      "type": "fluid",
+      "id": "gtceu:potion",
+      "nbt": "{Potion:\"minecraft:long_slowness\"}",
+      "amount": 750
+    },
+    "item:gtceu:lv_brewery",
+    "item:minecraft:potion{Potion:\"minecraft:long_slowness\"}",
+    {
+      "type": "fluid",
+      "id": "cofh_core:potion",
+      "nbt": "{Potion:\"minecraft:long_slowness\"}",
+      "amount": 1000
+    },
+    "item:thermal:machine_brewer",
+    {
+      "type": "fluid",
+      "id": "create:potion",
+      "nbt": "{Bottle:\"REGULAR\",Potion:\"minecraft:night_vision\"}",
+      "amount": 25
+    },
+    "item:create:rose_quartz",
+    "item:gtceu:naquadah_alloy_buzz_saw_blade",
+    "item:gtceu:blue_alloy_plate",
+    "item:createdeco:andesite_sheet",
+    {
+      "type": "item",
+      "id": "projecte:volcanite_amulet",
+      "remainder": "item:projecte:volcanite_amulet"
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:potion",
+      "nbt": "{Potion:\"minecraft:strong_turtle_master\"}",
+      "amount": 0
+    },
+    "item:ae2:entropy_manipulator",
+    "item:gtceu:programmed_circuit{Configuration:0}",
+    "item:create:powdered_obsidian",
+    {
+      "type": "fluid",
+      "id": "minecraft:water",
+      "amount": 0
+    },
+    "item:projecte:evertide_amulet",
+    "item:biomancy:mascot_patterns",
+    "item:biomancy:living_flesh",
+    "item:biomancy:bloomberry",
+    "item:biomancy:bloomlight",
+    "item:biomancy:despoil_sickle{Damage:0}",
+    {
+      "type": "item",
+      "id": "biomancy:primal_orifice",
+      "amount": 4
+    },
+    "item:biomancy:mob_gland",
+    "item:biomancy:exotic_compound",
+    "item:biomancy:bio_forge",
+    {
+      "type": "fluid",
+      "id": "biomancy:acid",
+      "amount": 1000
+    },
+    "item:biomancy:acid_bucket",
+    "item:minecraft:potion{Potion:\"biomancy:gastric_juice\"}",
+    "item:gtceu:ice_dust",
+    "item:minecraft:ice",
+    "item:createdeco:decal_ice",
+    {
+      "type": "fluid",
+      "id": "gtceu:ice",
+      "amount": 0
+    },
+    "item:gtceu:hp_steam_liquid_boiler",
+    {
+      "type": "item",
+      "id": "gtceu:firebricks",
+      "amount": 33
+    },
+    {
+      "type": "item",
+      "id": "gtceu:compressed_fireclay",
+      "amount": 3
+    },
+    "item:minecraft:bamboo_block",
+    "item:immersive_aircraft:bamboo_hopper",
+    {
+      "type": "item",
+      "id": "projecte:aeternalis_fuel_block",
+      "amount": 64
+    },
+    "item:minecraft:lodestone",
+    "item:chipped:lodestone_mini_tiles",
+    "item:farmersdelight:tomato_crate",
+    "item:gtceu:firebrick",
+    "item:gtceu:fireclay_dust",
+    "item:farmersdelight:tomato_sauce",
+    "item:farmersdelight:tomato",
+    {
+      "type": "fluid",
+      "id": "thermal:tree_oil",
+      "amount": 1000
+    },
+    "item:thermal:tree_oil_bucket",
+    "item:minecraft:stone",
+    "item:veggiesdelight:cauliflower_floret",
+    "item:veggiesdelight:cauliflower_patty",
+    "item:veggiesdelight:cooked_cauliflower_patty",
+    "item:veggiesdelight:cauliflower_burger",
+    "item:veggiesdelight:dandelion_leaf",
+    "#item:forge:salad_ingredients",
+    "item:farmersdelight:hamburger",
+    "item:minecraft:bread",
+    "#item:forge:bread",
+    "item:gtceu:assembly_line",
+    "item:gtceu:brick_dust",
+    "item:gtceu:primitive_blast_furnace",
+    "item:create:mechanical_drill",
+    "item:gtceu:lp_steam_macerator",
+    "#item:forge:plates",
+    "item:gtceu:niobium_nitride_plate",
+    "item:gtceu:niobium_nitride_ingot",
+    "item:gtceu:lv_extruder",
+    "item:gtceu:lv_air_scrubber",
+    "item:gtceu:bronze_ingot",
+    "item:minecraft:sand",
+    [
+      "item:thermal:cinnabar_dust",
+      "item:thermal:cinnabar",
+      "item:minecraft:calcite",
+      "item:minecraft:blaze_powder",
+      "item:thermal:rich_slag",
+      "#item:minecraft:smelts_to_glass"
+    ],
+    "item:thermal:tin_ingot",
+    "item:thermal:tin_gear",
+    "item:thermal:tin_gear",
+    "item:gtceu:lp_steam_forge_hammer",
+    "item:gtceu:copper_rod",
+    "item:gtceu:long_copper_rod",
+    "item:gtceu:iron_plate",
+    "item:gtceu:small_iron_gear",
+    "item:gtceu:bronze_small_fluid_pipe",
+    {
+      "type": "fluid",
+      "id": "gtceu:diphenyl_isophthalate",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:polybenzimidazole",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:styrene_butadiene_rubber",
+      "amount": 0
+    },
+    "item:thermal:signalum_block",
+    "item:gtceu:small_galvanized_steel_dust",
+    "item:farmersdelight:beef_patty",
+    {
+      "type": "fluid",
+      "id": "gtceu:vinyl_acetate",
+      "amount": 144
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:polyvinyl_acetate",
+      "amount": 144
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:polychlorinated_biphenyl",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:creosote",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:benzene",
+      "amount": 0
+    },
+    "item:immersive_paintings:painting",
+    "item:immersive_melodies:didgeridoo{}",
+    "item:immersive_melodies:tiny_drum{}",
+    "item:immersive_melodies:vielle{}",
+    "item:immersive_melodies:lute{}",
+    "item:thermal:lumium_gear",
+    "item:thermal:dynamo_output_augment",
+    "item:gtceu:lp_steam_compressor",
+    "item:gtceu:empty_mold",
+    {
+      "type": "item",
+      "id": "gtceu:block_casting_mold",
+      "chance": 0.0
+    },
+    "item:minecraft:iron_block",
+    "item:minecraft:anvil",
+    "item:gtceu:prospector.hv{Charge:1539264L}",
+    "item:create:cut_crimsite",
+    "#item:create:stone_types/crimsite",
+    {
+      "type": "item",
+      "id": "minecraft:iron_nugget",
+      "amount": 36
+    },
+    "item:gtceu:lp_steam_alloy_smelter",
+    "item:gtceu:bronze_brick_casing",
+    "item:gtceu:ingot_extruder_mold",
+    "item:minecraft:furnace",
+    "item:rechiseled:andesite_rotated_bricks_connecting",
+    "item:gtceu:primitive_pump",
+    "item:gtceu:iron_rotor",
+    "item:gtceu:creosote_bucket",
+    "item:thermal:creosote_bucket",
+    "item:gtceu:pump_deck",
+    "item:gtceu:pump_hatch",
+    "item:gtceu:iron_ring",
+    "item:gtceu:wood_large_fluid_pipe",
+    "item:gtceu:treated_wood_planks",
+    "item:gtceu:treated_wood_rod",
+    {
+      "type": "item",
+      "id": "gtceu:treated_wood_frame",
+      "amount": 10
+    },
+    "item:gtceu:lp_steam_solid_boiler",
+    "item:sophisticatedstorage:iron_chest{accentColor:16351261,mainColor:16351261}",
+    "item:sophisticatedstorage:chest{woodType:\"dark_oak\"}",
+    "item:sophisticatedstorage:copper_chest{woodType:\"dark_oak\"}",
+    {
+      "type": "item",
+      "id": "minecraft:redstone_torch",
+      "amount": 4
+    },
+    "item:gtceu:wood_frame",
+    "item:thermal:earth_tnt_minecart",
+    "item:thermal:lightning_tnt_minecart",
+    "item:thermal:ice_tnt_minecart",
+    "item:thermal:fire_tnt_minecart",
+    "item:thermal:slime_tnt_minecart",
+    "item:thermal:glowstone_tnt_minecart",
+    "item:thermal:redstone_tnt_minecart",
+    "item:thermal:ender_tnt_minecart",
+    "item:thermal:energy_minecart{Energy:0,EnergyMax:1000000,EnergyRecv:1000,EnergySend:1000}",
+    "item:thermal:underwater_minecart",
+    "item:railways:jukeboxcart",
+    "item:railways:benchcart",
+    "item:create:minecart_contraption",
+    "item:minecraft:minecart"
+  ],
+  "craft_history": [
+    "gtceu:shaped/mortar_iron",
+    "minecraft:acacia_planks",
+    "minecraft:chest",
+    "gtceu:shaped/file_iron",
+    "gtceu:shaped/plate_iron",
+    "minecraft:oak_planks",
+    "gtceu:shaped/hammer_iron",
+    "minecraft:furnace",
+    "minecraft:crafting_table",
+    "gtceu:shapeless/cell_nbt_aluminium",
+    "thermal:rubber_3",
+    "gtceu:shaped_fluid_container/paper",
+    "minecraft:kjs/gtceu_paper_dust",
+    "gtceu:shaped/rubber_planks_saw",
+    "gtceu:shaped/saw_iron",
+    "minecraft:stick",
+    "gtceu:shaped/vacuum_tube",
+    "gtceu:shaped/bolt_saw_steel",
+    "gtceu:shaped/stick_steel",
+    "gtceu:shaped/copper_wire_single",
+    "gtceu:shaped/shape_mold_ball",
+    "gtceu:shaped/shape_empty",
+    "create:crafting/kinetics/large_cogwheel",
+    "minecraft:bone_meal_from_bone_block",
+    "minecraft:kjs/thermal_rubberwood_sapling",
+    "minecraft:kjs/thermal_device_tree_extractor",
+    "gtceu:shaped/stick_invar",
+    "gtceu:shapeless/potin_dust",
+    "gtceu:shaped/mortar_grind_tin",
+    "gtceu:shaped/mortar_grind_lead",
+    "gtceu:shaped/mortar_grind_copper",
+    "gtceu:shaped/gear_ceramic_steel",
+    "gtceu:shaped/stick_ceramic_steel",
+    "minecraft:kjs/thermal_redstone_servo",
+    "gtceu:shaped/stick_red_alloy",
+    "gtceu:shaped/electric_motor_lv_iron",
+    "gtceu:shapeless/tin_cable_1",
+    "gtceu:shaped/shape_mold_plate",
+    "gtceu:shapeless/glass_full_dust_flint",
+    "gtceu:shapeless/iron_magnetic_stick",
+    "gtceu:shaped/stick_iron",
+    "gtceu:shaped/tin_wire_single",
+    "gtceu:shaped/medium_bronze_pipe",
+    "gtceu:shaped/steam_extractor_bronze",
+    "minecraft:piston",
+    "gtceu:shaped/shape_mold_block",
+    "gtceu:shaped/small_bronze_pipe",
+    "minecraft:kjs/gtceu_bronze_machine_casing",
+    "minecraft:kjs/pneumatic_mechanism",
+    "gtceu:shaped/small_gear_iron",
+    "gtceu:shaped/stick_long_stick_copper",
+    "gtceu:shaped/stick_copper",
+    "create:crafting/kinetics/cogwheel",
+    "create:crafting/kinetics/water_wheel",
+    "minecraft:kjs/create_mechanical_pump",
+    "create:crafting/kinetics/shaft",
+    "gtceu:shaped/foil_steel",
+    "create:crafting/kinetics/fluid_pipe_vertical",
+    "gtceu:shaped/buzzsaw_blade_wrought_iron",
+    "minecraft:kjs/gtceu_wrought_iron_ingot",
+    "gtceu:shapeless/nugget_disassembling_iron",
+    "minecraft:diamond_pickaxe",
+    "gtceu:shaped/flint_and_steel",
+    "gtceu:shaped/small_gear_steel",
+    "gtceu:shaped/spring_small_steel",
+    "gtceu:shaped/bronze_primitive_blast_furnace",
+    "gtceu:shaped/screw_iron",
+    "gtceu:shaped/bolt_saw_iron",
+    "gtceu:shaped/casing_primitive_bricks",
+    "gtceu:smelting/fireclay_brick",
+    "gtceu:shapeless/fireclay_dust",
+    "gtceu:shaped/steam_macerator_bronze",
+    "gtceu:shaped/oak_planks_saw",
+    "gtceu:shaped/plate_bronze",
+    "gtceu:shaped/steam_hammer_bronze",
+    "gtceu:smelting/smelt_raw_coal_ore_to_ingot",
+    "immersive_paintings:painting",
+    "minecraft:red_dye_from_poppy",
+    "rechiseled:chisel",
+    "minecraft:anvil",
+    "gtceu:shaped/small_dust_disassembling_redstone",
+    "gtceu:shaped/steam_compressor_bronze",
+    "gtceu:shaped/steam_alloy_smelter_bronze",
+    "minecraft:kjs/gtceu_bronze_brick_casing",
+    "minecraft:bricks",
+    "gtceu:shaped/large_wooden_pipe",
+    "minecraft:torch",
+    "gtceu:shaped/primitive_pump",
+    "gtceu:shaped/normal_wooden_pipe",
+    "gtceu:shaped/rotor_iron",
+    "gtceu:shaped/ring_iron",
+    "gtceu:shaped/pump_hatch",
+    "gtceu:shaped/soft_mallet_wood",
+    "gtceu:shaped/acacia_planks_saw",
+    "minecraft:cobblestone_slab",
+    "gtceu:shaped/frame_treated_wood",
+    "gtceu:shaped/treated_wood_stick",
+    "gtceu:shaped_fluid_container/treated_wood_planks",
+    "gtceu:shaped/pump_deck",
+    "gtceu:shaped/iron_bucket",
+    "gtceu:shaped/steam_boiler_coal_bronze",
+    "gtceu:shaped/plate_tin",
+    "gtceu:shaped/stick_tin",
+    "gtceu:shapeless/dust_bronze",
+    "sophisticatedstorage:iron_chest",
+    "sophisticatedstorage:oak_chest_from_vanilla_chest",
+    "minecraft:redstone_torch",
+    "minecraft:kjs/gtceu_ulv_input_bus",
+    "gtceu:shaped/plate_wrought_iron",
+    "gtceu:shaped/lead_wire_single",
+    "gtceu:shaped/plate_lead",
+    "gtceu:shaped/frame_wood",
+    "minecraft:kjs/gtceu_primitive_excavator",
+    "gtceu:shaped/plate_double_tin",
+    "minecraft:iron_pickaxe",
+    "gtceu:shaped/small_copper_pipe",
+    "gtceu:shaped/plate_copper",
+    "minecraft:kjs/gtceu_ulv_energy_input_hatch",
+    "functionalstorage:acacia_2",
+    "functionalstorage:oak_drawer_alternate_x2",
+    "gtceu:shaped/item_bus_input_to_output_0",
+    "gtceu:shaped/wire_cutter_iron",
+    "gtceu:shaped/screwdriver_iron",
+    "gtceu:shaped/coke_oven",
+    "gtceu:shaped/wrench_iron",
+    "gtceu:shaped/casing_coke_bricks",
+    "gtceu:shaped/compressed_coke_clay",
+    "immersive_melodies:trumpet",
+    "gtceu:shaped/axe_iron",
+    "gtceu:shaped/axe_flint",
+    "minecraft:kjs/excavator_bricks",
+    "minecraft:kjs/compressed_excavator_clay",
+    "gtceu:shaped/wooden_shape_brick",
+    "gtceu:shaped/plank_to_wooden_shape",
+    "gtceu:shaped/knife_iron",
+    "functionalstorage:oak_drawer_alternate_x1",
+    "minecraft:wooden_pickaxe",
+    "gtceu:shapeless/red_alloy_wire_wire_gt_single_doubling",
+    "gtceu:shaped/casing_lv",
+    "gtceu:shaped/steel_hull",
+    "gtceu:shaped/plate_steel",
+    "gtceu:shaped/red_alloy_wire_single",
+    "gtceu:shaped/plate_red_alloy",
+    "gtceu:shaped/basic_circuit_board",
+    "gtceu:shapeless/coated_board_1x",
+    "sophisticatedstorage:iron_chest_from_copper_chest",
+    "sophisticatedstorage:copper_chest",
+    "gtceu:shaped/resistor_wire_fine",
+    "gtceu:shaped/gem_to_dust_coal_gem",
+    "gtceu:shapeless/fine_wire_copper",
+    "gtceu:shaped/foil_copper",
+    "functionalstorage:oak_1",
+    "gtceu:shaped/gem_to_dust_flint_gem",
+    "gtceu:shaped/quartz_sand",
+    "gtceu:shaped/shape_mold_cylinder",
+    "immersive_melodies:triangle",
+    "gtceu:shaped/plate_double_steel",
+    "gtceu:shaped/buzzsaw_blade_steel",
+    "create:crafting/kinetics/fluid_pipe",
+    "immersive_aircraft:industrial_gears",
+    "minecraft:lever",
+    "immersive_aircraft:improved_landing_gear",
+    "immersive_aircraft:sturdy_pipes",
+    "create:crafting/kinetics/mechanical_drill",
+    "gtceu:shaped/steam_rock_breaker_bronze",
+    "immersive_aircraft:biplane",
+    "immersive_aircraft:propeller",
+    "immersive_aircraft:engine",
+    "immersive_aircraft:hull",
+    "minecraft:blast_furnace",
+    "minecraft:smithing_table",
+    "immersive_aircraft:boiler",
+    "minecraft:lightning_rod",
+    "gtceu:shaped/casing_bronze_bricks",
+    "gtceu:shaped/helmet_bronze",
+    "gtceu:shaped/small_dust_assembling_ge_element",
+    "gtceu:shaped/sword_flint",
+    "gtceu:shaped/knife_flint",
+    "gtceu:shaped/leggings_steel",
+    "gtceu:shaped/large_steel_pipe",
+    "create:crafting/materials/copper_nugget",
+    "minecraft:minecart",
+    "minecraft:iron_chestplate",
+    "gtceu:shaped/helmet_steel",
+    "gtceu:shaped/chestplate_steel",
+    "gtceu:shaped/foil_bronze",
+    "minecraft:kjs/bronze_plated_excavator_bricks",
+    "gtceu:shaped/plate_double_bronze",
+    "gtceu:shaped/boots_bronze",
+    "gtceu:shaped/steam_bus_input_to_output",
+    "gtceu:shaped/butchery_knife_iron",
+    "gtceu:shaped/iron_lv_drill",
+    "minecraft:spruce_planks",
+    "gtceu:shaped/spade_iron",
+    "gtceu:shaped/mortar_grind_iron",
+    "gtceu:shaped/tiny_dust_assembling_copper",
+    "gtceu:shaped/tiny_dust_assembling_basaltic_mineral_sand",
+    "gtceu:shaped/shovel_iron",
+    "gtceu:shaped/pickaxe_iron",
+    "minecraft:spruce_door",
+    "gtceu:shaped/mining_hammer_iron",
+    "minecraft:shield",
+    "minecraft:white_bed",
+    "minecraft:stone_pickaxe",
+    "minecraft:stone_axe"
+  ],
+  "recipe_defaults": {
+    "added": [
+      "minecraft:spruce_button",
+      "gtceu:shaped/compressed_coke_clay"
+    ],
+    "tags": {},
+    "resolutions": {},
+    "disabled": []
+  },
+  "hidden_stacks": []
+}
