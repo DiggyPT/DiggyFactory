@@ -1,0 +1,42 @@
+// priority: 0
+ServerEvents.recipes(event => {
+    event.recipes.gtceu.chemical_reactor("kubejs:monazite_slurry_make")
+        .itemInputs("gtceu:monazite_dust")
+        .inputFluids(Fluid.of("minecraft:water", 1000))
+        .outputFluids(Fluid.of("gtceu:monazite_slurry", 1000))
+        .duration(60)
+        .EUt(20)
+
+    event.recipes.gtceu.ion_exchanger("kubejs:monazite_ion_exchanging")
+        .inputFluids(Fluid.of("gtceu:monazite_slurry", 1000))
+        .notConsumable("kubejs:ion_exchange_resin_beads")
+        .itemOutputs("gtceu:dysprosium_cation_dust")
+        .duration(60)
+        .EUt(20)
+
+    event.recipes.gtceu.chemical_reactor("kubejs:dysprosium_fluoride_make")
+        .itemInputs("gtceu:dysprosium_cation_dust")
+        .inputFluids(Fluid.of("gtceu:fluorine", 3000))
+        .itemOutputs("gtceu:dysprosium_trifluoride_dust")
+        .duration(60)
+        .EUt(20)
+
+    event.recipes.gtceu.chemical_reactor("kubejs:dysprosium_chloride_make")
+        .itemInputs("gtceu:dysprosium_cation_dust")
+        .inputFluids(Fluid.of("gtceu:chlorine", 3000))
+        .itemOutputs("gtceu:dysprosium_trichloride_dust")
+        .duration(60)
+        .EUt(20)
+
+    event.recipes.gtceu.electric_blast_furnace("kubejs:dysprosium_from_dycl3")
+        .itemInputs("gtceu:dysprosium_trichloride_dust", "3x gtceu:lithium_dust")
+        .itemOutputs("gtceu:dysprosium_ingot", "3x gtceu:lithium_chloride_dust")
+        .duration(120)
+        .EUt(480)
+
+    event.recipes.gtceu.electric_blast_furnace("kubejs:dysprosium_from_dyf3")
+        .itemInputs("2x gtceu:dysprosium_trifluoride_dust", "3x gtceu:calcium_dust")
+        .itemOutputs("2x gtceu:dysprosium_ingot", "3x gtceu:calcium_fluoride_dust")
+        .duration(240)
+        .EUt(480)
+})

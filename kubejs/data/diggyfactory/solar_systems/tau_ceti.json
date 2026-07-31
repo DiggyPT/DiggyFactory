@@ -1,0 +1,53 @@
+{
+  "id": "diggyfactory:tau_ceti",
+  "sun_texture": "ad_astra:textures/environment/sun.png",
+  "sun_size": 20,
+  "sun_dimension": "",
+  "orbiting_objects": [
+    {
+	  "dimension": "df_planets:arachne",
+	  "texture": "ad_astra:textures/environment/tauceti_g_spidered.png",
+      "size": 10,
+      "distance": 13,
+	  "time": 14.5,
+	  "circle_color": "#AB9387",
+	  "extra_objects": [
+	    {
+		  "dimension": "",
+		  "texture": "ad_astra:textures/environment/arachne_i.png",
+		  "size": 6,
+		  "distance": 3,
+		  "time": -5.46,
+		  "circle_color": "#D7A4A4"
+	    }
+	  ]
+    },
+	{
+	  "dimension": "",
+	  "texture": "ad_astra:textures/environment/tauceti_h.png",
+      "size": 16,
+      "distance": 19,
+	  "time": 25.8,
+	  "circle_color": "#D6D6D7",
+	  "extra_objects": []
+    },
+	{
+	  "dimension": "",
+	  "texture": "ad_astra:textures/environment/tauceti_e.png",
+      "size": 18,
+      "distance": 23,
+	  "time": 32.1,
+	  "circle_color": "#456B3D",
+	  "extra_objects": []
+    },
+	{
+	  "dimension": "",
+	  "texture": "ad_astra:textures/environment/tauceti_f.png",
+      "size": 12,
+      "distance": 26,
+	  "time": 45.6,
+	  "circle_color": "#406E71",
+	  "extra_objects": []
+    }
+  ]
+}

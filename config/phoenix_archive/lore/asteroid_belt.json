@@ -1,0 +1,12 @@
+{
+  "id": "asteroid_belt",
+  "title": "Asteroid Belt",
+  "category": "SOLAR_SYSTEM",
+  "content": "The §lAsteroid Belt §ris a ring of disjointed, large rocks between the orbit of §cMars§r and §6Jupiter§r.\nIts main attraction is its §bbubble colonies§r, large spherical stations that house a crew of §ebutterfly colonists§r.\n\nA §eButterfly colonist§r is a type of genetically modified human with wings and antennae, resembling a butterfly. They use the low gravity of this zone of the solar system to their advantage, allowing them to easily fly through their bubble. The first recorded instance of bubble colonies and butterfly colonists was in the early 24th century.",
+  "iconItem": "df_planets:metallic_asteroid_roc",
+  "questId": 0,
+  "lockedContent": "",
+  "voiceLine": "",
+  "conditions": {},
+  "order": 3
+}

@@ -159,7 +159,7 @@ ServerEvents.recipes(event => {
         .duration(400)
         .EUt(4)
 
-    //Primitive excavator
+    /*Primitive excavator
 
     function addOreRecipeP(oreName){
         event.recipes.gtceu.primitive_excavator("kubejs:mine_" + oreName)
@@ -207,14 +207,14 @@ ServerEvents.recipes(event => {
             .notConsumable("1x minecraft:raw_gold")
             .itemOutputs("8x minecraft:raw_gold")
             .duration(200)
-            .EUt(32)
+            .EUt(32)*/
 
     //Vapor distiller
 
     event.recipes.gtceu.vapor_distiller("kubejs:vd_germanium")
         .itemInputs("4x gtceu:raw_coal")
         .inputFluids(Fluid.of("gtceu:hydrochloric_acid", 300))
-        .itemOutputs("3x gtceu:carbon_dust", "2x gtceu:small_ge_element_dust")
+        .itemOutputs("3x gtceu:carbon_dust", "2x gtceu:germanium_dust")
         .duration(200)
         .EUt(56)
 
@@ -254,6 +254,15 @@ ServerEvents.recipes(event => {
         .notConsumable("1x thermal:lumium_dust")
         .inputFluids(Fluid.of("gtceu:therm", 144))
         .outputFluids(Fluid.of("gtceu:polytherm", 144))
+        .duration(400)
+        .EUt(164)
+
+    event.remove({id:'gtceu:chemical_reactor/ptfe_from_oxygen'})
+    event.remove({id:'gtceu:chemical_reactor/ptfe_from_air'})
+    event.recipes.gtceu.polymerization_chamber("kubejs:ptfe_make")
+        .notConsumable("1x gtceu:potassium_persulfate_dust")
+        .inputFluids(Fluid.of("gtceu:tetrafluoroethylene", 144))
+        .outputFluids(Fluid.of("gtceu:polytetrafluoroethylene", 216))
         .duration(400)
         .EUt(164)
 
@@ -297,5 +306,5 @@ ServerEvents.recipes(event => {
         .itemInputs("gtceu:uranium_235_rod")
         .itemOutputs("gtceu:lead_rod")
         .duration(120)
-        .EUt(-32)
+        .EUt(-480)
 })

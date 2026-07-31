@@ -1,0 +1,7 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "gtceu:item/material_sets/heavy_duty/ingot",
+    "layer1": "gtceu:item/material_sets/heavy_duty/ingot_secondary"
+  }
+}

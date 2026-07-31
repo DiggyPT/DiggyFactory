@@ -1,0 +1,6 @@
+{
+  "id": "BARNARDS_STAR",
+  "description": "Planets of Barnard\u0027s Star",
+  "weight": 50,
+  "parentId": "WORLDS"
+}

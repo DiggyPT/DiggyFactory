@@ -1,16 +1,55 @@
 ﻿ItemEvents.tooltip(event => {
-    function addTooltip(voltage, machine, tip) {
+    function addTooltip(voltage, machine, tip) { //this one is for gregtech machines.
         event.addAdvanced('gtceu:' + voltage + '_' + machine, (item, advanced, text) => {
          text.add(1, Text.gray(tip))
         })
     }
 
+    function addTooltipDC(voltage, machine, tip) { //this one is for diggycore machines.
+        event.addAdvanced('diggycore:' + voltage + '_' + machine, (item, advanced, text) => {
+         text.add(1, Text.gray(tip))
+        })
+    }
+
+    //DC at the end: for DiggyCore machines
     function addAdvTooltips(machine, adv1, adv2) {
         addTooltip('uhv', machine, adv1)
         addTooltip('uev', machine, adv1)
         addTooltip('uiv', machine, adv2)
         addTooltip('uxv', machine, adv2)
         addTooltip('opv', machine, adv2)
+    }
+
+    function addAdvTooltipsDC(machine, adv1, adv2) {
+        addTooltipDC('uhv', machine, adv1)
+        addTooltipDC('uev', machine, adv1)
+        addTooltipDC('uiv', machine, adv2)
+        addTooltipDC('uxv', machine, adv2)
+        addTooltipDC('opv', machine, adv2)
+    }
+
+    function addGeneralTooltips(machine, basic1, basic2, adv1, adv2) {
+        addTooltip('lv', machine, basic1)
+        addTooltip('mv', machine, basic1)
+        addTooltip('hv', machine, basic1)
+        addTooltip('ev', machine, basic1)
+        addTooltip('iv', machine, basic2)
+        addTooltip('luv', machine, basic2)
+        addTooltip('zpm', machine, basic2)
+        addTooltip('uv', machine, adv1)
+        addAdvTooltips(machine, adv1, adv2)
+    }
+
+    function addGeneralTooltipsDC(machine, basic1, basic2, adv1, adv2) {
+        addTooltipDC('lv', machine, basic1)
+        addTooltipDC('mv', machine, basic1)
+        addTooltipDC('hv', machine, basic1)
+        addTooltipDC('ev', machine, basic1)
+        addTooltipDC('iv', machine, basic2)
+        addTooltipDC('luv', machine, basic2)
+        addTooltipDC('zpm', machine, basic2)
+        addTooltipDC('uv', machine, adv1)
+        addAdvTooltipsDC(machine, adv1, adv2)
     }
 
     addAdvTooltips('electric_furnace', 'Atom Stimulator', 'Kinetic Exciter')
@@ -48,4 +87,7 @@
     addAdvTooltips('wiremill', 'Wire Transfigurator', 'Super Strecher')
     addAdvTooltips('circuit_assembler', 'Computation Factory', 'IBM Factory')
     addAdvTooltips('macerator', 'Shape Eliminator', 'And to dust we shall return')
+
+    addGeneralTooltipsDC('apiary', 'This isn´t Forestry...', 'Bee City', 'Bee Metropolis', 'Bee Ecumenopolis')
+    addGeneralTooltips('bio_reactor', 'Biochemistry is Fun!', 'Genetic Modulator', 'Game of Life', 'Playing God')
 });

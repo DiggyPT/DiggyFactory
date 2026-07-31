@@ -31,7 +31,7 @@
 	quests: [
 		{
 			dependencies: ["0628DB72B5C212F3"]
-			description: ["This pack was made possible by a lot of people!"]
+			description: ["This pack was made possible by a lot of people."]
 			icon: "gtceu:high_performance_computation_array"
 			id: "7E14D9E3412D8E72"
 			shape: "gear"

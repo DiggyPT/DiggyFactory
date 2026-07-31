@@ -5,6 +5,14 @@
 	group: "45DE873674286673"
 	icon: "gtceu:bronze_brick_casing"
 	id: "23CE7B38ABD35D7D"
+	images: [{
+		height: 1.0d
+		image: "diggyfactory:textures/quests/lv.png"
+		rotation: 0.0d
+		width: 2.0d
+		x: 18.0d
+		y: -1.5d
+	}]
 	order_index: 1
 	quest_links: [{
 		id: "71C35CE90FF9B40D"
@@ -44,45 +52,12 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["55ACAF8733D01A33"]
-			description: [
-				"You can now unlock &lCreate&r!"
-				""
-				"What this means is that you can now make cool contraptions, such as tunnel bores, automatic farms, etc..."
-				""
-				"However, all processing machines from Create have been &cdeprecated&r in this pack. Their recipes have been fulfilled by GregTech machines, so you can't craft them."
-				""
-				"{@pagebreak}"
-				""
-				"I highly advise you to make a cactus farm with the reward I gave you so that you can turn it into lime dye and combine it with dough to make slime balls, which can then be turned into super glue."
-			]
-			id: "3776E37FEF41654C"
-			rewards: [{
-				count: 8
-				id: "4C76944CCC8EE56A"
-				item: "minecraft:cactus"
-				type: "item"
-			}]
-			shape: "octagon"
-			size: 1.5d
-			subtitle: "Alliterations Aplenty"
-			tasks: [{
-				count: 8L
-				id: "5AD05F0EAA74CB42"
-				item: { Count: 8, id: "create:andesite_alloy" }
-				type: "item"
-			}]
-			title: "Create Unlocked!"
-			x: 6.0d
-			y: 4.0d
-		}
-		{
 			dependencies: ["61FF5795C584957A"]
 			description: [
 				"I hope you have saved up a good bit of creosote oil!"
 				"If you haven't, then don't worry, you can still just make some... It'll take a while though."
 				""
-				"Anyways, the Primitive Pump is a multiblock machine made almost entirely out of treated wood. Treated wood requires wood and creosote oil to make. When it's assembled, it'll start creating water!"
+				"Anyways, the Primitive Pump is a multiblock machine made almost entirely out of treated wood. Treated wood requires wood and creosote oil to make. When it's assembled, it'll start creating water."
 				""
 				"Then you'll need to bring the water to your boilers with pipes."
 			]
@@ -117,37 +92,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["3776E37FEF41654C"]
-			description: [
-				"Now that you have &lCreate&r unlocked, you can make things like &5Tunnel bores!&r Whether it be through rope pulleys, rails, anything!"
-				""
-				"This is good if you're pretty tired of just mining. I know I am. So you can leave this running in the background!"
-				""
-				"If you want to further Create-ify your mineshafts, how about building elevators down to your mines? idk lol"
-			]
-			id: "505DC893459EBF3D"
-			rewards: [{
-				id: "683C51F79C34616B"
-				item: {
-					Count: 1
-					id: "create:super_glue"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "GT Miners at Home"
-			tasks: [{
-				id: "625187C5B103D94C"
-				item: "create:mechanical_drill"
-				type: "item"
-			}]
-			title: "Tunnel Bore"
-			x: 6.0d
-			y: 6.0d
-		}
-		{
 			dependencies: ["61FF5795C584957A"]
 			description: ["The extractor will be used to get your first rubber pulp."]
 			id: "3488169BAB64BA83"
@@ -176,7 +120,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["6A8AD35A05917991"]
+			dependencies: ["418B3269275F8C48"]
 			description: [
 				"Are you tired of evenly distributing stuff between a million furnaces?"
 				"Do you just want one big boy that smelts &oreally&r fast?"
@@ -186,66 +130,18 @@
 			icon: "gtceu:steam_oven"
 			id: "6C3F8F8D88938B3C"
 			subtitle: "Me Me Big Boy"
-			tasks: [
-				{
-					id: "11A9FE77FE8CA423"
-					item: "gtceu:steam_oven"
-					type: "item"
-				}
-				{
-					count: 8L
-					id: "4A8F066EEC1B64DA"
-					item: { Count: 8, id: "gtceu:steam_machine_casing" }
-					type: "item"
-				}
-				{
-					count: 8L
-					id: "706DC197E9516819"
-					item: { Count: 8, id: "gtceu:bronze_firebox_casing" }
-					type: "item"
-				}
-				{
-					id: "4FC0C9A2ACFBF9B6"
-					item: "gtceu:steam_input_hatch"
-					type: "item"
-				}
-				{
-					id: "591BAAD907287886"
-					item: "gtceu:steam_input_bus"
-					type: "item"
-				}
-				{
-					id: "2E2D252FF8F60FA2"
-					item: "gtceu:steam_output_bus"
-					type: "item"
-				}
-			]
-			x: 2.0d
-			y: 4.0d
-		}
-		{
-			dependencies: [
-				"3776E37FEF41654C"
-				"78730BBC6D347D48"
-			]
-			description: ["If you have gone to the Nether and found some zinc, you can make &lMechanical Crafters&r! You'll need a few of these if you want to automate stuff at this point."]
-			hide_dependency_lines: true
-			id: "05BBA030EE9EE797"
-			subtitle: "Assembler at Home"
 			tasks: [{
-				count: 3L
-				id: "290F39A96B5D5170"
-				item: { Count: 3, id: "create:mechanical_crafter" }
+				id: "11A9FE77FE8CA423"
+				item: "gtceu:steam_oven"
 				type: "item"
 			}]
-			title: "Mechanical Crafter"
-			x: 8.0d
-			y: 6.0d
+			x: 4.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["028EFD89858B1C21"]
 			description: [
-				"This will be what you will be using to make machines. It might look crappy, but luckily, you will have automated &6Vacuum Tubes&r by the end of this age, so you will never have to worry about crafting these again!"
+				"This will be what you will be using to make machines. It might look crappy, but... yeah.... it is crappy."
 				"{@pagebreak}"
 				"&9Lore:&r theres no lore i just added this to the pack lol"
 			]
@@ -276,7 +172,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["2DAF9F9E932A797A"]
+			dependencies: ["418B3269275F8C48"]
 			description: [
 				"This needs quite a lot of bronze to make so be warned!"
 				"The &lSteam Grinder&r is a big multiblock machine that smashes stuff pretty fast. You can use it to macerate your ores to double them! Pretty cool!"
@@ -284,36 +180,13 @@
 			icon: "gtceu:steam_grinder"
 			id: "76778ABC0D5D84B1"
 			subtitle: "Me Me Big Boy #2"
-			tasks: [
-				{
-					id: "0872E2DE0DC69B87"
-					item: "gtceu:steam_grinder"
-					type: "item"
-				}
-				{
-					count: 22L
-					id: "1AA8D7A40D4CC04F"
-					item: { Count: 22, id: "gtceu:steam_machine_casing" }
-					type: "item"
-				}
-				{
-					id: "5C9BB2B9A4E94F47"
-					item: "gtceu:steam_input_bus"
-					type: "item"
-				}
-				{
-					id: "4C46578D3FEC3663"
-					item: "gtceu:steam_output_bus"
-					type: "item"
-				}
-				{
-					id: "5F11B1D399B8799F"
-					item: "gtceu:steam_input_hatch"
-					type: "item"
-				}
-			]
-			x: 4.0d
-			y: 4.0d
+			tasks: [{
+				id: "0872E2DE0DC69B87"
+				item: "gtceu:steam_grinder"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["61FF5795C584957A"]
@@ -348,7 +221,7 @@
 			description: ["You'll need a ball mold to make Glass Tubes. Make one with wrought iron. Luckily you don't need to automate this..."]
 			icon: "gtceu:ball_casting_mold"
 			id: "55F08BCCD704B015"
-			subtitle: "Moldy like as the Geometry Dash youtuber?"
+			subtitle: "I don't like moldy bread"
 			tasks: [
 				{
 					id: "1F83599D581F25E0"
@@ -362,12 +235,12 @@
 				}
 			]
 			title: "Molds"
-			x: 14.0d
+			x: 12.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["55F08BCCD704B015"]
-			description: ["Make some vacuum tubes. They're more complicated to make than piston mechanisms, but they can be automated in an easier way. To automate them, use steam excavators."]
+			description: ["Make some vacuum tubes. They're more complicated to make than piston mechanisms, but they are cheaper."]
 			id: "27CF48A8255DE7DE"
 			subtitle: "Hoover"
 			tasks: [{
@@ -376,7 +249,7 @@
 				type: "item"
 			}]
 			title: "Vacuum Tube"
-			x: 16.0d
+			x: 14.0d
 			y: 2.0d
 		}
 		{
@@ -387,7 +260,7 @@
 				"&d\"The main material of LV is still steel?\"&r"
 				"Yeah, what did you expect? Some super alloy where half of its name is latin? This isn't &cPhoenix Forge Technologies&r."
 				""
-				"&ofor all interested individuals, click on the image down and to the left of this quest)"
+				"&o(for all interested individuals, click on the image in the credits tab)"
 			]
 			id: "2F3222F2085F1EC1"
 			shape: "octagon"
@@ -400,7 +273,7 @@
 				type: "item"
 			}]
 			title: "Steel"
-			x: 12.0d
+			x: 10.0d
 			y: 0.0d
 		}
 		{
@@ -648,7 +521,7 @@
 				type: "item"
 			}]
 			title: "Steel Tools"
-			x: 10.0d
+			x: 9.5d
 			y: -2.0d
 		}
 		{
@@ -662,7 +535,7 @@
 				type: "item"
 			}]
 			title: "Liquid Boiler"
-			x: 12.0d
+			x: 10.5d
 			y: -2.0d
 		}
 		{
@@ -700,7 +573,7 @@
 					type: "dimension"
 				}
 			]
-			x: 14.0d
+			x: 12.0d
 			y: 0.0d
 		}
 		{
@@ -767,8 +640,8 @@
 				type: "item"
 			}]
 			title: "High-Pressure Machines"
-			x: 14.0d
-			y: -2.0d
+			x: 11.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["78730BBC6D347D48"]
@@ -809,7 +682,7 @@
 				}
 			]
 			title: "Rubber"
-			x: 16.0d
+			x: 14.0d
 			y: 0.0d
 		}
 		{
@@ -822,7 +695,7 @@
 				item: "gtceu:lv_machine_hull"
 				type: "item"
 			}]
-			x: 18.0d
+			x: 16.0d
 			y: -2.0d
 		}
 		{
@@ -839,7 +712,7 @@
 				item: "gtceu:basic_electronic_circuit"
 				type: "item"
 			}]
-			x: 18.0d
+			x: 16.0d
 			y: 0.0d
 		}
 		{
@@ -857,7 +730,7 @@
 				type: "item"
 			}]
 			title: "Resistor"
-			x: 16.0d
+			x: 14.0d
 			y: -2.0d
 		}
 		{
@@ -870,24 +743,8 @@
 				item: "gtceu:lv_electric_motor"
 				type: "item"
 			}]
-			x: 18.0d
+			x: 16.0d
 			y: 2.0d
-		}
-		{
-			dependencies: ["55ACAF8733D01A33"]
-			description: [
-				"The &lElectron tube&r is like the Vacuum Tube but with less microcrafting. Also, it's used for Create stuff."
-				"To make it, you'll need rose quartz, which you need to make in an alloy smelter with 8 redstone and 1 nether quartz. Then, you'll need some sand paper. Hold the sand paper in your offhand and the rose quartz in your main hand and hold right click to polish the quartz."
-			]
-			id: "7F5FB5E6AC4C514E"
-			subtitle: "Vacuum Tube at Home"
-			tasks: [{
-				id: "0387236CACC963CE"
-				item: "create:electron_tube"
-				type: "item"
-			}]
-			x: 8.0d
-			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -897,6 +754,12 @@
 			]
 			description: ["By assembling your &7LV&r Hull, circuits and motor, you can make the &lSteam Turbine&r - a machine that will turn steam into electricity valuable for LV!"]
 			id: "1790658601A1E187"
+			rewards: [{
+				count: 6
+				id: "79436C63152A3B3D"
+				item: "gtceu:steel_ingot"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "Onto the Electric Age!"
@@ -906,40 +769,8 @@
 				type: "item"
 			}]
 			title: "LV Unlocked!"
-			x: 20.0d
+			x: 18.0d
 			y: 0.0d
-		}
-		{
-			dependencies: ["2F3222F2085F1EC1"]
-			description: [
-				"Now that you have steel, you have access to an improved water pump to feed your boilers - the &9Mechanical Pump&r or &9Hose Pulley&r from &6Create&r!"
-				"Just shove it in a pond, hook it up to your boilers and give it some rotation and you've got automatic water!"
-			]
-			id: "4F41728D90EEEB5A"
-			subtitle: "Goodbye primitive water pump!"
-			tasks: [{
-				id: "68065566D1A9A298"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "create:mechanical_pump"
-							}
-							{
-								Count: 1b
-								id: "create:hose_pulley"
-							}
-						]
-					}
-				}
-				type: "item"
-			}]
-			title: "Automatic Water"
-			x: 12.0d
-			y: 2.0d
 		}
 		{
 			dependencies: ["55ACAF8733D01A33"]
@@ -965,133 +796,23 @@
 					item: { Count: 24, id: "gtceu:ceramic_steel_frame" }
 					type: "item"
 				}
-				{
-					count: 12L
-					id: "2C07BE6111FC581E"
-					item: "gtceu:steam_machine_casing"
-					type: "item"
-				}
-				{
-					count: 9L
-					id: "4D70BF64A8EBF19C"
-					item: { Count: 9, id: "minecraft:dirt" }
-					type: "item"
-				}
-				{
-					id: "63635EE37236B72A"
-					item: "minecraft:hay_block"
-					type: "item"
-				}
-				{
-					id: "473B946FAD11B06F"
-					item: "gtceu:steam_input_bus"
-					type: "item"
-				}
-				{
-					id: "0C9C2DABE4432EA4"
-					item: "gtceu:steam_output_bus"
-					type: "item"
-				}
-				{
-					id: "0E24CECD564F2BC5"
-					item: "gtceu:steam_input_hatch"
-					type: "item"
-				}
 			]
 			x: 8.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["2A57686A7FF98892"]
-			description: ["After getting some caged animals, you can breed them to get MORE caged animals! Yahoo! I recommend making a &2crop farm&r with &6Create&r if you want to automate this. Also this takes a LOOOOOOT of bronze."]
+			description: ["After getting some caged animals, you can breed them to get MORE caged animals! Yahoo! I recommend making a &2crop farm&r if you want to automate this. Also this takes a LOOOOOOT of bronze."]
 			icon: "gtceu:steam_ranch"
 			id: "1F3FBA0B2B40D54B"
 			subtitle: "Ram Ranch"
-			tasks: [
-				{
-					id: "638F1EB890661BDA"
-					item: "gtceu:steam_ranch"
-					type: "item"
-				}
-				{
-					count: 12L
-					id: "0CA011ED90538838"
-					item: { Count: 12, id: "gtceu:ceramic_steel_frame" }
-					type: "item"
-				}
-				{
-					count: 22L
-					id: "500782EB96A1803D"
-					item: "gtceu:wood_frame"
-					type: "item"
-				}
-				{
-					id: "1B1EE4C85A539ABA"
-					item: "gtceu:steam_input_bus"
-					type: "item"
-				}
-				{
-					id: "27FE4EF4D8056455"
-					item: "gtceu:steam_output_bus"
-					type: "item"
-				}
-				{
-					id: "2112DB62DC283A77"
-					item: "gtceu:steam_input_hatch"
-					type: "item"
-				}
-				{
-					count: 30L
-					id: "2881F169216B3036"
-					item: "gtceu:steam_machine_casing"
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "6E6C497C6BB536DC"
-					item: { Count: 2, id: "gtceu:bronze_gearbox" }
-					type: "item"
-				}
-				{
-					count: 24L
-					id: "3D8B95590DA0D083"
-					item: "minecraft:oak_slab"
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "3BCA04825B5E8A99"
-					item: { Count: 2, id: "minecraft:oak_fence_gate" }
-					type: "item"
-				}
-				{
-					count: 52L
-					id: "0BAF5CBB859198AD"
-					item: { Count: 52, id: "minecraft:oak_fence" }
-					type: "item"
-				}
-				{
-					count: 18L
-					id: "33C19D62184977B0"
-					item: { Count: 18, id: "minecraft:dirt" }
-					type: "item"
-				}
-			]
-			x: 10.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["292855401877F96E"]
-			description: ["By making your first &9LV Circuits&r, you can make a &6Mechanical Arm&r. This fella can make logistics more simple by being able to retrieve and distribute items from lots of places. Just make sure to make depots!"]
-			id: "6770F98C837DE0D5"
-			subtitle: "Clanker"
 			tasks: [{
-				id: "4AEB4F259501FE2C"
-				item: "create:mechanical_arm"
+				id: "638F1EB890661BDA"
+				item: "gtceu:steam_ranch"
 				type: "item"
 			}]
-			x: 20.0d
-			y: 2.0d
+			x: 10.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1F3FBA0B2B40D54B"]
@@ -1099,94 +820,13 @@
 			icon: "gtceu:steam_butcher"
 			id: "28503F057E2450BE"
 			subtitle: "PETA is Seething"
-			tasks: [
-				{
-					id: "4F5F5C7E9BD05CA8"
-					item: "gtceu:steam_butcher"
-					type: "item"
-				}
-				{
-					count: 17L
-					id: "7FF475A682CE856E"
-					item: "gtceu:steam_machine_casing"
-					type: "item"
-				}
-				{
-					count: 12L
-					id: "55AD9498557B41EA"
-					item: { Count: 12, id: "gtceu:ceramic_steel_frame" }
-					type: "item"
-				}
-				{
-					id: "633E24EC22697CF8"
-					item: "gtceu:steam_input_hatch"
-					type: "item"
-				}
-				{
-					id: "74BD332685C1D55B"
-					item: "gtceu:steam_input_bus"
-					type: "item"
-				}
-				{
-					id: "5F0DD74D4B91E4E1"
-					item: "gtceu:steam_output_bus"
-					type: "item"
-				}
-				{
-					id: "5A871328B1692F2B"
-					item: "minecraft:glass"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4F5F5C7E9BD05CA8"
+				item: "gtceu:steam_butcher"
+				type: "item"
+			}]
 			x: 12.0d
 			y: 4.0d
-		}
-		{
-			dependencies: ["505DC893459EBF3D"]
-			description: [
-				"If you have made a primitive excavator or two, now is your time to &6upgrade it to steam level&r!"
-				""
-				"The &lSteam Excavator&r is a multiblock machine that works like the Primitive Excavator, but it is vastly more fuel efficient as it uses &7steam&r instead of &0coal&r. It is also vastly easier to automate since you can make steam in dozens of ways."
-			]
-			icon: "gtceu:steam_excavator"
-			id: "4EF43043B888E9A9"
-			subtitle: "iExcavator 9 Pro Max"
-			tasks: [
-				{
-					id: "55A424A93AC2B295"
-					item: "gtceu:steam_excavator"
-					type: "item"
-				}
-				{
-					count: 17L
-					id: "3E24FE306E00EBD4"
-					item: { Count: 17, id: "kubejs:bronze_plated_excavator_bricks" }
-					type: "item"
-				}
-				{
-					count: 15L
-					id: "48D5AB5F53750A3D"
-					item: { Count: 15, id: "gtceu:ceramic_steel_frame" }
-					type: "item"
-				}
-				{
-					id: "3B06029C88AEF73C"
-					item: "gtceu:steam_input_bus"
-					type: "item"
-				}
-				{
-					id: "4C4DBDEE5ECC792D"
-					item: "gtceu:steam_output_bus"
-					type: "item"
-				}
-				{
-					id: "0E6DBFA43EE78D36"
-					item: "gtceu:steam_input_hatch"
-					type: "item"
-				}
-			]
-			x: 6.0d
-			y: 8.0d
 		}
 		{
 			dependencies: ["6B369B12B4D4D1B8"]
@@ -1207,15 +847,17 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
+			x: 8.0d
 			y: 0.0d
 		}
 		{
+			dependencies: ["028EFD89858B1C21"]
 			description: [
 				"By the end of this age you will need rubber. You can get it right now by turning sticky resin from rubber trees into rubber pulp and alloying it with sulfur to get rubber bars."
 				""
-				"If you can't find rubber trees, this is what this quest is for! Simply turn in a wrought iron buzzsaw blade and you will recieve rubber wood saplings. No need to thank me!"
+				"If you can't find rubber trees, this is what this quest is for. Simply turn in a wrought iron buzzsaw blade and you will recieve rubber wood saplings. No need to thank me."
 			]
+			hide_dependency_lines: true
 			id: "376CC82A0709F7F1"
 			rewards: [{
 				count: 8
@@ -1223,6 +865,7 @@
 				item: "gtceu:rubber_sapling"
 				type: "item"
 			}]
+			subtitle: "Yknow I can't keep doing this forever man"
 			tasks: [{
 				consume_items: true
 				id: "139E3745FAFE4F5B"
@@ -1232,6 +875,165 @@
 			title: "A Trade"
 			x: 2.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["418B3269275F8C48"]
+			description: ["Same as the other multiblocks, this is a parallel alloy smelter which will be useful until you get the multi-smelter in &6HV&r."]
+			id: "3BDAEB43BA3F526B"
+			subtitle: "Me Me Big Boy #3"
+			tasks: [{
+				id: "39AAA4AF3863F280"
+				item: "steamadditions:steam_foundry"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["418B3269275F8C48"]
+			description: ["The &lSteam Separator&r is a multiblock centrifuge that can't process fluids, however is still very handy for rudimentary ore processing."]
+			id: "723DB78AE462EA4E"
+			subtitle: "Wait, this isn't unlocked yet..!"
+			tasks: [{
+				id: "211B736F28880D39"
+				item: "steamadditions:steam_separator"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["61FF5795C584957A"]
+			description: [
+				"A lot of the time, steam machines aren't very fast. After all they are the first tier of machines. This is why there exist &lSteam Multiblocks&r. These machines have 8 parallels, AKA they can do 8 recipes at once, and don't even eat that much steam!"
+				"You might need to wait until &7LV&r to be rich enough to make all of the multiblocks but I assure you that it is worth it."
+			]
+			id: "418B3269275F8C48"
+			subtitle: "Steampunk World!"
+			tasks: [{
+				id: "1C52A83850B9F9B4"
+				item: "gtceu:steam_machine_casing"
+				type: "item"
+			}]
+			title: "Steam Multiblocks"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["61FF5795C584957A"]
+			description: ["There are multiple ways to generate &7Steam&r."]
+			icon: "gtceu:high_voltage_hazard_sign_block"
+			id: "78188B1C0EB3EB26"
+			tasks: [{
+				id: "29D005F4358B5550"
+				title: "Steam Power Options"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["78188B1C0EB3EB26"]
+			description: ["&lSolar Boilers&r are machines that use sunlight to heat up water and produce steam for free."]
+			id: "1F74B48FEF0220DE"
+			subtitle: "Using the Sun"
+			tasks: [{
+				id: "474ECD58DEA846EE"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:lp_steam_solar_boiler"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hp_steam_solar_boiler"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Solar Boilers"
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["78188B1C0EB3EB26"]
+			description: [
+				"&lLunar Boilers&r are machines that somehow use the Moon to create &7Steam&r for free."
+				"I'm pretty sure that way that they do it is through the alchemical material that is contained inside of it, somehow magically \"reacting\" to moonlight."
+			]
+			id: "545F1283FFD9D79A"
+			subtitle: "Using the ....Moon? What?"
+			tasks: [{
+				id: "2FBE5FFA39BF2445"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "diggycore:lp_steam_lunar_boiler"
+							}
+							{
+								Count: 1b
+								id: "diggycore:hp_steam_lunar_boiler"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Lunar Boilers"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["78188B1C0EB3EB26"]
+			description: ["&lLiquid Boilers&r are very useful, given the fact that they can use fluids such as creosote oil and &6lava&r, things that you can easily mass-produce. &o(Lava might need to wait until you unlock the nether.)&r"]
+			id: "103CCEB6D8C45898"
+			subtitle: "Slosh"
+			tasks: [{
+				id: "7C5B7A332CB65653"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:lp_steam_liquid_boiler"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hp_steam_liquid_boiler"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Liquid Boilers"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["418B3269275F8C48"]
+			description: ["A multiblock forge hammer, it has the same structure as the Steam Grinder."]
+			id: "049BBB59C54EC634"
+			subtitle: "Me Me Custom Boy?!"
+			tasks: [{
+				id: "35630F2A91B34903"
+				item: "diggycore:steam_press"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -4.0d
 		}
 	]
 	subtitle: ["Full Steam Ahead"]

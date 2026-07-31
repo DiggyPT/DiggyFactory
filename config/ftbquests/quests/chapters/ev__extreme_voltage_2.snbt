@@ -1,0 +1,431 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ev__extreme_voltage_2"
+	group: "45DE873674286673"
+	icon: "gtceu:ev_electric_motor"
+	id: "7593A7FEACAC8445"
+	images: [
+		{
+			height: 1.0d
+			image: "diggyfactory:textures/quests/ev.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "diggyfactory:textures/quests/iv.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.0d
+			y: -4.5d
+		}
+	]
+	order_index: 5
+	quest_links: [
+		{
+			id: "56493E7A21CD325C"
+			linked_quest: "0ED7F334BEBB94ED"
+			shape: "gear"
+			size: 2.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "556CFCC8CBFB7413"
+			linked_quest: "2A28F850D88BAB39"
+			x: 6.0d
+			y: -1.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["0ED7F334BEBB94ED"]
+			description: ["The new assembler, and it is also a precursor to the &6NASA Workbench&r that is necessary to make a rocket to the &oMOOOOOON!!!!!&r."]
+			id: "7F3606563C88B9DD"
+			subtitle: "Almost There to a Space Assembler"
+			tasks: [{
+				id: "451F3746542DAFFD"
+				item: "gtceu:ev_assembler"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"08875DC9125AD1D9"
+				"7F3606563C88B9DD"
+			]
+			description: [
+				"&aRTM Alloy Coils&r raise the Heat Capacity to a scorching &d4,500K&r."
+				""
+				"These will be required in &9IV&r, but as always, you should get them earlier for the &6Coil bonuses&r."
+				""
+				"&l&3Lore:&r&o These coils used to be Tungstensteel Coils. This however made most of the EV tier very easy to skip over and postpone to IV, so they were changed to the new RTM Alloy. GTNH was the first to make this change, and used TPV Alloy instead, made from Titanium, Platinum, and Vanadium."
+				""
+				"&o&7Which coil do you prefer?"
+			]
+			icon: "gtceu:rtm_alloy_coil_block"
+			id: "484FA765EF7F1B59"
+			size: 1.0d
+			subtitle: "What happened to my Tungstensteel!?"
+			tasks: [{
+				count: 16L
+				id: "4D1849920AFA3B37"
+				item: "gtceu:rtm_alloy_coil_block"
+				type: "item"
+			}]
+			title: "RTM Alloy Coils"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["19E9F4B2E706A91D"]
+			description: [
+				"&lPlatinum&r is a &9rare element&r, and the only way of obtaining it at this stage is through &6Platinum Group Sludge&r processing. Check the Processing Lines tab for more information."
+				""
+				"Later on you will be able to directly smelt platinum from &dores in space&r."
+			]
+			id: "4C6D0B2D6ED20560"
+			subtitle: "The most infamous line"
+			tasks: [{
+				id: "3E4818088B293BC3"
+				item: "gtceu:platinum_ingot"
+				type: "item"
+			}]
+			title: "Platinum"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4C6D0B2D6ED20560"
+				"0ED7F334BEBB94ED"
+			]
+			description: ["The &5EV&r &lCircuit Assembler&r will allow you to fabricate your first &bNano&r circuits, however it requires platinum."]
+			id: "6D096810BA28C823"
+			subtitle: "Better Circuit Assembling!"
+			tasks: [{
+				id: "109454B3C3FE4301"
+				item: "gtceu:ev_circuit_assembler"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"4BB081353C24A6D0"
+				"1CDB12F0CC189C12"
+			]
+			id: "4DDF6656104676B7"
+			tasks: [{
+				id: "66564A703AD662F5"
+				item: "gtceu:nano_cpu_wafer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0ED7F334BEBB94ED"]
+			description: ["The &5EV Chemical Reactor&r unlocks even more recipes, including notably the &bNano Wafers&r. However I recommend just making a Large Chemical Reactor."]
+			id: "4BB081353C24A6D0"
+			subtitle: "SUPER Reacting"
+			tasks: [{
+				id: "6CD8565930D828EC"
+				item: "gtceu:ev_chemical_reactor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["52C67A84BC239605"]
+			description: ["To unlock the next tier of circuit board you will need to make an &lEpoxy&r factory. This time you need &eelectrum&r to make the PCB."]
+			id: "190DCCD66660934D"
+			subtitle: "Epoxy is FRICKIN HARD"
+			tasks: [{
+				id: "0BEAA85608AB3677"
+				item: "gtceu:epoxy_printed_circuit_board"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6D096810BA28C823"
+				"190DCCD66660934D"
+				"4DDF6656104676B7"
+			]
+			description: [
+				"Making the best &6HV&r Circuits will allow for easier &6HV&r Machines for your on-demand automation. Convenient!"
+				""
+				"Starting from here, all circuit lines will be consistent with each other until the end of the game."
+				""
+				"Each tier will show its own challenges when acquiring new and better Circuits."
+			]
+			id: "5B98CD7B2C01BE75"
+			size: 1.0d
+			subtitle: "The Pinnacle... the Zenith"
+			tasks: [{
+				id: "316065DCA8AE510E"
+				item: "gtceu:nano_processor"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5B98CD7B2C01BE75"]
+			description: [
+				"Nothing to say here."
+				""
+				"Nice work, I suppose."
+			]
+			id: "2CC41CB6F61FC7F7"
+			size: 1.0d
+			subtitle: "Harder, Better, Faster, Stronger"
+			tasks: [{
+				id: "762F488307AC33B9"
+				item: "gtceu:nano_processor_assembly"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"2CC41CB6F61FC7F7"
+				"5D5D6DF8C286B66D"
+			]
+			description: ["Entering &1IV&r with these Circuits shouldn't be too painful."]
+			id: "13FBED5B981EDDC6"
+			size: 1.0d
+			subtitle: "Set sail, IV is on the horizon"
+			tasks: [{
+				id: "74B6EF3BA8B86216"
+				item: "gtceu:nano_processor_computer"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["13FBED5B981EDDC6"]
+			description: [
+				"&7no i don't stop putting words in my mouth&r"
+				"Save two of these for the &3IV Circuit Assembler&r."
+			]
+			id: "200208264467DC9C"
+			size: 1.0d
+			subtitle: "I LuV GregTech"
+			tasks: [{
+				id: "55AE5EB5081E8978"
+				item: "gtceu:nano_processor_mainframe"
+				type: "item"
+			}]
+			title: "First LuV Circuits!"
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0ED7F334BEBB94ED"]
+			description: [
+				"The &3EV Mixer&r is required for more alloys."
+				""
+				"This is important if you want to get your hands on some &dTungstensteel&r."
+			]
+			hide_dependency_lines: false
+			icon: "gtceu:ev_mixer"
+			id: "07D0CE20EA6FAF18"
+			size: 1.0d
+			subtitle: "Beginning to notice a pattern?"
+			tasks: [{
+				id: "2461C3A46FECB5B1"
+				item: "gtceu:ev_mixer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["07D0CE20EA6FAF18"]
+			description: [
+				"50% of &aTungstensteel's&r composition is Steel... suffice to say, you'll need large quantities of both &aIron&r and &aTungsten&r!"
+				""
+				"Right now, &aTungsten&r is a crucial ingredient for the next tier of coils. You're one step closer to moving away from those pesky single block Generators!"
+				""
+				"Boosting the smelting recipe in the &3Electric Blast Furnace&r will require &eHelium&r. You can get an initial supply from &aextracting Monazite&r or &acentrifuging Endstone&r."
+				""
+				"In the long term, you will want to get Helium via &aLiquid Air Distillation&r."
+			]
+			icon: "gtceu:tungsten_steel_ingot"
+			id: "7E7B2DB53B8D16F9"
+			shape: "octagon"
+			size: 1.25d
+			subtitle: "The main &9IV&r Material!"
+			tasks: [
+				{
+					id: "43C0A7731D63EF4C"
+					item: "gtceu:tungsten_steel_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "56DC8D6D3CA87A82"
+					item: "gtceu:tungsten_steel_ingot"
+					type: "item"
+				}
+			]
+			title: "Tungstensteel"
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7E7B2DB53B8D16F9"]
+			description: [
+				"Hopefully you are advancing into &9IV&r with the more advanced &bNano circuits&r. The epoxy might look scary but I promise it's worth it."
+				"Anyways, &9IV&r will mark the start of &aAI training&r."
+			]
+			icon: "gtceu:iv_electric_motor"
+			id: "6C89670B82B99686"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Assembling some lines, and training AI"
+			tasks: [{
+				id: "1E493AA67B4061F8"
+				title: "LETS GOOO"
+				type: "checkmark"
+			}]
+			title: "IV Unlocked!"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"069FD86133D7D582"
+				"484FA765EF7F1B59"
+			]
+			description: [
+				"If you want a big boost to your processing abilities, look no further than these powerful Multiblocks!"
+				""
+				"Formerly known as &2Gregicality Multiblocks&r, the add-on has been fully integrated into GregTech CEu Modern!"
+				""
+				"You'll need to make use of many new &9alloys&r to build the new Multiblocks. Yay, more content!"
+				""
+				"&6This quest unlocks a new tutorial on the GCYM mechanics in the &lTips and Tricks&r&6 tab - check it out to learn more!&r"
+			]
+			icon: "gtceu:vibration_safe_casing"
+			id: "3F0B110A3BE5C1CF"
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "We made it so far..."
+			tasks: [{
+				id: "716C81D969AC5D3C"
+				type: "checkmark"
+			}]
+			title: "Gregicality Multiblocks"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"3B2D2C47BEBCFFA7"
+				"3F0B110A3BE5C1CF"
+			]
+			description: [
+				"The &aAlloy Blast Smelter&r is the only main &2GCYM&r machine available in &5EV&r. You can use it to produce any alloy that you'd normally use the Mixer for. "
+				""
+				"Instead of producing &6Hot Ingots&r, the ABS produces &9Molten Fluids&r if the recipe is \"hot\" enough. These fluids require cooling with a &bVacuum Freezer&r. Otherwise, it produces regular liquids."
+				""
+				"Don't let the long smelting times scare you off. This machine incorporates the &dMixer step&r directly into the smelting recipe, and actually saves you quite a bit of time over smelting the dust in an EBF!"
+				""
+				"Nearly every &2GCYM&r material is produced in this machine, so if you have trouble finding a Mixer recipe, look for a Molten Fluid!"
+				"{@pagebreak}"
+				"&l&3Lore:&r&o This multiblock was inspired by GT++. It didn't use any heating coils, had no temperature requirements, and only produced regular liquids for all materials. It was pretty OP back in the day, but it eventually got restricted to only a single Energy Hatch to balance it out. For some reason, it also allowed you to melt any dust... into liquid...?"
+			]
+			id: "343BBEE3F9740943"
+			size: 1.0d
+			subtitle: "Visions of GT++"
+			tasks: [{
+				id: "4B8F2A52951116E7"
+				item: "gtceu:alloy_blast_smelter"
+				type: "item"
+			}]
+			title: "So Many Alloys!"
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"3B2D2C47BEBCFFA7"
+				"3F0B110A3BE5C1CF"
+			]
+			description: [
+				"You probably have some old machines lying around, right?"
+				""
+				"You most likely know by now that Arc Furnaces can recycle machines, but by &5EV&r, they upgrade to &a9 slots&r!"
+				""
+				"&eNote&r: This quest accepts either an &5EV&r or &9IV&r Arc Furnace. You don't have to make both."
+			]
+			icon: "gtceu:iv_arc_furnace"
+			id: "1262A3F335970740"
+			size: 1.0d
+			subtitle: "I never liked them anyway..."
+			tasks: [{
+				id: "6303B8C4DCECF308"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:ev_arc_furnace"
+							}
+							{
+								Count: 1b
+								id: "gtceu:iv_arc_furnace"
+							}
+						]
+					}
+				}
+				title: "Arc Furnace"
+				type: "item"
+			}]
+			title: "Getting Rid of Those Old Machines"
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"017019EB38F7A18C"
+				"2A28F850D88BAB39"
+			]
+			description: [
+				"A NOR gate takes two input signals, and outputs a high signal only if both input signals are low."
+				""
+				"This doesn't matter for now though, and it's simply a more complex wafer."
+				"It is used for the &aData Orb&r (a key component for when you get into &3Research&r), and in &5Nano&r Circuit production."
+			]
+			id: "5D5D6DF8C286B66D"
+			size: 1.0d
+			subtitle: "Norbit"
+			tasks: [{
+				id: "21C708F8BC0C92CA"
+				item: "gtceu:nor_memory_chip"
+				type: "item"
+			}]
+			title: "NOR Gates"
+			x: 8.0d
+			y: -1.0d
+		}
+	]
+	subtitle: ["Look ma, I'm an Astronaut!"]
+	title: "&5EV&r - Extreme Voltage"
+}

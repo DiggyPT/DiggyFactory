@@ -5,40 +5,76 @@
 	group: "45DE873674286673"
 	icon: "gtceu:hv_electric_motor"
 	id: "6DB390CF98C45726"
-	images: [{
-		height: 1.0d
-		image: "diggyfactory:textures/quests/hv.png"
-		rotation: 0.0d
-		width: 2.0d
-		x: -1.5d
-		y: 0.0d
-	}]
-	order_index: 4
-	quest_links: [{
-		id: "784E1B833710D9AA"
-		linked_quest: "49A55E2BB4D1745C"
-		shape: "gear"
-		size: 2.0d
-		x: 0.0d
-		y: 0.0d
-	}]
-	quests: [
+	images: [
 		{
-			dependencies: ["49A55E2BB4D1745C"]
-			id: "1E2B2078D28E39D5"
-			subtitle: "Getting that chem done"
-			tasks: [{
-				id: "1E9990A60E50A2FD"
-				item: "gtceu:hv_chemical_reactor"
-				type: "item"
-			}]
-			x: 2.0d
+			height: 1.0d
+			image: "diggyfactory:textures/quests/hv.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "diggyfactory:textures/quests/ev.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "diggyfactory:textures/quests/sas.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			hover: [
+				"Starting from now some vanilla GT quests will be from the GT Community Pack."
+				"This is totally not because I am lazy."
+			]
+			image: "ftblibrary:icons/info"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -3.0d
+		}
+	]
+	order_index: 4
+	quest_links: [
+		{
+			id: "784E1B833710D9AA"
+			linked_quest: "49A55E2BB4D1745C"
+			shape: "gear"
+			size: 2.0d
+			x: 0.0d
 			y: 0.0d
 		}
+		{
+			id: "3A25DA8E9B73832F"
+			linked_quest: "4F07622ADCE44A2B"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			id: "5C91C61C6877A1BF"
+			linked_quest: "6F659301A5927153"
+			shape: "gear"
+			size: 2.0d
+			x: -2.0d
+			y: 4.0d
+		}
+	]
+	quests: [
 		{
 			dependencies: ["49A55E2BB4D1745C"]
 			description: ["The &lCleanroom&r is a large machine that allows you to run new recipes. If a machine needs the cleanroom to do a recipe, then you need to place it inside of the cleanroom. You can make cleanrooms of variable size."]
 			id: "402865AF7B3EB873"
+			shape: "octagon"
+			size: 1.25d
 			subtitle: "Discord mods, keep out!"
 			tasks: [{
 				id: "537C68E0CCFD9A09"
@@ -46,47 +82,411 @@
 				type: "item"
 			}]
 			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"402865AF7B3EB873"
+				"4F07622ADCE44A2B"
+			]
+			description: [
+				"Basic stuff. Now, you can upgrade to EV circuits, which are useful."
+				"Also, you can now make &bMV&r circuits without needing &7LV&r ones, and you can turn MV into &6HV&r circuits with a 1:1 ratio!"
+			]
+			id: "0DBFA407F32A1BBD"
+			subtitle: "I LEVELED UP TOO MUCH!"
+			tasks: [{
+				id: "26861A8BA49EA855"
+				item: "gtceu:micro_processor_computer"
+				type: "item"
+			}]
+			title: "Microprocessor Supercomputer"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0DBFA407F32A1BBD"]
+			description: [
+				"From now on a lot of ingots made in the EBF will come out hot, and some can't be cooled with just a chemical bath. To make them usable you will need a &bVacuum Freezer&r."
+				"Even for the ingots that can be cooled with the bath, the vacuum freezer is still prefered as it is a lot faster."
+				""
+				"This machine will need a lot of &bAluminium&r. It might be wise to automate it."
+			]
+			id: "066614227F9E0963"
+			shape: "octagon"
+			size: 1.25d
+			subtitle: "Chilly"
+			tasks: [{
+				id: "3C2BFF346EF14021"
+				item: "gtceu:vacuum_freezer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0DBFA407F32A1BBD"]
+			description: ["The &l&6HV&r&l circuit assembler&r is another upgrade, used to make the &eMicroprocessor Mainframe&r and, more importantly right now, the &2Aerospace control processor&r."]
+			id: "7BF585658ECEACC2"
+			subtitle: "EVEN MORE picking and placing"
+			tasks: [{
+				id: "76DA99B9BC02CC00"
+				item: "gtceu:hv_circuit_assembler"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["066614227F9E0963"]
+			description: [
+				"Niobium will be necessary for space travel, due to the fact that it is needed to dope silicon boules to space-grade boules."
+				""
+				"&7&o\"Ermmmm AKSHULLY THAT IS NOT ACCURATE TO REAL LIFE-\" *gunshot* *gunshot* *gunshot*&r SHUT UPPPP"
+				""
+				"Anyways the best option to make it is from electrolysing pyrochlore or processing tantalite."
+			]
+			id: "0CDC37A42EC09203"
+			subtitle: "Fit for Space"
+			tasks: [{
+				id: "22CF2EAC5854D027"
+				item: "gtceu:niobium_ingot"
+				type: "item"
+			}]
+			title: "Niobium"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0CDC37A42EC09203"]
+			description: ["With a niobium-doped silicon boule, you can cut it and engrave it to make &5Space-Grade Processing Chips&r, the most important components of &2Aerospace Control Processors&r."]
+			icon: "kubejs:space_grade_processing_chip"
+			id: "50AF45DE607F4500"
+			subtitle: "Computer chips.... IN SPACEEEE!!!!"
+			tasks: [
+				{
+					id: "17064F1ACF70DE4E"
+					item: "kubejs:niobium_doped_boule"
+					type: "item"
+				}
+				{
+					id: "71FEEB39EC66726D"
+					item: "kubejs:niobium_doped_wafer"
+					type: "item"
+				}
+				{
+					id: "370EDB2AFE831A2B"
+					item: "kubejs:space_grade_processing_wafer"
+					type: "item"
+				}
+				{
+					id: "0F27191D6010C618"
+					item: "kubejs:space_grade_processing_chip"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"50AF45DE607F4500"
+				"7BF585658ECEACC2"
+			]
+			description: [
+				"Here is your first &especialty circuit&r, the &aAerospace Control Processor!&r"
+				"&o(man this modpack really loves to play around with circuits.)&r"
+				""
+				"This is a speciality circuit, because this tier of circuit will be only used for rockets, and not a new tier of machines or anything."
+				""
+				"{@pagebreak}"
+				"&oI really don't think that a circuit should have air bubbles....&r"
+			]
+			id: "5646AEBB55557E8F"
+			subtitle: "Why does it have bubbles?"
+			tasks: [{
+				id: "3CDCAF447708EB9A"
+				item: "kubejs:aerospace_control_processor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"6DEE3CEA0E6AAFB8"
+				"7A4FDEC96C93EBF3"
+				"5646AEBB55557E8F"
+			]
+			description: ["Now, time to go to space. Get ready for a journey of astronomical proportions!"]
+			icon: "kubejs:satellite_carrier_rocket"
+			id: "6BBC396C21122907"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "We choose to go to the Moon in this decade and do the other things, not because they are easy, but because they are hard"
+			tasks: [{
+				id: "30FA80CE387E3FCC"
+				title: "SPACE TIME!"
+				type: "checkmark"
+			}]
+			title: "Space Race Unlocked!"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"066614227F9E0963"
+				"7AD7FC584111F863"
+			]
+			description: [
+				"To make titanium you will need to make a big processing chain, starting with &4Rutile&r from &6Bauxite&r."
+				"You should also set up a dedicated EBF for this."
+			]
+			id: "526E18F5DD2C15B8"
+			subtitle: "Haha it starts with \"tit- *GUNSHOT*"
+			tasks: [{
+				id: "79F7558881578BD2"
+				item: "gtceu:titanium_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"5F9AA76500A68FE0"
+				"526E18F5DD2C15B8"
+			]
+			description: ["The recipe for this might look innocent, however the &bAluminium cables&r require &6Polyvinyl Chloride&r to make. I hope you like processing lines because this is another one of them! (Hopefully you already have ethylene automated...)"]
+			id: "36CCF9F76297DE63"
+			subtitle: "Purple machines!"
+			tasks: [{
+				id: "74DD9AC4B2E65984"
+				item: "gtceu:ev_machine_hull"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"6DEE3CEA0E6AAFB8"
+				"7A4FDEC96C93EBF3"
+				"0DBFA407F32A1BBD"
+				"36CCF9F76297DE63"
+			]
+			description: ["It's time to move on to &5EV&r. Get ready to go out of this world!"]
+			icon: "gtceu:ev_electric_motor"
+			id: "0ED7F334BEBB94ED"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Look ma, i'm an Astronaut!"
+			tasks: [{
+				id: "3CC6EC26E04CD88C"
+				title: "WOOOO YEAHHHH"
+				type: "checkmark"
+			}]
+			title: "EV Unlocked!"
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["49A55E2BB4D1745C"]
+			description: [
+				"The &6HV Assembler&r is very useful, I'd advise you to get it ASAP."
+				"For example it can make &lSMD circuit components&r that are a lot cheaper than what you are currently using."
+			]
+			id: "3BD59F1503213974"
+			subtitle: "The Super Assembler"
+			tasks: [{
+				id: "0EC40834D59FC689"
+				item: "gtceu:hv_assembler"
+				type: "item"
+			}]
+			x: 2.0d
 			y: -2.0d
 		}
 		{
-			dependencies: ["402865AF7B3EB873"]
-			description: ["The &l&bMV&r&l circuit assembler&r is used to make the new tier of circuits - &6Microprocessors&r! These circuits are cheaper and they go up to IV."]
-			id: "56C1C67586B9EE83"
-			subtitle: "More picking, more placing"
-			tasks: [{
-				id: "022A8847D925C33E"
-				item: "gtceu:mv_circuit_assembler"
-				type: "item"
-			}]
+			dependencies: ["3BD59F1503213974"]
+			description: [
+				"With your new &6Assembler&r, you can now make &lSMD Components&r. These are a bit more complicated but they are way cheaper than the normal circuit components that you have been using."
+				""
+				"Later you will unlock &oAdvanced SMD&r's, which aren't cheaper, they are an upgrade to the tier of circuit that they can make."
+			]
+			id: "424DC2BDD587A27D"
+			subtitle: "SMDeez Nutz"
+			tasks: [
+				{
+					id: "2D2DFA0C4274D490"
+					item: "gtceu:smd_transistor"
+					type: "item"
+				}
+				{
+					id: "4E404AA13D120716"
+					item: "gtceu:smd_resistor"
+					type: "item"
+				}
+				{
+					id: "7215EA25DFAE6E43"
+					item: "gtceu:smd_capacitor"
+					type: "item"
+				}
+				{
+					id: "52CA0D111C22FB48"
+					item: "gtceu:smd_inductor"
+					type: "item"
+				}
+			]
+			title: "SMD Components"
 			x: 4.0d
 			y: -2.0d
 		}
 		{
-			dependencies: ["56C1C67586B9EE83"]
-			description: ["Basic stuff. Now, you can upgrade to EV circuits, which are useful."]
-			id: "0DBFA407F32A1BBD"
-			subtitle: "Level up"
+			dependencies: ["066614227F9E0963"]
+			description: [
+				"Do you like fast &aEBF&r's? I know I do. So you should make the &lNichrome Coils&r!"
+				"They are not that expensive to make, they just require a bit of nickel and chromium."
+			]
+			id: "288B242D0511263B"
+			subtitle: "MOAR UPGRADES!!!"
+			tasks: [{
+				count: 16L
+				id: "30E2282BE34765BD"
+				item: "gtceu:nichrome_coil_block"
+				type: "item"
+			}]
+			title: "Nichrome Coils"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7BF585658ECEACC2"]
+			description: ["Your first &lmainframe&r, and your first &9IV&r circuit. This is not that useful right now, but it will be in &5EV&r."]
+			id: "2383AD3A43FCAE80"
+			subtitle: "Baby's First Mainframe"
+			tasks: [{
+				id: "02449046A23E3CFC"
+				item: "gtceu:micro_processor_mainframe"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"49A55E2BB4D1745C"
+				"4CDFAE1A353E2030"
+			]
+			description: [
+				"The &lLarge Chemical Reactor&r is a machine that can simplify a lot of chemical reactor recipes, and unlocks new ones."
+				"To make it you will require &8Polytetrafluoroethylene&r (PTFE). PTFE requires fluorine, which you will probably need to automate. I advise getting a bee of an ore that contains fluorine (the most efficient is Bastnasite) and electrolysing the dust."
+			]
+			id: "1CDB12F0CC189C12"
+			subtitle: "Beeg Magic Box"
+			tasks: [{
+				id: "4A7A2A7E6F797737"
+				item: "gtceu:large_chemical_reactor"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3BD59F1503213974"]
+			description: [
+				"The &lHV Energy Hatch&r will allow you to overclock your &aEBF&r to &5Extreme Voltage&r, allowing you to do recipes even faster."
+				""
+				"&9Note:&r You will need an &6HV&r Chemical Bath to make this."
+			]
+			id: "086EF5E7E1667025"
+			subtitle: "More powahhh!!"
+			tasks: [{
+				id: "6D253379E0FDC378"
+				item: "gtceu:hv_energy_input_hatch"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["49A55E2BB4D1745C"]
+			description: [
+				"If you are of the explosive type you might have missed &cT&rN&cT&r, but now you can unlock it. It is simply made with some petrochemistry products, sugar and sulfur."
+				"It can also be used to unlock a whole new world of TNTs."
+			]
+			icon: "minecraft:tnt"
+			id: "1E0EAA569EF8334E"
+			subtitle: "Finally TNT!"
 			tasks: [
 				{
-					id: "606FB2A23068D1D4"
-					item: "gtceu:micro_processor"
+					id: "57AA8DF84BABA0C3"
+					item: "gtceu:gelled_toluene"
 					type: "item"
 				}
 				{
-					id: "48FDC72BAAF5DD57"
-					item: "gtceu:micro_processor_assembly"
-					type: "item"
-				}
-				{
-					id: "26861A8BA49EA855"
-					item: "gtceu:micro_processor_computer"
+					id: "470FE7031D4845D7"
+					item: "minecraft:tnt"
 					type: "item"
 				}
 			]
-			title: "Climbing up the Ranks"
-			x: 6.0d
-			y: -2.0d
+			title: "TNT"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["49A55E2BB4D1745C"]
+			description: ["The &6HV&r Macerator unlocks ore processing byproducts."]
+			id: "0B4F1FAD74E33E8B"
+			subtitle: "Universal Macerator!"
+			tasks: [{
+				id: "2CD20188545AC5D6"
+				item: "gtceu:hv_macerator"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3568BC9742092FC5"
+				"402865AF7B3EB873"
+			]
+			description: [
+				"Doping is the process of intentionally introducing impurities into semiconductors to alter their properties."
+				""
+				"&7Silicon&r can be doped with small amounts of &ePhosphorus&r to make a better &eSilicon Boule&r."
+				""
+				"Phosphorus-doped Silicon Boules typically yield &68 times&r more wafers than their non-doped counterparts. However, they are not strictly needed until &5EV&r, where they'll be used in more complex wafers."
+				""
+				"&9Note&r: All processing of Phosphorus Boules and Wafers will require a &dCleanroom&r."
+			]
+			icon: "gtceu:phosphorus_boule"
+			id: "2A28F850D88BAB39"
+			rewards: [{
+				id: "37C3DFD37C828D75"
+				item: "gtceu:hv_lithium_battery"
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "That's dope, bro!"
+			tasks: [
+				{
+					id: "0B5D1A565B11D746"
+					item: "gtceu:phosphorus_boule"
+					type: "item"
+				}
+				{
+					id: "3FDD2985E44DF67F"
+					item: "gtceu:hv_laser_engraver"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Phosphorus Boules"
+			x: 3.0d
+			y: -1.0d
 		}
 	]
+	subtitle: ["Advancing into Microprocessing"]
 	title: "&6HV&r - High Voltage"
 }

@@ -20,12 +20,6 @@
 			y: -7.5d
 		}
 		{
-			id: "76C69275A82861C8"
-			linked_quest: "7A1E3C3A2D699C5B"
-			x: 3.5d
-			y: -7.5d
-		}
-		{
 			id: "6C144735C40EE615"
 			linked_quest: "2FCBA0D780DBDA9E"
 			x: 5.0d
@@ -42,14 +36,6 @@
 			linked_quest: "6AF3A40BC9CE7122"
 			x: 8.0d
 			y: -7.5d
-		}
-		{
-			id: "532482B324E31386"
-			linked_quest: "1776FA1F3255731E"
-			shape: "rsquare"
-			size: 0.66d
-			x: 3.5d
-			y: -6.5d
 		}
 		{
 			id: "0F86FC5CD130B2E1"

@@ -1,0 +1,10 @@
+{
+  "dimension": "df_planets:ghillie",
+  "gravity": 7.83,
+  "orbit": "ad_astra:glacio_orbit",
+  "oxygen": true,
+  "solar_power": 8,
+  "solar_system": "diggyfactory:tz_arietis",
+  "temperature": 26,
+  "tier": 4
+}

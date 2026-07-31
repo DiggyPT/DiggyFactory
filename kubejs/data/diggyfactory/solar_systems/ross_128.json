@@ -1,0 +1,26 @@
+{
+  "id": "diggyfactory:ross_128",
+  "sun_texture": "ad_astra:textures/environment/red_sun.png",
+  "sun_size": 16,
+  "sun_dimension": "",
+  "orbiting_objects": [
+    {
+	  "dimension": "df_planets:zhigao",
+	  "texture": "ad_astra:textures/environment/ross_128_b.png",
+      "size": 8,
+      "distance": 13,
+	  "time": 6.3,
+	  "circle_color": "#CBBCAE",
+	  "extra_objects": []
+    },
+	{
+	  "dimension": "",
+	  "texture": "ad_astra:textures/environment/giant4.png",
+      "size": 13,
+      "distance": 19,
+	  "time": 8.1,
+	  "circle_color": "#7F584B",
+	  "extra_objects": []
+    }
+  ]
+}

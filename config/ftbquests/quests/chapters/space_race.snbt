@@ -1,0 +1,362 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "space_race"
+	group: "21AF79B1B3F0A933"
+	icon: "kubejs:satellite_carrier_rocket"
+	id: "66F07401BF2D55A1"
+	order_index: 1
+	quest_links: [{
+		id: "29861C65C6B22D74"
+		linked_quest: "6BBC396C21122907"
+		shape: "gear"
+		size: 2.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	quests: [
+		{
+			dependencies: ["6E8F257261F93501"]
+			description: [
+				"This is a rocket that can carry satellites and probes to orbit, but not much else. It is still crucial for researching more advanced space matters."
+				""
+				"If you want a mission to more far-away places, you will need a probe with built-in thrusters."
+			]
+			id: "6D5E002AE185146E"
+			invisible: true
+			subtitle: "Ariane 6, Space Shuttle?"
+			tasks: [{
+				id: "646E86C70C781B73"
+				item: "kubejs:satellite_carrier_rocket"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6D5E002AE185146E"]
+			description: [
+				"Your first satellite! You are now on par with all human civilisation in the 1960s! 15,000 years of technological advancement sure is trivial when you have EMI and a quest book!"
+				"Anyways, this satellite is nothing special, it only collects orbital data from the planet you send it from."
+			]
+			id: "64254B39A32BDEA6"
+			invisible: true
+			subtitle: "Sputnik 1"
+			tasks: [{
+				id: "5B163F9C0FB000EB"
+				item: "kubejs:earth_observation_satellite"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"This is one of your first complicated chemicals! I'm so proud..."
+				"Now, the recipe might look scary, but at its root it simply requires basic elements that you most probably already have, like carbon, hydrogen, oxygen, nitrogen and chlorine."
+				""
+				"{@pagebreak}"
+				"To somewhat automate this, you will need 2 &6HV&r chemical reactors, 1 &bMV&r chemical reactor and 1 &7LV&r chemical reactor, along with 1 &7LV&r mixer. Of course you can always use higher-tier machines, so feel free to do that if your base is flooded with stainless steel ingots i guess."
+			]
+			id: "4B45173937DF4ED0"
+			subtitle: "The thing that makes rockets GOOOO"
+			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:rocket_fuel"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:rocket_fuel"
+				}]
+				id: "0D3B41C3AE04010D"
+				type: "ftbq_better_fluids:fluid_plus"
+			}]
+			title: "Rocket Fuel"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"64254B39A32BDEA6"
+				"4B45173937DF4ED0"
+			]
+			description: [
+				"You launch the rockets with the &lLaunch Pad&r! &o(NOT to be confused with the Ad Astra one)&r"
+				""
+				"All launches will require rocket fuel. It is probably a good idea to automate it."
+			]
+			id: "4AF6AC3AAB0C3079"
+			invisible: true
+			subtitle: "Kerbal Space Program"
+			tasks: [{
+				id: "41F1BDE8D8F37162"
+				item: "gtceu:launch_pad"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4862DB896DD44D62"]
+			description: [
+				"Crewed rockets need something sturdier than just stainless steel, they need something more &oheavy duty&r! Like the &lHeavy-Duty Plate&r!"
+				"If you are confused on how to make it, check the last tab of how to make the &oplates&r (not the ingots) and you will find a GC Compressor recipe. That is the intended way to make Heavy-Duty parts."
+				""
+				"&9Lore&r: You will probably recognise this from Galacticraft. In fact, that is exactly where this comes from!"
+			]
+			id: "02A49B343F393630"
+			subtitle: "The New Galacticraft"
+			tasks: [{
+				id: "5713781014F85B43"
+				item: "diggycore:heavy_duty_plating_tier_1_plate"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["02A49B343F393630"]
+			description: ["You can't just place a rocket on the grass. This is why you need a &lLaunch Pad&r, to be stable while a rocket is launched."]
+			id: "53C91467C6EF4D96"
+			subtitle: "T-10, 9, 8..."
+			tasks: [{
+				id: "779D6D37A94AF563"
+				item: "ad_astra:launch_pad"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"53C91467C6EF4D96"
+				"0241D2F4194B6792"
+				"42586F7FE4AA1665"
+			]
+			description: [
+				"This is your first crewed rocket! Congratulations!"
+				"You can now fly to the &lMoon&r!"
+			]
+			id: "5A30D626688775B7"
+			shape: "hexagon"
+			subtitle: "Space Launch System!"
+			tasks: [{
+				id: "16C76BE6D581D83F"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"7F3606563C88B9DD"
+				"02A49B343F393630"
+			]
+			description: [
+				"I'm sorry, this is gated to &5EV&r..."
+				"But titanium is not that hard to get anyways! This should be a breeze!"
+				""
+				"The &lNASA Workbench&r is a crafting table that is used to create rockets."
+			]
+			id: "0241D2F4194B6792"
+			subtitle: "Vehicle Assembly Building!"
+			tasks: [{
+				id: "5A7958BBBCFC438B"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5A30D626688775B7"
+				"6087C5E8C2332215"
+			]
+			description: [
+				"Congratulations, you have landed on the &lMoon&r!"
+				"The Moon is home to many new materials, some of them needed to make better rockets and others needed for circuits or exotic materials."
+			]
+			id: "0D1CD77360D880BE"
+			shape: "octagon"
+			size: 3.0d
+			subtitle: "Why want the Moon when the World's in my Palm?"
+			tasks: [{
+				dimension: "ad_astra:moon"
+				icon: "df_planets:luna_marker"
+				id: "5BCDAD2B719A4584"
+				title: "Dimension: Luna"
+				type: "dimension"
+			}]
+			title: "Luna"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"Humans are leaky &4meat&r bags, and if you don't account for that you will meet (...&4meat&r?) a very gruesome death in space."
+				"To prevent this you need to make a space suit and fill it with oxygen to breathe."
+			]
+			id: "42586F7FE4AA1665"
+			subtitle: "Staying safe"
+			tasks: [
+				{
+					id: "092DD60F4F61606E"
+					item: {
+						Count: 1
+						id: "ad_astra:space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "14046996EDCE8B58"
+					item: {
+						Count: 1
+						id: "ad_astra:space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "03DB7B04534F2E8E"
+					item: {
+						Count: 1
+						id: "ad_astra:space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10A173D5574E10DE"
+					item: {
+						Count: 1
+						id: "ad_astra:space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Spacesuit"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0D1CD77360D880BE"]
+			id: "10ED5F806AE2BCFC"
+			tasks: [{
+				id: "42D0374FBC48B4F4"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_2_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["10ED5F806AE2BCFC"]
+			icon: "df_planets:mars_marker"
+			id: "728ABDDE3FEFFAD2"
+			shape: "octagon"
+			size: 3.0d
+			subtitle: "Red World"
+			tasks: [{
+				dimension: "ad_astra:mars"
+				id: "76344FFDE2644AC8"
+				type: "dimension"
+			}]
+			title: "Mars"
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["10ED5F806AE2BCFC"]
+			icon: "df_planets:ceres_marker"
+			id: "7E962B6DA2256A13"
+			shape: "octagon"
+			size: 3.0d
+			subtitle: "Queen of the Asteroid Belt"
+			tasks: [{
+				dimension: "df_planets:ceres"
+				id: "63D0E0282F493F2E"
+				type: "dimension"
+			}]
+			title: "Ceres"
+			x: 4.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["728ABDDE3FEFFAD2"]
+			id: "33C51156DEE94A29"
+			tasks: [{
+				id: "6EF1FDFE92264432"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_3_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["0D1CD77360D880BE"]
+			id: "434CA4D728235FFF"
+			subtitle: "its mega mega wip"
+			tasks: [{
+				id: "681A434F7524E853"
+				title: "nooooo dont check things after this uwu"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6BBC396C21122907"]
+			description: [
+				"The &lGC Compressor&r &o(full name: Galacticraft Compressor)&r is a multiblock machine whose main use is to create Heavy-Duty plating to craft rockets."
+				"It requires &aGalaxyspace-Grade Casings&r, which are made from &9Maraging Steel 200&r &o(not to be confused with Maraging Steel 300; 200 doesn't require an Alloy Blast Smelter to make)&r."
+			]
+			id: "4862DB896DD44D62"
+			subtitle: "Wrong Mod..."
+			tasks: [{
+				id: "5AF23437390572B9"
+				item: "diggycore:galacticraft_compressor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["02A49B343F393630"]
+			description: ["A tool that shows you the surface conditions on a given planet, including the time, if it has breathable air, the temperature and the gravity."]
+			id: "4E154240F17BBCFA"
+			subtitle: "What is this diddyblud doing on the calculator, is blud Einstein?"
+			tasks: [{
+				id: "27C98F7EBF896FAB"
+				item: "ad_astra:ti_69"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+	]
+	subtitle: ["Finding out HOW to reach for the Stars"]
+	title: "Space Race"
+}

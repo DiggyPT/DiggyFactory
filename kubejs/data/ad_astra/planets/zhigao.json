@@ -1,0 +1,10 @@
+{
+  "dimension": "df_planets:zhigao",
+  "gravity": 6.7,
+  "orbit": "ad_astra:glacio_orbit",
+  "oxygen": false,
+  "solar_power": 24,
+  "solar_system": "diggyfactory:ross_128",
+  "temperature": 62,
+  "tier": 3
+}

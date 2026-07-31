@@ -1,0 +1,123 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "9iv_r_insane_voltage"
+	group: "45DE873674286673"
+	icon: "gtceu:iv_electric_motor"
+	id: "73C98AD2F68360C1"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "gtceu:iv_electric_motor"
+			id: "39FB0ADDD388D343"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Assembling some lines, and training AI"
+			tasks: [{
+				id: "15FCE1446CFB0E60"
+				title: "LETS GOOO"
+				type: "checkmark"
+			}]
+			title: "IV Unlocked!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15BDB28FD1A0DE68"]
+			description: [
+				"The &lAI Training Center&r is an important machine that trains AI models."
+				"Right now you can only make \"narrow\" intelligences which are specialised in a certain subject. In &cZPM&r tier you will be able to create an Artificial General Intelligence."
+			]
+			id: "67C69988D695984B"
+			tasks: [{
+				id: "3D7E038683597266"
+				item: "diggycore:ai_training_center"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			description: ["&lTerfenol-X&r is an alloy whose frames you'll need to make the &eAI Training Center&r. You'll need &6Desh&r to make it, so hopefully you've already been to &cMars&r to collect some."]
+			id: "15BDB28FD1A0DE68"
+			subtitle: "A Fictional Alloy"
+			tasks: [{
+				id: "2D2E64FF04FF51FE"
+				item: "diggycore:terfenol_x_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67C69988D695984B"]
+			description: [
+				"To train AIs in the &eAI Training Center&r, you'll need a &lCoolant&r. There are 3 types of coolant. In order of efficiency:"
+				"- &6&lPCB Coolant&r, used in computation, normally requires 16,000 mB for a recipe. This is the only one you have acess to currently."
+				"- &c&lFX Coolant&r, unlocked in &2UV&r. Its main components are &[cuandavis]Primordium Sigma&r, &6Phoenicium&r and &9Hydrogen&r. It normally requires 4,000 mB for a recipe."
+				"- &9&lWarp Coolant&r, unlocked in &2UIV&r. Its main components are &6Broad-Omega Matter&r, &wGeneva particles&r and &*Primordium Delta&r. It normally requires 1,000 mB for a recipe."
+				""
+				"Later on you will need to use the better coolants for training more advanced AI's."
+				"{@pagebreak}"
+				"There have been some reports of &9Warp coolant&r causing some problems with causality and forming time-loops, perhaps due to its negative kinetic energy. Oops"
+			]
+			id: "3FCC239D717A04D7"
+			rewards: [{
+				count: 8
+				id: "11D5B4C39EE04E25"
+				item: "gtceu:biphenyl_dust"
+				type: "item"
+			}]
+			subtitle: "At least none of them are water"
+			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:pcb_coolant"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:pcb_coolant"
+				}]
+				id: "4F0F30F6715E312C"
+				type: "ftbq_better_fluids:fluid_plus"
+			}]
+			title: "AI Training Coolants"
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"73E8283634E5E33A"
+				"12B4423F055BFBF5"
+				"327C3E02CD751453"
+				"0425179329ED1B72"
+				"069FD86133D7D582"
+				"6B128610C7D2825D"
+			]
+			description: [
+				"Making &dLuV&r Components will require more work. You'll need to make an &3Assembly Line&r in order to progress."
+				""
+				"This Multiblock has a &evariable size&r&r. Each &3ULV Input Bus&r along the bottom can only hold a &dsingle stack&r of items, so you'll need different lengths for different recipes."
+				""
+				"You'll want to build this with a size of &d10&r to get started, or of a size of &d14&r to accept all possible recipes in base GTCEu. &6Don't worry&r if you overbuild - it can run any recipe if it's too long, but you may find the casings quite &4expensive&r right now. &7Choices, &8choices!&r"
+				"{@pagebreak}"
+				"Recipes here will require &aFluids&r, so it's a good idea to keep the &3Input Hatches&r permanently filled with &dSoldering Alloy&r, &dLubricant&r and &dStyrene-Butadienne Rubber&r."
+				""
+				"&6This quest unlocks two new tutorials on the Assembly Line and Research in the &lTips and Tricks&r&6 tab - check them out to learn more!&r"
+			]
+			id: "105E36DBF099AC94"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "AKA the \"Assline\""
+			tasks: [{
+				id: "3BC6E83E05FC578E"
+				item: "gtceu:assembly_line"
+				type: "item"
+			}]
+			title: "Assembly Line"
+			x: 7.0d
+			y: 0.0d
+		}
+	]
+	subtitle: ["Assembling some lines, and training AI"]
+	title: "&9IV &r- Insane Voltage"
+}

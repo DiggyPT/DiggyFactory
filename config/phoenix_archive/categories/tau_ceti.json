@@ -1,0 +1,6 @@
+{
+  "id": "TAU_CETI",
+  "description": "Planets of Tau Ceti",
+  "weight": 50,
+  "parentId": "WORLDS"
+}

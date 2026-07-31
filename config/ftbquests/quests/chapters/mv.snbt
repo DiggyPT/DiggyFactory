@@ -54,7 +54,7 @@
 			description: [
 				"The &lMonocrystalline Silicon Boule&r is a large crystal made of silicon which is cut up to be used as the foundation of &6integrated circuits&r. To make it, put some &8silicon dust&r in your &aEBF&r as well as some gallium arsenide."
 				""
-				"&4&lWARNING&r: This recipe takes &97.5&r MINUTES TO COMPLETE and uses &c&oOVER 1,000,000 EU TO COMPLETE&r! Make sure that you have a power buffer big enough or that your energy production is large enough! Alternitavely, you can make the Gas Collector to get nitrogen that you can pump in to trim the recipe time a bit. "
+				"&4&lWARNING&r: This recipe takes &97.5&r MINUTES TO COMPLETE and uses &c&oOVER 1,000,000 EU TO COMPLETE&r! Make sure that you have a power buffer big enough or that your energy production is large enough! Alternatively, you can make the Gas Collector to get nitrogen that you can pump in to trim the recipe time a bit. "
 				"{ \"text\": \"[Gas Collector Quest]\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5DFB1C69F0B8D4DB\" } }"
 			]
 			id: "5109EA2277F57FF7"
@@ -77,6 +77,12 @@
 				"."
 			]
 			id: "719B985509257E51"
+			rewards: [{
+				count: 8
+				id: "1E962C041B82788E"
+				item: "gtceu:vanadium_magnetite_dust"
+				type: "item"
+			}]
 			subtitle: "Very tedious to make"
 			tasks: [{
 				count: 4L
@@ -84,9 +90,9 @@
 				item: { Count: 4, id: "gtceu:vanadium_steel_ingot" }
 				type: "item"
 			}]
-			title: "Vanadium Steel Ingot"
+			title: "Vanadium Steel"
 			x: 4.0d
-			y: 1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["719B985509257E51"]
@@ -177,7 +183,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 2.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["72BE9FE0CF888495"]
@@ -198,7 +204,7 @@
 				}
 			]
 			x: 6.0d
-			y: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -228,6 +234,12 @@
 			dependencies: ["0F78509353D64661"]
 			description: ["With your new wafers you can climb the ladder of &lintegrated circuits&r! Instead of having a 3:1 or 2:1 ratio, they have a 1:1 ratio which is simply &oepic!!!!!&r"]
 			id: "79879FE8E7691E85"
+			rewards: [{
+				count: 3
+				id: "65004D8605FCC7E7"
+				item: "gtceu:silicon_wafer"
+				type: "item"
+			}]
 			shape: "octagon"
 			size: 1.5d
 			subtitle: "Thermal Integration"
@@ -240,19 +252,8 @@
 				}
 				{
 					count: 2L
-					id: "7E850E6EFCF2C730"
-					item: { Count: 2, id: "kubejs:decent_integrated_circuit" }
-					type: "item"
-				}
-				{
-					count: 2L
 					id: "463EDA568C6F9819"
 					item: { Count: 2, id: "gtceu:good_integrated_circuit" }
-					type: "item"
-				}
-				{
-					id: "5C1904020A959EA5"
-					item: "kubejs:improved_integrated_circuit"
 					type: "item"
 				}
 			]
@@ -320,174 +321,13 @@
 			shape: "octagon"
 			size: 1.5d
 			subtitle: "Pyrocynical"
-			tasks: [
-				{
-					id: "10A25DAC7B908CB5"
-					item: "gtceu:pyrolyse_oven"
-					type: "item"
-				}
-				{
-					count: 9L
-					id: "2DE6C3E834870E08"
-					item: "gtceu:ulv_machine_casing"
-					type: "item"
-				}
-				{
-					count: 16L
-					id: "55AB599A379074BB"
-					item: {
-						Count: 16
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "gtceu:cupronickel_coil_block"
-								}
-								{
-									Count: 1b
-									id: "gtceu:kanthal_coil_block"
-								}
-							]
-						}
-					}
-					title: "16x Cupronickel or Kanthal Coils"
-					type: "item"
-				}
-				{
-					id: "34F9DE71C384103A"
-					item: {
-						Count: 1
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "gtceu:lv_energy_input_hatch"
-								}
-								{
-									Count: 1b
-									id: "gtceu:mv_energy_input_hatch"
-								}
-							]
-						}
-					}
-					title: "LV or MV Energy Hatch"
-					type: "item"
-				}
-				{
-					id: "198A68635DC64AE4"
-					item: {
-						Count: 1
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "gtceu:ulv_input_bus"
-								}
-								{
-									Count: 1b
-									id: "gtceu:lv_input_bus"
-								}
-							]
-						}
-					}
-					title: "ULV or LV Input Bus"
-					type: "item"
-				}
-				{
-					id: "510538826B964D43"
-					item: {
-						Count: 1
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "gtceu:ulv_output_bus"
-								}
-								{
-									Count: 1b
-									id: "gtceu:lv_output_bus"
-								}
-							]
-						}
-					}
-					title: "ULV or LV Output Bus"
-					type: "item"
-				}
-				{
-					id: "3E99213B19603056"
-					item: {
-						Count: 1
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "gtceu:ulv_input_hatch"
-								}
-								{
-									Count: 1b
-									id: "gtceu:lv_input_hatch"
-								}
-							]
-						}
-					}
-					title: "ULV or LV Input Hatch"
-					type: "item"
-				}
-				{
-					id: "64C7E058512A8828"
-					item: {
-						Count: 1
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "gtceu:ulv_output_hatch"
-								}
-								{
-									Count: 1b
-									id: "gtceu:lv_output_hatch"
-								}
-							]
-						}
-					}
-					title: "ULV or LV Output Hatch"
-					type: "item"
-				}
-				{
-					id: "1B9D8707CB30DBB7"
-					item: {
-						Count: 1
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "gtceu:lv_muffler_hatch"
-								}
-								{
-									Count: 1b
-									id: "gtceu:mv_muffler_hatch"
-								}
-							]
-						}
-					}
-					title: "LV or MV Muffler Hatch"
-					type: "item"
-				}
-				{
-					id: "37470D294AB3A938"
-					item: "gtceu:maintenance_hatch"
-					type: "item"
-				}
-			]
-			x: 2.0d
-			y: -2.0d
+			tasks: [{
+				id: "10A25DAC7B908CB5"
+				item: "gtceu:pyrolyse_oven"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.25d
 		}
 		{
 			dependencies: [
@@ -498,7 +338,7 @@
 			description: [
 				"With a &6pyrolyse oven&r, you can make &8coal tar&r from coal. Then you can distill it to get &6hydrogen sulfide&r and electrolyse it to get &esulfur&r and oxygen! If you have infinite coal from excavators, you can use this processing line to get infinite &esulfur&r!"
 				""
-				"With a &7fluid drilling rig&r, you can distill oil into &esulfuric naphtha&r and chemically react it  with &9hydrogen&r to get &6hydrogen sulfide&r, and then electrolyse it like above."
+				"With a &7fluid drilling rig&r, you can distill oil into &esulfuric naphtha&r and chemically react it with &9hydrogen&r to get &6hydrogen sulfide&r, and then electrolyse it like above."
 				"{@pagebreak}"
 				"&9Note:&r You can do any of the dependency quests to unlock this one."
 			]
@@ -529,63 +369,39 @@
 				}
 			]
 			title: "Infinite Sulfur"
-			x: 1.0d
+			x: 3.0d
 			y: -2.5d
 		}
 		{
-			dependencies: ["1947B8EAF77F54A6"]
+			dependencies: [
+				"3121B45962AB1250"
+				"458499E306C79E7F"
+			]
+			dependency_requirement: "one_completed"
 			description: [
 				"To make polyethylene you will need to make &lethylene&r. To make ethylene, you can go the bio route or the oil route. The bio route uses wood gas from a pyrolyse oven and the oil route uses oil to turn into ethylene. Pick which one you want!"
 				""
-				"&9Note:&r The wood route takes less steps."
+				"&9Note:&r The wood route takes less steps, however wood will be very, let's say, &opeculiar&r to automate."
 			]
+			hide_dependency_lines: true
 			id: "30A937BEBB11984E"
 			subtitle: "Chemistry Time"
-			tasks: [
-				{
-					amount: 1000L
-					fluid: "gtceu:wood_gas"
-					id: "11545EF63E4D19D3"
-					type: "fluid"
-				}
-				{
-					amount: 1000L
-					fluid: "gtceu:ethylene"
-					id: "36A754FCFE7C8950"
-					type: "fluid"
-				}
-			]
+			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:ethylene"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:ethylene"
+				}]
+				id: "6BC74C15CEE7A514"
+				type: "ftbq_better_fluids:fluid_plus"
+			}]
 			title: "Making Ethylene"
 			x: 12.0d
 			y: -3.5d
 		}
 		{
-			dependencies: [
-				"458499E306C79E7F"
-				"3121B45962AB1250"
-			]
-			dependency_requirement: "one_completed"
-			description: [
-				"Eventually you will need to turn in fluids for quests. You can't use buckets or cells or fluid storage, so how do you do it?"
-				""
-				"The answer is &lTask Screens&r. You can make them in various sizes, and when placed down you can right click them and select the task you want to turn in the fluid for. Unfortunately this consumes the fluid. Sorry...."
-				"{@pagebreak}"
-				"&9Note:&r You can unlock this quest by unlocking any one of its dependencies!"
-			]
-			id: "1947B8EAF77F54A6"
-			shape: "pentagon"
-			subtitle: "How would that work?"
-			tasks: [{
-				id: "7F0B0F950B6BBB3C"
-				item: "ftbquests:screen_1"
-				type: "item"
-			}]
-			title: "Turning In Fluids"
-			x: 1.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["24C3CEB85F968221"]
+			dependencies: ["719B985509257E51"]
 			description: [
 				"With a bunch of &bMV&r stuff and steel, you can make a &lFluid Drilling Rig&r. This machine can drill various fluids from under bedrock, including oil and natural gas."
 				""
@@ -596,58 +412,13 @@
 			shape: "octagon"
 			size: 1.5d
 			subtitle: "Ehhh Saddam, your tyranny is done"
-			tasks: [
-				{
-					id: "29FA94EAB4A1954A"
-					item: "gtceu:mv_fluid_drilling_rig"
-					type: "item"
-				}
-				{
-					count: 8L
-					id: "7D97B400A0704675"
-					item: { Count: 8, id: "gtceu:solid_machine_casing" }
-					type: "item"
-				}
-				{
-					count: 15L
-					id: "11DB8DFB4698FA57"
-					item: "gtceu:steel_frame"
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "290E81FC8380B811"
-					item: { Count: 2, id: "gtceu:lv_energy_input_hatch" }
-					type: "item"
-				}
-				{
-					id: "20B7124DBD830840"
-					item: {
-						Count: 1
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "gtceu:ulv_output_hatch"
-								}
-								{
-									Count: 1b
-									id: "gtceu:lv_output_hatch"
-								}
-								{
-									Count: 1b
-									id: "gtceu:mv_output_hatch"
-								}
-							]
-						}
-					}
-					title: "ULV, LV, or MV Output Hatch"
-					type: "item"
-				}
-			]
-			x: 0.0d
-			y: -2.0d
+			tasks: [{
+				id: "29FA94EAB4A1954A"
+				item: "gtceu:mv_fluid_drilling_rig"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.75d
 		}
 		{
 			dependencies: [
@@ -656,14 +427,24 @@
 			]
 			description: ["By putting ethylene in the &opolymerization chamber&r with a &5Phillips Catalyst&r &o(which you can make pretty easily in an &bMV&r&o mixer)&r you can make &lPolyethylene&r! This unlocks easier recipes for existing things and it also unlocks &6HV&r circuit components."]
 			id: "22B72BC43C96D4FF"
+			rewards: [{
+				count: 3
+				id: "1AA9A5C5B6D364F8"
+				item: "gtceu:polyethylene_ingot"
+				type: "item"
+			}]
 			shape: "octagon"
 			size: 1.5d
 			subtitle: "First Plastic!"
 			tasks: [{
-				amount: 1000L
+				consume_fluid: "FALSE"
 				fluid: "gtceu:polyethylene"
-				id: "35B79A5D13394018"
-				type: "fluid"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:polyethylene"
+				}]
+				id: "14BA5555A10E93E0"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			title: "Polyethylene"
 			x: 12.0d
@@ -698,7 +479,7 @@
 			]
 			title: "Kanthal"
 			x: 4.0d
-			y: 3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2779EFE7CB689E5B"]
@@ -763,11 +544,15 @@
 			y: 2.0d
 		}
 		{
-			dependencies: [
-				"10016D1E644803C8"
-				"41855411FD50C7BE"
-			]
+			dependencies: ["10016D1E644803C8"]
+			description: ["Your first HV circuit, and the most expensive. Eventually you will replace these with microprocessor assemblies."]
 			id: "7A4FDEC96C93EBF3"
+			rewards: [{
+				count: 8
+				id: "76CEC4FCD890DB32"
+				item: "gtceu:silicon_dust"
+				type: "item"
+			}]
 			shape: "octagon"
 			size: 1.5d
 			subtitle: "Your First HV Circuit"
@@ -844,19 +629,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["7A4FDEC96C93EBF3"]
-			description: ["To make &6microprocessors&r, the next tier of circuits, you will need an &bMV&r circuit assembler."]
-			id: "20688952B5AE2F99"
-			subtitle: "60% Off"
-			tasks: [{
-				id: "4970E8034177F3E2"
-				item: "gtceu:mv_circuit_assembler"
-				type: "item"
-			}]
-			x: 16.5d
-			y: 3.5d
-		}
-		{
 			dependencies: ["5C4C2E1BBCB7B87D"]
 			description: [
 				"Do you want a swimming suit? Too bad because it's realistic!"
@@ -864,6 +636,8 @@
 				"The polymerization chamber unlocks &lneoprene&r, a rubber that is used to make marine fabric and, by extension, the &adiving suit&r. Neoprene is gotten by polymerising &2chloroprene&r, which is gotten by reacting chlorine and &6butadiene&r which is a weird petrochemical thing."
 				""
 				"It will also need &dpotassium persulfate&r as a catalyst, which also requires its own processing line."
+				"{@pagebreak}"
+				"(I don't even know why you would want a swimming suit...)"
 			]
 			icon: "gtceu:neoprene_ingot"
 			id: "385AABFDF2EA84C6"
@@ -896,6 +670,7 @@
 				"Well, it's simple! You just need a &l&cULPIC&r, or an &c&oUltra Low Power Integrated Circuit&r. It's just an IC chip so no need to worry."
 			]
 			id: "6AE7BABF9BF1417D"
+			subtitle: "We Need More POWAH"
 			tasks: [{
 				id: "65FFC23055D37543"
 				item: "gtceu:mv_energy_input_hatch"
@@ -903,6 +678,59 @@
 			}]
 			x: 8.0d
 			y: -2.0d
+		}
+		{
+			dependencies: [
+				"402865AF7B3EB873"
+				"7A4FDEC96C93EBF3"
+			]
+			description: ["The &l&bMV&r&l circuit assembler&r is used to make the new tier of circuits - &6Microprocessors&r! These circuits are cheaper and they go up to IV."]
+			id: "216273B717C24E88"
+			subtitle: "More picking, more placing"
+			tasks: [{
+				id: "3EF93810F70C950B"
+				item: "gtceu:mv_circuit_assembler"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["216273B717C24E88"]
+			description: [
+				"Basic stuff. Later, you can upgrade these to EV circuits, which is quite useful."
+				"Also, you can now make &bMV&r circuits without needing &7LV&r ones, and you can turn MV into &6HV&r circuits with a 1:1 ratio!"
+			]
+			id: "4F07622ADCE44A2B"
+			subtitle: "Level up"
+			tasks: [
+				{
+					id: "0F3124CB724C5110"
+					item: "gtceu:micro_processor"
+					type: "item"
+				}
+				{
+					id: "1FBC24079575187F"
+					item: "gtceu:micro_processor_assembly"
+					type: "item"
+				}
+			]
+			title: "Microprocessors"
+			x: 14.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["24C3CEB85F968221"]
+			description: ["The &lRectifier&r is a part used for miscellaneous circuits. It can only made in &bMV&r due to its requirement of &7liquid steel&r."]
+			id: "7B029EAEBFDC7B11"
+			subtitle: "Rec-it Ralph"
+			tasks: [{
+				id: "624F0B015BDDAD01"
+				item: "kubejs:rectifier"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
 		}
 	]
 	subtitle: ["Diving into Chemistry"]

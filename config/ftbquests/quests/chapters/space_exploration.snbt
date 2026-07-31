@@ -6,7 +6,28 @@
 	icon: "gtceu:overworld_marker"
 	id: "5042B86F2E989E13"
 	order_index: 4
-	quest_links: [ ]
+	quest_links: [
+		{
+			icon: "df_planets:luna_marker"
+			id: "602691258534B19C"
+			linked_quest: "0D1CD77360D880BE"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "7FD90A4D342BF1D7"
+			linked_quest: "7E962B6DA2256A13"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			id: "7F9FE1979C287380"
+			linked_quest: "728ABDDE3FEFFAD2"
+			size: 2.0d
+			x: 3.0d
+			y: 0.0d
+		}
+	]
 	quests: [
 		{
 			description: ["&lEarth&r is the planet where you start. It's perfectly suited for life, so idk why you'd want to go anywhere else...."]
@@ -42,28 +63,13 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["6087C5E8C2332215"]
-			icon: "df_planets:moon_marker"
-			id: "7F00DA8D6A2147FB"
-			size: 1.0d
-			subtitle: "Small Step for Man"
-			tasks: [{
-				dimension: "gcyr:luna"
-				id: "749AD3096152A27B"
-				type: "dimension"
-			}]
-			title: "Luna"
-			x: 0.0d
-			y: 2.0d
-		}
-		{
 			icon: "df_planets:venus_marker"
 			id: "4914A81A549E87B2"
 			size: 2.0d
 			subtitle: "Hidden under the Clouds"
 			tasks: [{
-				dimension: "gcyr:venus"
-				id: "700178BEC3E15203"
+				dimension: "ad_astra:venus"
+				id: "404B70DCECFFE723"
 				type: "dimension"
 			}]
 			title: "Venus"
@@ -76,7 +82,7 @@
 			size: 2.0d
 			subtitle: "Can we find Vulcan?"
 			tasks: [{
-				dimension: "gcyr:mercury"
+				dimension: "ad_astra:mercury"
 				id: "7FC7464B478608CF"
 				type: "dimension"
 			}]
@@ -99,33 +105,6 @@
 			y: 0.0d
 		}
 		{
-			icon: "df_planets:mars_marker"
-			id: "7106CA22B60F0714"
-			size: 2.0d
-			subtitle: "Red World"
-			tasks: [{
-				dimension: "gcyr:mars"
-				id: "1109D4089FF92050"
-				type: "dimension"
-			}]
-			title: "Mars"
-			x: 3.0d
-			y: 0.0d
-		}
-		{
-			icon: "df_planets:ceres_marker"
-			id: "3E322F70CF5B69F9"
-			subtitle: "Queen of the Asteroid Belt"
-			tasks: [{
-				dimension: "df_planets:ceres"
-				id: "7391DEB35D9EA05A"
-				title: "Ceres"
-				type: "dimension"
-			}]
-			x: 4.5d
-			y: 0.0d
-		}
-		{
 			id: "1950FFA2715E606D"
 			size: 2.0d
 			subtitle: "But I'm the biggest Bird"
@@ -135,7 +114,7 @@
 				type: "checkmark"
 			}]
 			title: "Jupiter"
-			x: 6.0d
+			x: 9.0d
 			y: 0.0d
 		}
 		{
@@ -148,7 +127,7 @@
 				type: "checkmark"
 			}]
 			title: "Neptune"
-			x: 15.0d
+			x: 18.0d
 			y: 0.0d
 		}
 		{
@@ -161,7 +140,7 @@
 				type: "checkmark"
 			}]
 			title: "Saturn"
-			x: 9.0d
+			x: 12.0d
 			y: 0.0d
 		}
 		{
@@ -174,8 +153,417 @@
 				type: "checkmark"
 			}]
 			title: "Uranus"
-			x: 12.0d
+			x: 15.0d
 			y: 0.0d
+		}
+		{
+			icon: "kubejs:red_dwarf"
+			id: "6D5EAE9E008E4E58"
+			size: 3.0d
+			subtitle: "SMOL Star"
+			tasks: [{
+				id: "689DA77AC25EE0CC"
+				title: "sun"
+				type: "checkmark"
+			}]
+			title: "Proxima Centauri"
+			x: -10.0d
+			y: -5.0d
+		}
+		{
+			description: ["Don't worry they're friendly!"]
+			icon: "df_planets:proxima_b_marker"
+			id: "46DF2CA948BA8B16"
+			size: 2.0d
+			subtitle: "Warning: Some Centaurs found"
+			tasks: [{
+				dimension: "df_planets:proxima_b"
+				id: "626AAC8CC77FC848"
+				type: "dimension"
+			}]
+			title: "Proxima b \"Chiron\""
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			hide_dependency_lines: false
+			icon: "df_planets:ghillie_marker"
+			id: "62558D20131A1051"
+			size: 2.0d
+			subtitle: "We're going down to Ghillie, away, away"
+			tasks: [{
+				dimension: "df_planets:ghillie"
+				id: "770FC7F2273CB916"
+				type: "dimension"
+			}]
+			title: "Ghillie"
+			x: -6.0d
+			y: -20.0d
+		}
+		{
+			icon: "kubejs:neutron_star"
+			id: "3E7710019BF583BA"
+			size: 1.0d
+			subtitle: "Neurotic and Neutronic"
+			tasks: [{
+				id: "749063ED114D9351"
+				title: "sun"
+				type: "checkmark"
+			}]
+			title: "Sabine-16"
+			x: -10.0d
+			y: -25.0d
+		}
+		{
+			icon: "df_planets:sabine_16b_marker"
+			id: "577E16A77C8AD8AB"
+			size: 2.0d
+			subtitle: "The lava is useful"
+			tasks: [{
+				dimension: "gcyr:mercury"
+				id: "457AF064D8797087"
+				type: "dimension"
+			}]
+			title: "Sabine-16 b"
+			x: -6.0d
+			y: -25.0d
+		}
+		{
+			icon: "df_planets:sabine_16c_marker"
+			id: "3511F071545FBDF2"
+			size: 2.0d
+			subtitle: "Do you want to make a snowman?"
+			tasks: [{
+				dimension: "gcyr:mercury"
+				id: "643CBE3EB7365C44"
+				type: "dimension"
+			}]
+			title: "Sabine-16 c"
+			x: -3.0d
+			y: -25.0d
+		}
+		{
+			icon: "kubejs:vicinus"
+			id: "7EBED1B109F3133A"
+			size: 2.0d
+			subtitle: "Also known as Proxima c"
+			title: "Vicinus"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7EBED1B109F3133A"]
+			icon: "kubejs:glacio"
+			id: "02D85AFC8B1820B7"
+			size: 1.0d
+			subtitle: "Also known as Proxima c I"
+			tasks: [{
+				dimension: "ad_astra:glacio"
+				id: "0FF5953AF5DBC6E8"
+				type: "dimension"
+			}]
+			title: "Glacio"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			icon: "df_planets:metallic_asteroid_rock"
+			id: "6F04822F46CADE9E"
+			size: 2.0d
+			subtitle: "Rocky Road"
+			tasks: [{
+				dimension: "df_planets:asteroid_belt"
+				id: "5138520A080BAFBD"
+				type: "dimension"
+			}]
+			title: "Asteroid Belt"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			icon: "kubejs:red_dwarf"
+			id: "5DB3996DC89790E4"
+			size: 3.0d
+			subtitle: "I wish someone would make a Star! Barnard:"
+			tasks: [{
+				id: "204DC3E02E203799"
+				title: "sun"
+				type: "checkmark"
+			}]
+			title: "Barnard's Star"
+			x: -10.0d
+			y: -10.0d
+		}
+		{
+			description: [""]
+			icon: "df_planets:barnarda_b_marker"
+			id: "253FEB2F69479E33"
+			size: 2.0d
+			subtitle: "Saturn at Home"
+			tasks: [{
+				dimension: "gcyr:mercury"
+				id: "530D197C0C90617F"
+				type: "dimension"
+			}]
+			title: "Barnarda b \"Nazareth\""
+			x: -6.0d
+			y: -10.0d
+		}
+		{
+			description: ["...But it's purple."]
+			icon: "df_planets:barnarda_c_marker"
+			id: "7493DE9EF54D049B"
+			size: 2.0d
+			subtitle: "Oh, wait, this IS a planet B..."
+			title: "Barnarda c \"Bethlehem\""
+			x: -3.0d
+			y: -10.0d
+		}
+		{
+			icon: "df_planets:rare_earth_asteroid_rock"
+			id: "123262B35B180A96"
+			size: 2.0d
+			subtitle: "Stranger Rocks"
+			tasks: [{
+				dimension: "df_planets:barnarda_asteroid_belt"
+				id: "6D2453A6A5852EF4"
+				type: "dimension"
+			}]
+			title: "Barnarda Asteroid Belt"
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			icon: "df_planets:barnarda_e_marker"
+			id: "11DBF464B0B92471"
+			size: 2.0d
+			subtitle: "Very Cloudy..."
+			title: "Barnarda e \"Caanan\""
+			x: 3.0d
+			y: -10.0d
+		}
+		{
+			icon: "df_planets:sun_marker"
+			id: "78586B35438D2805"
+			size: 5.0d
+			subtitle: "Stellar Triple Trouble"
+			tasks: [{
+				id: "09E933525E92909F"
+				title: "sun"
+				type: "checkmark"
+			}]
+			title: "40 Eridani"
+			x: -10.0d
+			y: -30.0d
+		}
+		{
+			description: [""]
+			icon: "df_planets:venus_marker"
+			id: "5DE7717C5F7C6E84"
+			size: 2.0d
+			subtitle: "Amaze Amaze Amaze!"
+			tasks: [{
+				dimension: "gcyr:venus"
+				id: "781B72657E856C21"
+				type: "dimension"
+			}]
+			title: "Erid"
+			x: -6.0d
+			y: -30.0d
+		}
+		{
+			dependencies: ["7493DE9EF54D049B"]
+			icon: "df_planets:barnarda_c_1_marker"
+			id: "7028650E019D54ED"
+			size: 1.0d
+			subtitle: "Bringer of Hope"
+			title: "Barnarda c I \"Gabriel\""
+			x: -3.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7493DE9EF54D049B"]
+			icon: "df_planets:barnarda_c_2_marker"
+			id: "1AA8AE7C4800F892"
+			size: 1.0d
+			subtitle: "Bringer of Darkness"
+			tasks: [{
+				dimension: "gcyr:luna"
+				id: "28D4FDD9727617D5"
+				type: "dimension"
+			}]
+			title: "Barnarda c II \"Beelzebub\""
+			x: -3.0d
+			y: -7.5d
+		}
+		{
+			description: [""]
+			icon: "df_planets:sun_marker"
+			id: "768131049F5EF957"
+			size: 5.0d
+			subtitle: "Sun lookalike"
+			tasks: [{
+				id: "4B0877372FCB90C4"
+				title: "sun"
+				type: "checkmark"
+			}]
+			title: "Tau Ceti"
+			x: -10.0d
+			y: -15.0d
+		}
+		{
+			description: ["A forest/jungle planet, and the most Earth-like planet in the Tau Ceti system."]
+			icon: "df_planets:amazon_marker"
+			id: "4B436D1E78A87ECC"
+			size: 2.0d
+			subtitle: "Menina descendo na quatro por quatro, Welcome to the mato"
+			tasks: [{
+				dimension: "gcyr:mercury"
+				id: "095A684F86D1298B"
+				type: "dimension"
+			}]
+			title: "Tau Ceti f \"Amazon\""
+			x: 3.0d
+			y: -15.0d
+		}
+		{
+			description: ["The smallest planet of the Tau Ceti system, it is overrun with arthropods."]
+			icon: "df_planets:arachne_marker"
+			id: "1643B5FD4F653942"
+			size: 2.0d
+			subtitle: "Insectophobe's Nightmare"
+			tasks: [{
+				dimension: "gcyr:mercury"
+				id: "2B72E037AEFAEF78"
+				type: "dimension"
+			}]
+			title: "Tau Ceti g \"Arachne\""
+			x: -6.0d
+			y: -15.0d
+		}
+		{
+			description: ["A steam-world."]
+			icon: "df_planets:nublata_marker"
+			id: "2344844179D8D7FD"
+			size: 2.0d
+			subtitle: "Eternally overcast, just like England!"
+			tasks: [{
+				dimension: "gcyr:mercury"
+				id: "577FA0340FE12410"
+				type: "dimension"
+			}]
+			title: "Tau Ceti h \"Nublata\""
+			x: -3.0d
+			y: -15.0d
+		}
+		{
+			description: ["&7&oTai-ai-oh, keep tryin' Magellan, you'll find the East Indies you just don't know where&r"]
+			icon: "df_planets:proxima_d_marker"
+			id: "78E9AABBC7DF869C"
+			size: 2.0d
+			subtitle: "Laked and Loaded"
+			tasks: [{
+				dimension: "df_planets:proxima_d"
+				id: "4F66C03A06E27A6D"
+				type: "dimension"
+			}]
+			title: "Proxima d \"Magellan\""
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			icon: "df_planets:sun_marker"
+			id: "7A2329DB6B193FBB"
+			size: 5.0d
+			subtitle: "meow"
+			tasks: [{
+				id: "2445EF2631ADC8B6"
+				title: "sun"
+				type: "checkmark"
+			}]
+			title: "Tabby's Star"
+			x: 2.5d
+			y: -30.0d
+		}
+		{
+			icon: "kubejs:vicinus"
+			id: "45A42CE63B1982F9"
+			size: 2.0d
+			subtitle: "Another brain?"
+			title: "Tabby b"
+			x: 6.0d
+			y: -30.0d
+		}
+		{
+			icon: "df_planets:living_asteroid_rock"
+			id: "3F26D5DC6ADF467F"
+			size: 2.0d
+			subtitle: "Even Stranger Rocks"
+			tasks: [{
+				dimension: "df_planets:asteroid_belt"
+				id: "106DE9E771BAEC87"
+				type: "dimension"
+			}]
+			title: "Tau Ceti Debris Disk"
+			x: 6.0d
+			y: -15.0d
+		}
+		{
+			description: ["A planet just filled to the brim with fungi and other nasty plantlife."]
+			id: "0765557E9F7175E8"
+			size: 2.0d
+			subtitle: "The Fungus Among us"
+			tasks: [{
+				id: "47C8DDD9534268F8"
+				item: "df_planets:zhigao_marker"
+				type: "item"
+			}]
+			title: "Ross-128 b \"Zhigao\""
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			icon: "kubejs:red_dwarf"
+			id: "0D844729F3C6E1B4"
+			size: 3.0d
+			subtitle: "Who's Ross?"
+			tasks: [{
+				id: "4A0E8CB770D4A626"
+				title: "sun"
+				type: "checkmark"
+			}]
+			title: "Ross-128 b"
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			description: ["Habited, but not habitable."]
+			icon: "df_planets:t_ceti_e_marker"
+			id: "71F098B31AA395AA"
+			size: 2.0d
+			subtitle: "We have an infestation!"
+			tasks: [{
+				dimension: "df_planets:tau_ceti_e"
+				id: "4FBDCAF4D54E7CB2"
+				type: "dimension"
+			}]
+			title: "Tau Ceti e \"Adrian\""
+			x: 0.0d
+			y: -15.0d
+		}
+		{
+			icon: "kubejs:red_dwarf"
+			id: "5A47646ECC634CFA"
+			size: 3.0d
+			subtitle: "A Flare Star"
+			tasks: [{
+				id: "528FB0FE9741BAD7"
+				title: "sun"
+				type: "checkmark"
+			}]
+			title: "TZ Arietis"
+			x: -10.0d
+			y: -20.0d
 		}
 	]
 	subtitle: ["Reach for the Stars"]

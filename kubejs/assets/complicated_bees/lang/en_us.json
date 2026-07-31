@@ -1,0 +1,28 @@
+{
+  "species.complicated_bees.complicated_bees:tin": "Tin",
+  "species.complicated_bees.complicated_bees:tin.genus": "Gregoria",
+  "species.complicated_bees.complicated_bees:tin.species_taxonomy": "G. stannum",
+  "species.complicated_bees.complicated_bees:tin.authority": "bee dude",
+  "species.complicated_bees.complicated_bees:tin.flavor_text": "Bolo kon ho.",
+  "species.complicated_bees.complicated_bees:tin.flavor_author": "Gregic Bees",
+  "comb.complicated_bees.complicated_bees:tin": "Tin",
+  "flower.complicated_bees.complicated_bees:tin_block": "Block of Tin",
+  
+  "species.complicated_bees.complicated_bees:lead": "Lead",
+  "species.complicated_bees.complicated_bees:lead.genus": "Gregoria",
+  "species.complicated_bees.complicated_bees:lead.species_taxonomy": "G. plumbum",
+  "species.complicated_bees.complicated_bees:lead.authority": "bee dude",
+  "species.complicated_bees.complicated_bees:lead.flavor_text": "Doesn't cause brain damage. Probably.",
+  "species.complicated_bees.complicated_bees:lead.flavor_author": "Gregic Bees",
+  "comb.complicated_bees.complicated_bees:lead": "Lead",
+  "flower.complicated_bees.complicated_bees:lead_block": "Block of Lead",
+  
+  "species.complicated_bees.complicated_bees:cobaltite": "Cobaltite",
+  "species.complicated_bees.complicated_bees:cobaltite.genus": "Gregoria",
+  "species.complicated_bees.complicated_bees:cobaltite.species_taxonomy": "G. kobold",
+  "species.complicated_bees.complicated_bees:cobaltite.authority": "bee dude",
+  "species.complicated_bees.complicated_bees:cobaltite.flavor_text": "These bees are bluuuuuuuue.",
+  "species.complicated_bees.complicated_bees:cobaltite.flavor_author": "Gregic Bees",
+  "comb.complicated_bees.complicated_bees:cobaltite": "Cobaltite",
+  "flower.complicated_bees.complicated_bees:cobalt_block": "Block of Cobalt"
+}

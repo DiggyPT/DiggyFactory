@@ -1,0 +1,12 @@
+{
+  "id": "tau_ceti_e",
+  "title": "Tau Ceti e (Adrian)",
+  "category": "TAU_CETI",
+  "content": "§lTau Ceti e§r, also known as §oAdrian§r, is a large planet in the Tau Ceti system. It\u0027s larger than Earth, with a thick atmosphere. The average temperature is 212 ºC, but the high surface pressure allows the planet to have §bwater oceans§r on its surface.\n\nTau Ceti e is a world with §9life§r. It\u0027s inhabited by §abacteria§r so plentiful that they stack to form the entire surface layer of the soil, and they form large branched clouds that cover some of this world\u0027s biomes. Even the water in the oceans may best be described as nothing more than some form of §abacterial slurry§r.\nThe bacterial clouds, which include those of §6Taumoeba§r and §8Astrophage§r, are dense enough that some of their inhabitants can enter your space helmet and cause unpleasant side-effects.\n\nThe long history that these microbes have with Adrian is evident. Beneath the ground, there lies a thick layer of §5bacterial hummus§r, waste from the primordial cells millions of years ago. Going deeper, you can find Bacterial Oil, an elusive fluid with various byproducts.",
+  "iconItem": "df_planets:t_ceti_e_marker",
+  "questId": 0,
+  "lockedContent": "",
+  "voiceLine": "",
+  "conditions": {},
+  "order": 4
+}

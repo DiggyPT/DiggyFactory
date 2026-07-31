@@ -1,0 +1,211 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "complicated_bees"
+	group: "21AF79B1B3F0A933"
+	icon: "gtceu:gold_bee"
+	id: "60F196A03948FD49"
+	order_index: 2
+	quest_links: [{
+		id: "163F7D51D5999C96"
+		linked_quest: "15F20B505625448D"
+		x: 0.0d
+		y: -2.0d
+	}]
+	quests: [
+		{
+			dependencies: ["34FA2F5DC211EDF5"]
+			description: [
+				"This world is very weird!"
+				""
+				"For some reason, the best way to make resources is by extracting them from combs that were made with special bees."
+			]
+			icon: "gtceu:gold_bee"
+			id: "7A6173A347A1891F"
+			rewards: [{
+				count: 4
+				id: "41F88A586E87EF45"
+				item: "minecraft:honeycomb"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Your first resource generation"
+			tasks: [{
+				id: "21A9700C2919A469"
+				title: "Friggin epic yo"
+				type: "checkmark"
+			}]
+			title: "Beekeeping Unlocked!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A6173A347A1891F"]
+			description: [
+				"A multipurpose singleblock machine for almost all of your bee needs."
+				"It can:"
+				"   - Crossbreed bees into new species."
+				"   - Make combs with bees."
+			]
+			icon: "diggycore:lv_apiary"
+			id: "5AAACCD871437D63"
+			subtitle: "SMOL Bee House"
+			tasks: [{
+				id: "19218378C8D9FEA8"
+				item: "diggycore:lv_apiary"
+				type: "item"
+			}]
+			title: "Apiary"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5AAACCD871437D63"]
+			description: [
+				"These are bees that can be made without any breeding. Breeding these will give you almost all other bees, except for ones of ores found in the End."
+				"{@pagebreak}"
+				"Note how these bees require honeycombs. Don't worry about having to make a big vanilla bee farm, as the other bees will not require vanilla honeycombs."
+			]
+			id: "52A23BA11603EAD1"
+			subtitle: "Theres no one I'd rather Bee... than Me."
+			tasks: [
+				{
+					id: "0D38D644DD588317"
+					item: "gtceu:iron_bee"
+					type: "item"
+				}
+				{
+					id: "7976CD17F83F2702"
+					item: "gtceu:copper_bee"
+					type: "item"
+				}
+				{
+					id: "03BC8681EC603DD0"
+					item: "gtceu:tin_bee"
+					type: "item"
+				}
+				{
+					id: "1325E19CD344764E"
+					item: "gtceu:sphalerite_bee"
+					type: "item"
+				}
+			]
+			title: "Starter Bees"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["35BD4AD260345CF9"]
+			description: ["These are the other bees that you can get without breeding. They are used to get the other End bees."]
+			id: "3DACCEC784150F9A"
+			subtitle: "To Bee or not to Bee, that is the question"
+			tasks: [
+				{
+					id: "1EA85BA38746144B"
+					item: "gtceu:naquadah_bee"
+					type: "item"
+				}
+				{
+					id: "4435A6E23E82A910"
+					item: "gtceu:aluminium_bee"
+					type: "item"
+				}
+			]
+			title: "End Bees"
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"52A23BA11603EAD1"
+				"3DACCEC784150F9A"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Put any bee in an apiary to make a beecomb. Centrifuging these will give its corresponding raw ore."]
+			id: "72C40F540FFA8252"
+			subtitle: "Mmm Yummy"
+			tasks: [{
+				id: "5134D54B5B9783A9"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:comb"
+					}
+				}
+				title: "Any Beecomb"
+				type: "item"
+			}]
+			title: "Bee Combs"
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"52A23BA11603EAD1"
+				"3DACCEC784150F9A"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Every bee has at least one crossbreeding recipe if it isn't a primary bee. Once you achieve two bees of the same type, you can breed them together to make another of the same bee."]
+			id: "4F4C77950DFD130F"
+			subtitle: "Bee Free"
+			tasks: [{
+				id: "3815C0E15C319243"
+				item: "gtceu:pyrite_bee"
+				type: "item"
+			}]
+			title: "Bee Breeding"
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["52A23BA11603EAD1"]
+			description: ["You can use &lCoal Bees&r as fuel. I guess this is useful if you want to get rid of them and get some extra power, but you'll live with the guilt for the rest of your life.... so please don't do it pookie bear- I MEAN PLAYER"]
+			id: "05C4691FD61249AE"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "7559E644B879CD03"
+				item: "projecte:alchemical_coal"
+				type: "item"
+			}]
+			subtitle: "you MONSTER"
+			tasks: [{
+				id: "65E099A7627B6CA0"
+				item: "gtceu:coal_bee"
+				type: "item"
+			}]
+			title: "Fuel?"
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5AAACCD871437D63"]
+			description: [
+				"&lChemical Reactors&r are used to breed two bees of the same type together to make a third bee of the same type."
+				"It is for this reason that I'd advise you to, everytime that you make a new type of bee, to make two copies of it, so that you can always breed them to make more."
+				""
+				"&9Lore:&r Same-species bee breeding was originally done in the Apiary, obviously, however due to recipe problems it was moved to the chemical reactor."
+			]
+			icon: "gtceu:lv_chemical_reactor"
+			id: "0685AA417D0973FA"
+			rewards: [{
+				count: 4
+				id: "440934CA42EC2AF0"
+				item: "minecraft:honey_block"
+				type: "item"
+			}]
+			subtitle: "Not the machine I'd Expect"
+			tasks: [{
+				id: "7EE2656C8D24AEF1"
+				type: "checkmark"
+			}]
+			title: "Chemical Reactors in Bee Breeding"
+			x: 2.5d
+			y: -1.0d
+		}
+	]
+	subtitle: ["Honey for Me, not for Bee"]
+	title: "Beekeeping"
+}

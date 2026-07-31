@@ -260,10 +260,7 @@
 			y: 5.5d
 		}
 		{
-			dependencies: [
-				"478A7F7565AFC8A8"
-				"0F192D1F44B9B599"
-			]
+			dependencies: ["478A7F7565AFC8A8"]
 			description: [
 				"As mentioned in the main sections of this quest book, this &5Indium setup&r has a limited lifetime, so don't stress over optimising every last detail."
 				""

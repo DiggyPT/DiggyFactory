@@ -79,9 +79,34 @@
    "material.gtceu.therm": "Therm",
    "material.gtceu.thermal_mixture": "Thermal Mixture",
    "material.gtceu.silicon_germanium": "Silicon Germanium",
+   "material.gtceu.monazite_slurry": "Monazite Slurry",
+   "material.gtceu.rare_earth_slurry": "Rare-Earth Slurry",
+   "material.gtceu.dysprosium_cation": "Dysprosium Cation",
+   "material.gtceu.dysprosium_trichloride": "Dysprosium(III) Chloride",
+   "material.gtceu.dysprosium_trifluoride": "Dysprosium(III) Fluoride",
+   "material.gtceu.calcium_fluoride": "Calcium Fluoride",
+   "material.gtceu.heavy_duty_tier_1": "Heavy Duty",
+   "material.gtceu.heavy_duty_tier_2": "Heavy Duty (Tier 2)",
+   
+   "material.gtceu.atp": "Adenosine Triphosphate (ATP)",
+   "material.gtceu.adp": "Adenosine Diphosphate (ADP)",
+   "material.gtceu.nadph": "Reduced Nicotinamide Adenine Dinucleotide Phosphate (NADPH)",
+   "material.gtceu.nadp_mais": "Oxidized Nicotinamide Adenine Dinucleotide Phosphate (NADP+)",
+   "material.gtceu.rubp": "Ribulose 1,5-bisphosphate (RuBP)",
+   "material.gtceu.3_pga": "3-Phosphoglyceric acid (3-PGA)",
+   "material.gtceu.1_3_bpg": "1,3-Bisphosphoglyceric Acid (1,3-BPG)",
+   "material.gtceu.pgal": "Glyceraldehyde 3-phosphate (PGAL)",
+   "material.gtceu.glucose": "Glucose",
+   "material.gtceu.h_plus": "Hydrogen Cation",
+   "material.gtceu.organics_extraction_fluid": "Organics Extraction Fluid",
    
    "gtceu.jei.ore_vein.overworld/covellite": "Covellite Vein",
    "minecraft:overworld/covellite": "Covellite Vein",
+   "gtceu.jei.ore_vein.moon/meteoric_iron": "Meteoric Iron Vein",
+   "minecraft:moon/meteoric_iron": "Meteoric Iron Vein",
+   "gtceu.jei.ore_vein.moon/lunar_sapphire": "Lunar Sapphire Vein",
+   "minecraft:moon/lunar_sapphire": "Lunar Sapphire Vein",
+   
    "block.gtceu.steam_animal_trapper": "Steam Animal Trapper",
    "gtceu.steam_animal_trapper": "Steam Animal Trapper",
    "block.gtceu.steam_ranch": "Steam Ranch",
@@ -111,5 +136,14 @@
    "block.gtceu.waterwheel": "Hydroelectric Dam",
    "gtceu.waterwheel": "Hydroelectric Dam",
    "block.gtceu.decay_generator": "Decay Generator",
-   "gtceu.decay_generator": "Decay Generator"
+   "gtceu.decay_generator": "Decay Generator",
+   
+   "block.gtceu.ion_exchanger": "Ion Exchanger",
+   "gtceu.ion_exchanger": "Ion Exchange",
+   "block.gtceu.froth_flotator": "Froth Flotator",
+   "gtceu.froth_flotator": "Froth Flotation",
+   "block.gtceu.bio_reactor": "Bio-Reactor",
+   "gtceu.bio_reactor": "Bio-Reaction",
+   
+    "tagprefix.moon": "Moon %s Ore"
 }

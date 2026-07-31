@@ -35,13 +35,6 @@
 			y: 1.5d
 		}
 		{
-			id: "7E75AAD105D31F26"
-			linked_quest: "07906458E1A15683"
-			shape: "rsquare"
-			x: 9.0d
-			y: 1.5d
-		}
-		{
 			id: "321893F87228A360"
 			linked_quest: "16E7CAC7BC8BFD8E"
 			shape: "rsquare"
@@ -79,12 +72,6 @@
 			linked_quest: "528CE69DA4358B2E"
 			x: 9.0d
 			y: 3.0d
-		}
-		{
-			id: "2206AD45E6B2389C"
-			linked_quest: "77B7B1EDD19831E0"
-			x: 10.5d
-			y: 4.5d
 		}
 		{
 			icon: {
@@ -129,13 +116,6 @@
 			y: 6.0d
 		}
 		{
-			id: "052E542D4D30CC93"
-			linked_quest: "466AC4DD902115EF"
-			shape: "rsquare"
-			x: 3.0d
-			y: 4.5d
-		}
-		{
 			id: "6DA657FC3F725B0C"
 			linked_quest: "1AD309112ADD8D8D"
 			shape: "rsquare"
@@ -148,13 +128,6 @@
 			shape: "rsquare"
 			x: 0.0d
 			y: 4.5d
-		}
-		{
-			id: "7D67FF93BFAF6A4A"
-			linked_quest: "328CFD483C26EA44"
-			shape: "rsquare"
-			x: 0.0d
-			y: 6.0d
 		}
 		{
 			id: "1D2DEC9BC14B9F64"

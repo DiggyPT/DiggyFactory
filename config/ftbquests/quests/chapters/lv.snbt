@@ -19,16 +19,16 @@
 			image: "diggyfactory:textures/quests/lmv.png"
 			rotation: 0.0d
 			width: 2.0d
-			x: 7.5d
-			y: 1.5d
+			x: 10.0d
+			y: -2.0d
 		}
 		{
 			height: 1.0d
 			image: "diggyfactory:textures/quests/mv.png"
 			rotation: 0.0d
 			width: 2.0d
-			x: 15.0d
-			y: 1.5d
+			x: 12.5d
+			y: 4.0d
 		}
 	]
 	order_index: 2
@@ -50,10 +50,12 @@
 			y: -4.0d
 		}
 		{
-			id: "6D13FAF367305B2C"
-			linked_quest: "51B99BC6E9B675BA"
-			x: 9.0d
-			y: 0.0d
+			id: "52813D1E88F51267"
+			linked_quest: "7A6173A347A1891F"
+			shape: "gear"
+			size: 2.0d
+			x: 0.0d
+			y: 4.0d
 		}
 	]
 	quests: [
@@ -67,24 +69,24 @@
 				item: "gtceu:lv_wiremill"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -1.0d
+			x: 3.5d
+			y: 1.0d
 		}
 		{
-			dependencies: ["1790658601A1E187"]
+			dependencies: ["0E26250C6E75B8E5"]
 			description: ["Now you can make the &lBending Machine&r! It's basically an improved Forge Hammer when it comes to plates, because now the ingot to plate ratio is 1:1 instead of 3:2!"]
 			id: "69561C5FE389E808"
-			subtitle: "Ben Dover"
+			subtitle: "This next one might get you messy, Why? Cause we're playing Bendy"
 			tasks: [{
 				id: "5FD38E05940DB0B0"
 				item: "gtceu:lv_bender"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.0d
+			x: 3.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["1790658601A1E187"]
+			dependencies: ["0E26250C6E75B8E5"]
 			description: ["Make a &lLathe&r to be able to turn an ingot into 2 rods. This is more efficient than doing it by hand with a file, which gave you 1 rod per ingot."]
 			id: "6389E73010F05D4B"
 			subtitle: "Rod Inserter"
@@ -93,8 +95,8 @@
 				item: "gtceu:lv_lathe"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 0.0d
+			x: 3.5d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -104,13 +106,18 @@
 			]
 			description: ["The &lAssembler&r can automate some crafting recipes, if you want a way more expensive version of a mechanical crafter, for some reason. But where it truly shines is with its exclusive recipes, like the recipe to make blast furnace coils. &eIt can also make circuit components much more efficiently!!!"]
 			id: "5E03AFFA39D5E340"
+			rewards: [{
+				id: "7BE5040BD7B62E1F"
+				item: "gtceu:lv_electric_motor"
+				type: "item"
+			}]
 			subtitle: "ASSembler"
 			tasks: [{
 				id: "52A6DF550C728947"
 				item: "gtceu:lv_assembler"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 5.0d
 			y: 0.0d
 		}
 		{
@@ -124,6 +131,12 @@
 			]
 			icon: "gtceu:conductive_mixed_salts_alloy_ingot"
 			id: "0493F54BBA7B53CA"
+			rewards: [{
+				count: 4
+				id: "0D4AADCA11B8F821"
+				item: "gtceu:raw_salt"
+				type: "item"
+			}]
 			shape: "pentagon"
 			subtitle: "Your First Superconductor"
 			tasks: [
@@ -143,7 +156,10 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["1790658601A1E187"]
+			dependencies: [
+				"4A9C33F85E19887E"
+				"0E26250C6E75B8E5"
+			]
 			description: ["You might think, \"Quest book! I already have a steam extractor! Why would I need another one?\" Well, that's because the &lElectric Extractor&r can &9melt stuff&r! The molten stuff can later be solidifed in a Fluid Extractor, or used in an exclusive Assembler recipe, along with other stuff."]
 			id: "6ECAC46D9A42C571"
 			subtitle: "AND THEY EXTRACT IT! #2"
@@ -152,7 +168,7 @@
 				item: "gtceu:lv_extractor"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.5d
 			y: -2.0d
 		}
 		{
@@ -165,39 +181,8 @@
 				item: "gtceu:lv_arc_furnace"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.5d
 			y: -3.0d
-		}
-		{
-			dependencies: [
-				"21751E823716D187"
-				"6ECAC46D9A42C571"
-				"5E03AFFA39D5E340"
-			]
-			description: ["Using your &8Arc Furnace&r for annealed copper foil and your &aExtractor&r for liquid steel, you can combine them in an &cAssembler&r with some tin dust to make &lRectifiers&r! These will be used to make &9Decent Electronic Circuits&r, AKA your &9first LMV circuits&r."]
-			hide_dependency_lines: true
-			id: "6565C03B742C15CE"
-			subtitle: "Rec Room"
-			tasks: [{
-				id: "3A02ED2B1D4D5EE9"
-				item: "kubejs:rectifier"
-				type: "item"
-			}]
-			x: 5.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["5E03AFFA39D5E340"]
-			description: ["The &lTreated Printed Circuit Board&r is the Circuit Board you'll use to make &aLMV&r circuits. It's made of wood and treated with &6Creosote&r."]
-			id: "5EFB5ADA75DB0D91"
-			subtitle: "TPCB"
-			tasks: [{
-				id: "64729F2798CA4A21"
-				item: "kubejs:treated_printed_circuit_board"
-				type: "item"
-			}]
-			x: 6.0d
-			y: -1.0d
 		}
 		{
 			dependencies: ["1790658601A1E187"]
@@ -209,7 +194,7 @@
 				item: "gtceu:lv_electrolyzer"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.5d
 			y: -4.0d
 		}
 		{
@@ -218,11 +203,7 @@
 				"4A7BA0317649F0FA"
 			]
 			description: [
-				"&oWhat? Were you expecting the Electric Blast Furnace?&r"
-				"&5Not here!&r"
-				"The EBF is gated behing LMV circuits, which require &3germanium&r to make. How do you make germanium?"
-				"With the &lVapor Distiller&r!"
-				"The Vapor Distiller will be your first electric multiblock machine, and it pumps fluids into raw ores to exctract valuable byproducts from them. Here, you'll use it to make germanium."
+				"The Vapor Distiller is an electric multiblock machine that pumps fluids into raw ores to extract valuable byproducts from them. Here, you'll use it to make germanium."
 				""
 				"{@pagebreak}"
 				"You'll need to &doverclock&r it to &bMV&r to be able to run the recipe, so you'll need 2 &7LV&r energy hatches."
@@ -232,103 +213,37 @@
 			shape: "octagon"
 			size: 1.5d
 			subtitle: "Pumping stuff into ores to crack them up"
-			tasks: [
-				{
-					id: "5513E96C563EE667"
-					item: "gtceu:vapor_distiller"
-					type: "item"
-				}
-				{
-					count: 15L
-					id: "1B4F903A58F3B930"
-					item: { Count: 15, id: "gtceu:solid_machine_casing" }
-					type: "item"
-				}
-				{
-					count: 6L
-					id: "6973C54A7357883A"
-					item: "gtceu:bronze_frame"
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "27F669B1E715BD17"
-					item: { Count: 2, id: "gtceu:steel_pipe_casing" }
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "6AC36C7AA62FA0A6"
-					item: { Count: 2, id: "gtceu:lv_energy_input_hatch" }
-					type: "item"
-				}
-				{
-					id: "2593F18E24F4B561"
-					item: "gtceu:lv_input_bus"
-					type: "item"
-				}
-				{
-					id: "594ABB183C580FBE"
-					item: "gtceu:lv_output_bus"
-					type: "item"
-				}
-				{
-					id: "294761C86E4EAB57"
-					item: "gtceu:lv_input_hatch"
-					type: "item"
-				}
-			]
-			x: 5.0d
-			y: -2.0d
+			tasks: [{
+				id: "5513E96C563EE667"
+				item: "gtceu:vapor_distiller"
+				type: "item"
+			}]
+			x: 6.75d
+			y: -3.0d
 		}
 		{
 			dependencies: ["4A49F683044241DD"]
 			description: [
-				"Now you have unlocked &3Germanium&r!"
-				"Use it to make your first LMV circuits."
+				"Now you have unlocked &3Germanium&r."
+				"(not useful rn xd uwu)"
 			]
 			id: "43D9C8F269A7D3BF"
 			subtitle: "Germa985"
 			tasks: [{
-				id: "0B61914BAD3F8DB4"
-				item: "gtceu:ge_element_ingot"
+				id: "340075A5CC5BDADA"
+				item: "gtceu:germanium_ingot"
 				type: "item"
 			}]
 			title: "Germanium"
-			x: 7.5d
-			y: -2.0d
-		}
-		{
-			dependencies: [
-				"6565C03B742C15CE"
-				"5EFB5ADA75DB0D91"
-				"43D9C8F269A7D3BF"
-				"292855401877F96E"
-			]
-			description: [
-				"After some hard work, you have unlocked your first Low-Medium Voltage circuits, Decent Electronic Circuits!"
-				"You will use them to make the &aElectric Blast Furnace&r, and to make &bMedium Voltage&r circuits."
-			]
-			id: "17E60B78049026C7"
-			shape: "octagon"
-			size: 1.5d
-			subtitle: "LMV Unlocked!!!"
-			tasks: [{
-				id: "5B42788D15BCB8FB"
-				item: "kubejs:decent_electronic_circuit"
-				type: "item"
-			}]
-			x: 7.5d
-			y: 0.0d
+			x: 8.5d
+			y: -3.0d
 		}
 		{
 			dependencies: [
 				"691E9885449AB55F"
-				"17E60B78049026C7"
+				"5E03AFFA39D5E340"
 			]
 			description: [
-				"Who's ready for another big boy? I sure am, so good thing the &aElectric Blast Furnace&r is coming!"
-				""
 				"The &lElectric Blast Furace&r, or &oEBF&r, is a multiblock machine that serves as a big furnace that can smelt stuff at very high temperatures. It's &ostupidly&r useful. Right now, you'll want it so that you can smelt &3aluminium dust&r into ingots, as that is the material used to make &bMV&r machinery."
 				"{@pagebreak}"
 				"The &bEBF&r is VERY energy hungry, so either upgrade your power generation or create a battery buffer."
@@ -337,130 +252,22 @@
 			]
 			icon: "gtceu:electric_blast_furnace"
 			id: "10A99CBED28EC735"
+			rewards: [{
+				count: 5
+				id: "289BB17E902C0110"
+				item: "gtceu:battery_alloy_ingot"
+				type: "item"
+			}]
 			shape: "octagon"
 			size: 1.5d
 			subtitle: "Blast Processing"
-			tasks: [
-				{
-					id: "1A872E7BF16DC5A0"
-					item: "gtceu:electric_blast_furnace"
-					type: "item"
-				}
-				{
-					count: 9L
-					id: "48F94818F53A42F3"
-					item: { Count: 9, id: "gtceu:heatproof_machine_casing" }
-					type: "item"
-				}
-				{
-					count: 16L
-					id: "47ED2023623B562F"
-					item: "gtceu:cupronickel_coil_block"
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "55A9B26B18B858AA"
-					item: { Count: 2, id: "gtceu:lv_energy_input_hatch" }
-					type: "item"
-				}
-				{
-					id: "61CD01873920742A"
-					item: {
-						Count: 1
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "gtceu:ulv_input_bus"
-								}
-								{
-									Count: 1b
-									id: "gtceu:lv_input_bus"
-								}
-							]
-						}
-					}
-					title: "ULV or LV Input Bus"
-					type: "item"
-				}
-				{
-					id: "296CCEF922D1E4F2"
-					item: {
-						Count: 1
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "gtceu:ulv_output_bus"
-								}
-								{
-									Count: 1b
-									id: "gtceu:lv_output_bus"
-								}
-							]
-						}
-					}
-					title: "ULV or LV Output Bus"
-					type: "item"
-				}
-				{
-					id: "173F795C119EA54E"
-					item: {
-						Count: 1
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "gtceu:ulv_input_hatch"
-								}
-								{
-									Count: 1b
-									id: "gtceu:lv_input_hatch"
-								}
-							]
-						}
-					}
-					title: "ULV or LV Input Hatch"
-					type: "item"
-				}
-				{
-					id: "12D2ECE1F54AF867"
-					item: {
-						Count: 1
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "gtceu:ulv_output_hatch"
-								}
-								{
-									Count: 1b
-									id: "gtceu:lv_output_hatch"
-								}
-							]
-						}
-					}
-					title: "ULV or LV Output Hatch"
-					type: "item"
-				}
-				{
-					id: "13D87AF084F05B84"
-					item: "gtceu:maintenance_hatch"
-					type: "item"
-				}
-				{
-					id: "7613B8022CAE49E9"
-					item: "gtceu:lv_muffler_hatch"
-					type: "item"
-				}
-			]
-			x: 10.5d
-			y: -2.0d
+			tasks: [{
+				id: "1A872E7BF16DC5A0"
+				item: "gtceu:electric_blast_furnace"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["75E908DD55EE9B55"]
@@ -472,7 +279,7 @@
 				item: "gtceu:aluminium_dust"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 11.0d
 			y: -4.0d
 		}
 		{
@@ -482,14 +289,20 @@
 			]
 			description: ["Much like how &8steel&r was the main material of &7LV&r machines, &3aluminium&r will be the material of &bMV&r machines. Because of that, you will need a lot of it, and if you don't want to wait a while, you should probably leave it cooking in your &aEBF&r in the background while you do other stuff."]
 			id: "2FD35380843C5225"
+			rewards: [{
+				count: 5
+				id: "3E1134D2128642A5"
+				item: "gtceu:aluminium_dust"
+				type: "item"
+			}]
 			subtitle: "Move outta the way, steel"
 			tasks: [{
 				id: "31D04081068821D2"
 				item: "gtceu:aluminium_ingot"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -2.0d
+			x: 11.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1790658601A1E187"]
@@ -507,7 +320,7 @@
 				item: "gtceu:lv_centrifuge"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.5d
 			y: 3.0d
 		}
 		{
@@ -520,13 +333,13 @@
 				item: "gtceu:lv_chemical_reactor"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 5.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["75E908DD55EE9B55"]
 			description: [
-				"You may notice that some machines now have &9fluids&r as inputs and outputs. You can't hold them in your hands, so how do you carry them around? The answer is with fluid cells and drums!"
+				"You may notice that some machines now have &9fluids&r as inputs and outputs. You can't hold them in your hands, so how do you carry them around? The answer is with fluid cells and drums."
 				""
 				"&7Fluid Cells&r are for amounts of fluids less than a bucket."
 				"&6Drums&r are for amounts of fluids that are more than a bucket. They can be made out of various materials."
@@ -534,7 +347,7 @@
 				"To grab a fluid, click on the fluid slot with an empty fluid cell or drum."
 				"To drop a fluid, click on the empty slot you want the fluid to go with a non empty fluid cell or drum."
 				""
-				"To carry acids use a gold drum!"
+				"&cTo carry acids use a gold drum!&r"
 			]
 			id: "0E61079B53310779"
 			shape: "pentagon"
@@ -572,7 +385,7 @@
 				}
 			]
 			title: "Fluids and You"
-			x: 2.0d
+			x: 3.5d
 			y: -5.5d
 		}
 		{
@@ -585,11 +398,14 @@
 				item: { Count: 2, id: "gtceu:arsenic_dust" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: 5.0d
 			y: 3.0d
 		}
 		{
-			dependencies: ["1790658601A1E187"]
+			dependencies: [
+				"4A9C33F85E19887E"
+				"065387CD6A01F548"
+			]
 			description: ["The &lChemical Bath&r is an ore processing machine that bathes ores in chemicals to obtain their byproducts. For now you'll be using it to obtain &9gallium&r."]
 			id: "07D50AD17AC85DF3"
 			subtitle: "Bathtub"
@@ -598,7 +414,7 @@
 				item: "gtceu:lv_chemical_bath"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.5d
 			y: 2.0d
 		}
 		{
@@ -618,13 +434,19 @@
 			]
 			hide_dependency_lines: true
 			id: "51CC576BAE42A29E"
+			rewards: [{
+				count: 6
+				id: "16648905DC286552"
+				item: "gtceu:crushed_bauxite_ore"
+				type: "item"
+			}]
 			subtitle: "Hard to get"
 			tasks: [{
 				id: "5A3387472981C0D6"
 				item: "gtceu:gallium_dust"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 5.0d
 			y: 5.0d
 		}
 		{
@@ -641,7 +463,7 @@
 				item: "gtceu:gallium_arsenide_dust"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 6.5d
 			y: 4.0d
 		}
 		{
@@ -660,7 +482,7 @@
 				item: "gtceu:lv_mixer"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.5d
 			y: 4.0d
 		}
 		{
@@ -680,16 +502,19 @@
 				item: "gtceu:diode"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 2.0d
+			x: 6.5d
+			y: 2.5d
 		}
 		{
-			dependencies: [
-				"1E0F5B181B7522A3"
-				"17E60B78049026C7"
-			]
+			dependencies: ["1E0F5B181B7522A3"]
 			description: ["Now it's time to put everything together! By crafting diodes, decent electronic circuits and some more stuff that you can make by now, you can achieve &bMV&r circuits!"]
 			id: "3CD6711097E21E07"
+			rewards: [{
+				count: 4
+				id: "170830F8DA9E2ABA"
+				item: "gtceu:raw_silver"
+				type: "item"
+			}]
 			shape: "octagon"
 			size: 1.5d
 			subtitle: "You'll need a lot of this... again"
@@ -698,8 +523,8 @@
 				item: "gtceu:good_electronic_circuit"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 2.0d
+			x: 9.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["2FD35380843C5225"]
@@ -715,8 +540,8 @@
 				item: "gtceu:mv_machine_hull"
 				type: "item"
 			}]
-			x: 13.5d
-			y: -2.0d
+			x: 12.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -726,6 +551,12 @@
 			description: ["Now that you have both &bMV&r &acircuits&r and &ehulls&r, you have unlocked the &bMV&r age! &bMV&r machines are &efaster&r and have &dmore recipes&r!"]
 			icon: "gtceu:mv_electric_motor"
 			id: "24C3CEB85F968221"
+			rewards: [{
+				count: 6
+				id: "57275759B2767001"
+				item: "gtceu:aluminium_ingot"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "Diving into Chemistry"
@@ -735,8 +566,8 @@
 				type: "checkmark"
 			}]
 			title: "MV Unlocked!"
-			x: 15.0d
-			y: 0.0d
+			x: 12.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["3CD6711097E21E07"]
@@ -751,7 +582,7 @@
 				item: "gtceu:lv_circuit_assembler"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 9.0d
 			y: 4.0d
 		}
 		{
@@ -774,11 +605,14 @@
 				}
 			]
 			title: "Manganese Phosphide"
-			x: 10.5d
-			y: -0.5d
+			x: 7.5d
+			y: 1.5d
 		}
 		{
-			dependencies: ["1790658601A1E187"]
+			dependencies: [
+				"1790658601A1E187"
+				"4A9C33F85E19887E"
+			]
 			description: [
 				"A lot of the gases in the air are useful, such as &anitrogen&r to shorten EBF recipe times and &boxygen&r for arc furnaces and chemical reactions. But how can we obtain the air to extract these gases?"
 				""
@@ -791,7 +625,7 @@
 				item: "gtceu:lv_gas_collector"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.5d
 			y: 5.0d
 		}
 		{
@@ -802,6 +636,7 @@
 				id: "gtceu:mv_diamond_drill"
 				tag: {
 					Charge: 2147483647L
+					Damage: 0
 					DisallowContainerItem: 0b
 					GT.Behaviours: {
 						AoEColumn: 1
@@ -813,7 +648,6 @@
 						TorchPlacing: 1b
 					}
 					GT.Tool: {
-						Damage: 0
 						HarvestLevel: 3
 						MaxDamage: 3071
 						ToolSpeed: 10.0f
@@ -1454,13 +1288,18 @@
 				}
 			]
 			title: "MV Drill"
-			x: 12.0d
-			y: -0.5d
+			x: 10.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["5E03AFFA39D5E340"]
-			description: ["You are probably still feeding your boilers with either a primitive water pump or a mechanical pump. But both of these have downsides; The primitive pump is big, and the mechanical pump needs kinetic energy. Luckily, your new advances in technology have unlocked a new machine: The &9Aqueous accumulator&r. This machine, when put next to 2 water sources, will make water automatically! No energy required!"]
+			description: ["You are probably still feeding your boilers with a primitive water pump. But the primitive pump is big. Luckily, your new advances in technology have unlocked a new machine: The &9Aqueous accumulator&r. This machine, when put next to 2 water sources, will make water automatically! No energy required!"]
 			id: "2B9CA80E0CF8678C"
+			rewards: [{
+				id: "43F002B5BCFFC70B"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
 			shape: "pentagon"
 			subtitle: "Another Upgrade"
 			tasks: [{
@@ -1468,14 +1307,19 @@
 				item: "thermal:device_water_gen"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 5.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["1790658601A1E187"]
-			description: ["The terminal is a very handy machine that speeds up assembling multiblocks. There are a lot of new multiblocks in this modpack, so it is a good alternative to looking at JEI over and over and over again."]
+			description: ["The terminal is a very handy tool that speeds up assembling multiblocks. There are a lot of new multiblocks in this modpack, so it is a good alternative to looking at JEI over and over and over again."]
 			hide_dependency_lines: true
 			id: "2152E4CB5D738363"
+			rewards: [{
+				id: "6AA04A9984A871D6"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
 			subtitle: "You won't need this, but you'll want it"
 			tasks: [{
 				id: "418136EB6698281E"
@@ -1484,6 +1328,63 @@
 			}]
 			x: 0.0d
 			y: 2.5d
+		}
+		{
+			dependencies: ["1790658601A1E187"]
+			description: ["A machine that turns rotational energy into straight kinetic energy. Used for some machines."]
+			id: "0E26250C6E75B8E5"
+			subtitle: "Time for piss time for piss"
+			tasks: [{
+				id: "1BFCF0DEE00347D9"
+				item: "gtceu:lv_electric_piston"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1790658601A1E187"]
+			description: [
+				"&eIt's a cover that brings items from A to B with a filter for customisability!&r"
+				""
+				"&cWoah woah woah what the poop, it has a rubber loop?&r &eAre you listening?&r"
+				""
+				"&cYeah of course I'm hearing, it's like Immersive Engineering! It has two motors, does that have a meaning?&r"
+				""
+				"The &lConveyor Module&r has two uses:"
+				"-Machine part."
+				"-Cover that you can put on a side of a machine to filter item transport."
+				""
+				"Higher tiers have higher throughput and are ingredients in higher-tier machines."
+			]
+			id: "065387CD6A01F548"
+			subtitle: "This one doesn't need leather"
+			tasks: [{
+				id: "5F7821ABB8CBE1A5"
+				item: "gtceu:lv_conveyor_module"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1790658601A1E187"]
+			description: [
+				"Like the &6Conveyor Module&r, the &lElectric Pump&r has two uses:"
+				"-Machine part for fluid-handling machines."
+				"-Cover that can be placed on a machine to automatically transport fluids with filtering options."
+				""
+				"Higher-tier pumps have higher fluid throughput."
+			]
+			id: "4A9C33F85E19887E"
+			subtitle: "ARE YOU READY TO PUMP? #2"
+			tasks: [{
+				id: "58891FA0DBFFD823"
+				item: "gtceu:lv_electric_pump"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
 		}
 	]
 	subtitle: ["Onto the Electric Age!"]

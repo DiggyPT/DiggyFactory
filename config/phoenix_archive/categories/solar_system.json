@@ -1,0 +1,6 @@
+{
+  "id": "SOLAR_SYSTEM",
+  "description": "Planets of the Solar System",
+  "weight": 48,
+  "parentId": "WORLDS"
+}

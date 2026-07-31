@@ -426,7 +426,6 @@
 			y: 1.98d
 		}
 		{
-			dependencies: ["77B7B1EDD19831E0"]
 			description: [
 				"There are many ways to automate Ordered Items: GT item pipes, Redstone, other mods, you name it! This quest will attempt to guide you through a setup using &3AE2&r."
 				""
@@ -452,7 +451,6 @@
 			y: 1.98d
 		}
 		{
-			dependencies: ["77B7B1EDD19831E0"]
 			description: [
 				"Scanning is the first step for research. Take the item shown in EMI and put it with a &3Data Stick&r to scan it. This will &4consume&r the item and put Data on the Data Stick. Pretty straightforward, right?"
 				""
@@ -667,7 +665,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["724FB950CC472BB4"]
 			description: [
 				"A shopping list for anyone looking to automate &6Ore Processing&r on a large scale:"
 				""

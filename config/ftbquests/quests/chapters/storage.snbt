@@ -14,7 +14,7 @@
 	quests: [
 		{
 			dependencies: ["0628DB72B5C212F3"]
-			description: ["Storage that is unlocked before the &6Steam Age&r"]
+			description: ["Storage that is unlocked before the &6Steam Age&d&r."]
 			icon: "minecraft:cobblestone"
 			id: "7DA1D2F806D3497C"
 			shape: "gear"
@@ -311,11 +311,6 @@
 				{
 					id: "7120F7851C826A8C"
 					item: "ae2:crafting_accelerator"
-					type: "item"
-				}
-				{
-					id: "5FE7DAD99213891D"
-					item: "ae2:crafting_monitor"
 					type: "item"
 				}
 				{

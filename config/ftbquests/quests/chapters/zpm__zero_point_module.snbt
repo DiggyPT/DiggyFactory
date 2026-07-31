@@ -186,10 +186,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"52D952ADBEB67454"
-				"2587BFD0D9F3FF4A"
-			]
+			dependencies: ["2587BFD0D9F3FF4A"]
 			description: [
 				"The &3Research Station&r is the upgrade to the Scanner. It's used for more advanced forms of research, and will finally allow you to perform research which requires &aData Orbs and Modules&r."
 				""

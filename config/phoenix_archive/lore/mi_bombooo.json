@@ -1,0 +1,21 @@
+{
+  "id": "mi_bombooo",
+  "title": "MI BOMBOOO",
+  "category": "GENERAL",
+  "content": "mi bombooo",
+  "iconItem": "minecraft:iron_ingot",
+  "questId": 0,
+  "lockedContent": "aaaaa",
+  "voiceLine": "",
+  "conditions": {
+    "item": "",
+    "machine": "",
+    "biome": "",
+    "craft": "",
+    "wearing": "",
+    "kill": "",
+    "event": "",
+    "dimension": ""
+  },
+  "order": 0
+}

@@ -117,56 +117,26 @@
      text.add(1, Text.gray('Basic Electronic Component'))
     })
 
-    //Covellite
-    event.addAdvanced('gtceu:raw_covellite', (item, advanced, text) => {
-     text.add(1, Text.yellow('CuS'))
-    })
-
-    //Enargite
-    event.addAdvanced('gtceu:raw_enargite', (item, advanced, text) => {
-     text.add(1, Text.yellow('Cu₃AsS₄'))
-    })
-
-    //Baryte
-    event.addAdvanced('gtceu:raw_baryte', (item, advanced, text) => {
-     text.add(1, Text.yellow('BaSO₄'))
-    })
-    
     //SPACEFLIGHT
     //Earth observation satellite
     event.addAdvanced('kubejs:earth_observation_satellite', (item, advanced, text) => {
      text.add(1, Text.yellow('Collects Data from our world from Space'))
     })
 
-    //Ore processing warning
-    function addOreProcessingWarning(item, replacer) {
-    event.addAdvanced(item, (item, advanced, text) => {
-     text.add(2, Text.darkRed('Contrary to what is in the ore processing diagram, this is not a smelting result to the ore! It smelts to ' + replacer + '.'))
-    })
-    }
-
-    addOreProcessingWarning('gtceu:covellite_dust', 'copper')
-    addOreProcessingWarning('gtceu:enargite_dust', 'copper')
-
     //Deprecation warnings
     function addDeprecationTooltip(item) {
     event.addAdvanced(item, (item, advanced, text) => {
-     text.add(2, Text.darkRed('This object has been disabled!').bold(true))
+     text.add(1, Text.darkRed('This object has been disabled!').bold(true))
     })
     }
 
     //Backend warnings
     function addBackendTooltip(item) {
     event.addAdvanced(item, (item, advanced, text) => {
-     text.add(2, Text.darkRed('This object is used behind the scenes and can´t be made normally!').bold(true))
+     text.add(1, Text.darkRed('This object is used behind the scenes and can´t be made normally!').bold(true))
     })
     }
 
-    addDeprecationTooltip('create:mechanical_press')
-    addDeprecationTooltip('create:mechanical_mixer')
-    addDeprecationTooltip('create:millstone')
-    addDeprecationTooltip('create:crushing_wheel')
-    addDeprecationTooltip('create:encased_fan')
     addDeprecationTooltip('curvy_pipes:small_item_pipe')
     addDeprecationTooltip('curvy_pipes:small_fluid_pipe')
     addDeprecationTooltip('curvy_pipes:small_energy_pipe')
@@ -177,4 +147,24 @@
     addBackendTooltip('gtceu:signalum_nugget')
     addBackendTooltip('gtceu:signalum_dust')
     addBackendTooltip('gtceu:signalum_block')
+
+    //TNT
+    function addGelledExplosiveTooltip(item, bomb, grade) {
+    event.addAdvanced(item, (item, advanced, text) => {
+     text.add(1, Text.gray('Raw ' + bomb))
+     text.add(2, Text.gray('(Grade ' + grade + ')'))
+    })
+    }
+
+    addGelledExplosiveTooltip('kubejs:gelled_explosive_5', 'TNT', '5')
+    addGelledExplosiveTooltip('kubejs:gelled_explosive_20', 'Nuke', '20')
+    addGelledExplosiveTooltip('kubejs:gelled_explosive_100', 'Tsar Bomba', '100')
+    addGelledExplosiveTooltip('kubejs:gelled_explosive_500', 'Asteroid Impact', '500')
+    addGelledExplosiveTooltip('kubejs:gelled_explosive_2k', 'Nuclear War', '2,000')
+    addGelledExplosiveTooltip('kubejs:gelled_explosive_10k', 'Antimatter Bomb', '10,000')
+
+    event.addAdvanced('kubejs:perfect_silk', (item, advanced, text) => {
+     text.add(1, Text.yellow('Silk from an ancient, extinct arthropod species in Arachne.'))
+     text.add(2, Text.yellow('Most of the powerful bugs in the planet keep this as a symbol of wealth.'))
+    })
 });

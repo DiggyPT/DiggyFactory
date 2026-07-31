@@ -1,0 +1,10 @@
+GTCEuStartupEvents.registry('gtceu:tag_prefix', event => {
+    event.create("moon", "ore")
+        .stateSupplier(() => Block.getBlock("ad_astra:moon_stone").defaultBlockState())
+        .baseModelLocation("ad_astra:block/moon_stone")
+        .unificationEnabled(true)
+        .materialIconType(GTMaterialIconType.ore)
+        .generationCondition(ItemGenerationCondition.hasOreProperty)
+        .miningToolTag("minecraft:mineable/pickaxe")
+        .doubleDrops(true)
+})

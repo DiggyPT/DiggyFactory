@@ -1,0 +1,26 @@
+{
+  "id": "diggyfactory:tz_arietis",
+  "sun_texture": "ad_astra:textures/environment/red_sun.png",
+  "sun_size": 16,
+  "sun_dimension": "",
+  "orbiting_objects": [
+    {
+	  "dimension": "",
+	  "texture": "ad_astra:textures/environment/ghillie.png",
+      "size": 8,
+      "distance": 13,
+	  "time": 6.3,
+	  "circle_color": "#466B6B",
+	  "extra_objects": []
+    },
+	{
+	  "dimension": "",
+	  "texture": "ad_astra:textures/environment/giant6.png",
+      "size": 13,
+      "distance": 19,
+	  "time": 8.1,
+	  "circle_color": "#A99EA0",
+	  "extra_objects": []
+    }
+  ]
+}

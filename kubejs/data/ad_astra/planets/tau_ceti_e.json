@@ -1,0 +1,10 @@
+{
+  "dimension": "df_planets:tau_ceti_e",
+  "gravity": 7.83,
+  "orbit": "ad_astra:glacio_orbit",
+  "oxygen": false,
+  "solar_power": 20,
+  "solar_system": "diggyfactory:tau_ceti",
+  "temperature": 67,
+  "tier": 6
+}

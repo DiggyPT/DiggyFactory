@@ -235,7 +235,7 @@ ServerEvents.recipes(event => {
           'CFC'
         ],
         {
-            L: '#kubejs:circuits/lmv',
+            L: '#gtceu:circuits/lv',
             G: 'gtceu:tempered_glass',
             B: 'minecraft:bucket',
             C: '#forge:springs/copper',

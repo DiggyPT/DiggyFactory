@@ -1,0 +1,12 @@
+{
+  "id": "quest_book",
+  "title": "Quest Book",
+  "category": "PERSONNEL",
+  "content": "A sentient book who has vowed to guide you through progression until the very end.\nYou don\u0027t recall ever finding it, it just.. appeared with you. You should probably ask it about that.\nIt also might be flirting with you but you\u0027re not sure.",
+  "iconItem": "ftbquests:book",
+  "questId": 0,
+  "lockedContent": "",
+  "voiceLine": "",
+  "conditions": {},
+  "order": 0
+}

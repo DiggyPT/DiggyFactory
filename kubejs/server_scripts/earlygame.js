@@ -18,13 +18,6 @@ ServerEvents.recipes(event => {
         }
      )
 
-    //Andesite alloy
-    event.recipes.gtceu.alloy_smelter("kubejs:andesite_alloy_make")
-        .itemInputs("minecraft:andesite", "minecraft:iron_nugget")
-        .itemOutputs("2x create:andesite_alloy")
-        .duration(80)
-        .EUt(16)
-
     //Ceramic steel
     event.recipes.gtceu.alloy_smelter("gtceu:ceramic_steel_ingot_make")
         .itemInputs("minecraft:iron_ingot", "minecraft:brick")
@@ -85,64 +78,7 @@ ServerEvents.recipes(event => {
 
      event.smelting('minecraft:flint', 'minecraft:gravel') //Output comes first
 
-     //Mechanical crafter (create)
-     event.remove({ output: 'create:mechanical_crafter' })
-     event.shaped(
-      Item.of('create:mechanical_crafter', 3),
-        [
-          'U',
-          'G',
-          'C'
-        ],
-        {
-            U: '#gtceu:circuits/ulv',
-            G: 'create:brass_casing',
-            C: 'minecraft:crafting_table',
-        }
-     )
-
-     //Mechanical pump (to not remove the primitive pump of uses)
-     event.remove({ output: 'create:mechanical_pump' })
-     event.shapeless(
-     Item.of('create:mechanical_pump', 1),
-     [
-       'create:cogwheel',
-       'create:fluid_pipe',
-       'gtceu:steel_foil',
-     ])
-
-     //Hose pulley (same thing as mechanical pump)
-     event.remove({ output: 'create:hose_pulley' })
-     event.shaped(
-     Item.of('create:hose_pulley', 1),
-        [
-          'C',
-          'K',
-          'S'
-        ],
-        {
-            C: 'create:copper_casing',
-            K: 'minecraft:dried_kelp_block',
-            S: 'gtceu:steel_plate',
-        }
-     )
-
-     /*Mold recipe
-     event.shaped(
-     Item.of('gtceu:empty_mold', 1),
-        [
-          'HF',
-          'WW',
-          'WW'
-        ],
-        {
-            W: 'gtceu:wrought_iron_plate',
-            H: '#gtceu:tools/crafting_hammers',
-            F: '#gtceu:tools/crafting_files',
-        }
-     )
-
-     //Primitive blast furnace
+     /*//Primitive blast furnace
      event.remove({ output: 'gtceu:primitive_blast_furnace' })
      event.shaped(
      Item.of('gtceu:primitive_blast_furnace', 1),
@@ -174,36 +110,6 @@ ServerEvents.recipes(event => {
         }
      )
 
-     //Rose quartz
-    event.remove({ output: 'create:rose_quartz' })
-    event.recipes.gtceu.alloy_smelter("kubejs:rose_quartz_make")
-        .itemInputs("8x minecraft:redstone", "minecraft:quartz")
-        .itemOutputs("create:rose_quartz")
-        .duration(80)
-        .EUt(16)
-
-    //Brass casing
-    event.remove({ output: 'create:brass_casing' })
-    event.shaped(
-        Item.of('create:brass_casing', 1),
-          [
-           'BWB',
-           'WRW',
-           'BWB'
-          ],
-          {
-              B: '#forge:plates/brass',
-              W: '#forge:plates/treated_wood',
-              R: '#gtceu:tools/crafting_wrenches',
-       }
-    )
-
-    //replace precision mechanisms with lv circuits in crafting recipes
-    event.replaceInput(
-     { input: 'create:precision_mechanism' },
-     'create:precision_mechanism',
-     '#gtceu:circuits/lv')
-
      //Animal cage
     event.shaped(
         Item.of('kubejs:animal_cage', 4),
@@ -218,60 +124,15 @@ ServerEvents.recipes(event => {
        }
     )
 
-    //andesite casing
-    event.shaped(
-        Item.of('create:andesite_casing', 2),
-          [
-           'AWA',
-           'WSW',
-           'AWA'
-          ],
-          {
-              A: 'create:andesite_alloy',
-              W: 'gtceu:wood_plate',
-              S: '#gtceu:tools/crafting_saws',
-       }
-    )
-
-    //copper casing
-    event.shaped(
-        Item.of('create:copper_casing', 2),
-          [
-           'AWA',
-           'WSW',
-           'AWA'
-          ],
-          {
-              A: 'gtceu:copper_plate',
-              W: 'gtceu:steel_plate',
-              S: '#gtceu:tools/crafting_hammers',
-       }
-    )
-
-    //train casing
-    event.shaped(
-        Item.of('create:railway_casing', 2),
-          [
-           'AWA',
-           'WSW',
-           'AWA'
-          ],
-          {
-              A: 'gtceu:brass_plate',
-              W: 'gtceu:rubber_plate',
-              S: '#gtceu:tools/crafting_hammers',
-       }
-    )
-
     function replaceItem(replaced, replacer){
         event.replaceInput(
         { input: replaced }, replaced, replacer)
     }
 
-    replaceItem('create:iron_sheet', 'gtceu:iron_plate')
+    /*replaceItem('create:iron_sheet', 'gtceu:iron_plate')
     replaceItem('create:copper_sheet', 'gtceu:copper_plate')
     replaceItem('createdeco:zinc_sheet', 'gtceu:zinc_plate')
-    replaceItem('create:zinc_ingot', 'gtceu:zinc_ingot')
+    replaceItem('create:zinc_ingot', 'gtceu:zinc_ingot')*/
 
     event.shaped(
         Item.of('gtceu:ulv_energy_input_hatch', 1),
@@ -288,9 +149,6 @@ ServerEvents.recipes(event => {
               R: '#gtceu:tools/crafting_wrenches',
        }
     )
-
-    event.smelting('minecraft:copper_ingot', 'gtceu:raw_covellite') //Output comes first
-    event.smelting('2x minecraft:copper_ingot', 'gtceu:raw_enargite')
 
     event.shaped(
         Item.of('gtceu:industrial_steam_casing', 2),
@@ -370,4 +228,40 @@ ServerEvents.recipes(event => {
         .itemOutputs("gtceu:rubber_ingot")
         .duration(140)
         .EUt(12)
+
+    //Lunar boiler LP
+    event.shaped(
+      Item.of('diggycore:lp_steam_lunar_boiler', 1),
+        [
+          'GGG',
+          'LMH',
+          'PCP'
+        ],
+        {
+            L: 'projecte:low_covalence_dust',
+            M: 'projecte:medium_covalence_dust',
+            H: 'projecte:high_covalence_dust',
+            C: 'gtceu:bronze_brick_casing',
+            P: 'gtceu:bronze_small_fluid_pipe',
+            G: 'minecraft:purple_stained_glass',
+        }
+     )
+
+    //Lunar boiler HP
+    event.shaped(
+      Item.of('diggycore:hp_steam_lunar_boiler', 1),
+        [
+          'GGG',
+          'LMH',
+          'PCP'
+        ],
+        {
+            L: 'projecte:low_covalence_dust',
+            M: 'projecte:medium_covalence_dust',
+            H: 'projecte:high_covalence_dust',
+            C: 'gtceu:steel_brick_casing',
+            P: 'gtceu:steel_small_fluid_pipe',
+            G: 'minecraft:purple_stained_glass',
+        }
+     )
 })

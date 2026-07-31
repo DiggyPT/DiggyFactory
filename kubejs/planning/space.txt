@@ -1,0 +1,179 @@
+Luna
+	Meteoric Iron
+	Lunar Sapphire
+	Desh
+
+Mars
+	Fossils (Ancient, Old, Recent)
+	Sea Crystal
+	Ostrum
+	
+Venus
+	Calorite
+	
+Proxima b, d
+	Centaurite (->Centaurium)
+	
+Barnarda c I
+	Yang Matter
+
+Barnarda c II
+	Yin Matter
+	
+Tabby's Star: godstar https://www.orionsarm.com/eg-article/462d9a409a10b
+Tabby b: jupiter-brain https://www.orionsarm.com/eg-article/462d9ab0d7178
+Tabby b I: poor moon stuck between it all with computers buried under the soil
+	
+Yin matter + Yang matter -> Unactivated Philosopher's Stone -> Philosopher's Stone (projectE unlocked)
+WE GOTTA ADD CRABS TO GHILLIE BRO! (+ caravels, structures, corals, sea life)
+	
+Engines
+	Ion Engine
+	Plasma Engine
+	Alcubierre Drive
+	Tegan Drive (requires Hathaway Field Solution Data)
+	
+Systems
+	Tau Ceti
+	Barnard's Star
+	40 Eridani
+	55 Cancri
+	
+Rockets and fuels
+	EV  Tier 1  Rocket fuel
+	EV  Tier 2  Rocket fuel
+	IV  Tier 3  Aerozine 50 (50% hydrazine 50% dymethylhydrazine)
+	IV  Tier 4  Cryo fuel
+	LuV Tier 5  [ION ENGINE] Xenon
+	LuV Tier 6  Xenon
+	ZPM Tier 7  Xenon
+	UV  Tier 8  [ALCUBIERRE DRIVE] Broad-Omega Matter (negative mass) [LuV at minimum]
+	UHV Tier 9  Broad-Omega Matter
+	UEV Tier 10 [TEGAN DRIVE] FRA Coded Matter (Axions)
+	UIV Tier 11 FRA Coded Matter
+	
+
+Planet Tiers
+	Mercury TIER 3
+	Venus TIER 3
+	Moon TIER 1
+	Mars TIER 2
+	Asteroid Belt TIER 2
+	Ceres TIER 2
+	Io TIER 3
+	Pluto TIER 4
+	Eris TIER 4
+	Makemake TIER 4
+	Sedna TIER 5
+	Haumea TIER 5
+	Gonggong TIER 5
+	Orcus TIER 6
+	Quaoar TIER 6
+	
+	Proxima b TIER 4
+	Proxima d "Magellan" TIER 4 https://www.youtube.com/watch?v=NFb5moTKs4I
+	Glacio TIER 4
+	
+	Ross 128 b "Zhigao" TIER 3 (fungus infested world, https://mods.factorio.com/mod/planetaris-tellus)
+	Ross 128 c "Qigong" (icon: giant4)
+	
+	Ghillie TIER 4
+	Tissiti (icon: giant6)
+	
+	Barnarda c TIER 5
+	Barnarda c I TIER 5
+	Barnarda c II TIER 5
+	Barnarda Asteroids belt TIER 6
+	
+	Tau Ceti g "Arachne" TIER 7 (oh God SPIDERS EVERYWHERE) (new types of salt)
+	Tau Ceti h "Nublata" TIER 7 (steam world)
+	Tau Ceti e "Adrian" TIER 6 (212ºC)
+	Tau Ceti f "Amazon" TIER 6 (jungle world)
+	Tau Ceti debris disk
+	
+	Erid TIER 7
+	
+	Kepler-22 b "Ruyna" TIER 8 (ruins of an ancient civilisation with tech u can steal and the evil things that killed it are stil out there... SCARY)
+	
+	Sabine-16 b TIER 10 (exotic lava oceans planet, lava contains magnetic monopoles, also has crystals https://mods.factorio.com/mod/planetaris-hyarion)
+	Sabine-16 c TIER 11 (chilly planet with ice people idk, has pools of exotic liquids)
+	Sabine-16 d (icon: giant5)
+	
+	Tabby b I TIER 10
+	Tabby c (icon: giant3)
+	Geraldson 9-21 C, asteroid belt B-128 TIER 11
+	
+rocks
+	Asteroid Belt
+		Silicaceous
+		Primitive
+		Metallic
+		Enstatite Achondrite
+		Carbonaceous
+	Barnard's Star
+		Rare-Earth
+		Metallic
+		Living
+		Isaacmanite
+	Tau Ceti
+		Gunnerite
+		Actinide
+		Superheavy
+		Enstatite Achondrite
+	Geraldson 9-21 C, B-128
+		Strange
+		Alchemical
+		Living
+		Geneva
+	
+structures
+	General
+		Abandoned spaceport
+		Abandoned research station
+		Los Tacos Taquitos De Delicia
+		Muncy's Dogs and Dogs
+	Ghillie
+		Caravel
+		Underwater city
+	Barnarda c
+		Kaliabdo's Ship
+		Bongus's Daycare
+	T Ceti h (Nublata)
+		Bean man's house
+	T Ceti e
+		Flying castle
+	T Ceti f (Amazon)
+		Jungle temple (but like different)
+		Yggdrasil
+		Dunkey Kong's treehouse
+	Kepler-22 b
+		Survivor holdout
+		Yetmmud Nest
+		Squidwarp Nest
+	Tabby b I
+		Server room
+		Tachyon transmitter
+	Sabine-16 b
+		Northboy and Southgirl's Base
+	Geraldson 9-21 C B-128 Belt
+		Downtown Fricksville
+		
+Entities
+	Yetmmud
+	Squidwarp
+	
+Les bosses?
+	Kaliabdo
+		Turns into Sussy baka when killed
+	Alphasm
+		Drops: Alphasmial Fluid
+	Bean man (feed him with an item to make bean man but awesome)
+		Drops: DANK BEANZ
+	BEAN MAN BUT AWESOME
+		Drops: DANK BEANZ TIER II
+	Dunkey kong
+		Drops: BANAMBA
+	Bongus
+		Drops: Bongus's Invention (aniwoowkngydmsjso) can be recycled into a new material
+	Northboy and Southgirl
+		Drops: Phonk music disc, 

@@ -45,24 +45,6 @@ ServerEvents.recipes(event => {
             W: 'gtceu:iron_butchery_knife'
         }
     )
-
-    //Primitive Excavator
-    event.shaped(
-      Item.of('gtceu:primitive_excavator', 1),
-        [
-          'BFB',
-          'TCT',
-          'BPB'
-        ],
-        {
-            B: 'kubejs:excavator_bricks',
-            F: 'minecraft:furnace',
-            T: 'gtceu:tin_plate',
-            C: 'gtceu:copper_small_fluid_pipe',
-            P: 'minecraft:iron_pickaxe'
-        }
-    )
-
     event.smelting('kubejs:excavator_brick', 'kubejs:compressed_excavator_clay').xp(0.35)
 
     //Excavator bricks
@@ -125,23 +107,6 @@ ServerEvents.recipes(event => {
         }
     )
 
-    //Steam excavator
-    event.shaped(
-      Item.of('gtceu:steam_excavator', 1),
-        [
-          'EGE',
-          'BRB',
-          'EPE'
-        ],
-        {
-            E: 'kubejs:bronze_plated_excavator_bricks',
-            B: 'gtceu:bronze_small_fluid_pipe',
-            R: 'farmersdelight:rope',
-            P: 'create:mechanical_drill',
-            G: 'gtceu:ceramic_steel_gear'
-        }
-    )
-
     //Poly reaction casing
     event.recipes.gtceu.assembler("kubejs:prc_make")
         .itemInputs("2x gtceu:rubber_plate", "4x gtceu:zinc_foil", "gtceu:double_cupronickel_plate", "gtceu:aluminium_small_fluid_pipe", "gtceu:small_gallium_arsenide_dust")
@@ -152,27 +117,10 @@ ServerEvents.recipes(event => {
 
     //Polymerization chamber controller
     event.recipes.gtceu.assembler("kubejs:pmcc_make")
-        .itemInputs("gtceu:mv_machine_hull", "2x kubejs:poly_reaction_casing", "4x kubejs:improved_integrated_circuit", "2x gtceu:mv_electric_motor", "2x gtceu:bronze_rotor", "4x gtceu:invar_gear")
+        .itemInputs("gtceu:mv_machine_hull", "2x kubejs:poly_reaction_casing", "4x #gtceu:circuits/mv", "2x gtceu:mv_electric_motor", "2x gtceu:bronze_rotor", "4x gtceu:invar_gear")
         .itemOutputs("gtceu:polymerization_chamber")
         .duration(120)
         .EUt(70)
-
-    //Basic electric excavator
-    event.shaped(
-      Item.of('gtceu:basic_electric_excavator', 1),
-        [
-          'EGE',
-          'BRB',
-          'EPE'
-        ],
-        {
-            E: 'gtceu:solid_machine_casing',
-            B: 'kubejs:decent_electronic_circuit',
-            R: 'create:rope_pulley',
-            P: 'gtceu:invar_drill_head',
-            G: 'gtceu:galvanized_steel_gear'
-        }
-    )
 
     //Conic casing
     event.shaped(
@@ -189,6 +137,13 @@ ServerEvents.recipes(event => {
             P: 'gtceu:steel_plate'
         }
     )
+
+    //Conic casing other recipe
+    event.recipes.gtceu.assembler("kubejs:conic_casing_assembler")
+        .itemInputs("2x gtceu:steel_screw", "2x gtceu:steel_rod", "4x gtceu:steel_plate")
+        .itemOutputs("2x kubejs:conic_casing")
+        .duration(120)
+        .EUt(70)
 
     //Electromagnet casing
     event.shaped(
@@ -221,6 +176,29 @@ ServerEvents.recipes(event => {
             G: 'gtceu:silicon_germanium_dust',
             C: 'kubejs:conic_casing',
             L: '#gtceu:circuits/lv'
+        }
+    )
+
+    //Launch pad controller
+    event.recipes.gtceu.assembler("gtceu:launch_pad")
+        .itemInputs("2x gtceu:steel_screw", "2x gtceu:steel_rod", "4x gtceu:steel_plate")
+        .itemOutputs("2x kubejs:conic_casing")
+        .duration(120)
+        .EUt(70)
+
+    //GC Compressor controller
+    event.shaped(
+      Item.of('diggycore:galacticraft_compressor', 1),
+        [
+          'CSC',
+          'SPS',
+          'TST'
+        ],
+        {
+            C: 'kubejs:aerospace_control_processor',
+            S: 'diggycore:galaxyspace_grade_casing',
+            T: 'gtceu:titanium_gear',
+            P: 'gtceu:ev_forge_hammer'
         }
     )
 })

@@ -1,0 +1,195 @@
+LV multi: vapor distiller (ore processor, makes germanium)
+MV multi: polymerization chamber (chemical thing, makes polymers)
+
+HV: satellites and probes
+EV: nuclear processing, moon landing
+IV: interplanetary travel
+LuV: AI training
+ - Different types of AI for different fields and tasks
+UV: start projectE and quantum physics
+
+ENDGAME CIRCUITS
+UHV: Wetware
+ - Will use biomancy 2 or some gregged version of it!!!
+UEV: Chemical processors https://en.wikipedia.org/wiki/Chemical_computer
+UIV: Moleculartronic processors https://kardashev.fandom.com/wiki/Moleculartronic_computer
+ - Separate chemical lines for seperate logic stuff
+ - Needs new elements (feynmanium, armstrongium, etc)
+UXV: Extradimensional processors
+OpV: Suprachronal processors
+MAX: Infinite processors
+
+ENDGAME SUPERCONDUCTORS
+UEV: Molecular Tunnel-Array Alloy (MTAA)
+UIV: Metallic Hydrogen
+UXV: Monopole Assembly Metamaterial (MPAMM)
+OpV: Starfluid-Infused Infinity-Mundum (SIMI)
+
+ENDGAME POLYMERS
+Veneran Rubber (getting microbes from the upper atmosphere of Venus and hosting them in bio-chambers to make Veneran Bio-Residue which is processed to make Veneran Rubber, needs AI speciallised in bio stuff)
+UIV: Polymer that makes perfect silk (Polymagnokenene)
+
+MATERIALS
+Naquium (naquadah isotope)
+
+
+MULTIBLOCKS
+
+LV | Wind Turbine
+MV | Waterwheel
+HV | Decay Generator
+HV | Greenhouse
+IV | AI Training Center
+IV | Asimov Loop
+LuV | Cyclotron (a smaller fusion reactor unlocked in LuV before the reactor, and it uses vials and particle items)
+LuV | Planetary Gaspump
+ZPM | Bronx Acceleration Torus
+UHV | Nano-Assembler
+UXV | Entropy Reversal Center
+OpV | False Vacuum Decay Chamber, holds a vacuum decay bubble in place and you get data of different universes with different laws of physics
+precision assembler, nano-assembler (uses nanobots), Amaranth Industries chemical plant, naquadah refinery
+EV: Gravity control.
+ZPM: Immersive portals.
+
+SINGLEBLOCKS
+Ion Exchanger
+Froth Flotator
+SMOL Nuclear Reactor
+
+MATERIAL NAMES (stupid)
+St Madford matter
+Lancaster matter
+Pieron Mille matter
+Pucatongo
+Cuxigampa
+Centaurium
+Numai Khan
+Zhabotinskium
+Gunnerite
+Isaacmanite
+
+Belusov-Zhabotinsky Catalyst (container of bz reactions that reflects in the material or somethin lol)
+
+PARTICLES
+all quarks
+Thuon
+Cuandavis (rizz quark)
+Broad-Omega Ꙍ matter
+https://alldimensions.fandom.com/wiki/Category:Particle
+
+AI Tiers
+	IV: AI specialised in one thing
+	ZPM: AGI (Artificial General Intelligence)
+	UV: ASI (Artificial Super-Intelligence)
+	UV+: Singularity levels https://www.orionsarm.com/eg-topic/45c68b98779ad
+	UHV: S:1
+	UEV: S:2 (FX Coolant)
+	UIV: S:3
+	UXV: S:4
+	OpV: S:5 (Warp Coolant)
+	MAX: S:6
+
+POWER OPTIONS
+	Organics (bio-reactors go brrr)
+		Fermentation (simpler, less power)
+		Aerobic respiration (more complicated and powerful)
+	Lunar boilers
+	Casimir generator
+	Naquadah reactor
+	Dyson swarm
+	Phoenix fission
+	Universe Cell oil
+	
+Data storage
+	Universe code
+	
+with same sex marriage, stemcells, Scooter Libby, Tom deLay
+	
+67 LINE
+probably a bunch of sludge
+getting the exotic tung tung logs from a planet in the barnard's star system to carve them into
+tung tung tung sahur and beating him to make the Tung Tung Star which makes a diddy ahh emitter to make the khaby lame mechanism
+using the ai datacenter multiblock to make the new AI Slop liquid and vocaloid that you can then encase in tetonium to make teto
+making a machine that simulates an amazing digital circus
+Combining 67 burgers to make the Eric Burger, crafting a speaker to put in a machine that farms aura by saying Darren Watkins Jr, mutating the tung tung sahur tree into an Are You Are You Coming To The Tree, making a phonk composer multiblock, all of this to make 67, then with 67 67's and 67 holmium blocks you can make a tier 67 rocket that brings you to Six Heaven
+
+TNT STUFF
+Normal TNT
+God TNT (uranium) -> Promethium
+Doomsday TNT (antimatter) -> Primordium Omega
+Annihilation TNT (strange matter) -> Primordium Omega-Delta fusion
+
+PLANETS (goable)
+All rounded bodies can be gone to! (NAH NAH NAH WRONG I AINT DOING TS)
+V: Made
+P: Priority
+
+>Mercury 
+>Venus (V)
+>Earth (V)
+	>Luna (V)
+>Mars (V)
+>Ceres
+>Jupiter
+	>Io (P)
+	>Callisto
+	>Ganymede
+	>Europa (P)
+>Saturn
+	>Titan (P)
+	>Enceladus (P)
+	>Mimas
+	>Rhea
+	>Tethys
+	>Dione
+>Uranus
+	>Miranda
+	>Ariel
+	>Umbriel
+	>Titania
+	>Oberon
+>Neptune
+	>Triton (P)
+>Pluto (P)
+	>Charon
+>Eris (P)
+	>Dysnomia
+>Haumea (P)
+>Makemake (mk2)
+>Gonggong (xiangliu)
+>Quaoar (weywot)
+>Sedna
+>Orcus
+	>Vanth
+>Salacia
+	>Actaea
+>Máni
+>Ixion
+>Aya
+>Varuna
+>Varda (ilmarë)
+>Achlys
+>Chiminigagua
+>Planet Nine / Persephone
+	>Hera
+	>Trogdore
+	
+>Proxima Centauri (4 ly)
+	>Proxima b
+	>Proxima d
+	
+>Barnard's Star
+
+>Tau Ceti
+
+>40 Eridani
+	
+>Phennera (6 ly)
+	>Sonora (gas giant)
+	>Ghillie (water world)
+		>Fenuk
+		>82 Canarywharf (minor)
+	>Yinyik (mercury analogue no one gaf about u)
+	>Palluna (super earth, acid and hydrocarbon oceans)
+		>Keglehen
+	>Naman (mini giant)

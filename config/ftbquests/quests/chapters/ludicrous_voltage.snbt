@@ -1,0 +1,231 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ludicrous_voltage"
+	group: "45DE873674286673"
+	icon: "gtceu:luv_electric_motor"
+	id: "7FFA5EF937605A05"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "gtceu:luv_electric_motor"
+			id: "115AEDFFA4EA5598"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Going scientific and smashing particles"
+			tasks: [{
+				id: "0A4F4E2F004125AB"
+				title: "LETS GOOO"
+				type: "checkmark"
+			}]
+			title: "LuV Unlocked!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["438CB00FF31108A5"]
+			id: "0D547D48E023EDDC"
+			subtitle: "This one is the real deal"
+			tasks: [{
+				id: "16AFD4F609101018"
+				item: "gtceu:luv_fusion_reactor"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6942B23D45224D42"]
+			description: [
+				"The &lCyclotron&r is a machine similar to the &bFusion Reactor&r. However, it is smaller, and instead of fusing plasma, it uses vials; while quite limited in fusion recipes, it is the main source of &dQuantum particles&r - this is, in fact, the main purpose of the multiblock."
+				""
+				"At this moment you can overclock the cyclotron to &cZPM&r, allowing you to make a diverse amount of recipes, including creating every quark and their anti-version. Later you will unlock more recipes to synthesise more exotic particles."
+			]
+			id: "2D30DF344981FFAF"
+			subtitle: "You thought that it would be a fusion reactor, didn't you?"
+			tasks: [{
+				id: "517CB2745541E629"
+				item: "diggycore:cyclotron"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "6942B23D45224D42"
+			subtitle: "Another energy hatch YAHOO!"
+			tasks: [{
+				id: "044A0BBD047AF153"
+				item: "gtceu:luv_energy_input_hatch"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D30DF344981FFAF"]
+			description: [
+				"Simply smash &[proton]protons&r together at different energies to get every normal quark."
+				"More massive quarks, like the &[top_quark]top&r quark, require more energy; this may be expressed as higher EU/t (wattage) or duration."
+			]
+			id: "6C2F26EC7789B8C1"
+			tasks: [
+				{
+					id: "56DDE008A07C1E15"
+					item: "diggycore:up_quark"
+					type: "item"
+				}
+				{
+					id: "61CAA6AD32280B50"
+					item: "diggycore:down_quark"
+					type: "item"
+				}
+				{
+					id: "68AC27EBD277C081"
+					item: "diggycore:strange_quark"
+					type: "item"
+				}
+				{
+					id: "3011FD023FA23680"
+					item: "diggycore:charm_quark"
+					type: "item"
+				}
+				{
+					id: "5FD0D2032FA106DD"
+					item: "diggycore:top_quark"
+					type: "item"
+				}
+				{
+					id: "42222E39244D2FDC"
+					item: "diggycore:bottom_quark"
+					type: "item"
+				}
+			]
+			title: "Collect All The Quarks!"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2D30DF344981FFAF"]
+			id: "43294391DE1AE453"
+			tasks: [
+				{
+					id: "211DD657A4C73661"
+					item: "diggycore:electron"
+					type: "item"
+				}
+				{
+					id: "0C720BF04287F510"
+					item: "diggycore:muon"
+					type: "item"
+				}
+				{
+					id: "025A511E456E40C9"
+					item: "diggycore:tau"
+					type: "item"
+				}
+			]
+			title: "Collect All The Leptons!"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["43294391DE1AE453"]
+			id: "289A8555ED2D9656"
+			tasks: [
+				{
+					id: "027A1A4202C47B6B"
+					item: "diggycore:electron_neutrino"
+					type: "item"
+				}
+				{
+					id: "53298688E7AC8752"
+					item: "diggycore:muon_neutrino"
+					type: "item"
+				}
+				{
+					id: "48448DA4A87B1E23"
+					item: "diggycore:tau_neutrino"
+					type: "item"
+				}
+			]
+			title: "Collect All The Neutrinos!"
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2D30DF344981FFAF"]
+			description: ["The &[higgs_boson]Higgs Boson&r was only discovered in 2012."]
+			id: "37AB0CA94CFCB138"
+			tasks: [
+				{
+					id: "29C3D340D3E5BFD7"
+					item: "diggycore:photon"
+					type: "item"
+				}
+				{
+					id: "7892088811331763"
+					item: "diggycore:gluon"
+					type: "item"
+				}
+				{
+					id: "4DF2FE17556259D7"
+					item: "diggycore:w_plus_boson"
+					type: "item"
+				}
+				{
+					id: "4ABAB4323D84BADD"
+					item: "diggycore:z_boson"
+					type: "item"
+				}
+				{
+					id: "71E2A7AA9ECB9EEE"
+					item: "diggycore:higgs_boson"
+					type: "item"
+				}
+			]
+			title: "Collect All The Bosons!"
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			description: ["The &aLuV Electric Prospector&r is a major upgrade from the &eHV&r one. With its huge range, it'll make finding Fluid and Ore veins very easy."]
+			id: "28F822A78ADB79E0"
+			size: 1.0d
+			subtitle: "If you're yet to strike gold, you will now"
+			tasks: [{
+				id: "169E4D196E59ABEB"
+				item: "gtceu:prospector.luv"
+				type: "item"
+			}]
+			title: "LuV Prospector"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2D30DF344981FFAF"]
+			description: [
+				"The &lIridium Neutron Reflector&r is an item that is used in a lot of fusion components."
+				"It requires a &[neutron]Neutron&r to make, which can be assembled from quarks or gotten from a vial of an element."
+			]
+			id: "438CB00FF31108A5"
+			rewards: [{
+				count: 4
+				id: "47E547EB4A798A55"
+				item: "gtceu:deuterium_vial"
+				type: "item"
+			}]
+			subtitle: "Neutrino reflector when?"
+			tasks: [{
+				id: "6603B60FE66053D2"
+				item: "gtceu:neutron_reflector"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+	subtitle: ["Going scientific and smashing particles"]
+	title: "&dLuV&r - Ludicrous Voltage"
+}

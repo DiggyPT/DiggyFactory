@@ -19,7 +19,7 @@
 		{
 			description: [
 				"&lWelcome to DiggyFactory!"
-				"&rThis is a &6GregTech&r based modpack that focuses on very early &cautomation&r of complex processes."
+				"&rThis is a &6GregTech&r based modpack that focuses on adding strange and unique ideas to the mod."
 				"I hope you enjoy! :D"
 				""
 				"&o(still in very early development)"
@@ -56,6 +56,7 @@
 						id: "gtceu:lv_iron_drill"
 						tag: {
 							Charge: 100000L
+							Damage: 0
 							DisallowContainerItem: 0
 							GT.Behaviours: {
 								AoEColumn: 1
@@ -67,7 +68,6 @@
 								TorchPlacing: 1
 							}
 							GT.Tool: {
-								Damage: 0
 								HarvestLevel: 2
 								MaxDamage: 767
 								ToolSpeed: 6.0f
@@ -370,7 +370,7 @@
 			]
 			icon: "gtceu:coke_oven"
 			id: "6FF3164616B02B77"
-			subtitle: "Your first mandatory multiblock"
+			subtitle: "Your first multiblock"
 			tasks: [
 				{
 					id: "59E5A126EEAE2978"
@@ -392,8 +392,16 @@
 				"4C4719787C1998BB"
 				"6FF3164616B02B77"
 			]
-			description: ["You're ready for the Steam Age! Now you will make Piston Mechanisms and Boilers."]
+			description: [
+				"You're ready for the Steam Age! Now you will make Piston Mechanisms and Boilers."
+				"As a reward you can have this weird kids iPad. Promise that you won't replace me with it pls..."
+			]
 			id: "028EFD89858B1C21"
+			rewards: [{
+				id: "48168C8E7A8DF510"
+				item: "phoenix_archive:lore_tablet"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "Full Steam Ahead"
@@ -410,7 +418,7 @@
 		{
 			can_repeat: true
 			dependencies: ["0628DB72B5C212F3"]
-			description: ["You will probably run out of power with your drill before you get the chance to recharge it. So in this quest you can turn your empty drill into one that is good as new!"]
+			description: ["You will probably run out of power with your drill before you get the chance to recharge it. So in this quest you can turn your empty drill into one that is good as new."]
 			id: "36E04FE5A118C5FE"
 			optional: true
 			rewards: [{
@@ -420,6 +428,7 @@
 					id: "gtceu:lv_iron_drill"
 					tag: {
 						Charge: 100000L
+						Damage: 0
 						DisallowContainerItem: 0
 						GT.Behaviours: {
 							AoEColumn: 1
@@ -431,7 +440,6 @@
 							TorchPlacing: 1
 						}
 						GT.Tool: {
-							Damage: 0
 							HarvestLevel: 2
 							MaxDamage: 767
 							ToolSpeed: 6.0f
@@ -452,6 +460,7 @@
 					id: "gtceu:lv_iron_drill"
 					tag: {
 						Charge: 0L
+						Damage: 0
 						DisallowContainerItem: 0
 						GT.Behaviours: {
 							AoEColumn: 1
@@ -463,7 +472,6 @@
 							TorchPlacing: 1
 						}
 						GT.Tool: {
-							Damage: 0
 							HarvestLevel: 2
 							MaxDamage: 767
 							ToolSpeed: 6.0f
@@ -482,7 +490,7 @@
 		{
 			can_repeat: true
 			dependencies: ["0628DB72B5C212F3"]
-			description: ["If you run out of EU on your prospector before reaching &6HV&r, you can turn it in here to recharge it! "]
+			description: ["If you run out of EU on your prospector before reaching &6HV&r, you can turn it in here to recharge it."]
 			id: "13FB1C08DE48121D"
 			optional: true
 			rewards: [{
@@ -509,71 +517,24 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["52617D85959620CD"]
-			description: [
-				"Don't like mining? Then this multiblock is for you! The &lPrimitive Excavator&r mines ores automatically with just a bit of &0Coal&r."
-				""
-				"Don't worry about the ULV energy hatch. It's required in the structure, but the machine doesn't require electricity. It's just that if I tried removing it, EMI would remove every GregTech recipe for some reason. Oh well. Good thing I changed the recipe so that you can make the hatch at this point in progression."
-			]
-			icon: "gtceu:primitive_excavator"
-			id: "285271DD50E4E766"
-			subtitle: "Diggy"
-			tasks: [
-				{
-					id: "404DFC0B33D43DC3"
-					item: "gtceu:primitive_excavator"
-					type: "item"
-				}
-				{
-					count: 17L
-					id: "45CB4CF7EF6E2581"
-					item: { Count: 17, id: "kubejs:excavator_bricks" }
-					type: "item"
-				}
-				{
-					count: 15L
-					id: "4193E53C4603206B"
-					item: { Count: 15, id: "gtceu:wood_frame" }
-					type: "item"
-				}
-				{
-					id: "37307EBFA33DA9D3"
-					item: "gtceu:ulv_input_bus"
-					type: "item"
-				}
-				{
-					id: "5D3954A565F4A8CA"
-					item: "gtceu:ulv_output_bus"
-					type: "item"
-				}
-				{
-					id: "6982DAB90E07912E"
-					item: "gtceu:ulv_energy_input_hatch"
-					type: "item"
-				}
-			]
-			x: 8.0d
-			y: 1.0d
-		}
-		{
 			dependencies: ["72D7B1298C6F67D8"]
 			description: [
 				"Do you want a &6copper&r vein that isn't an annoying squiggly line? Then you're in luck!"
 				""
-				"The &lCovellite&r vein appears semi-commonly in the &9Over&aworld&r and has covellite ore and enargite ore, which are both good sources of &6copper&r! It also has pyrite which gives you iron and baryte which gives you barium, which you will need in &bMV&r."
+				"The &lCovellite&r vein appears semi-commonly in the &9Over&aworld&r and has covellite ore and enargite ore, which are both good sources of &6copper&r! It also has pyrite which gives you iron."
 			]
-			icon: "gtceu:raw_covellite"
+			icon: "diggycore:raw_covellite"
 			id: "1A1E8C0AF036D85D"
 			subtitle: "Better Copper"
 			tasks: [
 				{
-					id: "492112644D1EC0A2"
-					item: "gtceu:raw_covellite"
+					id: "50A7CCED1E7C6B3F"
+					item: "diggycore:raw_covellite"
 					type: "item"
 				}
 				{
-					id: "3DDAB3AB6FE688DF"
-					item: "gtceu:raw_enargite"
+					id: "44186395CEEE2A46"
+					item: "diggycore:raw_enargite"
 					type: "item"
 				}
 				{

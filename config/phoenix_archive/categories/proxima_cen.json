@@ -1,0 +1,6 @@
+{
+  "id": "PROXIMA_CEN",
+  "description": "Planets of Proxima Centauri",
+  "weight": 49,
+  "parentId": "WORLDS"
+}
